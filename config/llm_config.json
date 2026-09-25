@@ -1,0 +1,49 @@
+{
+  "_comment": "PROTOTYPE / EXPERIMENTAL configuration. Model names are configurable here or via env vars GEMINI_MODEL, GEMINI_FALLBACK_MODELS, GROQ_MODEL, EMBEDDING_MODEL. Never put API keys in this file.",
+  "gemini": {
+    "model": "gemini-3.1-flash-lite",
+    "fallback_models": [],
+    "thinking_level": "low",
+    "temperature": 0.0,
+    "timeout_s": 120,
+    "max_retries": 8,
+    "max_concurrency": 3,
+    "_selection_note": "gemini-3.8-flash measured 1/15 successful calls (8x 503 UNAVAILABLE, 6x 429) in the 2026-09-25 smoke test; gemini-3.1-flash-lite (GA) used for a consistent single-model experiment. No silent fallback: a different model would confound the comparison."
+  },
+  "groq": {
+    "model": "openai/gpt-oss-120b",
+    "reasoning_effort": "low",
+    "temperature": 0.0,
+    "timeout_s": 90,
+    "max_retries": 6,
+    "tokens_per_minute_budget": 7200,
+    "max_concurrency": 1,
+    "_selection_note": "openai/gpt-oss-120b: different model family from Gemini (independence), supports strict json_schema on Groq."
+  },
+  "embedding": {
+    "provider": "local",
+    "model": "BAAI/bge-small-en-v1.5",
+    "dimensions": 384,
+    "task_type": "symmetric_similarity",
+    "batch_size": 128,
+    "_selection_note": "Measured 2026-09-25: gemini-embedding-001 (768-d) returned 429 after 5 batches (~500 texts) on this key, making ~33k reference texts infeasible. Local ONNX model via fastembed: bge-small-en-v1.5 87 texts/s vs bge-base-en-v1.5 21 texts/s on this CPU. Gemini path kept: set provider='gemini', model='gemini-embedding-001', dimensions=768."
+  },
+  "prompt_versions": {
+    "extract": "extract-v1",
+    "validate": "validate-v1",
+    "adjudicate": "adjudicate-v1",
+    "rerank": "rerank-v1"
+  },
+  "schema_version": "stmt-schema-v1",
+  "experiment": {
+    "sample_seed": "ie7945-sprint2-v1",
+    "sample_size": 200,
+    "dual_model_postings": 100,
+    "min_description_words": 80,
+    "max_input_chars": 4500,
+    "top_k_candidates": 5,
+    "rerank_max_statements": 240,
+    "rerank_batch_size": 6,
+    "adjudication_max_postings": 30
+  }
+}

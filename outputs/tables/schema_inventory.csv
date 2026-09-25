@@ -1,0 +1,53 @@
+file,n_columns,columns
+data/reference/onet/extracted/31.0/db_31_0_csv/abilities.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Not Relevant | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/abilities_to_work_activities.csv,4,Abilities Element ID | Abilities Element Name | Work Activities Element ID | Work Activities Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/abilities_to_work_context.csv,4,Abilities Element ID | Abilities Element Name | Work Context Element ID | Work Context Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/career_interest_type_keywords.csv,4,Element ID | Element Name | Keyword | Keyword Type
+data/reference/onet/extracted/31.0/db_31_0_csv/career_interest_types.csv,9,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/content_model_reference.csv,3,Element ID | Element Name | Description
+data/reference/onet/extracted/31.0/db_31_0_csv/education.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Category | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/education_categories.csv,6,Element ID | Element Name | Scale ID | Scale Name | Category | Category Description
+data/reference/onet/extracted/31.0/db_31_0_csv/emerging_tasks.csv,8,O*NET-SOC Code | Title | Task | Category | Original Task ID | Original Task | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/essential_skills.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Not Relevant | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/essential_skills_to_work_activities.csv,4,Essential Skills Element ID | Essential Skills Element Name | Work Activities Element ID | Work Activities Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/essential_skills_to_work_context.csv,4,Essential Skills Element ID | Essential Skills Element Name | Work Context Element ID | Work Context Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/gwas_to_iwas.csv,4,GWA Element ID | GWA Element Name | IWA Element ID | IWA Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/gwas_to_iwas_to_dwas.csv,6,GWA Element ID | GWA Element Name | IWA Element ID | IWA Element Name | DWA Element ID | DWA Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/interests_illustrative_activities.csv,4,Element ID | Element Name | Interest Type | Activity
+data/reference/onet/extracted/31.0/db_31_0_csv/interests_illustrative_occupations.csv,5,Element ID | Element Name | Interest Type | O*NET-SOC Code | Title
+data/reference/onet/extracted/31.0/db_31_0_csv/job_titles.csv,5,O*NET-SOC Code | Title | Job Title | Short Title | Source(s)
+data/reference/onet/extracted/31.0/db_31_0_csv/job_zone_reference.csv,7,Job Zone | Name | Experience | Education | Job Training | Examples | SVP Range
+data/reference/onet/extracted/31.0/db_31_0_csv/job_zones.csv,5,O*NET-SOC Code | Title | Job Zone | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/knowledge.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Not Relevant | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/level_scale_anchors.csv,6,Element ID | Element Name | Scale ID | Scale Name | Anchor Value | Anchor Description
+data/reference/onet/extracted/31.0/db_31_0_csv/occupation_data.csv,3,O*NET-SOC Code | Title | Description
+data/reference/onet/extracted/31.0/db_31_0_csv/occupation_level_metadata.csv,7,O*NET-SOC Code | Title | Item | Response | N | Percent | Date
+data/reference/onet/extracted/31.0/db_31_0_csv/related_occupations.csv,6,O*NET-SOC Code | Title | Related O*NET-SOC Code | Related Title | Relatedness Tier | Index
+data/reference/onet/extracted/31.0/db_31_0_csv/sample_of_reported_titles.csv,4,O*NET-SOC Code | Title | Reported Job Title | Shown in My Next Move
+data/reference/onet/extracted/31.0/db_31_0_csv/scales_reference.csv,4,Scale ID | Scale Name | Minimum | Maximum
+data/reference/onet/extracted/31.0/db_31_0_csv/software_skills.csv,7,O*NET-SOC Code | Title | Workplace Example | Element ID | Element Name | Hot Technology | In Demand
+data/reference/onet/extracted/31.0/db_31_0_csv/specific_interest_areas.csv,9,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/specific_interest_areas_to_career_interest_types.csv,4,Specific Interest Areas Element ID | Specific Interest Areas Element Name | Career Interest Types Element ID | Career Interest Types Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/survey_booklet_locations.csv,5,Element ID | Element Name | Survey Item Number | Scale ID | Scale Name
+data/reference/onet/extracted/31.0/db_31_0_csv/task_categories.csv,4,Scale ID | Scale Name | Category | Category Description
+data/reference/onet/extracted/31.0/db_31_0_csv/task_ratings.csv,15,O*NET-SOC Code | Title | Task ID | Task | Scale ID | Scale Name | Category | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/task_statements.csv,8,O*NET-SOC Code | Title | Task ID | Task | Task Type | Incumbents Responding | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/tasks_to_dwas.csv,8,O*NET-SOC Code | Title | Task ID | Task | DWA Element ID | DWA Element Name | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/training_and_experience.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Category | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/training_and_experience_categories.csv,6,Element ID | Element Name | Scale ID | Scale Name | Category | Category Description
+data/reference/onet/extracted/31.0/db_31_0_csv/transferable_skills.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Not Relevant | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/transferable_skills_to_work_activities.csv,4,Transferable Skills Element ID | Transferable Skills Element Name | Work Activities Element ID | Work Activities Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/transferable_skills_to_work_context.csv,4,Transferable Skills Element ID | Transferable Skills Element Name | Work Context Element ID | Work Context Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/work_activities.csv,15,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Not Relevant | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/work_context.csv,16,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Category | Data Value | N | Standard Error | Lower CI Bound | Upper CI Bound | Recommend Suppress | Not Relevant | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/work_context_categories.csv,6,Element ID | Element Name | Scale ID | Scale Name | Category | Category Description
+data/reference/onet/extracted/31.0/db_31_0_csv/work_styles.csv,9,O*NET-SOC Code | Title | Element ID | Element Name | Scale ID | Scale Name | Data Value | Date | Domain Source
+data/reference/onet/extracted/31.0/db_31_0_csv/work_styles_to_work_activities.csv,4,Work Styles Element ID | Work Styles Element Name | Work Activities Element ID | Work Activities Element Name
+data/reference/onet/extracted/31.0/db_31_0_csv/work_styles_to_work_context.csv,4,Work Styles Element ID | Work Styles Element Name | Work Context Element ID | Work Context Element Name
+data/reference/esco/extracted/api_v1.2.1/occupation_hierarchy.csv,4,conceptUri | broaderUri | broaderLabel | broaderType
+data/reference/esco/extracted/api_v1.2.1/occupation_skill_relations.csv,5,occupationUri | relationType | skillType | skillUri | skillLabel
+data/reference/esco/extracted/api_v1.2.1/occupations.csv,9,conceptUri | preferredLabel | altLabels | description | scopeNote | code | status | iscoGroup | naceCodes
+data/reference/esco/extracted/api_v1.2.1/skill_hierarchy.csv,4,conceptUri | broaderUri | broaderLabel | broaderType
+data/reference/esco/extracted/api_v1.2.1/skills.csv,7,conceptUri | preferredLabel | altLabels | description | status | skillType | reuseLevel
+data/raw/jobs/nyc_jobs/retrieval_20260925T052537Z/jobs_nyc_postings.csv,30,Job ID | Agency | Posting Type | # Of Positions | Business Title | Civil Service Title | Title Classification | Title Code No | Level | Job Category | Full-Time/Part-Time indicator | Career Level | Salary Range From | Salary Range To | Salary Frequency | Work Location | Division/Work Unit | Job Description | Minimum Qual Requirements | Preferred Skills | Additional Information | To Apply | Hours/Shift | Work Location 1 | Recruitment Contact | Residency Requirement | Posting Date | Post Until | Posting Updated | Process Date
+data/raw/jobs/arbeitnow/retrieval_20260925T052546Z/page_001.json,10,slug | company_name | title | description | remote | url | tags | job_types | location | created_at

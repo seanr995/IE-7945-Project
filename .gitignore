@@ -1,0 +1,38 @@
+# secrets
+.env
+*.key
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# large raw + extracted data (provenance kept in data/data_manifest.csv)
+data/raw/jobs/**/retrieval_*/
+data/reference/*/raw/**
+!data/reference/*/raw/.gitkeep
+data/reference/*/extracted/
+data/processed/*.parquet
+*.part
+# database + temp files
+database/*.duckdb
+database/*.duckdb.wal
+database/*.tmp
+*.wal
+outputs/logs/*.log
+.env
+cache/
+.venv/
+__pycache__/
+*.pyc
+~$*.pptx
+~$*.docx
+~$*.xlsx
+database/
+*.duckdb
+*.duckdb.wal
+data/raw/
+data/processed/
+data/reference/onet/raw/
+data/reference/onet/extracted/
+data/reference/esco/raw/
+data/reference/esco/extracted/

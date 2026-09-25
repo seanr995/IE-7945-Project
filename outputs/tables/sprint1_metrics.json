@@ -1,0 +1,468 @@
+{
+  "raw_postings": 5595,
+  "raw_by_source": {
+    "arbeitnow": 2800,
+    "nyc_jobs": 2795
+  },
+  "canonical_postings": 5497,
+  "source_id_repeats": 98,
+  "unique_postings_exact": 4067,
+  "unique_postings": 4029,
+  "exact_duplicates": 1430,
+  "duplicates": 1468,
+  "duplicate_rate": 0.2671,
+  "raw_duplicate_rate": 0.2799,
+  "by_source": [
+    {
+      "source": "arbeitnow",
+      "canonical": 2726,
+      "unique_postings": 2625,
+      "duplicates": 101,
+      "duplicate_rate": 0.0371,
+      "raw": 2800
+    },
+    {
+      "source": "nyc_jobs",
+      "canonical": 2771,
+      "unique_postings": 1404,
+      "duplicates": 1367,
+      "duplicate_rate": 0.4933,
+      "raw": 2795
+    }
+  ],
+  "nyc_internal_external_pairs": 1324,
+  "language_mix": {
+    "en": {
+      "n": 4207,
+      "pct": 0.7653
+    },
+    "de": {
+      "n": 1229,
+      "pct": 0.2236
+    },
+    "fr": {
+      "n": 61,
+      "pct": 0.0111
+    }
+  },
+  "seniority": {
+    "experienced": 2839,
+    "manager": 735,
+    "(unknown)": 645,
+    "entry": 439,
+    "intern_student": 414,
+    "senior": 356,
+    "executive": 69
+  },
+  "seniority_basis": {
+    "none": 645,
+    "source": 3952,
+    "title_rule": 900
+  },
+  "nyc_career_level": {
+    "Experienced (non-manager)": 2078,
+    "Entry-Level": 287,
+    "Manager": 282,
+    "Student": 83,
+    "Executive": 41
+  },
+  "description_stats": [
+    {
+      "source": "arbeitnow",
+      "n": 2726,
+      "chars_mean": 4425.9,
+      "chars_median": 4188.5,
+      "chars_std": 1832.3,
+      "chars_min": 33,
+      "chars_max": 15798,
+      "words_mean": 618.3,
+      "words_median": 575.5,
+      "words_std": 278.5,
+      "words_min": 6,
+      "words_p05": 248.0,
+      "words_p25": 425.0,
+      "words_p75": 770.8,
+      "words_p95": 1098.3,
+      "words_max": 2229
+    },
+    {
+      "source": "nyc_jobs",
+      "n": 2771,
+      "chars_mean": 4165.0,
+      "chars_median": 3756.0,
+      "chars_std": 1922.4,
+      "chars_min": 651,
+      "chars_max": 14614,
+      "words_mean": 597.9,
+      "words_median": 532.0,
+      "words_std": 273.1,
+      "words_min": 88,
+      "words_p05": 266.5,
+      "words_p25": 399.0,
+      "words_p75": 742.0,
+      "words_p95": 1143.0,
+      "words_max": 1963
+    },
+    {
+      "source": "ALL",
+      "n": 5497,
+      "chars_mean": 4294.4,
+      "chars_median": 3977.0,
+      "chars_std": 1882.6,
+      "chars_min": 33,
+      "chars_max": 15798,
+      "words_mean": 608.0,
+      "words_median": 557.0,
+      "words_std": 276.0,
+      "words_min": 6,
+      "words_p05": 255.0,
+      "words_p25": 407.0,
+      "words_p75": 759.0,
+      "words_p95": 1123.4,
+      "words_max": 2229
+    }
+  ],
+  "missingness": [
+    {
+      "field": "job_title",
+      "arbeitnow": 0.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "company_name",
+      "arbeitnow": 0.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "industry",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 1.0
+    },
+    {
+      "field": "industry_derived",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "location_raw",
+      "arbeitnow": 0.021,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "country",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "state",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "city",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 1.0
+    },
+    {
+      "field": "employment_type",
+      "arbeitnow": 0.321,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "seniority_source",
+      "arbeitnow": 0.567,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "seniority",
+      "arbeitnow": 0.237,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "description",
+      "arbeitnow": 0.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "responsibilities",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 1.0
+    },
+    {
+      "field": "requirements",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.013
+    },
+    {
+      "field": "preferred_skills",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.435
+    },
+    {
+      "field": "salary_min",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "salary_max",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "salary_currency",
+      "arbeitnow": 1.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "date_posted",
+      "arbeitnow": 0.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "language",
+      "arbeitnow": 0.0,
+      "nyc_jobs": 0.0
+    },
+    {
+      "field": "source_url",
+      "arbeitnow": 0.0,
+      "nyc_jobs": 1.0
+    }
+  ],
+  "industry_availability": [
+    {
+      "source": "arbeitnow",
+      "industry_source_nonnull": 0,
+      "industry_derived_nonnull": 0,
+      "job_category_nonnull": 2471
+    },
+    {
+      "source": "nyc_jobs",
+      "industry_source_nonnull": 0,
+      "industry_derived_nonnull": 2771,
+      "job_category_nonnull": 2771
+    }
+  ],
+  "nyc_job_category_top": {
+    "Engineering, Architecture, & Planning": 464,
+    "Legal Affairs": 219,
+    "Health": 202,
+    "Technology, Data & Innovation": 152,
+    "Administration & Human Resources": 145,
+    "Social Services": 139,
+    "Constituent Services & Community Programs": 138,
+    "Building Operations & Maintenance": 136,
+    "Public Safety, Inspections, & Enforcement": 135,
+    "Finance, Accounting, & Procurement": 118
+  },
+  "top_titles": [
+    {
+      "normalized_job_title": "accountable manager",
+      "source": "nyc_jobs",
+      "n": 27
+    },
+    {
+      "normalized_job_title": "project manager",
+      "source": "nyc_jobs",
+      "n": 27
+    },
+    {
+      "normalized_job_title": "senior project manager",
+      "source": "nyc_jobs",
+      "n": 16
+    },
+    {
+      "normalized_job_title": "senior software engineer",
+      "source": "arbeitnow",
+      "n": 13
+    },
+    {
+      "normalized_job_title": "college aide",
+      "source": "nyc_jobs",
+      "n": 13
+    },
+    {
+      "normalized_job_title": "engineer-in-charge",
+      "source": "nyc_jobs",
+      "n": 10
+    },
+    {
+      "normalized_job_title": "assistant project manager",
+      "source": "nyc_jobs",
+      "n": 10
+    },
+    {
+      "normalized_job_title": "exterminator bureau of veterinary and pest control services",
+      "source": "nyc_jobs",
+      "n": 10
+    },
+    {
+      "normalized_job_title": "senior backend engineer",
+      "source": "arbeitnow",
+      "n": 8
+    },
+    {
+      "normalized_job_title": "deputy director",
+      "source": "nyc_jobs",
+      "n": 8
+    }
+  ],
+  "distinct_normalized_titles": 3413,
+  "top_locations": {
+    "arbeitnow": {
+      "Berlin": 554,
+      "Munich": 201,
+      "Hamburg": 143,
+      "München": 135,
+      "Germany": 114,
+      "(missing)": 57,
+      "Köln": 48,
+      "Remote": 48
+    },
+    "nyc_jobs": {
+      "30-30 Thomson Ave L I City Qns": 341,
+      "42-09 28th Street": 204,
+      "96-05 Horace Harding Expway": 150,
+      "1 Centre St., N.Y.": 125,
+      "55 Water St Ny Ny": 119,
+      "100 Gold Street": 88,
+      "42 Broadway, N.Y.": 82,
+      "4 World Trade Center": 78
+    }
+  },
+  "distinct_locations": {
+    "arbeitnow": 479,
+    "nyc_jobs": 211
+  },
+  "remote_arbeitnow": 153,
+  "date_coverage": {
+    "arbeitnow": {
+      "min_posted": "2026-09-20",
+      "max_posted": "2026-09-25",
+      "median_posted": "2026-09-23",
+      "collected": "2026-09-25"
+    },
+    "nyc_jobs": {
+      "min_posted": "2025-09-25",
+      "max_posted": "2026-09-21",
+      "median_posted": "2026-08-25",
+      "collected": "2026-09-25"
+    }
+  },
+  "salary": [
+    {
+      "salary_period": "annual",
+      "n": 2556,
+      "median_min": 70983.5,
+      "median_max": 95611.0
+    },
+    {
+      "salary_period": "hourly",
+      "n": 189,
+      "median_min": 23.1461,
+      "median_max": 25.0
+    },
+    {
+      "salary_period": "daily",
+      "n": 26,
+      "median_min": 411.81,
+      "median_max": 411.81
+    }
+  ],
+  "empty_or_short_descriptions": 5,
+  "table_counts": {
+    "data_manifest": 4,
+    "esco_occupation_hierarchy": 3039,
+    "esco_occupation_skill_relations": 126051,
+    "esco_occupations": 3039,
+    "esco_skill_hierarchy": 20183,
+    "esco_skills": 13939,
+    "job_postings": 5497,
+    "job_postings_raw": 5595,
+    "onet_abilities": 94640,
+    "onet_alternate_titles": 54269,
+    "onet_content_model_reference": 3006,
+    "onet_job_zones": 923,
+    "onet_knowledge": 60060,
+    "onet_occupations": 1016,
+    "onet_scales_reference": 33,
+    "onet_skills": 63700,
+    "onet_tasks": 18838,
+    "onet_technology_skills": 31821,
+    "onet_work_activities": 74702,
+    "pipeline_runs": 1,
+    "reference_load_report": 16,
+    "source_metadata": 5
+  },
+  "onet_version": "31.0",
+  "esco_version": "v1.2.1",
+  "esco_status": "ESCO_STATUS = MANUAL_DOWNLOAD_REQUIRED (official ZIP); TEMPORARY_API_FALLBACK_LOADED",
+  "esco_mode": "api_fallback",
+  "sources": [
+    {
+      "dataset_name": "jobs_arbeitnow",
+      "role": "empirical corpus",
+      "provider": "Arbeitnow (arbeitnow.com) free public Job Board API",
+      "official_source_url": "https://www.arbeitnow.com/blog/job-board-api",
+      "version": "snapshot retrieval_20260925T052546Z",
+      "retrieved_utc": "2026-09-25T05:25:46Z",
+      "raw_path": "data/raw/jobs/arbeitnow/retrieval_20260925T052546Z",
+      "record_count": "2800",
+      "license_or_terms": "API response states: 'This is a free public API for jobs, please do not abuse. I would appreciate linking back to the site. By using the API, you agree to the terms of service present on Arbeitnow.com' - full ToS requires verification",
+      "status": "OK - Temporary bootstrap source - instructor/team approval required before final corpus selection.",
+      "final_or_temporary": "TEMPORARY bootstrap - Temporary bootstrap source - instructor/team approval required before final corpus selection."
+    },
+    {
+      "dataset_name": "jobs_nyc_jobs",
+      "role": "empirical corpus",
+      "provider": "City of New York - Department of Citywide Administrative Services (DCAS), via NYC Open Data",
+      "official_source_url": "https://data.cityofnewyork.us/City-Government/Jobs-NYC-Postings/kpav-sd4t",
+      "version": "rowsUpdatedAt=1790103669",
+      "retrieved_utc": "2026-09-25T05:25:37Z",
+      "raw_path": "data/raw/jobs/nyc_jobs/retrieval_20260925T052537Z",
+      "record_count": "2795",
+      "license_or_terms": "NYC Open Data public dataset; governed by NYC Open Data Terms of Use (https://opendata.cityofnewyork.us/overview/#termsofuse) - requires verification",
+      "status": "OK - Temporary bootstrap source - instructor/team approval required before final corpus selection.",
+      "final_or_temporary": "TEMPORARY bootstrap - Temporary bootstrap source - instructor/team approval required before final corpus selection."
+    },
+    {
+      "dataset_name": "esco_api_fallback",
+      "role": "reference taxonomy",
+      "provider": "European Commission (ESCO Web Services API)",
+      "official_source_url": "https://esco.ec.europa.eu/en/use-esco/use-esco-services-api/esco-web-service-api",
+      "version": "v1.2.1",
+      "retrieved_utc": "2026-09-25T05:34:36Z",
+      "raw_path": "data/reference/esco/raw/api_v1.2.1/retrieval_20260925T052824Z",
+      "record_count": "3039 occupations; 13939 skills",
+      "license_or_terms": "requires verification (ESCO is published by the European Commission; confirm reuse terms at https://esco.ec.europa.eu before redistribution)",
+      "status": "OK (temporary API fallback)",
+      "final_or_temporary": "TEMPORARY - replace with official ESCO CSV package (manual download)"
+    },
+    {
+      "dataset_name": "onet_database",
+      "role": "reference taxonomy",
+      "provider": "O*NET Resource Center (National Center for O*NET Development, sponsored by USDOL/ETA)",
+      "official_source_url": "https://www.onetcenter.org/database.html",
+      "version": "31.0",
+      "retrieved_utc": "2026-09-25T05:25:04Z",
+      "raw_path": "data/reference/onet/raw/onet_database_31.0_csv.zip",
+      "record_count": "45 csv files",
+      "license_or_terms": "Creative Commons Attribution 4.0 International (CC BY 4.0), as stated on the official O*NET database page / https://www.onetcenter.org/license_db.html; attribution to O*NET (USDOL/ETA) required",
+      "status": "OK",
+      "final_or_temporary": "final (official reference)"
+    },
+    {
+      "dataset_name": "esco_status",
+      "role": "reference taxonomy",
+      "provider": "European Commission (ESCO)",
+      "official_source_url": "https://esco.ec.europa.eu/en/use-esco/download",
+      "version": "v1.2.1",
+      "retrieved_utc": NaN,
+      "raw_path": NaN,
+      "record_count": NaN,
+      "license_or_terms": NaN,
+      "status": "ESCO_STATUS = MANUAL_DOWNLOAD_REQUIRED (official ZIP); TEMPORARY_API_FALLBACK_LOADED",
+      "final_or_temporary": "api_fallback"
+    }
+  ]
+}

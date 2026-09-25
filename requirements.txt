@@ -1,0 +1,16 @@
+# Direct dependencies (exact versions installed in .venv, Python 3.13.5)
+pandas==3.0.6
+numpy==2.5.3
+duckdb==1.5.5
+pyarrow==25.0.1
+requests==2.34.2
+python-dotenv==1.2.3
+jupyter==1.1.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.3.0
+matplotlib==3.11.2
+langdetect==1.0.9
+tqdm==4.70.1
+beautifulsoup4==4.15.0
+pytest==9.1.1

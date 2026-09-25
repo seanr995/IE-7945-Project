@@ -1,0 +1,4 @@
+source,n,chars_mean,chars_median,chars_std,chars_min,chars_max,words_mean,words_median,words_std,words_min,words_p05,words_p25,words_p75,words_p95,words_max
+arbeitnow,2726,4425.9,4188.5,1832.3,33,15798,618.3,575.5,278.5,6,248.0,425.0,770.8,1098.3,2229
+nyc_jobs,2771,4165.0,3756.0,1922.4,651,14614,597.9,532.0,273.1,88,266.5,399.0,742.0,1143.0,1963
+ALL,5497,4294.4,3977.0,1882.6,33,15798,608.0,557.0,276.0,6,255.0,407.0,759.0,1123.4,2229
