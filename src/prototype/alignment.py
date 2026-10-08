@@ -1,6 +1,10 @@
 """Reference alignment: TASK -> O*NET, SKILL -> ESCO. PROTOTYPE / EXPERIMENTAL / FOR VALIDATION.
 
-    python -m src.prototype.alignment
+    python -m src.prototype.alignment tasks [--rerank]   # SECTION A: task_pipeline.task_statements -> O*NET tasks
+    python -m src.prototype.alignment                    # earlier combined task+skill prototype (prototype schema)
+
+SECTION A task alignment (`align_tasks`) is described in its docstring. The numbered list below describes
+the earlier combined prototype (`main`).
 
 1. Embed reference concepts once (cached): O*NET task statements, O*NET Generalized Work
    Activities (content model 4.A.x.x.x) and ESCO skills (label + description).
@@ -200,5 +204,121 @@ def main() -> dict:
     return out
 
 
+# ---------------------------------------------------------------- SECTION A: task -> O*NET (production table)
+
+TASK_ALIGN_TABLE = "task_pipeline.task_onet_alignment"
+
+
+def decide(top1: float, margin: float, accept: float, review: float, min_margin: float) -> str:
+    """Decision for a task's best candidate. 'unmatched' (no confident match) is a valid outcome."""
+    if top1 >= accept and margin >= min_margin:
+        return "accepted"
+    if top1 >= review:
+        return "review"
+    return "unmatched"
+
+
+def align_tasks(rerank: bool = False, arm: str = "baseline_gemini_groq") -> dict:
+    """Extracted real-posting task -> local embedding -> cosine search over all O*NET task statements ->
+    top-k candidates -> (optional constrained Gemini+Groq rerank of the review band) -> accepted / review / unmatched.
+
+    Input : task_pipeline.task_statements WHERE is_valid_task (tasks come from posting evidence only; O*NET is
+            never used to generate them).
+    Output: task_pipeline.task_onet_alignment - one row per (task_statement_id, candidate_rank); native O*NET ids
+            (task_id, O*NET-SOC code). `accepted` is TRUE only on the rank-1 row of an accepted task.
+    Thresholds (config `alignment`) are provisional: no human O*NET mapping labels exist yet to calibrate them."""
+    load_env()
+    cfg = load_config()
+    al = cfg["alignment"]
+    k, accept, review = int(al["top_k"]), float(al["accept_min_similarity"]), float(al["review_min_similarity"])
+    min_margin = float(al.get("min_margin", 0.0))
+    con = duckdb.connect(str(DB_PATH), read_only=True)
+    tasks = con.execute("""SELECT task_statement_id, posting_id, atomic_task, evidence_span FROM task_pipeline.task_statements
+                           WHERE is_valid_task AND experiment_arm = ? ORDER BY task_statement_id""", [arm]).df()
+    ref = con.execute("""SELECT task_id, onetsoc_code, title, task, task_type, onet_version FROM onet_tasks
+                         ORDER BY task_id""").df()
+    con.close()
+    if tasks.empty:
+        raise RuntimeError("no valid task statements - run python -m src.prototype.run_extraction first")
+    emb = Embedder(run_id="align_tasks")
+    log.info("Aligning %d task statements to %d O*NET task statements with %s", len(tasks), len(ref), emb.model)
+    R = emb.embed(ref.task.tolist())
+    Q = emb.embed(tasks.atomic_task.tolist())
+    idx, sims = topk(Q, R, k)
+    rows = []
+    for i, t in tasks.iterrows():
+        top1 = float(sims[i][0])
+        margin = top1 - float(sims[i][1]) if k > 1 else 1.0
+        dec = decide(top1, margin, accept, review, min_margin)
+        for rank, (j, s) in enumerate(zip(idx[i], sims[i]), 1):
+            rows.append({"task_statement_id": t.task_statement_id, "posting_id": t.posting_id,
+                         "atomic_task": t.atomic_task, "candidate_rank": rank,
+                         "onet_task_id": int(ref.task_id.iat[j]), "onet_occupation_code": ref.onetsoc_code.iat[j],
+                         "onet_occupation_title": ref.title.iat[j], "onet_task_statement": ref.task.iat[j],
+                         "onet_task_type": ref.task_type.iat[j], "similarity_score": round(float(s), 4),
+                         "top1_margin": round(margin, 4), "mapping_method": "embedding_cosine_topk",
+                         "rerank_gemini_rank": None, "rerank_groq_rank": None,
+                         "decision": dec, "accepted": bool(rank == 1 and dec == "accepted"),
+                         "embedding_model": emb.model, "embedding_dims": emb.dims,
+                         "onet_version": ref.onet_version.iat[j],
+                         "thresholds": f"accept>={accept}; review>={review}; margin>={min_margin}; top_k={k}"})
+    df = pd.DataFrame(rows)
+    n_rerank = 0
+    if rerank:  # optional: two independent LLMs may only reorder/reject the retrieved candidates
+        router = Router(run_id="align_tasks_rerank", cfg=cfg)
+        band = df[(df.candidate_rank == 1) & (df.decision == "review")].task_statement_id.tolist()
+        bs = int(cfg["experiment"]["rerank_batch_size"])
+        for b0 in range(0, len(band), bs):
+            bids = band[b0:b0 + bs]
+            batch = []
+            for tid in bids:
+                c = df[df.task_statement_id == tid].sort_values("candidate_rank").head(5)
+                t = tasks[tasks.task_statement_id == tid].iloc[0]
+                batch.append({"statement_text": t.atomic_task, "evidence_text": t.evidence_span, "kind": "task",
+                              "candidates": [{"id": f"c{n}", "text": x, "ref": r}
+                                             for n, (x, r) in enumerate(zip(c.onet_task_statement, c.onet_task_id), 1)]})
+            for prov, col in (("gemini", "rerank_gemini_rank"), ("groq", "rerank_groq_rank")):
+                try:
+                    res = router.rerank_candidates(prov, batch, "onet")
+                except Exception as e:
+                    log.error("rerank %s failed: %s", prov, e)
+                    continue
+                for d in constrain_rerank(res.data, batch):
+                    if d["status"] != "ok":
+                        continue
+                    id2ref = {c["id"]: c["ref"] for c in batch[d["index"]]["candidates"]}
+                    ranked = [id2ref[c] for c in d["ranked"]]
+                    m = df.task_statement_id == bids[d["index"]]
+                    df.loc[m, col] = [ranked.index(r) + 1 if r in ranked else (0 if d["reject_all"] else None)
+                                      for r in df.loc[m, "onet_task_id"]]
+            n_rerank += len(bids)
+        # accept a review-band task only if BOTH rerankers put the same retrieved candidate first
+        for tid in band:
+            m = df.task_statement_id == tid
+            both = df[m & (df.rerank_gemini_rank == 1) & (df.rerank_groq_rank == 1)]
+            if len(both) == 1:
+                df.loc[m, "decision"] = "accepted_after_rerank"
+                df.loc[m, "mapping_method"] = "embedding_cosine_topk+constrained_rerank_gemini_groq"
+                df.loc[both.index, "accepted"] = True
+    df = df.astype({"rerank_gemini_rank": "Int64", "rerank_groq_rank": "Int64"})
+    con = duckdb.connect(str(DB_PATH))
+    con.execute("CREATE SCHEMA IF NOT EXISTS task_pipeline")
+    con.register("df", df)
+    con.execute(f"CREATE OR REPLACE TABLE {TASK_ALIGN_TABLE} AS SELECT * FROM df ORDER BY task_statement_id, candidate_rank")
+    con.unregister("df")
+    con.close()
+    emb.close()
+    top = df[df.candidate_rank == 1]
+    out = {"tasks_aligned": len(top), "decisions": top.decision.value_counts().to_dict(),
+           "top1_similarity_quantiles": top.similarity_score.quantile([0.1, 0.25, 0.5, 0.75, 0.9]).round(3).to_dict(),
+           "reranked": n_rerank, "embedding_model": emb.model, "table": TASK_ALIGN_TABLE}
+    log.info("Task alignment done: %s", out)
+    return out
+
+
 if __name__ == "__main__":
-    print(main())
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "tasks":
+        print(align_tasks(rerank="--rerank" in sys.argv))
+    else:
+        print(main())

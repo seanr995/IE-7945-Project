@@ -1,14 +1,17 @@
 """Dual-model evidence-preserving extraction experiment. PROTOTYPE / EXPERIMENTAL / FOR VALIDATION.
 
-    python -m src.prototype.run_extraction
+    python -m src.prototype.run_extraction                       # baseline: Gemini + Groq on the frozen 200
+    python -m src.prototype.run_extraction --provider anthropic  # OPTIONAL third-provider (Claude) arm, same postings
 
 Idempotent: every LLM response is cached, tables are CREATE OR REPLACE'd in schema `prototype`.
+The posting set is the FROZEN sample data/experiment/task_extraction_sample_200.csv (src.prototype.freeze);
+the run aborts if those postings drifted. Finishes by rebuilding task_pipeline.task_statements.
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
-import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -21,7 +24,7 @@ from src.llm.embeddings import Embedder
 from src.llm.router import Router
 from src.prototype.evidence import (consensus, jaccard, locate_evidence, match_items, split_events,
                                     support_overlap, _norm)
-from src.prototype.sample import build_sample
+from src.prototype import freeze, task_statements
 from src.prototype.sections import detect_sections, model_input
 from src.utils.common import DB_PATH, OUTPUTS, get_logger, load_env
 
@@ -64,7 +67,7 @@ def gate_items(posting: dict, provider: str, res, sections_method: str) -> list[
             "evidence_match_type": loc["match_type"], "evidence_start": loc["start"], "evidence_end": loc["end"],
             "evidence_text": loc["exact_text"], "evidence_fuzzy_ratio": loc["ratio"], "support_overlap": sup,
             "gate_status": status, "section_detection_method": sections_method,
-            "start": loc["start"], "end": loc["end"],
+            "start": loc["start"], "end": loc["end"], "extracted_at": res.created_at,
         })
     return rows
 
@@ -109,7 +112,9 @@ def main(limit: int | None = None) -> dict:
     con = duckdb.connect(str(DB_PATH))
     con.execute("CREATE SCHEMA IF NOT EXISTS prototype")
 
-    sample = build_sample(con, ex["sample_seed"], ex["sample_size"], ex["dual_model_postings"], ex["min_description_words"])
+    sample, frep = freeze.freeze_or_verify(con)
+    if frep["status"] == "DRIFT":
+        raise RuntimeError(f"frozen experiment sample drifted from the database: {frep}")
     if limit:
         sample = sample.head(limit)
     con.register("s", sample)
@@ -264,6 +269,8 @@ def main(limit: int | None = None) -> dict:
         con.execute(f"CREATE OR REPLACE TABLE prototype.{name} AS SELECT * FROM df")
         con.unregister("df")
     build_review_queue(con, out_rows, posts)
+    if not limit:
+        task_statements.build(con)
     con.close()
     emb.close()
     log.info("Extraction experiment done: %d statements", len(st_df))
@@ -352,6 +359,73 @@ def build_review_queue(con, out_rows, posts):
     con.unregister("rq")
 
 
+def _prep_frozen(con, ex):
+    sample, frep = freeze.freeze_or_verify(con)
+    if frep["status"] == "DRIFT":
+        raise RuntimeError(f"frozen experiment sample drifted from the database: {frep}")
+    ids = sample.posting_id.tolist()
+    posts = con.execute("SELECT posting_id, job_title, description, requirements, preferred_skills, posting_text, source "
+                        "FROM job_postings WHERE posting_id IN (SELECT unnest(?))", [ids]).df()
+    posts = {r.posting_id: {k: (v if isinstance(v, str) else None) for k, v in r._asdict().items()}
+             for r in posts.itertuples(index=False)}
+    prep = {}
+    for pid in ids:
+        p = posts[pid]
+        det = detect_sections(p["description"], p["requirements"], p["preferred_skills"])
+        prep[pid] = {"method": det["method"], "input": model_input(det["sections"], ex["max_input_chars"])}
+    return ids, posts, prep
+
+
+def run_third_provider(provider: str, limit: int | None = None) -> dict:
+    """OPTIONAL experiment arm: same frozen postings, same sections, same prompt/schema and the same
+    deterministic evidence gate as the baseline. Writes prototype.prototype_model_outputs_<provider>
+    and rebuilds task_pipeline.task_statements. Never touches the Gemini/Groq baseline tables or caches."""
+    load_env()
+    cfg = load_config()
+    _PV.update(cfg["prompt_versions"])
+    run_id = f"run_{provider}_" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    router = Router(run_id=run_id, cfg=cfg)
+    if provider not in router.providers:
+        raise SystemExit(f"provider {provider!r} not configured (available: {sorted(router.providers)})")
+    con = duckdb.connect(str(DB_PATH))
+    ids, posts, prep = _prep_frozen(con, cfg["experiment"])
+    con.close()
+    ids = ids[:limit] if limit else ids
+    rows, runs = [], []
+    with ThreadPoolExecutor(int(cfg[provider].get("max_concurrency", 1))) as px:
+        futs = {px.submit(router.extract_statements, provider, pid, posts[pid]["job_title"], prep[pid]["input"]): pid
+                for pid in ids}
+        for f, pid in futs.items():
+            try:
+                r = f.result()
+                out = gate_items(posts[pid], provider, r, prep[pid]["method"])
+                rows += out
+                runs.append({"posting_id": pid, "provider": provider, "status": "ok", "model": r.model,
+                             "cache_hit": r.cache_hit, "n_items": len(out), "error": None})
+            except Exception as e:
+                log.error("%s extraction failed for %s: %s", provider, pid, e)
+                runs.append({"posting_id": pid, "provider": provider, "status": "error", "model": None,
+                             "cache_hit": None, "n_items": 0, "error": str(e)[:200]})
+    con = duckdb.connect(str(DB_PATH))
+    if rows:
+        con.register("df", pd.DataFrame(rows).drop(columns=["start", "end"]))
+        con.execute(f"CREATE OR REPLACE TABLE prototype.prototype_model_outputs_{provider} AS SELECT * FROM df")
+        con.unregister("df")
+    con.register("df", pd.DataFrame(runs))
+    con.execute(f"CREATE OR REPLACE TABLE prototype.prototype_extraction_calls_{provider} AS SELECT * FROM df")
+    con.unregister("df")
+    if rows and not limit:
+        task_statements.build(con)
+    con.close()
+    ok = sum(r["status"] == "ok" for r in runs)
+    log.info("%s arm done: %d/%d postings ok, %d items", provider, ok, len(runs), len(rows))
+    return {"run_id": run_id, "provider": provider, "postings_ok": ok, "postings": len(runs), "items": len(rows)}
+
+
 if __name__ == "__main__":
-    lim = int(sys.argv[1]) if len(sys.argv) > 1 else None
-    print(main(limit=lim))
+    ap = argparse.ArgumentParser()
+    ap.add_argument("limit", nargs="?", type=int, help="only the first N frozen postings (smoke test; no task_statements rebuild)")
+    ap.add_argument("--provider", default="baseline",
+                    help="'baseline' (Gemini + Groq, default) or a third provider name such as 'anthropic'")
+    a = ap.parse_args()
+    print(main(limit=a.limit) if a.provider == "baseline" else run_third_provider(a.provider, a.limit))

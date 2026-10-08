@@ -2,7 +2,7 @@
 
 Shared by the **Task team** and the **Skill team**. Physical table: `job_postings` in
 `database/taxonomy.duckdb` (also `data/processed/job_postings_canonical.parquet`).
-Generated 2026-09-25T17:32:39Z by `src/analysis/reports.py`; examples are real values from the database.
+Generated 2026-10-08T20:59:57Z by `src/analysis/reports.py`; examples are real values from the database.
 
 ## Why one contract
 

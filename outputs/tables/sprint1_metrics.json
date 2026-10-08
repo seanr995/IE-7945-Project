@@ -272,22 +272,17 @@
       "n": 16
     },
     {
-      "normalized_job_title": "senior software engineer",
-      "source": "arbeitnow",
-      "n": 13
-    },
-    {
       "normalized_job_title": "college aide",
       "source": "nyc_jobs",
       "n": 13
     },
     {
-      "normalized_job_title": "engineer-in-charge",
-      "source": "nyc_jobs",
-      "n": 10
+      "normalized_job_title": "senior software engineer",
+      "source": "arbeitnow",
+      "n": 13
     },
     {
-      "normalized_job_title": "assistant project manager",
+      "normalized_job_title": "engineer-in-charge",
       "source": "nyc_jobs",
       "n": 10
     },
@@ -297,13 +292,18 @@
       "n": 10
     },
     {
-      "normalized_job_title": "senior backend engineer",
-      "source": "arbeitnow",
-      "n": 8
+      "normalized_job_title": "assistant project manager",
+      "source": "nyc_jobs",
+      "n": 10
     },
     {
       "normalized_job_title": "deputy director",
       "source": "nyc_jobs",
+      "n": 8
+    },
+    {
+      "normalized_job_title": "senior backend engineer",
+      "source": "arbeitnow",
       "n": 8
     }
   ],

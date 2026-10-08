@@ -36,6 +36,8 @@ def load_config() -> dict:
         cfg["gemini"]["fallback_models"] = [m.strip() for m in os.environ["GEMINI_FALLBACK_MODELS"].split(",") if m.strip()]
     if os.environ.get("GROQ_MODEL"):
         cfg["groq"]["model"] = os.environ["GROQ_MODEL"]
+    if os.environ.get("ANTHROPIC_MODEL") and "anthropic" in cfg:
+        cfg["anthropic"]["model"] = os.environ["ANTHROPIC_MODEL"]
     if os.environ.get("EMBEDDING_MODEL"):
         cfg["embedding"]["model"] = os.environ["EMBEDDING_MODEL"]
     return cfg
@@ -83,6 +85,7 @@ class LLMResult:
     input_tokens: int | None
     output_tokens: int | None
     request_id: str
+    created_at: str | None = None  # UTC time the provider produced this response (cache entry time on a hit)
 
 
 def extract_json_text(text: str) -> str:
@@ -100,7 +103,7 @@ def extract_json_text(text: str) -> str:
 
 def _scrub(msg: str) -> str:
     """Remove anything that looks like a credential from an error message before logging."""
-    return re.sub(r"(AIza[0-9A-Za-z_\-]{20,}|gsk_[0-9A-Za-z]{20,}|key=[^&\s]+)", "[REDACTED]", str(msg))[:300]
+    return re.sub(r"(AIza[0-9A-Za-z_\-]{20,}|gsk_[0-9A-Za-z]{20,}|sk-ant-[0-9A-Za-z_\-]{20,}|key=[^&\s]+)", "[REDACTED]", str(msg))[:300]
 
 
 class LLMProvider:
@@ -130,7 +133,7 @@ class LLMProvider:
                             input_tokens=None, output_tokens=None, latency_ms=0.0, cache_hit=True,
                             retry_count=0, status="ok", error_type=None, run_id=self.run_id)
             return LLMResult(hit["data"], self.name, hit.get("model_used", primary), True, 0.0, 0,
-                             hit.get("input_tokens"), hit.get("output_tokens"), row["request_id"])
+                             hit.get("input_tokens"), hit.get("output_tokens"), row["request_id"], hit.get("created_at"))
 
         retries, last_err = 0, None
         max_retries = int(self.cfg.get("max_retries", 4))
@@ -158,7 +161,7 @@ class LLMProvider:
                         "input_hash": ih, "data": data, "input_tokens": raw.input_tokens,
                         "output_tokens": raw.output_tokens, "created_at": row["timestamp"]})
                     return LLMResult(data, self.name, model_used, False, latency, retries,
-                                     raw.input_tokens, raw.output_tokens, row["request_id"])
+                                     raw.input_tokens, raw.output_tokens, row["request_id"], row["timestamp"])
                 except SchemaError as e:
                     last_err = e
                     self._log_fail(model, operation, prompt_version, posting_id, retries, "schema_invalid", t0)

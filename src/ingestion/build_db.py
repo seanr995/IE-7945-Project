@@ -44,20 +44,25 @@ def source_metadata(esco_state: dict, job_stats: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+PRESERVED_SCHEMAS = ("prototype", "task_pipeline")
+
+
 def preserve_prototype_schema(con: duckdb.DuckDBPyConnection) -> None:
-    """Sprint 1 rebuilds `main` from scratch; carry the separate `prototype` schema (Sprint 2
-    experimental tables) over from the previous database file so it is never lost or mixed in."""
+    """Sprint 1 rebuilds `main` from scratch; carry the separate Sprint 2 schemas (`prototype`
+    experimental tables, `task_pipeline` task-extraction tables) over from the previous database file
+    so they are never lost or mixed in."""
     if not DB_PATH.exists():
         return
     con.execute(f"ATTACH '{DB_PATH.as_posix()}' AS old_db (READ_ONLY)")
     try:
-        tabs = con.execute("SELECT table_name FROM duckdb_tables() WHERE database_name='old_db' "
-                           "AND schema_name='prototype'").fetchall()
-        if tabs:
-            con.execute("CREATE SCHEMA IF NOT EXISTS prototype")
-            for (t,) in tabs:
-                con.execute(f'CREATE TABLE prototype."{t}" AS SELECT * FROM old_db.prototype."{t}"')
-            log.info("Preserved %d prototype.* tables from previous database", len(tabs))
+        for schema in PRESERVED_SCHEMAS:
+            tabs = con.execute("SELECT table_name FROM duckdb_tables() WHERE database_name='old_db' "
+                               "AND schema_name=?", [schema]).fetchall()
+            if tabs:
+                con.execute(f"CREATE SCHEMA IF NOT EXISTS {schema}")
+                for (t,) in tabs:
+                    con.execute(f'CREATE TABLE {schema}."{t}" AS SELECT * FROM old_db.{schema}."{t}"')
+                log.info("Preserved %d %s.* tables from previous database", len(tabs), schema)
     finally:
         con.execute("DETACH old_db")
 

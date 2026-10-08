@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 
+from src.llm.anthropic_provider import AnthropicProvider
 from src.llm.base import LLMProvider, LLMResult, load_config
 from src.llm.gemini_provider import GeminiProvider
 from src.llm.groq_provider import GroqProvider
@@ -65,6 +66,8 @@ class Router:
             "gemini": GeminiProvider(self.cfg["gemini"], run_id=run_id),
             "groq": GroqProvider(self.cfg["groq"], run_id=run_id),
         }
+        if "anthropic" in self.cfg:  # optional third-provider experiment arm (client created lazily)
+            self.providers["anthropic"] = AnthropicProvider(self.cfg["anthropic"], run_id=run_id)
 
     def _p(self, name: str) -> LLMProvider:
         return self.providers[name]
