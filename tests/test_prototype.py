@@ -224,7 +224,10 @@ def _mini_db(path):
                         "extractor_provider": "gemini", "extractor_model": "m", "validator_provider": "groq",
                         "paired_statement_text": s, "adjudication_decision": None} for a, k, s, e in rows])
     con.register("df", df)
-    con.execute("CREATE TABLE prototype.prototype_statements AS SELECT * FROM df")
+    # an all-None pandas column has no type; DuckDB would infer INTEGER. The real table stores
+    # adjudication_decision as VARCHAR ('keep'/'reject'), so declare it explicitly.
+    con.execute("CREATE TABLE prototype.prototype_statements AS "
+                "SELECT * REPLACE (CAST(adjudication_decision AS VARCHAR) AS adjudication_decision) FROM df")
     con.execute("""CREATE TABLE prototype.prototype_task_onet_candidates AS SELECT 't1' AS statement_id, '15-2051.00' AS onet_soc_code,
                    '1' AS onet_reference_id, 'Prepare reports' AS onet_text, 'Data Scientists' AS onet_occupation_or_element,
                    'onet_task' AS reference_type, 1 AS rank, 0.8 AS embedding_similarity, 0.8 AS final_candidate_score,

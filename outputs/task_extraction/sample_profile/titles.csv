@@ -1,0 +1,201 @@
+sample_rank,posting_id,source,job_title,title_group_analysis_only,seniority,description_word_count,phase,in_gold_100
+1,2a4423734ff48b1da59d,arbeitnow,Founders Associate to CEO (f/m/x),unclassified,executive,1439,dual_model,False
+2,80f6da7f0eec5c160699,nyc_jobs,Executive Director,operations / management,executive,733,dual_model,True
+3,35e025198cd12e1915a8,arbeitnow,Business Development Manager (Bristol),sales / marketing / customer,manager,548,dual_model,False
+4,4c7cd47d220c0129298d,nyc_jobs,Circular Economy Program Manager,policy / research / planning,manager,423,dual_model,True
+5,5ae5e48ce667c9d1c894,arbeitnow,Working Student – Content and Data Management (all genders),software / data / IT,intern_student,721,dual_model,False
+6,80fd4a82c581d7be2fd6,nyc_jobs,Appraiser Intern,intern / student,intern_student,557,dual_model,True
+7,615ca0f86df809abe767,arbeitnow,VP - Head of Toronto,operations / management,executive,647,dual_model,True
+8,b59cac3ec4f2871a7963,nyc_jobs,Deputy Commissioner/Chief Compliance and Equal Employment Opportunity Officer,legal / compliance,executive,651,dual_model,False
+9,674daec54fefda4eb7d0,arbeitnow,Senior Software Engineer (m/f/d),software / data / IT,experienced,575,dual_model,False
+10,53e4556f753510a75c35,nyc_jobs,Outreach Liaison,sales / marketing / customer,experienced,414,dual_model,False
+11,e2b9292f713a5f914995,arbeitnow,CEO / Business Co-Founder (f/m/d) role at startup FAMILY FLOW,unclassified,executive,463,dual_model,True
+12,df716493d4353d446b48,nyc_jobs,Deputy Commissioner for Roadway Repair and Maintenance,operations / management,executive,365,dual_model,False
+13,798de891e649970c4db8,arbeitnow,Principal AI Engineer (m/f/x) - Industrial AI Engineering,software / data / IT,experienced,883,dual_model,True
+14,97e119a2d817286b108f,nyc_jobs,"Early Childhood Education Consultant, Bureau of Childcare",unclassified,experienced,844,dual_model,False
+15,ba09100003e61c3664ea,arbeitnow,Founders Associate – COO Office -Product Communication & Change Management (all genders),product / design / UX,intern_student,372,dual_model,False
+16,6a99e4f165697e252b17,nyc_jobs,College Aide,unclassified,intern_student,366,dual_model,True
+17,a73048332d44b501d8e8,arbeitnow,Capital Markets Associate,unclassified,entry,314,dual_model,True
+18,56a023230654f22dd021,nyc_jobs,Community Assistant,HR / people / admin,entry,239,dual_model,True
+19,4cfe0a49a6228db4fdb8,arbeitnow,Senior Product Manager - Client Experience & Engagement (f/m/d),product / design / UX,manager,1204,dual_model,False
+20,3b4c29db562915cd966f,nyc_jobs,"Clearance Supervisor, Bureau of Childcare",operations / management,manager,1007,dual_model,True
+21,41791a6083070a346971,arbeitnow,People & Culture Specialist (f/m/d),HR / people / admin,unknown,482,dual_model,True
+22,304b71da9475fadb7614,nyc_jobs,Communications Associate,sales / marketing / customer,experienced,449,dual_model,False
+23,149a8d2d5395ce0c7382,arbeitnow,Senior Teamcenter Administrator,unclassified,senior,534,dual_model,False
+24,8e6130d1204b47bc4e3a,nyc_jobs,Aquatics Specialist,unclassified,entry,492,dual_model,False
+25,fccbd6e81ed853cffd6d,arbeitnow,Fuel Cycle Fuel Recycling Lead (f/m/d),operations / management,senior,758,dual_model,True
+26,622c7c71deb0fb8b4880,nyc_jobs,"Director, Reasonable Accommodations",operations / management,manager,525,dual_model,True
+27,506dc4579e5e38a043d9,arbeitnow,Fullstack Platform Engineer,engineering / architecture (non-software),unknown,662,dual_model,True
+28,2213f5426499a37cd6e2,nyc_jobs,Construction Intern,engineering / architecture (non-software),intern_student,869,dual_model,True
+29,ff3c9010a439d5f19ba5,arbeitnow,(Senior) Product Manager Energy (m/f/d),product / design / UX,experienced,667,dual_model,False
+30,2bf63a069cacd30aafbc,nyc_jobs,Analyst FEMA Revenue Accountability and Reporting,finance / accounting / audit,entry,671,dual_model,False
+31,a146bd4acd3f84c2cf13,arbeitnow,Junior Data Engineer & MarTech Specialist (Mobile Apps) (m/w/d),software / data / IT,entry,662,dual_model,True
+32,94eeac045a9d0989ab27,nyc_jobs,General Counsel,legal / compliance,executive,934,dual_model,False
+33,26a8bb35db6ea7946925,arbeitnow,Principal of Information Security (f/m/d),unclassified,senior,1281,dual_model,False
+34,835d55784f762bec770d,nyc_jobs,"Deputy Director, SLA",operations / management,manager,420,dual_model,True
+35,6abe29c3ccb7241a403c,arbeitnow,Product Growth Manager,product / design / UX,manager,771,dual_model,True
+36,4b0c7f0ad5cce52c7bdf,nyc_jobs,IT Intern,software / data / IT,intern_student,609,dual_model,True
+37,e2b62c02cbe22cc016e2,arbeitnow,Working Student AI Support & Operations,software / data / IT,intern_student,854,dual_model,False
+38,50d7802bf29a2fa99d4e,nyc_jobs,Contract Administrator,finance / accounting / audit,experienced,348,dual_model,True
+39,4b04c180a59634bd2d72,arbeitnow,Founder's Associate (f/m/x),unclassified,entry,1057,dual_model,True
+40,06b6dd6358027314646f,nyc_jobs,Chief Operations Officer/Deputy Commissioner of Ferries,HR / people / admin,executive,356,dual_model,True
+41,310b9bece1e530172441,arbeitnow,AI Automation Specialist - Marketing & GTM (d/f/m),software / data / IT,unknown,1179,dual_model,False
+42,0c9b39100b48af6088d7,nyc_jobs,BOB- Special Projects Coordinator,operations / management,experienced,858,dual_model,False
+43,5f6558e9db057f08f998,arbeitnow,Tech Lead / CTO (m/w/d),software / data / IT,executive,1761,dual_model,True
+44,2262bf490b2b9c18f38e,nyc_jobs,College Aide (Graduate),unclassified,intern_student,374,dual_model,False
+45,9ce5fc0109d3db834f27,arbeitnow,Technical SEO Manager (f/m/d) @MYTHERESA,operations / management,manager,467,dual_model,False
+46,7dbd8b7cf3b0bfa5cf9d,nyc_jobs,Fleet Liaison,unclassified,entry,289,dual_model,False
+47,95dfd6f01b25720c0105,arbeitnow,Working Student - IT Asset & Stock Management (x/f/m),software / data / IT,intern_student,801,dual_model,False
+48,80f697c04820c4cc3546,nyc_jobs,Director of Geographic Data and Engineering (GDE),software / data / IT,manager,1490,dual_model,False
+49,2b363a377acdcc917751,arbeitnow,Director Strategic Operations (m/f/d),operations / management,executive,718,dual_model,False
+50,b7f5516481d961d55a51,nyc_jobs,Division Administrative Officer,HR / people / admin,experienced,501,dual_model,True
+51,8d5bb665bbff11e6bbbb,arbeitnow,(Senior) DevOps Engineer (m/f/x),software / data / IT,experienced,526,dual_model,False
+52,c06ce1a21ee6fe762ca6,nyc_jobs,OUTREACH SPECIALIST,sales / marketing / customer,entry,468,dual_model,True
+53,bf3db0f483b46be4ad74,arbeitnow,CEO / Business Co-Founder (f/m/d) role at startup IXPLAIN,unclassified,executive,445,dual_model,False
+54,c726cb5cdea431a2660a,nyc_jobs,Director of Digital + New Media Communications,sales / marketing / customer,manager,572,dual_model,False
+55,62058adb591ec93c52d0,arbeitnow,Senior Product Manager (ISR) Defence & Intelligence (f/m/x),product / design / UX,experienced,1008,dual_model,False
+56,295b620938f1b4ef0c48,nyc_jobs,"College Intern, Bureau of Public Health Clinics",health / social services,intern_student,774,dual_model,True
+57,74a1bfae7e7e258d28b5,arbeitnow,GTM Internship,intern / student,intern_student,486,dual_model,True
+58,3b1acd7dae8f6c808655,nyc_jobs,Analyst Data and Systems,software / data / IT,entry,733,dual_model,True
+59,e0baadf53ae856f61943,arbeitnow,Growth Associate,sales / marketing / customer,entry,407,dual_model,False
+60,391112a1f4a8d0187e88,nyc_jobs,"Deputy Commissioner/Chief Equity Officer, Center for Health Equity and Community Wellness",HR / people / admin,executive,1125,dual_model,True
+61,05bb010df9f681ecfb8e,arbeitnow,Product Manager - Wealth,product / design / UX,manager,894,dual_model,True
+62,8d80f2537f810fb13bb7,nyc_jobs,Facility Manager,operations / management,manager,361,dual_model,False
+63,ed8d4887f67c3c75d35c,arbeitnow,"Forward Deployed Engineer, Enterprise",engineering / architecture (non-software),unknown,572,dual_model,False
+64,105e8d569cdb317f77c3,nyc_jobs,Special Assistant Intern - Operations,HR / people / admin,intern_student,579,dual_model,True
+65,892dd83ca65d59b15de6,arbeitnow,Senior Jet Engine Design Engineer – Interceptor Drones,product / design / UX,senior,466,dual_model,False
+66,751a53b56992ff974884,nyc_jobs,Program Officer,HR / people / admin,experienced,345,dual_model,True
+67,9eab4ed819ca3a11efe3,arbeitnow,Senior Agronomist - Digital Agronomist Products (all genders),product / design / UX,senior,790,dual_model,False
+68,6b01b8c5542275f0ea19,nyc_jobs,DESIGN LEAD,product / design / UX,experienced,740,dual_model,False
+69,ad2dcf702c12ef0f1620,arbeitnow,"Account Executive, Commercial",finance / accounting / audit,unknown,625,dual_model,False
+70,7b9b088dbccad49f1f52,nyc_jobs,College Aide (GI) / College Aide (CR),unclassified,intern_student,315,dual_model,False
+71,96e7892a422bcab5f86d,arbeitnow,Purview Expert (m/w/d),unclassified,experienced,792,dual_model,True
+72,5095082b7a5e8e644d85,nyc_jobs,Summons Processing Support,unclassified,entry,349,dual_model,True
+73,4fafe3e6f5d7b74b4363,arbeitnow,Account Manager,finance / accounting / audit,entry,698,dual_model,True
+74,629a583a8a3c94559217,nyc_jobs,"Deputy Assistant Commissioner, Workforce Operations",HR / people / admin,manager,720,dual_model,False
+75,24be9713838ce65bb2d1,arbeitnow,Senior Account Executive - Enterprise,finance / accounting / audit,senior,920,dual_model,True
+76,709a3462689de9451099,nyc_jobs,Senior Director of Global Partnerships,sales / marketing / customer,experienced,569,dual_model,False
+77,2afbb511b4508cc07452,arbeitnow,Category Manager – Semiconductor Materials (f/m/d),operations / management,manager,758,dual_model,False
+78,666f7ebc34ffed256a13,nyc_jobs,Field Scientist,unclassified,entry,649,dual_model,True
+79,846b528da871596b1783,arbeitnow,Anti-Financial Crime Intern/Werkstudent,finance / accounting / audit,intern_student,1054,dual_model,False
+80,60c790530cba3489d871,nyc_jobs,JOCS and Engineering Support Manager,engineering / architecture (non-software),manager,559,dual_model,False
+81,f32ccf878072947e70ec,arbeitnow,"Legal Analyst / Research Associate (m/f/d) – part-time, fixed-term",legal / compliance,entry,874,dual_model,True
+82,e69d5c8cb51cded0795c,nyc_jobs,"College Aide, Bureau of Veterinary and Pest Control Services",unclassified,intern_student,773,dual_model,False
+83,a845c36fc3eb4caf98fb,arbeitnow,Platform Engineer,engineering / architecture (non-software),unknown,1398,dual_model,True
+84,0b027611629b03f366f3,nyc_jobs,Public Health Assistant,HR / people / admin,entry,671,dual_model,True
+85,b63d2a18a86b9e94e299,arbeitnow,Executive Assistant - Chief Product Officer & Chief Technology Officer,product / design / UX,executive,820,dual_model,True
+86,35b02096d9f13d0f2a54,nyc_jobs,"Executive Director, Office of Suicide Prevention",HR / people / admin,executive,1153,dual_model,True
+87,49b81c39bff279fde4a8,arbeitnow,"Director/Senior Director, Strategic Solutions",operations / management,manager,497,dual_model,True
+88,41fd8f1659c66291c006,nyc_jobs,"Social Work Director, Assigned Counsel Plan",legal / compliance,manager,394,dual_model,True
+89,46014daa00722a6982c4,arbeitnow,Intern Product (f/m/d),product / design / UX,intern_student,668,dual_model,False
+90,9cbb10cf5e37644bd804,nyc_jobs,College Aide - Procurement and Contracts (2 positions),finance / accounting / audit,intern_student,511,dual_model,False
+91,69b835c031625646983f,arbeitnow,"VP, customer success (EMEA)",sales / marketing / customer,executive,636,dual_model,False
+92,aaedb5115074cb404376,nyc_jobs,Deputy Director (Technical),operations / management,experienced,390,dual_model,False
+93,4fd5cae42eb3035824ee,arbeitnow,Senior Electrical Engineer (m/f/d),engineering / architecture (non-software),experienced,570,dual_model,True
+94,3ca1b50483595c10a701,nyc_jobs,SUSTAINABILITY ANALYST 1,policy / research / planning,experienced,702,dual_model,True
+95,a3b54b0d34e7b105604f,arbeitnow,Business / Industry Co-Founder (F/M/D) Role At Startup Guardsphere,unclassified,executive,422,dual_model,True
+96,6a42c683d57c96dc4e72,nyc_jobs,Communications Intern,sales / marketing / customer,intern_student,266,dual_model,True
+97,4fed033c30fe7a78c1a5,arbeitnow,Customer Success Expert (m/f/d) for the European AI Factory HammerHAI,software / data / IT,experienced,868,dual_model,True
+98,ac6b2541ecc346107332,nyc_jobs,HOUSING ASSISTANT,HR / people / admin,entry,300,dual_model,False
+99,00861684b3d8b8a43808,arbeitnow,Working Student | Accounting & Finance (m/f/d),finance / accounting / audit,intern_student,513,dual_model,False
+100,53ca8a5ad02b99123994,nyc_jobs,"Director of the Enforcement Unit, Office of General Counsel",legal / compliance,manager,1061,dual_model,True
+101,7dd117af5fcbcd45922a,arbeitnow,Founders Associate (Sales),sales / marketing / customer,entry,502,gemini_primary,False
+102,36e5fce294bdc67770e1,nyc_jobs,Senior Project Manager,operations / management,experienced,441,gemini_primary,False
+103,38ee673de37634359520,arbeitnow,Client Solutions Director / Solution Design Architect,product / design / UX,manager,1000,gemini_primary,False
+104,4af8e56faeb5bf3cb868,nyc_jobs,Executive Assistant,HR / people / admin,entry,454,gemini_primary,True
+105,8c3e9c32e3021421dbf1,arbeitnow,"Backend Engineer, AI (Agent Systems)",software / data / IT,unknown,471,gemini_primary,False
+106,267e584ab70936606262,nyc_jobs,REGIONAL MANAGER,operations / management,manager,665,gemini_primary,False
+107,3cebe8b709eb968ecc68,arbeitnow,(Senior) Business Development Representative (f/m/d),sales / marketing / customer,senior,564,gemini_primary,False
+108,2e100a237483f53b3903,nyc_jobs,COLLEGE AIDE Budget,finance / accounting / audit,intern_student,750,gemini_primary,False
+109,12267268cf274f232ece,arbeitnow,Senior Software Engineer - Local payments,software / data / IT,senior,739,gemini_primary,True
+110,9d7d2b090d3262dd7f95,nyc_jobs,Facilities Assistant,HR / people / admin,entry,676,gemini_primary,True
+111,9497a6d2dd74efc6f1d5,arbeitnow,AIT & Electronics Technician,trades / facilities / public safety,unknown,632,gemini_primary,True
+112,0bd6f04e2cb94755955c,nyc_jobs,Director of Procurement & Program Management,finance / accounting / audit,executive,738,gemini_primary,True
+113,644e4b17868b56c3bb3a,arbeitnow,Group Design Platform Software & AI Architect (m/f/d),software / data / IT,experienced,605,gemini_primary,True
+114,2557d72d6c8e6a5e8365,nyc_jobs,Deputy Director of Strategy Implementation,operations / management,manager,281,gemini_primary,True
+115,01b43c42b257847a3c57,arbeitnow,Graduate Physicist,unclassified,entry,625,gemini_primary,False
+116,1b9dc57735af5fe3ad3d,nyc_jobs,COLLEGE AIDE Miscellaneous Revenue,unclassified,intern_student,555,gemini_primary,True
+117,ef37f5e4a74b94f5fcce,arbeitnow,"Senior Software Engineer, Event Streaming Systems",software / data / IT,senior,1104,gemini_primary,True
+118,07d3cbd036de93e87603,nyc_jobs,"Supervisor of the Payroll Funding, Certification and ACH Unit (PFCAU)",finance / accounting / audit,experienced,320,gemini_primary,True
+119,e3691fb293998ec2d9b6,arbeitnow,"Senior Product Manager, Technical (m/f/d)",product / design / UX,manager,756,gemini_primary,True
+120,2e1eb79f11429f770125,nyc_jobs,ACCOUNTABLE MANAGER,finance / accounting / audit,experienced,1260,gemini_primary,False
+121,f249adfcc6b61a22d6b4,arbeitnow,Trade-in Buybulk Intern,intern / student,intern_student,845,gemini_primary,False
+122,4893aacedb5516530438,nyc_jobs,2027 Summer Legal Intern 2L,legal / compliance,intern_student,313,gemini_primary,False
+123,a462d24b2748471a3f2b,arbeitnow,Finance & Operations Associate (m/f/d),finance / accounting / audit,entry,864,gemini_primary,True
+124,08aa855ee37ded6aec14,nyc_jobs,Junior Capital Budget Analyst,finance / accounting / audit,entry,398,gemini_primary,False
+125,5c4a5e28ceaa8b8e776f,arbeitnow,Customer Success Engineer ( London),engineering / architecture (non-software),unknown,1052,gemini_primary,True
+126,bbc30852aba689dd056f,nyc_jobs,"Deputy Director, Sprint Team",operations / management,manager,1148,gemini_primary,False
+127,458f5701d4c9512eedc8,arbeitnow,Chief of Staff to the Co-CEO - m/f/d,operations / management,executive,997,gemini_primary,True
+128,c70eb7d0a2e70e711e53,nyc_jobs,HOUSING COURT PROCESSING TEAM SUPERVISOR,operations / management,experienced,568,gemini_primary,True
+129,c46d30ec6da3e3d14ecb,arbeitnow,Sales Director - Electric Aviation (all genders),engineering / architecture (non-software),manager,547,gemini_primary,True
+130,06e83c35e59b0e9873a9,nyc_jobs,Office Machine Operator,HR / people / admin,entry,447,gemini_primary,False
+131,cb390e8ee43ddd14adb9,arbeitnow,Founders Associate (Intern),intern / student,intern_student,595,gemini_primary,False
+132,67045f93df80b34feb7f,nyc_jobs,"Director, Aging Connect Operations",operations / management,manager,549,gemini_primary,False
+133,fa720a68585d2099f1eb,arbeitnow,"Chief of Staff, Strategy & AI Enablement",software / data / IT,executive,688,gemini_primary,True
+134,197c4ea6c2500edbcb24,nyc_jobs,Policy Assistant,HR / people / admin,intern_student,868,gemini_primary,False
+135,628655b95b209e282632,arbeitnow,Senior Account Manager (all genders),finance / accounting / audit,experienced,523,gemini_primary,True
+136,90e825be48fe0d488449,nyc_jobs,Chemical Engineering Intern,engineering / architecture (non-software),entry,1138,gemini_primary,False
+137,8fb372a7f51bdc82f220,arbeitnow,Founder's Associate to the CTO,unclassified,executive,548,gemini_primary,True
+138,a1aac521f271426f1c3d,nyc_jobs,"Executive Director of Human Resources, Bureau of Human Resources and Labor Relations",HR / people / admin,executive,963,gemini_primary,True
+139,1a22d8ee7bc120ef6e61,arbeitnow,AI Transformation Manager (f/m/d),software / data / IT,experienced,974,gemini_primary,False
+140,688bef4a2375ca5a95d2,nyc_jobs,EXECUTIVE AGENCY COUNSEL,legal / compliance,manager,401,gemini_primary,False
+141,f25af77c04bb7b98c3f6,arbeitnow,People & Talent (Intern),HR / people / admin,intern_student,324,gemini_primary,True
+142,b496efdb5d4ba53caff6,nyc_jobs,Prosecution College Aide,unclassified,intern_student,456,gemini_primary,True
+143,da3b2951a4e9f5857f38,arbeitnow,Ausbildung zum Fachinformatiker für Systemintegration (m/f/d),unclassified,entry,473,gemini_primary,True
+144,7e6970d3749387daf6ce,nyc_jobs,"Director, Records Management, Bureau of Vital Statistics",policy / research / planning,experienced,361,gemini_primary,False
+145,45ec14d7fc4b48a6858a,arbeitnow,Team Lead - Visual Localization,operations / management,manager,952,gemini_primary,True
+146,549e8d159a9b700b28af,nyc_jobs,"Early Intervention Official Designee, Bureau of Early Intervention",product / design / UX,experienced,775,gemini_primary,True
+147,8158c179ee705f36b7ca,arbeitnow,Product Designer (UI/UX),product / design / UX,unknown,567,gemini_primary,True
+148,07ef093d7aa6614f0a82,nyc_jobs,Human Resources College Aide,HR / people / admin,intern_student,137,gemini_primary,True
+149,729e9dd090b7b0ceb5d0,arbeitnow,Product Lead,product / design / UX,senior,546,gemini_primary,False
+150,464d3d3312512fd7f8d0,nyc_jobs,ASSISTANT RESIDENT BUILDING SUPT,HR / people / admin,entry,290,gemini_primary,True
+151,3613b2486df0c4c5d71a,arbeitnow,System Integration Senior Engineer (Functional Focus),engineering / architecture (non-software),senior,772,gemini_primary,True
+152,0c5ed8f5e5771a4834a4,nyc_jobs,DEPUTY PORTFOLIO MANAGER,operations / management,manager,1350,gemini_primary,False
+153,e49bb5f2efffd27d8e48,arbeitnow,Mobile Application Developer,software / data / IT,unknown,587,gemini_primary,False
+154,296722fa578e1f2ddf06,nyc_jobs,"Director of Enrollment and Recertification, Assigned Counsel Plan",legal / compliance,experienced,475,gemini_primary,False
+155,5e42785a94b37dc7b953,arbeitnow,Head of Product Management,product / design / UX,experienced,647,gemini_primary,False
+156,47c10352e85400d9c8bc,nyc_jobs,Environmental Engineering Intern,engineering / architecture (non-software),entry,479,gemini_primary,False
+157,a9268008dd18f84aff54,arbeitnow,Associate Data Scientist (f/m/d),software / data / IT,entry,602,gemini_primary,True
+158,1742269a66920b58cfba,nyc_jobs,Deputy Assistant Director Sandy Grant Management,HR / people / admin,manager,652,gemini_primary,True
+159,6e3de014a1b624cd6687,arbeitnow,Senior Talent Partner (German Speaking) (f/m/d),HR / people / admin,senior,1218,gemini_primary,False
+160,ab2db63d3df2cbb9d730,nyc_jobs,"Graduate Intern, Youth Financial Empowerment",finance / accounting / audit,intern_student,935,gemini_primary,True
+161,514d14a0cdbffddf9491,arbeitnow,(Sr.) Key Account Manager Retail - French Market,finance / accounting / audit,manager,786,gemini_primary,True
+162,35be12081f27a258f3d1,nyc_jobs,"Analyst, Service Desk Operations",policy / research / planning,entry,800,gemini_primary,False
+163,57a385a66c40fcfb68f4,arbeitnow,UVC Partners: Data & AI - Master Thesis / Internship (f/m/x),software / data / IT,intern_student,1013,gemini_primary,False
+164,a5cc492b8fcc77fb1848,nyc_jobs,Executive Director of Environmental Health Legal,legal / compliance,executive,955,gemini_primary,True
+165,14d07b37d97f6b76cebb,arbeitnow,Office Assistant (Part Time) - UK,HR / people / admin,entry,915,gemini_primary,True
+166,2d0505b289decc4f61c3,nyc_jobs,"Assistant Commissioner, Program Performance & Accountability",finance / accounting / audit,manager,327,gemini_primary,False
+167,0b2d4a40fa501be8086c,arbeitnow,Customer Success Application Engineer (EMEA),engineering / architecture (non-software),unknown,864,gemini_primary,True
+168,967ad227a01f45fc2538,nyc_jobs,Classification & Compensation College Aide Assistant,HR / people / admin,intern_student,516,gemini_primary,False
+169,f44ca0bffbc18da03adc,arbeitnow,"VP Engineering, Ongoing Monitoring",engineering / architecture (non-software),executive,1421,gemini_primary,False
+170,55f5a8caeb1de0a5ef8c,nyc_jobs,Community Affairs Organizer,unclassified,experienced,239,gemini_primary,True
+171,2e6315fe1901a6dd163d,arbeitnow,"Senior Manager, Marketing Procurement (All Genders)",finance / accounting / audit,manager,550,gemini_primary,False
+172,563e6c42e3b5851e81d8,nyc_jobs,"Child Care Inspection Supervisor, Bureau of Childcare",operations / management,experienced,788,gemini_primary,True
+173,4104f785e0ac83dab8a3,arbeitnow,Working Student - Operations (f/m/d),operations / management,intern_student,633,gemini_primary,True
+174,68daba4b975c991f0b36,nyc_jobs,Budget Intern,finance / accounting / audit,intern_student,319,gemini_primary,True
+175,be1b0255a559ee527bc9,arbeitnow,Founders Associate - CEO Office (m/f/d) - AI health-tech,software / data / IT,executive,713,gemini_primary,True
+176,4b127ebf28a2949ad491,nyc_jobs,Machinist,unclassified,entry,294,gemini_primary,False
+177,5521dd20a2ca75fde971,arbeitnow,Technical Product Owner – C++ SDK & ImFusion Suite,product / design / UX,experienced,556,gemini_primary,False
+178,86b1acd76fbf904cec34,nyc_jobs,"Director of Food Safety Data Analytics, Bureau of Environmental Surveillance and Policy",software / data / IT,manager,1275,gemini_primary,False
+179,33200415cf39fa4aa41c,arbeitnow,CEO / Business Co-Founder (f/m/d) role at startup CHROMAMOS,unclassified,executive,398,gemini_primary,False
+180,1df980408a2da22c4082,nyc_jobs,Senior Rackets Investigator,unclassified,experienced,519,gemini_primary,True
+181,ebc68fc3658999fdf951,arbeitnow,Director Venture Scaling - iF Momentum (all genders),operations / management,experienced,887,gemini_primary,False
+182,56c9cb0250807bd7024b,nyc_jobs,Special Officer,HR / people / admin,entry,544,gemini_primary,True
+183,9adaeee050c4ec5d83dd,arbeitnow,Working Student Recruiting (m/f/d),HR / people / admin,intern_student,355,gemini_primary,True
+184,312feb5ea8d48c516d6b,nyc_jobs,Director of City Government Affairs,operations / management,manager,494,gemini_primary,False
+185,1afa582db8bf7e35cdeb,arbeitnow,Machine Learning Consultant (m/w/d),software / data / IT,entry,491,gemini_primary,False
+186,ad0df4806a6f45446df4,nyc_jobs,Community Education Intern,intern / student,intern_student,963,gemini_primary,False
+187,3b6214df01e1277e6efd,arbeitnow,"Engineering Manager, Rapid Response Assignment (UK)",engineering / architecture (non-software),manager,895,gemini_primary,True
+188,10c829e5b8226b55a98f,nyc_jobs,Hearing Representative – Division of Adjudications,unclassified,entry,1314,gemini_primary,True
+189,8ccc96e16747b7cddc01,arbeitnow,ML Research Engineer,engineering / architecture (non-software),unknown,290,gemini_primary,False
+190,866bbe954e42aced8045,nyc_jobs,Chief of Staff,operations / management,executive,714,gemini_primary,False
+191,dc114766ce8996710492,arbeitnow,Senior Android Engineer - Kotlin (m/f/d) - French Market,engineering / architecture (non-software),senior,417,gemini_primary,False
+192,013cb5431128103bc44c,nyc_jobs,Deputy Borough Director,operations / management,manager,380,gemini_primary,True
+193,5e3441edc7e25b376050,arbeitnow,Enterprise AI adoption lead (UK),software / data / IT,senior,723,gemini_primary,True
+194,01e6c1d93f9f95ae038a,nyc_jobs,Senior Customer Service Representative,sales / marketing / customer,experienced,399,gemini_primary,False
+195,6550a3f44b6c3ae6272f,arbeitnow,Founding Product Engineer,product / design / UX,unknown,700,gemini_primary,False
+196,097687274962463b41a1,nyc_jobs,"Vector-borne Disease Epidemiologist, Bureau of Communicable Diseases",health / social services,experienced,988,gemini_primary,True
+197,5eb7ccf7a4a1b7542848,arbeitnow,Team Lead AI Process Automation (m/f/d),software / data / IT,experienced,759,gemini_primary,False
+198,8c23e74736cc2781370b,nyc_jobs,Bronx Community Board 6 College Aide,unclassified,intern_student,120,gemini_primary,False
+199,dc4ffbc270be451c9891,arbeitnow,Founders Associate - Engagement Innovation (all genders),unclassified,entry,683,gemini_primary,True
+200,a95be8d6a74b44a6dd2e,nyc_jobs,Citywide Constituent Affairs Lead,operations / management,entry,360,gemini_primary,False

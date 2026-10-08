@@ -1,0 +1,842 @@
+﻿posting_id,source,job_title,task_index,responsibilities_text,full_posting_text,gold_task_statement,evidence_span,annotator,adjudication_status,notes
+80fd4a82c581d7be2fd6,nyc_jobs,Appraiser Intern,1,"• Research of information pertinent to overall market conditions for all property types; • Research and validation of information pertaining to specific subject and comparable properties; • Maintaining records of factual and statistical information; • Assist in the collation of the appraisal workfile; • Preparation of appraisal reports; • Maintenance and audits of electronic files; • Conferring with architects, surveyors, real estate appraisers, real estate brokers, property owners, managers, mortgage analysts, banks, engineers, builders, attorneys, local preservation units, government agencies and other relevant parties. May interview commercial property tenants and landlords. In addition to the Property Valuations unit responsibilities, the College Aide may be directed on a limited but on-demand basis to support other Financial Services units by performing tasks such as, but not limited to, the following items: • Assist the Revenue & Financial Analysis unit in abstracting lease data; • Assist the Lease Audit unit in validation of audit sample data • Assist the Lease Administration unit prepare annual budget schedules To Apply: Please go to www.nyc.gov/jobs, or www.nyc.gov/ess for current NYC employees, and search for Job ID # 798182. No phone calls, faxes or personal inquiries permitted. Only those candidates under consideration will be contacted.","Appraiser Intern
+
+DCAS's mission is to make city government work for all New Yorkers. From managing New York City's most iconic courthouses and municipal buildings, to purchasing over $1 billion annually in goods and services for more than 80 City agencies. What we do ensures that all agencies can deliver on their mission. Our reach touches every facet of City government and is instrumental to the successful day-to-day operations of the City of New York. Our commitment to equity, effectiveness, and sustainability guides our work providing City agencies with the critical resources and support needed to succeed, including: • Recruiting, hiring, and training City employees. • Managing 56 public buildings. • Acquiring, selling, and leasing City property. • Purchasing over $1 billion in goods and services for City agencies. • Overseeing the greenest municipal vehicle fleet in the country. • Leading the City's efforts to reduce carbon emissions from government operations. When you work at DCAS, you're not just working for one agency, but in service to all of them. It's an opportunity to provide meaningful support, quality customer service, and help protect the future of New York City for generations to come. Visit our website at NYC.GOV/DCAS to learn more about the work we do. DCAS Real Estate Services is the real estate arm of the City of New York. They are responsible for the acquisition, disposition and reallocation of the City's real property. DCAS oversees the City's commercial rental and surplus real estate portfolio, and in addition, negotiates and administers City leases of private property for City agency use. This includes overseeing the design and build-out of leased office space, as well as the strategic management of the City's office portfolio, which includes both leased and owned offices. Under general supervision, the College Aide will: • conduct research activities, special studies, writing assignments of more than ordinary difficulty, and performance of related work. • Research activities will involve the collection of data, both current and historic, related to real estate markets in general and property specific. • Information will be obtained through the examination of records and publications and/or personal interviews. Job responsibilities include, but are not limited to: • Research of information pertinent to overall market conditions for all property types; • Research and validation of information pertaining to specific subject and comparable properties; • Maintaining records of factual and statistical information; • Assist in the collation of the appraisal workfile; • Preparation of appraisal reports; • Maintenance and audits of electronic files; • Conferring with architects, surveyors, real estate appraisers, real estate brokers, property owners, managers, mortgage analysts, banks, engineers, builders, attorneys, local preservation units, government agencies and other relevant parties. May interview commercial property tenants and landlords. In addition to the Property Valuations unit responsibilities, the College Aide may be directed on a limited but on-demand basis to support other Financial Services units by performing tasks such as, but not limited to, the following items: • Assist the Revenue & Financial Analysis unit in abstracting lease data; • Assist the Lease Audit unit in validation of audit sample data • Assist the Lease Administration unit prepare annual budget schedules To Apply: Please go to www.nyc.gov/jobs, or www.nyc.gov/ess for current NYC employees, and search for Job ID # 798182. No phone calls, faxes or personal inquiries permitted. Only those candidates under consideration will be contacted.
+
+For Assignment Level I: Matriculation at an accredited college or graduate school. Employment is conditioned upon continuance as a student in a college or graduate school. For Assignment Level II (Information Technology): Matriculation at an accredited college or graduate school. Employment is conditioned upon continuance as a student in a college or graduate school with a specific course of study in information technology, computer science, management information systems, data processing, or closely related field, including or supplemented by 9 semester credits in an acceptable course of study. For Assignment Level III (Information Technology Fellow): Matriculation at an accredited college or graduate school. Employment is conditioned upon continuance as a student in a college or graduate school with a specific course of study in information technology, computer science, management information systems, data processing, or other area relevant to the information technology project(s) assigned, including or supplemented by 9 semester credits in an acceptable course of study. Appointments to this Assignment Level will be made by the Technology Steering Committee through the Department of Information Technology and Telecommunications. SPECIAL NOTE Maximum tenure for all Assignment Levels in the title of College Aide is 6 years. No student shall be employed more than half-time in any week in which classes in which the student is enrolled are in session. Students may be employed full-time during their vacation periods.",,,,not_started,
+506dc4579e5e38a043d9,arbeitnow,Fullstack Platform Engineer,1,"Build backend services and APIs for campaigns, creator matching, marketplace operations, and payments.
+
+Design clear domain models, database schemas, and service boundaries.
+
+Build reliable background jobs that handle concurrency, retries, and failures correctly.
+
+Contribute to our Web, Android, and iOS frontend when features require end-to-end ownership.
+
+Improve deployments, CI/CD, monitoring, alerting, backups, and recovery.
+
+Debug issues across application code, databases, infrastructure, and third-party APIs.
+
+Make pragmatic architectural decisions while continuing to ship quickly.
+
+Use AI coding agents as a core part of your daily development workflow.","Fullstack Platform Engineer
+
+WePush is a creator marketplace connecting brands with creators at scale. We’re looking for an experienced Fullstack Platform Engineer who enjoys architecture, infrastructure, and running real systems in production end-to-end.
+
+This is a hands-on startup role, not a narrow DevOps position. You’ll build backend features, improve our infrastructure, and own what you ship from design to production.
+
+Tasks
+
+What you’ll do
+
+Build backend services and APIs for campaigns, creator matching, marketplace operations, and payments.
+
+Design clear domain models, database schemas, and service boundaries.
+
+Build reliable background jobs that handle concurrency, retries, and failures correctly.
+
+Contribute to our Web, Android, and iOS frontend when features require end-to-end ownership.
+
+Improve deployments, CI/CD, monitoring, alerting, backups, and recovery.
+
+Debug issues across application code, databases, infrastructure, and third-party APIs.
+
+Make pragmatic architectural decisions while continuing to ship quickly.
+
+Use AI coding agents as a core part of your daily development workflow.
+
+Requirements
+
+What we’re looking for:
+
+Strong backend engineering experience in production environments.
+
+Excellent knowledge of SQL, relational databases, transactions, locking, and data modelling.
+
+Experience with Docker, Linux, cloud infrastructure, and CI/CD.
+
+A good understanding of queues, scheduled jobs, APIs, networking, security, and observability.
+
+Confidence reasoning about concurrency, idempotency, partial failures, and recovery.
+
+Strong debugging skills across the full system.
+
+Startup experience or a strong bias toward ownership and execution.
+
+Good product judgment and an instinct for avoiding unnecessary complexity.
+
+Experience using AI coding agents to plan, implement, test, review, and document software.
+
+The ability to critically review, iterate on, and improve AI-generated code until it is high-quality and production-ready.
+
+Our stack includes TypeScript, Node.js, React, PostgreSQL, MariaDB, Docker, Linux, and Hack. Experience with every technology is not required, we care more about strong fundamentals and the ability to learn.
+
+AI-native engineering:
+
+Using AI agents is a requirement for this role, not an optional productivity tool.
+
+We expect you to use them throughout the development process: exploring unfamiliar code, planning changes, implementing features, writing tests, investigating failures, reviewing work, and maintaining documentation.
+
+This does not mean accepting generated code without understanding it. You remain responsible for architecture, security, correctness, and production outcomes. We are looking for someone who knows how to give agents useful context, break work into verifiable steps, review their output critically, and use them to increase both speed and quality.
+
+You’ll probably enjoy this role if:
+
+You have worked in an early stage startup/scale-up
+
+You like owning systems after they go live.
+
+You naturally ask what happens when a process crashes halfway through.
+
+You can move between backend code, SQL, infrastructure, and debugging.
+
+You prefer simple, dependable systems over fashionable architecture.
+
+You are excited about developing with AI agents and actively improving how you use them.
+
+Benefits
+
+This is a rare opportunity to build at the intersection of AI, creator technology, and consumer products.
+
+WePush is backed by experienced operators from companies including Spotify, Google and many more. We’re entering our next phase of growth with the ambition, speed, and ownership of a startup, but with a proven product and strong market traction.
+
+As an AI Product Engineer, you won’t be sitting on the sidelines. You’ll work closely with the founders and product team to turn new AI capabilities into products used by brands and creators at scale.
+
+What we offer:
+
+Competitive salary and meaningful equity package
+
+High ownership from day one with the freedom to ship, experiment, and influence product direction
+
+Direct access to founders and leadership with fast decisions and minimal bureaucracy
+
+A team of builders: Ambitious, pragmatic, and obsessed with moving fast
+
+An in-person culture in our Berlin office, with flexibility for home office days
+
+Public transport pass, gym membership, recurring team lunches, and other perks
+
+A front-row seat to building a category-defining technology company
+
+Regardless of who you are, where you come from, how you look, or what music is playing in your headphones, you are welcome.
+
+If you are a builder and move fast, this role is for you.
+
+Find more
+English Speaking Jobs in Germany
+on Arbeitnow",,,,not_started,
+a146bd4acd3f84c2cf13,arbeitnow,Junior Data Engineer & MarTech Specialist (Mobile Apps) (m/w/d),1,"Support the setup, maintenance, and monitoring of Mobile Measurement Partners (MMPs) such as Adjust and AppsFlyer, helping ensure accurate tracking and attribution functionality
+.
+
+Help maintain and structure clients' product feeds, campaign datasets, and automated data pipelines, ensuring high data quality and reliability
+.
+
+Assist in identifying and troubleshooting basic tracking, event collection, or data integration issues across mobile app campaigns
+.
+
+Support the connection of marketing tools, ad platforms (Meta, Google, TikTok), and data sources to improve campaign visibility and reporting workflows
+.
+
+Contribute to dashboard creation and visualization updates in tools such as Clarisights, Adverity, and Google Sheets to support data-driven decision-making
+.
+
+Collaborate with senior team members, consultants, and client developers to understand technical requirements and support implementation tasks
+.","Junior Data Engineer & MarTech Specialist (Mobile Apps) (m/w/d)
+
+About Us
+Customlytics is the leading app marketing agency & consultancy in the DACH region
+. Our international team of professionals from more than 10 nationalities helps apps succeed and drives the professionalization of the app industry by working with every relevant app business in the market
+.
+
+Can you imagine a world without apps? Neither can we
+!
+
+You don't need a background in marketing to thrive here, f you have a passion for data structures, technical integration, and problem-solving, we will onboard you on the rest
+! As a Junior Data Engineer & MarTech Specialist, you will work at the intersection of data infrastructure and marketing technology
+. You will support the setup, maintenance, and monitoring of clients' mobile app marketing and tracking systems, helping ensure data quality across data pipelines, Mobile Measurement Partners (MMPs like Adjust and AppsFlyer), and campaign analytics platforms
+.
+Your mission
+Support the setup, maintenance, and monitoring of Mobile Measurement Partners (MMPs) such as Adjust and AppsFlyer, helping ensure accurate tracking and attribution functionality
+.
+
+Help maintain and structure clients' product feeds, campaign datasets, and automated data pipelines, ensuring high data quality and reliability
+.
+
+Assist in identifying and troubleshooting basic tracking, event collection, or data integration issues across mobile app campaigns
+.
+
+Support the connection of marketing tools, ad platforms (Meta, Google, TikTok), and data sources to improve campaign visibility and reporting workflows
+.
+
+Contribute to dashboard creation and visualization updates in tools such as Clarisights, Adverity, and Google Sheets to support data-driven decision-making
+.
+
+Collaborate with senior team members, consultants, and client developers to understand technical requirements and support implementation tasks
+.
+Your profile
+Background:
+Background in data engineering, analytics engineering, or a related discipline, with an interest in marketing data, tracking systems, and campaign attribution.
+
+Product Feeds:
+Basic understanding of product feed structures; experience with tools like ProductsUp is a plus.
+
+Mobile Measurement Partners:
+Introductory knowledge of MMPs (Adjust, AppsFlyer); willingness to learn troubleshooting and tracking fundamentals.
+Advertising Platforms:
+Familiarity with platforms such as Meta, Google, Apple Search Ads, or TikTok (hands-on experience is a plus).
+Data & Reporting:
+experience working with Excel or Google Sheets; understanding of simple data handling and reporting.
+Automation & AI Tools:
+Interest in tools such as ChatGPT, Make.com, or Google Sheets automation; no advanced experience required.
+Analytical Mindset
+: Curious and detail-oriented, with a willingness to learn how data supports marketing decisions.
+Communication & Collaboration:
+Able to communicate clearly, ask questions, and work effectively within a team.
+Working Style:
+Structured, proactive, and eager to develop technical and analytical skills.
+Languages
+: Fluent in English (spoken and written); German is a plus but not required.
+Your Extra
+Your Growth & Development:
+Access to certifications, 360° feedback, and salary progression. Real opportunities to grow together with your team and the company.
+Remote Work:
+Work remotely for up to 90 days per year; anywhere in Germany or internationally.
+Office Vibes in Friedrichshain:
+Snacks, drinks, height-adjustable desks, and focus rooms for deep, concentrated work.
+Germany Ticket:
+We cover most of your public transport costs: good for the planet and your wallet.
+Top-Notch Equipment:
+MacBook, noise-cancelling headphones, and all the tools you need to succeed.
+Core Working Hours:
+Making collaboration easy and your schedule steady.
+Corporate Benefits:
+Exclusive deals with popular online brands.
+Support for Parents:
+Extra support for parents with preschool-aged children.
+Team Culture & Events:
+From monthly activities to our big annual meetup in Berlin, we create space to celebrate, connect, and grow as a team.
+German Language Courses
+: We support you with professional online German classes.
+Referral Bonus:
+Whether new teammates or new clients, your recommendations pay off.
+We're committed to diversity and equal opportunity for all, welcoming individuals of any gender, age, origin, religion, disability, or sexual orientation. If you're creative, problem-solving, and passionate about app marketing, we'd love to hear from you. Join us and be yourself in an atmosphere where diversity is celebrated and embraced.
+Find more
+English Speaking Jobs in Germany
+on Arbeitnow",,,,not_started,
+835d55784f762bec770d,nyc_jobs,"Deputy Director, SLA",1,(no responsibilities heading detected by rules - read full_posting_text),"Deputy Director, SLA
+
+The Agency You’ll Join: The New York City Mayor’s Office is responsible for overseeing city services throughout the five boroughs, coordinating public agencies and departments, and managing public property. The administration is leading the fight in making the city more affordable, reducing inequality, improving public safety, ensuring delivery of efficient and effective services, and working to make New York City’s economy stronger. We value leadership, transparency, fairness, and efficiency as we actively seek diverse talents from various sectors to join our team. For current job opportunities, visit our careers page. The Team You’ll Work With: **NOTE: THIS ROLE IS LOCATED IN ALBANY, NY.** The Mayor's Office of State Legislative Affairs serves as the principal liaison between Mayor Zohran Mamdani’s Administration and the New York State Legislature. State Legislative Affairs works toward the goal of fostering productive relationships between the executive and legislative branches and assists the Mayor's administration in developing and advancing the Administration’s agenda through State law and the State budget. The Problems You’ll Solve: The Deputy Director will be assigned a portfolio and will be responsible for all related legislative and budget activity, hearings, and member requests. The Deputy Director also acts as a liaison between the Mayor’s Office and State elected officials and agencies. The Deputy Director also facilitates and approves meetings between the Mayor’s Office and State officials. In addition to managing a portfolio, the Deputy Director will perform the following additional duties: • Assists in the preparation of the Mayor's State Legislative Program. • Assists City agencies with State legislation. • Coordinate the Legislative Coordinating Committee process and the resulting recommendations. • Handle Special Projects as identified by the Director. • Coordinate policy briefings, delegation meetings, or special events. • Represent the Director at meetings with administration officials, legislative staff, boards, etc. About You: • You can demonstrate an understanding of and experience with any combination of the following: the State legislative process, public policy analysis, New York City or State agency operations, and lobbying. • You have excellent written, oral, and interpersonal skills, along with a strong work ethic and the ability to work independently are imperative. • You pay outstanding attention to detail and have a strong ability to prioritize and manage a wide array of projects to completion, often under tight deadlines. • You have strong interpersonal, collaborative, and organizational skills. Minimum Required Qualifications: • Bachelor’s Degree required. Graduate degree (MPA/MS) preferred. • 4+ years of experience. Additional Information: • In addition to the resume, a cover letter is required to apply.
+
+1. Do you have a baccalaureate degree from an accredited college or university? 2. Do you have an associate degree from an accredited college or university along with two (2) years of experience with administrative, analytic, coordinative, supervisory or liaison responsibilities? 3. Do you have a four-year high school diploma, or its educational equivalent approved by a state's Department of Education or a recognized accrediting organization along with four (4) years of experience as described in question ""2"" above? 4. Do you have a satisfactory combination of education and/or experience equivalent to that described in questions ""1,"" ""2,"" and/or ""3"" above?",,,,not_started,
+6abe29c3ccb7241a403c,arbeitnow,Product Growth Manager,1,(no responsibilities heading detected by rules - read full_posting_text),"Product Growth Manager
+
+We're looking for an ambitious PM ready to build Nelly's Growth function from scratch - owning the full journey from sign-up to habit across our software, AI, and fintech surfaces, with direct impact on NRR. If you want real ownership and zero hand-holding, this is it.
+
+About Nelly
+We are building the AI-Driven Financial Operating System for European healthcare, solving the biggest challenges for patients and practices. We create what no bank or software platform can handle. Our all-in-one platform transforms chaotic administrative processes into intelligent, automated workflows, from patient care to billing to next-generation payments. Because we truly believe: healthcare should be less about paperwork and more about people.
+Why?
+Because Europe is facing a massive shortage of medical professionals. And if we don't rethink the way practices work, the system won't be able to keep up. With our Series B funding of over €50 million from world-class investors, we are turning our vision into reality.
+What sets us apart:
+We work with the best team, which is why we give everything together every day. We believe in Talent Density, because exceptional people make everyone around them better. At Nelly, we move fast and expect everyone to keep up. Stagnation isn’t an option, which is why we invest heavily in growth. AI isn't a nice-to-have at Nelly. We expect you to use it every day and give you everything you need to do so. You get trust and ownership and we expect you to speak up, even when it's uncomfortable.
+Joining us, you will:
+Translate Nelly's company vision into specific, prioritized bets across acquisition, activation, and monetisation, informed by data, experimentation, and customer behavior
+Own the end-to-end user journey: from partial sign-up through setup, first value, and habit formation - across Nelly's software, AI, and fintech products, and continuously sharpen each stage
+Build platform-level growth capabilities that compound across surfaces , not features that live in one place
+Design and run a rigorous experimentation and measurement program. Form hypotheses, define metrics, ship A/B tests at high velocity, learn fast, and ship what moves the numbers
+Collaborate deeply with Design, Engineering, Marketing, and Product Leadership on both strategy and execution
+Inform pricing, packaging, and self-serve strategy in partnership with GTM and finance leadership - including how we package across software, AI, and fintech to drive expansion (vertical & geo)
+What you'll bring:
+Note: If you don't meet all the criteria, we still encourage you to apply and make the case for why you'd be a great fit. If you're exceptional talent, we're happy to adapt.
+Shipped exceptional B2B/prosumer growth products in high-velocity environments - you care deeply about user outcomes and winning with the product
+3+ years in product management with hands-on PLG (and ideally PLS) experience: you've built and owned elaborated growth motions on complex B2B workflow products
+High agency and high learning velocity: you run a high volume of hypothesis-driven bets, move fast in ambiguity, say ""no"" when needed, and are comfortable building from zero
+Strong analytical skills and data mindset around A/B testing, optimization, and defining growth metrics
+Strong data mindset: you create data acquisition and evaluation strategies, track product and agent metrics (utilization rates, precision & recall), understand online vs. offline eval trade-offs, and use insights to drive better customer outcomes
+Passion for AI technology and its potential to reshape product-led growth
+Excellent cross-functional collaboration across Engineering, Design, Marketing, Sales, and Customer Success
+Even better if you have:
+German or Italian proficiency - you can discuss real work with dentists, ZFAs/ZMVs, and billing partners
+Experience growing products for SMB customers in less-digital European verticals (healthcare, construction, legal, architecture, or similar) where adoption is hard-won and not a given
+Experience with self-serve, freemium, or PQL-driven growth motions
+Experience with high-growth SaaS products using usage or outcome-based pricing, where you owned strategies to drive net revenue retention (NRR) growth
+What we offer:
+Deutschlandticket (public transport pass covering all of Germany) or a Swapfiets membership to cruise through the city
+Urban Sports membership to sweat, stretch, or sauna your way through the week
+Top of the line working equipment
+Flexible hours and a hybrid setup in the heart of Berlin
+Enjoy up to 4 weeks of workation wherever inspiration hits
+A cozy, dog-friendly office where good vibes are basically mandatory
+A fridge full of cold drinks and snacks waiting to be claimed
+We welcome applications from people of all genders and backgrounds, regardless of origin or age. If you're convinced you're the right fit for this role - even if your CV doesn't match the requirements 100% - tell us why.
+Find more
+English Speaking Jobs in Germany
+on Arbeitnow",,,,not_started,
+c06ce1a21ee6fe762ca6,nyc_jobs,OUTREACH SPECIALIST,1,(no responsibilities heading detected by rules - read full_posting_text),"OUTREACH SPECIALIST
+
+The Department of Social Services (DSS) is comprised of the administrative units of the New York City Human Resources Administration (HRA) and the Department of Homeless Services (DHS). HRA is dedicated to fighting poverty and income inequality by providing New Yorkers in need with essential benefits such as Food Assistance and Emergency Rental Assistance. DHS is committed to preventing and addressing homelessness in New York City by employing a variety of innovative strategies to help families and individuals successfully exit shelter and return to self-sufficiency as quickly as possible. The NYC Public Engagement Unit (PEU) identifies and executes proactive strategies to connect New Yorkers to key City services. Relying heavily on data analytics, new technologies, and large-scale outreach tactics, the unit identifies New Yorkers in need of assistance and helps them navigate and obtain City services. The Public Engagement Unit consists of teams of specialists who are trained to effectively engage New Yorkers and connect them with vital resources. The Unit uses data to identify demographics that likely want or need city services; and works with partner agencies, elected officials, community groups, non-profit organizations, and service providers to engage directly with communities and subject matter experts in all five boroughs. The unit is frequently involved in citywide events, special projects in conjunction with multiple city agencies, and targeted days of action. PEU is seeking Outreach Specialists with experience with community-based outreach and/or case management. Successful candidates should have at least one year of community, issue, labor or political organizing experience, and excellent communications and outreach skills. The candidate should have demonstrated the ability to closely track metrics and outcomes and be detail-oriented and organized. Familiarity with New York City government, housing issues, and a commitment to helping others is preferred. The NYC Public Engagement Unit (PEU) is recruiting two (2) Community Associates to function as TSU Outreach Specialist who will: •Engage New Yorkers through various outreach tactics including door-to-door canvassing, phone calls, and peer-to-peer texting, to assess their needs and inform them of relevant City services and resources. •Provide ongoing case management to help New Yorkers access benefits, with a primary focus on housing benefits and services. •Conduct outreach Days of Action and other community events. •Respond to incoming calls from the Tenant Helpline. •Maintain ongoing reporting and communication with their assigned supervisor. •Liaise with community stakeholders, including community-based organizations and agency partners. •Support partners with outreach efforts to provide additional resources and information to New Yorkers citywide. •Assist with special projects, as needed. A successful candidate will know how to run an effective meeting, read the room, and build strong relationships with diverse groups of stakeholders. They will be able to synthesize input from staff with hard data to create viable outreach strategies. Hours/Shift: Monday – Friday 9am – 5pm or Tuesday - Saturday 10:30am – 6:30pm
+
+Qualification Requirements 1. High school graduation or equivalent and three years of experience in community work or community centered activities in an area related to duties described above; or 2. Education and/or experience which is equivalent to ""1"" above.
+
+•1 year of experience with community, issues, labor, or political organizing. •Excellent interpersonal skills and a proven ability to engage people in conversation. •Strong written and oral communication skills in English; Spanish is a plus. •Ability to prioritize and effectively manage multiple tasks in a fast-paced work environment. •Willingness to learn, be flexible and adapt to work assignments in a variety of situations and problem solve.",,,,not_started,
+74a1bfae7e7e258d28b5,arbeitnow,GTM Internship,1,"We’re looking for a GTM Intern to support our sales and revenue teams as we scale Peec AI’s global customer base. In this role, you’ll work closely with the sales team on deal execution, sales content, and CRM operations while helping improve the systems and automations that power our revenue engine. You’ll gain hands-on exposure to modern B2B SaaS sales, from outreach and pipeline management to revenue operations and automation, making this an ideal role for someone eager to learn quickly and contribute to a fast-growing startup’s go-to-market efforts.
+
+Support the sales team in closing deals and managing key client relationships
+Develop sales content - from outreach sequences to pitch decks and case studies
+Design and implement automations across our sales stack to improve efficiency and tracking
+Contribute to revenue operations by analyzing metrics, improving CRM hygiene, and streamlining data flows
+Jump into new challenges, learn fast, and help make things happen","GTM Internship
+
+About Peec AI
+Peec AI is the analytics platform for AI search. People increasingly discover products and make buying decisions through ChatGPT, Claude, Gemini, and Google's AI Overviews instead of traditional search, and most brands have no idea where they show up in those answers. Peec gives marketing, SEO, and growth teams the data to see exactly that: how visible their brand is across AI platforms, how they compare to competitors, and where to win.
+We are defining this category, and the market is moving with us. Peec is a Series A company backed by 20VC and Singular, past $15M ARR, with a 80+ person team across our Berlin HQ and our new New York office.
+About the role
+We’re looking for a GTM Intern to support our sales and revenue teams as we scale Peec AI’s global customer base. In this role, you’ll work closely with the sales team on deal execution, sales content, and CRM operations while helping improve the systems and automations that power our revenue engine. You’ll gain hands-on exposure to modern B2B SaaS sales, from outreach and pipeline management to revenue operations and automation, making this an ideal role for someone eager to learn quickly and contribute to a fast-growing startup’s go-to-market efforts.
+What you’ll do
+Support the sales team in closing deals and managing key client relationships
+Develop sales content - from outreach sequences to pitch decks and case studies
+Design and implement automations across our sales stack to improve efficiency and tracking
+Contribute to revenue operations by analyzing metrics, improving CRM hygiene, and streamlining data flows
+Jump into new challenges, learn fast, and help make things happen
+What we’re looking for
+Currently studying, on a gap semester, or recently graduated, and available immediately full-time for 3-6 months
+Strong interest in B2B SaaS, startups, and revenue growth
+Exceptional communication skills, written and verbal - you’re comfortable reaching out to people and building relationships
+Analytical mindset and structured approach to problem-solving
+Solid grasp of technology and excitement to work hands-on with cutting-edge AI and automation tools
+Self-starter with a bias for action, eager to learn, and comfortable with ambiguity
+Low-ego team player who’s easy to work with and doesn’t shy away from rolling up their sleeves for operational tasks
+Available immediately
+Bonus Points
+Experience with tools like HubSpot, Clay, Lemlist, Apollo, Notion, or n8n
+Exposure to sales operations, CRM management, or data-driven growth
+Have built your own startup or cool projects you’re proud of
+What we offer
+A rolling internship program with flexible start dates (minimum 3-month duration)
+A high-impact internship working directly with the founders at one of Europe’s fastest-growing Series A startups
+Real ownership and visibility across the sales and revenue organization
+Regular team events and off-sites
+Paid Meal & Uber rides when working late
+The most beautiful office space and work environment in Berlin
+Compensation: €3K per month
+• €3K per month
+Find
+Jobs in Germany
+on Arbeitnow",,,,not_started,
+96e7892a422bcab5f86d,arbeitnow,Purview Expert (m/w/d),1,"As a
+Purview Expert
+(m/w/d) located in Germany, you will specialize in managing and leveraging Purview for data security and compliance.
+
+Your role will be pivotal in ensuring the effective organization, protection, and management of organizational data assets for our customers. You will work closely with stakeholders to implement solutions that meet regulatory and security requirements while optimizing data accessibility and utility.
+
+Typical tasks include, but are not limited to:
+
+Classification & Labelling:
+Assess, design & implement information protection schemes for Clients, including sensitivity labels & encryption, sensitive information types and auto-labelling capabilities within Purview.
+
+Data Loss Prevention
+: Design and implement Data Loss Prevention across the M365 stack and users’ endpoints in an effective manner that minimizes impact on users, while following the customers’ internal policies.
+
+Data Retention
+: Design and implement data retention solutions, based on the customers’ legal, regulatory and contractual requirements.
+
+Stakeholder Collaboration:
+Engage with cross-functional teams (both within NVISO and in customers) to understand data requirements and design strategies that leverage Purview to enhance data management and compliance.
+
+Regulatory Compliance:
+Monitor and ensure adherence to data privacy and protection regulations by utilizing Purview’s compliance capabilities to mitigate risks.
+
+Solution Design and Development:
+Develop and implement best practices for data protection & governance within Purview. Engage in Business development and pre-sales activities.
+
+Training and Support:
+Provide training and technical support to colleagues on Purview capabilities, fostering knowledge and competency in data governance practices.","Purview Expert (m/w/d)
+
+It all starts with the mission: NVISO is here to protect European society from potentially devastating cyber attacks! This means we offer cyber security services to private and governmental organizations to help them better prepare for, prevent, detect and respond to cyber security incidents.
+
+All of this is built on four fundamental values that define who we are: We are Proud, We Break Barriers, We Care and No BS!
+
+Tasks
+
+As a
+Purview Expert
+(m/w/d) located in Germany, you will specialize in managing and leveraging Purview for data security and compliance.
+
+Your role will be pivotal in ensuring the effective organization, protection, and management of organizational data assets for our customers. You will work closely with stakeholders to implement solutions that meet regulatory and security requirements while optimizing data accessibility and utility.
+
+Typical tasks include, but are not limited to:
+
+Classification & Labelling:
+Assess, design & implement information protection schemes for Clients, including sensitivity labels & encryption, sensitive information types and auto-labelling capabilities within Purview.
+
+Data Loss Prevention
+: Design and implement Data Loss Prevention across the M365 stack and users’ endpoints in an effective manner that minimizes impact on users, while following the customers’ internal policies.
+
+Data Retention
+: Design and implement data retention solutions, based on the customers’ legal, regulatory and contractual requirements.
+
+Stakeholder Collaboration:
+Engage with cross-functional teams (both within NVISO and in customers) to understand data requirements and design strategies that leverage Purview to enhance data management and compliance.
+
+Regulatory Compliance:
+Monitor and ensure adherence to data privacy and protection regulations by utilizing Purview’s compliance capabilities to mitigate risks.
+
+Solution Design and Development:
+Develop and implement best practices for data protection & governance within Purview. Engage in Business development and pre-sales activities.
+
+Training and Support:
+Provide training and technical support to colleagues on Purview capabilities, fostering knowledge and competency in data governance practices.
+
+Requirements
+
+You hold citizenship in one of the 32 NATO member states or the Austrian citizenship
+;
+
+Excellent communication skills in English and German;
+
+Education:
+Bachelor’s degree in Information Technology, Computer Science, Data Science, or a related field; advanced degree preferred;
+
+Experience:
+Extensive experience (5+ years) working with Microsoft Cloud technologies, with specialized expertise (2+ years) in Microsoft Purview;
+
+Technical Skills:
+Proficiency in configuring and managing Microsoft Purview, and experience with its interactions with other Microsoft 365 technologies such as Defender for Cloud Apps, Defender for Endpoint, etc. (i.e. Defender XDR);
+
+Regulatory Knowledge:
+Solid understanding of data protection regulations such as GDPR, HIPAA, and CCPA, and experience ensuring compliance within Purview environments.
+
+Benefits
+
+At NVISO, we care. We are committed to offering you a highly competitive remuneration package including financial and non-financial components:
+
+Working and learning from the best people in the European cyber security industry. We have multiple SANS Instructors working at NVISO, our staff has presented at popular hacking conferences (BlackHat, BruCON, OWASP, etc) and all of our technical staff can acquire deep technical security certifications (GSE, GXPN, GREM, GCFA, OSCP, etc);
+
+Generous training budget of 10.000 EUR + 10 man days for attending lectures rolling over 2 years;
+
+Base salary range (depending on experience and skillset): 75.000 EUR p.a. – 120.000 EUR p.a.;
+
+Support for technical growth with Cloud trainings + certifications;
+
+Regular team-building and fun events;
+
+Our commitment to coach and counsel you and help you grow; each employee receives a personal coach within the team, whose role is to ensure your well-being and helps you grow in your career!
+
+Flexible working hours and home office possibilities (incl. working abroad weeks within the EU);
+
+Business Bike Leasing;
+
+BahnCard 50 1st class + public transfer ticket or EGYM WellPass;
+
+30 holidays;
+
+Company Pension Scheme;
+
+Cool offices in the center of Frankfurt, Munich and Vienna (with BBQ, kicker table, table tennis, playstations, etc.).
+
+IF YOU'RE INTERESTED, PLEASE SEND US YOUR APPLICATION!
+
+WE'RE LOOKING FORWARD TO MEETING YOU!
+
+Disclaimer on the Use of AI Tools in the Application Process
+
+Please be aware that the creation and submission of application documents (e.g. CV, cover letter, case studies, etc.) using AI-powered tools is only permitted to a
+limited extent
+.
+
+Our expectations:
+
+Application documents must authentically reflect your own qualifications, personality, and motivation.
+
+The use of AI for supportive purposes (e.g. spell-checking, improving wording) is acceptable.
+
+Fully generated application documents created by AI without personal adaptation or review are not permitted.
+
+Under no circumstances may
+NVISO information, data, or documents
+be uploaded to or processed by external AI tools.
+
+We reserve the right to exclude applications from the selection and interview process that are clearly created primarily or exclusively by AI and show no recognizable personal input.
+
+The purpose of this policy is to ensure a fair and transparent recruitment process and to obtain an authentic impression of our applicants.
+
+Find
+Jobs in Germany
+on Arbeitnow",,,,not_started,
+f32ccf878072947e70ec,arbeitnow,"Legal Analyst / Research Associate (m/f/d) – part-time, fixed-term",1,"The role is designed for law graduates who are pursuing a doctorate (Promotion) or preparing for the (Zweite) Juristische Prüfung and want hands-on in-house experience in a regulated investment firm alongside their academic work. You will work closely with our lawyers and take on increasing responsibility over time.
+
+Support our Legal Team on domestic and international projects, in particular by reviewing and preparing first drafts of cooperation agreements with clients and partners.
+Research legal questions raised by our Product, Project Management and Sales teams and prepare concise memos, with a focus on financial services regulation (e.g. WpIG, MiFID II, DORA).
+Conduct initial legal reviews and risk assessments of vendor agreements and summarise the key points for the responsible lawyer.
+Help develop and maintain our standard contracts, templates, playbooks and other key legal documents essential to operations.
+Maintain and structure our contract inventory (contract management database) to ensure completeness, compliance and clear ownership.
+Collaborate closely with the Legal Team to automate, operationalise and improve internal processes, including with AI-based legal tech tools.
+Monitor regulatory developments relevant to Upvest (e.g. Bafin, ESMA, EU legislation) and prepare short briefings for the team.","Legal Analyst / Research Associate (m/f/d) – part-time, fixed-term
+
+At Upvest, we are on a
+mission to make investing as easy as spending money
+. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business.
+We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class investors, including BlackRock, Tencent, Sapphire Ventures, and Bessemer Venture Partners, Earlybird, Notion Capital, and Motive. Our latest €105M funding round in March 2026 - led by Sapphire and Tencent - serves as a massive catalyst for our growth, allowing us to offer premier investment experience.
+About the role:
+The role is designed for law graduates who are pursuing a doctorate (Promotion) or preparing for the (Zweite) Juristische Prüfung and want hands-on in-house experience in a regulated investment firm alongside their academic work. You will work closely with our lawyers and take on increasing responsibility over time.
+What you’ll do:
+Support our Legal Team on domestic and international projects, in particular by reviewing and preparing first drafts of cooperation agreements with clients and partners.
+Research legal questions raised by our Product, Project Management and Sales teams and prepare concise memos, with a focus on financial services regulation (e.g. WpIG, MiFID II, DORA).
+Conduct initial legal reviews and risk assessments of vendor agreements and summarise the key points for the responsible lawyer.
+Help develop and maintain our standard contracts, templates, playbooks and other key legal documents essential to operations.
+Maintain and structure our contract inventory (contract management database) to ensure completeness, compliance and clear ownership.
+Collaborate closely with the Legal Team to automate, operationalise and improve internal processes, including with AI-based legal tech tools.
+Monitor regulatory developments relevant to Upvest (e.g. Bafin, ESMA, EU legislation) and prepare short briefings for the team.
+What you bring:
+A completed first German law degree (Erste Juristische Prüfung, LL.B. or LL.M). You are pursuing or planning a doctorate (Promotion) or are currently a Rechtsreferendar:in.
+First practical experience (internships, Referendariat stations, student assistant or research assistant roles), ideally in an international and fast-paced environment, is a plus but not required.
+A keen interest in financial services, capital markets or regulatory law – ideally reflected in your studies, dissertation topic or first practical experience.
+Enthusiasm for an agile and proactive working culture.
+Very good communication skills with fluency in business English and German (the working language of our international team is English). Strong intercultural awareness and enthusiasm for working in a global environment.
+A team-oriented spirit, with a passion for cross-disciplinary collaboration.
+Confident use of Google Workspace, MS Office and AI tools, and curiosity about legal tech.
+How we Upvest in you:
+Best-in-class AI tools:
+Every Upvenger has €20,000 per year to spend on the best AI tools available — so you're always working with the most powerful models and tooling on the market.
+Impact-driven work:
+We’re building the infrastructure that will power the future of investing in Europe. It’s complex, ambitious, and meaningful. You’ll work with modern technologies and create something entirely new. No legacy systems, no limits.
+Wellbeing:
+Recharge with 30 days of annual leave and maintain a healthy lifestyle with sports benefits. Access confidential professional coaching and enjoy the flexibility to work remotely abroad for up to 183 days a year. Recharge with UpRest, a one-month fully paid sabbatical after every 4 years of working at Upvest.
+Development:
+Growth is in our DNA. Each Upvenger has access to a personal development budget and the freedom to decide how to use it.
+Flexible work environment:
+Work from any of our hubs in Berlin, London or Tallinn hybrid or remotely across Europe, depending on the role. We give you the choice and budget to work where you’re most comfortable and productive, either at home or in the office. You choose.
+Compensation and equity:
+We believe that all Upvengers contribute to our success and deserve a competitive, above-market salary and a participation in our employee equity program.
+Team celebrations:
+Participate in company-wide events, such as UpFest, dinners, offsites and our Holiday party, to connect with colleagues and celebrate our achievements.
+Inclusion
+: We’re committed to a culture where everyone belongs and thrives. Our Employee Resources Groups foster inclusion and connection, like Upfem for our female Upvengers, or UpVergent supporting neurodivergent Upvengers and allies.
+Our Values:
+Make it easy for others.
+We simplify the complex and act with the best intentions.
+Own the outcome.
+We are proactive, fast and confident to get the job done, valuing progress over perfection.
+Rise to the challenge.
+We aim high and push the boundaries. We stay curious, learn and celebrate our wins together.
+Tell the story.
+We start with the Why to align on purpose. We are transparent and share knowledge to empower and inspire others.
+Upvest is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+Find more
+English Speaking Jobs in Germany
+on Arbeitnow",,,,not_started,
+3ca1b50483595c10a701,nyc_jobs,SUSTAINABILITY ANALYST 1,1,(no responsibilities heading detected by rules - read full_posting_text),"SUSTAINABILITY ANALYST 1
+
+The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing 1.1 billion gallons of high-quality drinking water, managing wastewater and storm water, and reducing air, noise, and hazardous materials pollution. DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees. DEP's water supply system is comprised of 19 reservoirs and 3 controlled lakes throughout the system’s 2,000 square mile watershed that extends 125 miles north and west of the City. The Bureau of Engineering Design & Construction (BEDC) currently has a portfolio of capital projects valued at $35B, and another $13.6B projected over the next 10-year commitment plan. The projects BEDC implements allows DEP as a whole to continue to operate and maintain an exemplary water supply system. Our In-House Design (IHD) directorate provides design and engineering services to meet operations’ needs in a manner consistent with BEDC’s core values of safety, schedule, quality, and customer service. IHD supports projects from the capital project initiation process through preliminary design, design, procurement construction, and finally with the turnover to operations. IHD’s Design Services division includes Architectural, Site Civil, Structural, Process Mechanical/HVAC, Water Tunnel Mechanical Systems, and Electrical discipline sections. Each design section prepares design and construction documents including engineering plans and specifications for the construction of water supply, sewer, and wastewater treatment infrastructure. IHD projects are typically of the highest priority for the Agency. IHD’s Engineering Services includes Quality Assurance, Laboratory Services, Specifications/Standard Operating Procedures, Sustainability, and BIM/CADD sections. The Engineering Services division focuses on project’s sustainability, resiliency, laboratory material testing, quality reviews and inspections, standardization of documents, project delivery standards and uses current BIM/CADD technology to streamline engineering design processes. The sustainability program ensures sustainable infrastructure investments by monitoring regulatory changes, tracking project key performance indicators and providing support services to Engineering project teams. PlaNYC plan (https://climate.cityofnewyork.us/). PlaNYC has set social, economic, and environmental objectives to ensure the sustainable future of New York, while preparing for climate change and reducing our impacts. Advancing sustainability goals will include a mix of data analysis, conducting workshops and presentations, and coordinating with internal and external entities. In addition, the program facilitates LEED and Envision project certifications. This position requires work with a variety of project stakeholders including engineers, architects, operators, community boards and urban planners where excellent communication and client service skills are required. BEDC is seeking to hire a Sustainability Analyst 1 to support the sustainability program. Reporting directly to the Sustainability Lead, the Sustainability Analyst 1 will ensure consistency in designing deliverables across all capital programs to support DEP operating bureaus’ capital construction requirements in a manner consistent with BEDC’s Core values. The Sustainability Analyst 1 assists the sustainability program which implements City-wide sustainability objectives through the development of Bureau specific standards. BEDC delivers drinking water, wastewater treatment and combined sewer overflow infrastructure projects which must meet sustainable objectives by balancing three core elements: social impacts, environmental impacts and economic impacts. The Sustainability Analyst 1 ensures sustainable infrastructure investments by monitoring regulatory changes, tracking project key performance indicators and providing support services to Engineering project teams by providing support services. Advancing sustainability goals will include a mix of data analysis, conduct workshops and presentations and coordinating with internal and external entities. This position requires work with a variety of project stakeholders including engineers, architects, operators, community boards and urban planners where excellent communication and client service skills are required. Excellent communication and coordination skills are required as the position works with Intra-Agency groups, other City Agencies, and key program stakeholders. The Sustainability Analyst reports directly to the Sustainability Lead. PREFERRED SKILLS • Demonstrates collaborative team approaches. Experience helping to foster a positive team environment in which members participate, respect, and cooperate with each other to receive desired results. • Demonstrated excellent communication, organization, writing, and public speaking skills and ability to meet/manage aggressive deadlines. • Completes designated tasks in a timely and accurate manner. • Preference may be given to candidates with LEED and/or Envision accreditation. • Demonstrated ability and enthusiasm for legislative affairs and code enforcement. • Preference will be given to candidates with computer proficiency including AutoCAD, and Microsoft Word, Excel, PowerPoint, and Visio.
+
+1. For Assignment Level I (only physical, biological and environmental sciences and public health) A master's degree from an accredited college or university with a specialization in an appropriate field of physical, biological or environmental science or in public health. To be appointed to Assignment Level II and above, candidates must have: 1. A doctorate degree from an accredited college or university with specialization in an appropriate field of physical, biological, environmental or social science and one year of full-time experience in a responsible supervisory, administrative or research capacity in the appropriate field of specialization; or 2. A master's degree from an accredited college or university with specialization in an appropriate field of physical, biological, environmental or social science and three years of responsible full-time research experience in the appropriate field of specialization; or 3. Education and/or experience which is equivalent to ""1"" or ""2"" above. However, all candidates must have at least a master's degree in an appropriate field of specialization and at least two years of experience described in ""2"" above. Two years as a City Research Scientist Level I can be substituted for the experience required in ""1"" and ""2"" above. NOTE: Probationary Period Appointments to this position are subject to a minimum probationary period of one year.",,,,not_started,
+53ca8a5ad02b99123994,nyc_jobs,"Director of the Enforcement Unit, Office of General Counsel",1,"The attorney would serve as the Director of the Enforcement Unit, reporting to the First Deputy General Counsel. Under general direction from the General Counsel and First Deputy General Counsel, the Director of the Enforcement Unit will oversee the Enforcement Unit and will: • Represent the agency at hearings, conferences and trials before the Office of Administrative Trials and Hearings (OATH). This includes performing all areas of case management including but not limited to: 1) designing a case strategy; 2) preparing and serving petitions; 3) negotiating settlements; 4) preparing witness; and, 5) assembling evidence. • Research and prepare briefs, appeals, orders, motions, legal opinions, memoranda and other legal papers related to enforcement cases. • Receive and assess complaints with Department programs to determine if enforcement action is needed. • Work with various Department programs to promote more effective enforcement and compliance and identify problem areas appropriate for enhanced enforcement or special initiatives. • Become well-versed in Department program policies and regulations to provide input to the programs about processes that would strengthen enforcement cases. • Liaise with Law Department, state and city agencies. • Travel to courts, when needed in-person within New York City. • Maintain sensitive and confidential information. • Manage and distribute information accurately and appropriately. • Monitor the workflow, ensuring compliance with deadlines, and preparing reports and summaries. • Establish positive working relationships with co-workers and programs. • Possess excellent research and writing skills • Attend to other ad hoc projects and tasks, as needed or assigned to ensure the continuity of operations within OGC.","Director of the Enforcement Unit, Office of General Counsel
+
+The Office of General Counsel (OGC) provides legal support for the agency and its many public health functions serving more than 8 million New Yorkers. The Enforcement Unit is comprised of a subset of specialized attorneys within OGC who play a leading role in advancing the NYC Health Department's major public health enforcement initiatives. OGC is seeking an attorney to oversee the Enforcement Unit and handle administrative litigation that ensures citywide compliance with public health laws and regulations. The Enforcement Unit addresses some of the most urgent public health enforcement challenges facing New York City, including prosecuting childcare providers whose practices endanger children, enforcing food safety requirements at restaurants, issuing disease surveillance orders in connection with outbreaks, and ensuring that dog owners comply with recommended control measures following dangerous dog incidents. For example, enforcement Unit attorneys file administrative proceedings against holders of Department-issued licenses and permits. They also advise Department programs on compliance and enforcement procedures and participate in drafting and reviewing legislation that supports the Unit's work. The Enforcement Unit regularly coordinates with other city and state agencies. The attorney may also assist in liaising with these agencies and with the New York City Law Department on civil litigation matters. DUTIES WILL INCLUDE BUT NOT BE LIMITED TO: The attorney would serve as the Director of the Enforcement Unit, reporting to the First Deputy General Counsel. Under general direction from the General Counsel and First Deputy General Counsel, the Director of the Enforcement Unit will oversee the Enforcement Unit and will: • Represent the agency at hearings, conferences and trials before the Office of Administrative Trials and Hearings (OATH). This includes performing all areas of case management including but not limited to: 1) designing a case strategy; 2) preparing and serving petitions; 3) negotiating settlements; 4) preparing witness; and, 5) assembling evidence. • Research and prepare briefs, appeals, orders, motions, legal opinions, memoranda and other legal papers related to enforcement cases. • Receive and assess complaints with Department programs to determine if enforcement action is needed. • Work with various Department programs to promote more effective enforcement and compliance and identify problem areas appropriate for enhanced enforcement or special initiatives. • Become well-versed in Department program policies and regulations to provide input to the programs about processes that would strengthen enforcement cases. • Liaise with Law Department, state and city agencies. • Travel to courts, when needed in-person within New York City. • Maintain sensitive and confidential information. • Manage and distribute information accurately and appropriately. • Monitor the workflow, ensuring compliance with deadlines, and preparing reports and summaries. • Establish positive working relationships with co-workers and programs. • Possess excellent research and writing skills • Attend to other ad hoc projects and tasks, as needed or assigned to ensure the continuity of operations within OGC. PREFERRED SKILLS: • Strong written and oral advocacy skills with attention to detail. • Knowledge of or interest in administrative or regulatory law. • Ability to negotiate settlements with opposing counsel. • Prior experience managing and training attorneys on administrative/OATH trials and hearings. • Strong interpersonal, creative problem-solving, and organizational skills. • Ability to work both independently and as part of a team. • Demonstrated ability to meet deadlines and manage multiple cases and projects in a timely manner. • Ability to use online legal research platforms such as Westlaw, CLEAR, and Lexis Nexis. • Experience training other attorneys is a plus. • Current working knowledge of Health Department procedures, policies and practices is a plus. • Current knowledge or interest in public health matters is a plus. Why you should work for us: - Loan Forgiveness: As a prospective employee of the City of New York, you may be eligible for federal/state loan forgiveness and repayment assistance programs that lessen your payments or even fully forgive your full balance. For more information, please visit the U.S. Department of Education’s website (https://studentaid.gov/pslf/) - Benefits: City employees are entitled to unmatched benefits such as: o a premium-free health insurance plan that saves employees over $10K annually, per a 2024 assessment. o additional health, fitness, and financial benefits may be available based on the position’s associated union/benefit fund. o a public sector defined benefit pension plan with steady monthly payments in retirement. o a tax-deferred savings program and o a robust Worksite Wellness Program that offers resources and opportunities to keep you healthy while serving New Yorkers. - Work From Home Policy: Depending on your position, you may be able to work up to two days during the week from home. - Job Security - you could enjoy more job security compared to private sector employment and be able to contribute to making NYC a healthy place to live and work. Established in 1805, the New York City Department of Health and Mental Hygiene (NYC Health Department) is the oldest and largest health department in the U.S., dedicated to protecting and improving the health of NYC. Our mission is to safeguard the health of every resident and cultivate a city where everyone, regardless of age, background, or location, can achieve their optimal health. We provide a wide array of programs and services focused on food and nutrition, anti-tobacco support, chronic disease prevention, HIV/AIDS treatment, family and child health, environmental health, mental health, and social justice initiatives. As the primary population health strategist and policy authority for NYC, with a rich history of public health initiatives and scientific advancements, from addressing the 1822 yellow fever outbreak to the COVID-19 pandemic, we serve as a global leader in public health innovation and expertise. Come join us and help to continue our efforts in making a difference in the lives of all New Yorkers! Commitment to Equity: The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic, including but not limited to an individual's sex, race, color, ethnicity, national origin, age, religion, disability, sexual orientation, veteran status, gender identity, or pregnancy. The NYC Health Department is an inclusive equal opportunity employer committed to providing access and reasonable accommodation to all individuals. To request reasonable accommodation to participate in the job application or interview process, contact Sye-Eun Ahn, Director of the Office of Equal Employment Opportunity, at sahn1@health.nyc.gov or 347-396-6549.
+
+Admission to the New York State Bar; and four years of recent full-time responsible, relevant, satisfactory legal experience subsequent to admission to any bar, eighteen months of which must have been in the supervision of other attorneys, in an administrative, managerial or executive capacity, or performing highly complex and significant legal work. Incumbents must remain Members of the New York State Bar in good standing for the duration of this employment.",,,,not_started,
+9497a6d2dd74efc6f1d5,arbeitnow,AIT & Electronics Technician,1,"You will be a hands-on technician supporting the build, integration and test of electronic boards, harnesses and mechanical test setups for the AURA gridded-ion thruster.
+You will work across the full hardware lifecycle - from assembling and inspecting flight-quality electronics and harnesses, through building up bench and mechanical test rigs, to supporting Assembly, Integration and Test (AIT) campaigns on the thruster and its control electronics.
+You will report into the AIT team and work alongside the electronics, control, software and satellite teams, taking direction from engineers while owning the quality and traceability of the hardware you build and test.
+
+Assemble, rework and inspect electronic boards to IPC-A-610 Class 3 standards.
+Build and terminate wiring harnesses and cable assemblies to IPC/WHMA-A-620 standards.
+Crimp, solder and lace harnesses; install backshells, connector savers and EMC / HV protective measures.
+Build up mechanical and electrical test setups, including fixtures, jigs and bench instrumentation.
+Support AIT activities on the thruster and its electronics, including functional testing, environmental test support (thermal vacuum, vibration) and continuity / insulation checks.
+Read and work from schematics, wiring diagrams, mechanical drawings and assembly procedures.
+Maintain as-built records, test logs, travellers and non-conformance reports to support traceability of flight hardware.
+Operate and maintain lab equipment — oscilloscopes, multimeters, power supplies, electronic loads and DAQ systems.
+Support functional, performance and environmental testing of the thruster, its power processing and control electronics, the propellant feed system, and the spacecraft-level integration.
+Fundamental Requirements
+IPC-A-610 Class 3 certification (or equivalent demonstrated experience to Class 3 standards).
+IPC/WHMA-A-620 harness and cable assembly certification.
+Proven hands-on experience assembling, reworking and inspecting electronic boards and harnesses.
+Experience building up mechanical and electrical test setups from drawings and procedures.
+Experience supporting AIT or equivalent integration and test activities on electronic hardware.
+Confident use of standard lab instrumentation (oscilloscope, multimeter, power supply, electronic load, DAQ).
+ESD-aware working practices (ANSI/ESD S20.20 or equivalent).
+Ability to read and interpret schematics, wiring diagrams and mechanical drawings.
+Strong attention to detail and discipline in documentation and traceability.","AIT & Electronics Technician
+
+At NewOrbit Space, our mission is to engineer the lowest orbiting satellites on Earth to rapidly advance global connectivity and insight.
+We are currently building satellites that can operate at an altitude of just 200 km - one-third that of conventional satellites.
+Your role
+You will be a hands-on technician supporting the build, integration and test of electronic boards, harnesses and mechanical test setups for the AURA gridded-ion thruster.
+You will work across the full hardware lifecycle - from assembling and inspecting flight-quality electronics and harnesses, through building up bench and mechanical test rigs, to supporting Assembly, Integration and Test (AIT) campaigns on the thruster and its control electronics.
+You will report into the AIT team and work alongside the electronics, control, software and satellite teams, taking direction from engineers while owning the quality and traceability of the hardware you build and test.
+Key Responsibilities
+Assemble, rework and inspect electronic boards to IPC-A-610 Class 3 standards.
+Build and terminate wiring harnesses and cable assemblies to IPC/WHMA-A-620 standards.
+Crimp, solder and lace harnesses; install backshells, connector savers and EMC / HV protective measures.
+Build up mechanical and electrical test setups, including fixtures, jigs and bench instrumentation.
+Support AIT activities on the thruster and its electronics, including functional testing, environmental test support (thermal vacuum, vibration) and continuity / insulation checks.
+Read and work from schematics, wiring diagrams, mechanical drawings and assembly procedures.
+Maintain as-built records, test logs, travellers and non-conformance reports to support traceability of flight hardware.
+Operate and maintain lab equipment — oscilloscopes, multimeters, power supplies, electronic loads and DAQ systems.
+Support functional, performance and environmental testing of the thruster, its power processing and control electronics, the propellant feed system, and the spacecraft-level integration.
+Fundamental Requirements
+IPC-A-610 Class 3 certification (or equivalent demonstrated experience to Class 3 standards).
+IPC/WHMA-A-620 harness and cable assembly certification.
+Proven hands-on experience assembling, reworking and inspecting electronic boards and harnesses.
+Experience building up mechanical and electrical test setups from drawings and procedures.
+Experience supporting AIT or equivalent integration and test activities on electronic hardware.
+Confident use of standard lab instrumentation (oscilloscope, multimeter, power supply, electronic load, DAQ).
+ESD-aware working practices (ANSI/ESD S20.20 or equivalent).
+Ability to read and interpret schematics, wiring diagrams and mechanical drawings.
+Strong attention to detail and discipline in documentation and traceability.
+Nice-to-haves
+J-STD-001 soldering certification (Space Addendum desirable).
+Experience working in a cleanroom or ISO-classified environment.
+Space or other high-reliability industry experience (aerospace, defence, medical).
+Familiarity with ECSS standards, particularly ECSS-Q-ST-70 (workmanship).
+Experience working with high-voltage and/or power electronics hardware.
+Basic CAD literacy (SolidWorks, NX or CATIA) for interpreting models and marking up drawings.
+Personality
+Safety-first mindset, particularly around high-voltage, pressurised and vacuum operations.
+Comfortable in a fast-moving development environment where hardware and procedures evolve quickly.
+Collaborative team player who can take direction from engineers while owning hands-on quality.
+Why NewOrbit Space?
+Pioneering Space Technology
+– You'll contribute to launching groundbreaking technology into space. Your work on our revolutionary ion propulsion system and VLEO satellite platform will redefine satellite operations and disrupt traditional LEO operations.
+Unmatched Ownership and Impact
+– You'll experience a level of ownership that's rare in the space industry. You will participate in the full lifecycle of satellite technology.
+Equity and Competitive Salary
+– You'll receive not just a competitive salary but also company ownership stakes. Your dedication and hard work are rewarded with a share in the technology you help build, ensuring you're a part of our collective success.
+Comprehensive Benefits Package
+–
+
+Including private health insurance with dental and optical coverage, annual healthcare check-ups etc.
+Hybrid Work
+- A hybrid setup with one dedicated remote day per week.
+Visa Sponsorship & Relocation Support
+- We provide a relocation package and sponsor your visa if you’re joining us from abroad.
+Find more
+English Speaking Jobs in United Kingdom
+on Arbeitnow",,,,not_started,
+0bd6f04e2cb94755955c,nyc_jobs,Director of Procurement & Program Management,1,(no responsibilities heading detected by rules - read full_posting_text),"Director of Procurement & Program Management
+
+***Only those currently serving as a permanent or probable permanent, i.e. probationary, Administrative City Planner will be considered. *** The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing 1.1 billion gallons of high quality drinking water, managing wastewater and stormwater, and reducing air, noise, and hazardous materials pollution. DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees. DEP's water supply system is comprised of 19 reservoirs and 3 controlled lakes throughout the system’s 2,000 square mile watershed that extends 125 miles north and west of the City. The Bureau of Wastewater Treatment (BWT) is responsible for the operation and maintenance of all facilities related to the treatment of sewage within the five boroughs of the City. This includes 14 wastewater treatment plants, sludge dewatering facilities, collections facilities (pumping stations, combined sewer overflow retention facilities, regulators, tide gates, etc.), wastewater laboratories and harbor vessels. The BWT Director of Procurement and Program Management (""Director"") will manage two Divisions in BWT and is responsible for programmatic oversight of: 1.Procurement of all BWT contracts and goods and services, including but not limited to: repair and maintenance contracts, construction Job Order Contracts (JOC), consultant Task Order Contracts (TOCs) for planning, design and construction management services, capital construction contracts, consultant contracts for master planning and regulatory compliance, as well as small purchases and open market orders. Contract procurements must be delivered based on operational requirements and capital plan registration targets. Includes processing of all contract payments managed in BWT as well as timely processing of change orders, subcontractors, renewals, and time extensions. 2.Management of BWT’s $390M annual expense budget, including but not limited to: expense budget planning, tracking of expenditures with key program areas per fiscal year (e.g. biosolids, chemicals, residuals, repair and maintenance, goods and services, etc.), identifying new needs and leading development of funding request justifications for Budget Plan submissions. 3.BWT’s BEDC and NYPA coordination programs, which are responsible for overseeing multi-million dollar delivery programs and ensuring that projects delivered by these entities meet BWT’s requirements for technical scope, align with BWT’s design guidelines, and meet operability and maintainability requirements. 4.BWT’s JOC and TOC programs to: track contract utilization, spending, ensure that there are no gaps in service, and vendors are performing as required by the contract. The successful candidate will serve on the Bureau's Senior Leadership Team (SLT) and will be a self-motivated individual with advanced communication skills, a solid working knowledge of program management procedures, budgeting and procurement, and engineering practices so as to facilitate successful planning, funding, procurement, design and construction of both capital and expense infrastructure projects. The successful candidate will be a primary liaison for BWT to several oversight offices, including: Office of Engineering Audits, Agency Chief Contracting Office, Budget Office, and Bureau of Legal Affairs. The candidate will also provide support on presentations to the Office of Management and Budget. The Director reports directly to the BWT Assistant Commissioner of Engineering and will be tasked with developing and utilizing consistent and reliable means and methods for the Bureau in the examination and tabulation of data, analysis and reports. The Director is expected to bring programmatic improvements to all levels of responsibility through analysis, development of Key Performance Indicators (KPls), and adoption of industry best practices. The Director will be engaged in the following initiatives: -Leadership: Provide leadership and management for programs, projects and initiatives facilitating team efforts and helping to define goals, timelines, resource requirements and planning. Lead the Directorship in improving efficiencies and effectiveness at all levels. -Continuous Improvement: Improved business practices and work environment across the Directorship. Lead the development of performance metrics and Key Performance Indicators. Develop means to capture and document improvement investments, savings and efficiencies gained. -Budgeting and Procurement: Provide expense financial planning to ensure spend plans and commitment plans are successfully tracked and met. Support programmatic development and tracking of bid packages, change orders, payments and contract closeouts. Interface with financial and contracting offices both within and outside the Agency as appropriate. -Engineering Resources: Ensure resources for engineering work are always in place in the areas of Task Order Contracts (TOCs) for design and related engineering services for investigations, studies, assessments and, Job Order Contracts (JOCs) for the construction work. Also ensure that resources for engineering work related to the BEDC and NYPA Coordination programs are adequately serving BWT’s operational needs.
+
+1. A baccalaureate degree from an accredited college and four (4) years of full-time experience in city planning, at least eighteen (18) months of which must have been in a managerial capacity; or 2. Education and/or experience which is equivalent to ""1"" above. However, a baccalaureate degree and eighteen (18) months of managerial experience in city planning is required of all candidates. Graduate work leading to an advance degree in city planning or related field may be substituted for up to two (2) years of the non-managerial experience on a year-for-year basis. Graduation from an accredited United States Law School may be substituted for two (2) years of non-managerial experience.""
+
+• In depth knowledge of project management and capital project delivery. • In depth knowledge of NYC’s procurement process, including PASSPort • In depth knowledge of expense budget planning and tracking • Experience in leading and directing high-performance teams. • High-level functional technical knowledge and skill in a large organization, public utility, or wastewater programs. • Knowledge of whole systems analysis, process reengineering, process improvement, lean management philosophy, six sigma or other related continuous improvement processes. • Strong organization and project management skills. Ability to manage multiple tasks and experience working and managing complex systems across large number of stakeholders. • Advanced knowledge of general management, project management, personnel management, and supervisory techniques and principles. • Strong written and verbal communication skills and experience with diverse workforce. • Strong understanding of computer programs and their use in optimizing systems. • Experience with NYC budgeting and procurement",,,,not_started,
+a462d24b2748471a3f2b,arbeitnow,Finance & Operations Associate (m/f/d),1,"Run day-to-day finance operations on the payables side: accounts payable, payment runs, and a clean, on-time procure-to-pay process
+Support our outgoing invoicing process, from creating and issuing customer invoices through to tracking receivables and incoming payments
+Support the monthly closing and prepare our financial investor reporting, working closely with the Head of Finance and our external accountants
+Track budgets and actuals across cost centers and flag deviations early
+Act as the internal counterpart to our external accountants and tax advisor on year-end audits and tax filings
+Help level up our finance stack and processes, from DATEV workflows to spend-management and finance tooling. You won't just run processes, you'll design your own
+Own non-tech procurement, from sourcing and ordering through to vendor and contract management
+Manage employee travel arrangements and expense reporting
+Take on general company administration that keeps the team running, from office-related purchasing to ad hoc operational tasks","Finance & Operations Associate (m/f/d)
+
+Our Mission
+At Omegga, we're on a mission to reinvent how AI and spectroscopy can drive positive change for animals, people, and the planet. We started with a clear objective: eliminate chick culling on a global scale through early, non-invasive in-ovo sex detection. This outdated practice still impacts billions of lives, and we're here to change that.
+Today, our systems are already in use, and the focus is on scaling performance, robustness, and deployment across an international customer base. For us, scaling means more than growth. It means changing an industry for the better.
+We are looking for people who take ownership, think in systems, and want to help turn a working product into the industry benchmark. If that sounds like you, we'd love to hear from you
+What We're Looking For
+We're looking for a hands-on Finance & Operations Associate to keep the financial and operational engine of a fast-scaling deep-tech company running smoothly. You'll work side by side with the Head of Finance in a small team, which gives you broad exposure across finance and operations from day one and real room to grow into more. Please note that this role requires professional-level German (C1 or above), as our finance, tax, and administrative processes run in German. You bring finance fundamentals, a structured way of working, and genuine curiosity about how a business operates end to end. You see what needs to happen, take initiative, and enjoy working openly in a fast-moving, international team that's growing together.
+You take ownership, hold yourself to a high standard, and care about getting the details right, because in finance and operations they matter. You communicate openly, give honest feedback, and build trust through your actions. You believe the best work happens in an environment where people support each other, share knowledge, and grow together.
+What You'll Own
+Run day-to-day finance operations on the payables side: accounts payable, payment runs, and a clean, on-time procure-to-pay process
+Support our outgoing invoicing process, from creating and issuing customer invoices through to tracking receivables and incoming payments
+Support the monthly closing and prepare our financial investor reporting, working closely with the Head of Finance and our external accountants
+Track budgets and actuals across cost centers and flag deviations early
+Act as the internal counterpart to our external accountants and tax advisor on year-end audits and tax filings
+Help level up our finance stack and processes, from DATEV workflows to spend-management and finance tooling. You won't just run processes, you'll design your own
+Own non-tech procurement, from sourcing and ordering through to vendor and contract management
+Manage employee travel arrangements and expense reporting
+Take on general company administration that keeps the team running, from office-related purchasing to ad hoc operational tasks
+What You Bring
+1 to 2 years of experience in finance and/or operations, ideally in a startup or fast-paced environment. Strong, relevant internship experience counts too if you're a fast learner
+Fluent German and English, German at C1 level or above. This is a hard requirement: our finance and administrative processes run in a German-language context (DATEV, tax advisors, audits, vendor and authority communication)
+A solid grasp of accounting fundamentals and a working understanding of how P&L, balance sheet, and cash flow connect. Bookkeeping is handled externally, but you know what's happening behind the numbers
+Hands-on exposure to procure-to-pay processes and purchasing, ideally including hardware
+Familiarity with DATEV and comfort with spend-management or finance tools
+A strong numerical sense and confident Excel skills
+A structured, detail-oriented way of working paired with a proactive, ownership-driven mindset. You identify what needs to happen next and take it on
+You communicate openly, enjoy working in an international team, and are eager to grow alongside it
+Not ticking every box? That's okay. One exception to the above: German at C1 level or above is required for this role.
+If this role excites you and you bring most of what we've described, we want to hear from you.
+Why Us
+Mission & Technical Challenge:
+At Omegga, you work on problems that are both technically demanding and globally relevant. We build deep-tech solutions with real-world impact, pushing the boundaries of what's currently possible.
+Relocation Support:
+Moving to Munich? We help you find an apartment in the Werksviertel within walking distance of the office. We connect you with the right contacts and take the stress out of apartment hunting.
+Work Environment:
+Located in Munich's Werksviertel, this is an on-site role. You'll work closely with the team in a focused, high-performance culture where finance and operations sit at the heart of how the company runs.
+Ownership:
+VSOPs (Virtual Stock Options) so you share in the value you help create.
+Time Off:
+28 vacation days per year, plus December 24th and 31st off.
+Benefits & Growth
+Monthly meal budget for whatever keeps you going, from quick lunches to proper team dinners
+Monthly perks budget to spend where it actually matters to you: fitness, mobility, or the occasional ""I earned this"" purchase
+Annual learning budget to invest in your growth, from conferences to deep dives into new domains
+Free drinks, coffee, and snacks in the office to keep you focused throughout the day
+Find
+Jobs in Germany
+on Arbeitnow",,,,not_started,
+549e8d159a9b700b28af,nyc_jobs,"Early Intervention Official Designee, Bureau of Early Intervention",1,"Facilitate IFSP meetings with families, interventionists and service coordinators in a manner consistent with SDOH regulations and NYC EIP policies and procedures, within mandated timelines, using Microsoft Outlook and NYEIS (New York Early Intervention System, the NYS EI IT system) for data entry, case processing and other activities. Ensure the accurate completion of other procedures as delineated in the NYC Policy and Procedure Manual and NYS Regulations Ensure the completion of all necessary documentation relating to the evaluation and IFSP process, including service and billing paperwork to ensure continued services for EI children. Respond to, prepare for and attend/participate in mediations/fair hearings as assigned. Attend regularly scheduled meetings inside and outside of the Regional Office as directed. Communicate with EI providers, families, service coordinators and other colleagues in a professional manner. Report concerns and submit requests for technical assistance to supervisor and other units within the Bureau as appropriate.","Early Intervention Official Designee, Bureau of Early Intervention
+
+The Early Intervention Program(EIP) is a comprehensive interagency program that supports infants and children with developmental delays in their efforts to realize their full potential. It reduces the likelihood of delays among at-risk children, assists and empowers families to meet their child's and their own needs, and entitles children, regardless of race, ethnicity or income to services through the program. The EIP is legally mandated under Title II-A, §2552, of Article 25 of the NYS PHL to ensure that eligible children receive therapeutic services as soon as possible, and it has been recognized as an essential service during COVID-19 by NYS. The process of getting children to services includes processing referrals to the EIP, scheduling evaluations and Individualized Family Service Plan (IFSP) meetings, convening IFSP meetings, and authorizing services. Children continue to receive IFSP meetings every six (6) months for as long as they are in the Program. The Bureau of Early Intervention oversees provision of therapeutic services to 30,000 children ages birth to 3 years each year. At the borough level, contracted service agencies are monitored by the Regional Office. DUTIES WILLINCLUDEBUTNOTBELIMITED TO: Facilitate IFSP meetings with families, interventionists and service coordinators in a manner consistent with SDOH regulations and NYC EIP policies and procedures, within mandated timelines, using Microsoft Outlook and NYEIS (New York Early Intervention System, the NYS EI IT system) for data entry, case processing and other activities. Ensure the accurate completion of other procedures as delineated in the NYC Policy and Procedure Manual and NYS Regulations Ensure the completion of all necessary documentation relating to the evaluation and IFSP process, including service and billing paperwork to ensure continued services for EI children. Respond to, prepare for and attend/participate in mediations/fair hearings as assigned. Attend regularly scheduled meetings inside and outside of the Regional Office as directed. Communicate with EI providers, families, service coordinators and other colleagues in a professional manner. Report concerns and submit requests for technical assistance to supervisor and other units within the Bureau as appropriate. PREFERRED SKILLS: · Understanding of early childhood development, delays and disabilities · Knowledge of NYC services for young children · Good communication and organizational skills · Ability to work well under pressure and meet deadlines · Knowledge of EI regulations is an asset Why you should work for us: - Loan Forgiveness: As a prospective employee of the City of New York, you may be eligible for federal/state loan forgiveness and repayment assistance programs that lessen your payments or even fully forgive your full balance. For more information, please visit the U.S. Department of Education’s website (https://studentaid.gov/pslf/) - Benefits: City employees are entitled to unmatched benefits such as: o a premium-free health insurance plan that saves employees over $10K annually, per a 2024 assessment. o additional health, fitness, and financial benefits may be available based on the position’s associated union/benefit fund. o a public sector defined benefit pension plan with steady monthly payments in retirement. o a tax-deferred savings program and o a robust Worksite Wellness Program that offers resources and opportunities to keep you healthy while serving New Yorkers. - Work From Home Policy: Depending on your position, you may be able to work up to two days during the week from home. - Job Security - you could enjoy more job security compared to private sector employment and be able to contribute to making NYC a healthy place to live and work. Established in 1805, the New York City Department of Health and Mental Hygiene (NYC Health Department) is the oldest and largest health department in the U.S., dedicated to protecting and improving the health of NYC. Our mission is to safeguard the health of every resident and cultivate a city where everyone, regardless of age, background, or location, can achieve their optimal health. We provide a wide array of programs and services focused on food and nutrition, anti-tobacco support, chronic disease prevention, HIV/AIDS treatment, family and child health, environmental health, mental health, and social justice initiatives. As the primary population health strategist and policy authority for NYC, with a rich history of public health initiatives and scientific advancements, from addressing the 1822 yellow fever outbreak to the COVID-19 pandemic, we serve as a global leader in public health innovation and expertise. Come join us and help to continue our efforts in making a difference in the lives of all New Yorkers! The NYC Health Department is an inclusive equal opportunity employer committed to providing access and reasonable accommodation to all individuals. To request reasonable accommodation to participate in the job application or interview process, contact Sye-Eun Ahn, Director of the Office of Equal Employment Opportunity, at sahn1@health.nyc.gov or 347-396-6549.
+
+Qualification Requirements 1. A Baccalaureate Degree from an accredited college or university in Business Administration, Engineering, or Social Sciences, Health Care Specialization, Physical Sciences or related programs; and A minimum of four years of progressive, responsible, experience related to Health Care Program Planning, Research, Design, Operation, Evaluation and Analysis; or 2. A Master's Degree from an accredited college or university in Public Health, Public or Hospital Administration, Health Care Specialization, Business Administration or related disciplines; and A minimum of three years progressive, responsible, experience directly related to health care program planning, research, design, operation, evaluation and analysis; or 3. A satisfactory equivalent combination or training, education and experience; and 4. Demonstrated skills in written and oral communication.",,,,not_started,
+1742269a66920b58cfba,nyc_jobs,Deputy Assistant Director Sandy Grant Management,1,"The duties of the position include the following: • Project Administration o Develop and maintain knowledge of active Sandy projects, across a variety of work types being implemented by numerous City agencies. o Obtain working knowledge of applicable Federal, State, and City rules and regulations. Interpret, monitor, and communicate changes to staff and partner agencies and task forces. o Collect and review documentation. o Identify and recommend solutions for various programmatic issues. o Contribute to and participate in training seminars on FEMA requirements to City agencies. o Take an active role in identifying opportunities to increase funding awards. o Ensure that claiming/reimbursement requests are proceeding in a timely manner. o Report on status of projects to upper management, DHSES, and FEMA including identifying risks to completion. o Represent OMB/NYC in meetings with external partners like New York State and FEMA. o Work with FEMA Task Force colleagues, other OMB Task Forces, and agencies to ensure projects are adequately progressing, properly budgeted and expenditures tracked, and all relevant FEMA policy and guidance is being followed. • Team Supervision o Oversee a team of OMB staff that is tasked with day-to-day tracking of projects. o Work with other task force members to develop and provide trainings so staff are supported and have opportunity for professional development within the team. o Analyze the efficiency and effectiveness of task force procedures and develop recommendations for change.","Deputy Assistant Director Sandy Grant Management
+
+TASK FORCE: FEMA Disaster Recovery UNIT: Sandy Grant Management JOB TITLE: One (1) Deputy Assistant Director CONTROL CODE: BAW-27-03 SUMMARY: The Mayor's Office of Management and Budget (OMB) is the New York City government's chief financial agency. OMB's staff of analysts and experts assembles and oversees the Mayor's expense and capital budgets, which fund the services and activities of approximately 90 City agencies and entities. The FEMA Disaster Recovery Task Force, within the OMB-Managed Grants subdivision, works with City, State, and Federal agencies to help New York City recover from the lasting impacts of Hurricane Sandy, COVID-19, Tropical Storm Isaias, Tropical Storm Ida, and Tropical Storm Ophelia, as well as other federally declared disaster events. The team coordinates policy, monitors the budgets, and ensures compliance with applicable requirements for projects funded through the FEMA Public Assistance program. Additionally, the team works with various agencies to build the City’s capacity to prepare for and respond to future disasters. This new position will be responsible for day-to-day programmatic oversight, in conjunction with the Assistant Director and existing team staff, of the FEMA Hurricane Sandy recovery grant. This includes project management, reimbursement claiming, compliance, and grant closeout. Please note that this is a grant-funded position. Your term of employment is dependent upon the availability of grant funding, but it is expected to be at least three years. JOB DESCRIPTION: The duties of the position include the following: • Project Administration o Develop and maintain knowledge of active Sandy projects, across a variety of work types being implemented by numerous City agencies. o Obtain working knowledge of applicable Federal, State, and City rules and regulations. Interpret, monitor, and communicate changes to staff and partner agencies and task forces. o Collect and review documentation. o Identify and recommend solutions for various programmatic issues. o Contribute to and participate in training seminars on FEMA requirements to City agencies. o Take an active role in identifying opportunities to increase funding awards. o Ensure that claiming/reimbursement requests are proceeding in a timely manner. o Report on status of projects to upper management, DHSES, and FEMA including identifying risks to completion. o Represent OMB/NYC in meetings with external partners like New York State and FEMA. o Work with FEMA Task Force colleagues, other OMB Task Forces, and agencies to ensure projects are adequately progressing, properly budgeted and expenditures tracked, and all relevant FEMA policy and guidance is being followed. • Team Supervision o Oversee a team of OMB staff that is tasked with day-to-day tracking of projects. o Work with other task force members to develop and provide trainings so staff are supported and have opportunity for professional development within the team. o Analyze the efficiency and effectiveness of task force procedures and develop recommendations for change. QUALIFICATIONS: • Experience with the FEMA Public Assistance Program and Grants Manager (Grants Portal) required. • Experience working with and managing complex projects. • Strong analytical, organizational, and problem-solving skills with an emphasis on attention to detail. • Strong interpersonal skills, and the ability to maintain working relationships. • Strong written and spoken communications skills. • Basic understanding of budgeting and accounting principles • Ability to work independently as a self-motivator and to motivate others. • Ability to work calmly and proficiently under pressure and to adhere to deadlines. • Must possess strong technical skills including proficiency in Microsoft Office software (Excel, Word, PowerPoint) and the ability to learn new technology quickly. REQUIREMENTS: Deputy Assistant Director ($145,807): Bachelor’s degree, preferably in public administration, business, finance, economics, data science, accounting or a related subject, and a minimum of four (4) years’ experience in budgetary planning/management, financial analysis, public policy analysis, grants management, or a related field or a Master’s degree, preferably in accounting, finance, public administration, public policy, or a related field, and a minimum of two (2) years of experience state grant management, financial analysis, budget planning/management; state budget analysis, or a related field.
+
+1. A baccalaureate degree from an accredited college.",,,,not_started,
+14d07b37d97f6b76cebb,arbeitnow,Office Assistant (Part Time) - UK,1,(no responsibilities heading detected by rules - read full_posting_text),"Office Assistant (Part Time) - UK
+
+As the
+Office Assistant
+for Marqeta's London branch, your role will be pivotal in managing the office's requirements. You will be a proactive professional, trusted and respected for handling sensitive information and crucial relationships.
+This is a part time role and performed in the office (Tuesday + Thursday) from our London office. We’d love for you to join us!
+The Impact You'll have
+Order supplies and manage office stock within a budget - drinks, snacks, stationary and equipment as needed.
+Ensure the office is tidy and presentable.
+Coordinate meeting room bookings.
+Collect deliveries.
+Support organisation of a variety of events (team meetings, offsites, meals, parties, etc.) within a set budget.
+Working with vendors to organise and coordinate office wellness initiatives - Tuesday lunches, office massages.
+Promote events within our office building.
+Liaise with the building team regarding any issues that might arise.
+Provide general support to visitors and manage tracking.
+Address employees queries regarding office management issues (e.g. stationery, hardware, travel arrangements).
+Provide general office management support and handle various projects as they arise, even unexpectedly.
+Manage swag orders and distribution.
+Support the organisation of charity initiatives.
+Distribute new hire kits and manage stock.
+Send communications to the team regarding office updates, events, birthdays, training etc.
+
+Who You Are
+Self-motivation, excellent organisation, strong work ethic and a proactive approach.
+Flexibility and comfort in a fast-paced, high-intensity, yet informal startup environment.
+Proven experience as an Office Manager, Front Office Manager or Administrative Assistant.
+Knowledge of office administrator responsibilities, systems, and procedures.
+Experience with office management software like MS Office and Google Suite.
+Excellent time management skills and ability to multi-task and prioritize work.
+Attention to detail and problem-solving skills.
+Strong organisational and planning skills in a fast-paced environment.
+A creative mind with an ability to suggest improvements.
+Fluency in English.
+
+Your Recruiter
+Lou Devlin - Linkedin Profile
+(no agencies please!)
+
+Typical Process
+Application Submission
+Recruiter video call
+Hiring manager video call
+Virtual “Onsite” consisting of 3 x 30 min calls
+Offer!
+
+Compensation and Benefits (for Full Time Roles)
+Premium Private Medical and Dental coverage
+Generous time off program with additional “Floating Holiday days”
+Retirement savings program with company contribution
+Equity in a publicly-traded company and an Employee Stock Purchase Program
+Monthly stipend to support our remote work model
+Annual development stipend to support our people's growth and development
+Family-forming benefits and up to 20 weeks of Parental Leave
+Wellbeing programs i.e. Modern Health, HealthKick and much more…
+About Marqeta
+Marqeta is on a mission to change the way money moves. We’re one of the earliest enablers of embedded finance, a market opportunity sized up in the trillions. Our card issuing platform provides unprecedented flexibility and control for companies to issue cards, authorize transactions, and manage payment operations in real time. Marqeta is powering the most well known brands in the new economy (Block, Cash App, Affirm, Instacart, Doordash, Uber, Walmart, etc). You don’t need to be a Payments expert to join the Marqeta Team, let us help you with that. This is the opportunity of a lifetime to work with innovators around the world and unlock equitable financial access for all.
+Marqeta’s Values
+– Solve for the Customer:
+With a deep understanding of our customers' business and empathy for their needs, we deliver products and services that drive their success. Earning and keeping their trust guides everything we do.
+– Do What's Right:
+Knowing businesses and livelihoods depend on us, we pursue solutions that disrupt responsibly and deliver high-quality results that our customers count on. We own our work from start to finish.
+– Simplify and Innovate:
+We approach challenges with curiosity and take smart risks. Innovation comes from finding better, simpler ways to achieve extraordinary outcomes.
+– Win as a Team:
+We succeed together by embracing diverse perspectives and pushing each other to raise the bar. We lead with humility and set aside hierarchy to work as a team.
+– Make it Count:
+We drive forward with focus and agility. With a sense of urgency and purpose, we get the job done, and done right.
+Equal Employment Opportunity, Accommodations and Privacy
+Marqeta is an equal opportunity employer committed to an inclusive workplace that fosters belonging. We do not discriminate based on race, color, religion, sex (including pregnancy, lactation, childbirth, or related medical conditions), veteran status or uniformed service member status, age, national origin or ancestry, citizenship or immigration status, physical or mental disability, gender identity, gender expression, sexual orientation, genetic information (including testing or characteristics) or any other characteristic protected by applicable law. We also consider qualified applicants with criminal histories, consistent with legal requirements.
+Marqeta endeavors to make reasonable accommodations for applicants with disabilities. If you are an individual with a disability and require a reasonable accommodation to submit this application, complete any pre-employment testing, or otherwise participate in the employee selection process, please submit
+this form
+with your specific accommodation request.
+Marqeta cares about your privacy. Personal data that is provided as part of the application and recruitment process is processed in accordance with the
+Applicant Privacy Notice
+. Additional information for California residents can be found
+here
+.
+To keep our interview process fair and consistent, we ask that all candidates join video interviews with their camera on.
+Notice on Use of AI in Recruitment
+We may use artificial intelligence (AI) tools in our recruitment processing consistent with the requirements of applicable laws. For more information, review our AI notice
+here
+.
+Find more
+English Speaking Jobs in United Kingdom
+on Arbeitnow",,,,not_started,
+4104f785e0ac83dab8a3,arbeitnow,Working Student - Operations (f/m/d),1,(no responsibilities heading detected by rules - read full_posting_text),"Working Student - Operations (f/m/d)
+
+At
+TYTAN
+, we aim to set a global standard in autonomous air defense with AI-driven, cost-efficient systems that counter unmanned aerial threats at scale. We protect people. We protect critical infrastructure. We protect Europe’s sovereignty.
+We're looking for a proactive Working Student to support our Operations team in a dynamic, growing environment. You'll help coordinate projects, improve processes, and ensure teams stay aligned while gaining practical experience across production, procurement, and testing activities.
+Your Roadmap to make an Impac
+t
+Support cross-functional projects by gathering, consolidating, and maintaining project data, ensuring clear visibility of progress, open tasks, and potential risks.
+Coordinate with production, procurement, and program teams to follow up on open topics, resolve bottlenecks, and ensure smooth communication between stakeholders.
+Assist in improving operational processes by identifying inefficiencies, contributing ideas, and supporting the implementation of scalable solutions.
+Provide hands-on support in the preparation, coordination, and execution of test campaigns.
+Contribute to strategic operations projects, including the development of scalable test planning and verification frameworks and continuous improvement initiatives across the Operations team.
+Help maintain project documentation, track action items, and support reporting to ensure timely project delivery.
+
+Currently enrolled in a Bachelor's or Master's degree in Engineering, Business, Operations Management, Supply Chain, or a related field.
+Strong organizational skills with the ability to manage multiple tasks and priorities in a fast-paced environment.
+Structured and analytical mindset with strong attention to detail.
+Excellent communication skills and confidence working with cross-functional teams.
+Proactive, hands-on attitude with a willingness to take ownership and follow up on open topics.
+Genuine Interest in operations, manufacturing, testing, and continuous process improvement.
+Fluent in English; German is a plus.
+Why TYTAN?
+Build technology with real operational impact:
+Develop autonomous defence systems designed to protect lives and strengthen Europe’s security
+Shape scalable defence capabilities:
+Work on solutions built for mass deployment, cost efficiency, resilience, and reliable production at scale
+Contribute to networked air defence:
+Help integrate our systems into multi-layered defence architectures alongside sensors, command systems, and effectors
+Develop for real-world operations:
+Build capabilities together with end users and improve them continuously based on direct operational feedback
+Move fast and take ownership:
+Work in a focused, high-performance team where decisions are made quickly and individual contributions have immediate impact
+Define a new generation of defence technology:
+Join early and help shape the products, engineering standards, culture, and direction of a fast-growing deep-tech company
+Work with an international mission-driven team:
+Collaborate with experienced specialists united by the goal of creating sovereign and effective security capabilities for Europe
+Our Benefits
+Monthly allowances:
+€68/month in flexible benefits including lunch discounts and EGYM Wellpass or shopping credit
+Regular health care events:
+Health check-ups, skin screenings, mental health workshops, and an annual vitamin infusion on us
+Referral bonus:
+Earn a reward when someone you refer joins the team
+Regular team events:
+On- and off-site activities to connect and celebrate together
+Corporate discounts:
+Exclusive employee discounts across a wide range of partner brands
+Flexibility
+: Flexible working hours and hybrid work model, plus a modern Munich office built for focus and collaboration
+About us
+At TYTAN, it is more than just a job; it is about embracing autonomy, personal growth, and purpose. Make a lasting impact in the new era of defense! Join us to create a safer world for all.
+WE are an equal-opportunity employer committed to fairness and inclusivity. We do not prioritize any specific religion, gender, nationality, or background. Due to security clearance requirements, affiliations with countries listed under § 13 para. 1 no. 17 SÜG may affect the application process.
+Please note that we currently do not offer visa sponsorship, so we’re only able to consider candidates who already have a valid work permit. All qualified applicants are hereby encouraged to apply.
+Find more
+English Speaking Jobs in Germany
+on Arbeitnow",,,,not_started,
+1df980408a2da22c4082,nyc_jobs,Senior Rackets Investigator,1,"- Conduct thorough and professional investigations in a discreet manner as assigned. - Execute search warrants and effect arrests. - Participate in court-ordered electronic eavesdropping. - Mentor and assist junior investigators when appropriate. - Continuing case management and review. - Provide on-going status updates to the D/C and Chief Detective Investigator. - Ability to access and utilize various computer databases. - Ability to liaison with other law enforcement agencies and government and financial institutions. - Assist investigators and Assistant District Attorneys in preparation for court proceedings. - Testify before grand or petit juries regarding investigations. - Conduct complex and highly confidential investigations and relevant research. - Assist and mentor investigators in the use of electronic and technical equipment (e.g., Audio equipment, plate reader, LoJack tracking device, mobile digital terminals, and surveillance photographic equipment). - Prepare reports and maintains records of activities and investigations. - Participate in protective details and locate, transport, and protect witnesses. - Assist and mentor Rackets Investigators, suggest work methods; monitor progress and prepare and review reports Participate in extraditions and related travel.","Senior Rackets Investigator
+
+The Office of the District Attorney, Bronx County (“BXDA”) is charged with the twin goals of ensuring public safety and striving for equal justice for the over 1.4 million members of the Bronx County community. By “Pursuing Justice with Integrity,” the BXDA places a focus on assistance for crime victims while simultaneously ensuring fairness to defendants. Moreover, the BXDA aims to balance the need to seek appropriate punishment for certain crimes while recognizing when punitive measures do not adequately advance justice. By recognizing these significant distinctions and acting accordingly, BXDA has established a standard of excellence in the representation of the Bronx community at large, which continues to grow stronger every day. In furtherance of this mission, the BXDA seeks experienced and enthusiastic Senior Rackets Investigator. The Senior Investigator is responsible for conducting a wide variety of investigations. Job Responsibilities: - Conduct thorough and professional investigations in a discreet manner as assigned. - Execute search warrants and effect arrests. - Participate in court-ordered electronic eavesdropping. - Mentor and assist junior investigators when appropriate. - Continuing case management and review. - Provide on-going status updates to the D/C and Chief Detective Investigator. - Ability to access and utilize various computer databases. - Ability to liaison with other law enforcement agencies and government and financial institutions. - Assist investigators and Assistant District Attorneys in preparation for court proceedings. - Testify before grand or petit juries regarding investigations. - Conduct complex and highly confidential investigations and relevant research. - Assist and mentor investigators in the use of electronic and technical equipment (e.g., Audio equipment, plate reader, LoJack tracking device, mobile digital terminals, and surveillance photographic equipment). - Prepare reports and maintains records of activities and investigations. - Participate in protective details and locate, transport, and protect witnesses. - Assist and mentor Rackets Investigators, suggest work methods; monitor progress and prepare and review reports Participate in extraditions and related travel. Requirements: - The ideal candidate must have a valid certificate of completion from a New York State Basic Course for Police Officers academy or must be eligible to attend and complete a Police Officer Refresher course. - All applicants must possess a valid NY State driver’s license and be able to work evenings, weekends, and holidays as necessary. - Must pass a psychological and physical exam and a background check. - Must be qualified to Carry a Firearm. - Prior experience working within the New York City criminal justice system and/or experience as a police officer within the State of New York is a plus. - Extensive knowledge and investigative experience in one or more of the following areas is preferred: homicides, robberies, grand larceny, financial crimes, fraud, and identity theft. - As per NY Public Officers Law 2, §3-B, U.S. citizenship required. Please Note: This is a sworn police officer position which requires an experienced candidate. The candidate must meet all qualifications to be certified, as a police officer, in the NYS DCJS Police registry. This position requires the successful completion of police academy training in New York State and requires applicants to pass a mandatory background check to carry a firearm.
+
+1. Graduation from high school or its equivalent and three years of full-time, paid experience in police enforcement or investigative work, one year of which must have been in rackets or police investigative work. 2. Education and/or experience which is equivalent to ""1"". However, all candidates are required to have one year of full-time, paid experience in rackets or police investigative work.",,,,not_started,
+097687274962463b41a1,nyc_jobs,"Vector-borne Disease Epidemiologist, Bureau of Communicable Diseases",1,"This position is in the Zoonotic and Vector-Borne Disease Unit (ZVDU) within the Bureau of Communicable Disease (BCD). ZVDU is responsible for overseeing the surveillance for reportable, new, high profile, and emerging vector-borne diseases that are reportable in New York City. Vectorborne diseases include, but are not limited to Lyme disease, babesiosis, anaplasmosis, alpha-gal syndrome and certain high-profile diseases such as legionellosis and cyclosporiasis. ZVDU is recruiting an experienced epidemiologist and data analyst to work under the Research Scientist to perform and enhance Lyme disease surveillance as well as contribute to similar efforts for other vectorborne diseases. The person will have experience in epidemiology, data management, and analysis, outreach and education for the public and human and animal health providers, as well as participate in a wide range of activities, with an emphasis on vectorborne diseases, and direct oversight of Lyme disease surveillance. They will be a collaborative partner working closely with the Division of Environmental Health, the Public Health Laboratory, and local, state, and federal partners.
+
+• Assist the Research Scientist II in the development and enhancement of surveillance practices, updating (and developing when needed) disease case investigation protocols and standardized investigation case forms used for tick-borne diseases, • Conduct case investigations and other activities required for routine surveillance of Lyme disease, • Participate in the collection, management and analysis of quality data for research and surveillance purposes, • Conduct quality assurance of data, • Maintain, summarize and report on tick-borne disease data from the BCD surveillance system • Conduct literature reviews of recent and relevant research as it relates to our understanding our diseases of interest, • Work collaboratively with colleagues in Environmental Health and other agencies and organizations, • Participate in ZVDU fieldwork which may include tick dragging as well as other fieldwork opportunities, • Participate in large BCD outbreak investigations as needed, • Supervise seasonal college interns, • Conduct outreach to the medical and veterinary communities, • Participate in agency-wide response activations as needed Preferred Skills: • Experience with disease surveillance, infectious diseases, and database management • Ability to work independently and in teams to collect and analyze data, including leading outbreak and cluster investigations • Excellent written and verbal communication skills with the ability to interpret data and convey concepts clearly and concisely • Proficiency with SAS (programming and analysis) or other analytic software, Adobe Acrobat, and MS Office software; ability to learn new data systems quickly, document in the data systems, and comply with data integrity and security to safeguard all personal identifiable information • Flexibility and adaptability are key attributes for this position; candidates should be highly organized with the ability to manage multiple simultaneous projects Why you should work for us: - Loan Forgiveness: As a prospective employee of the City of New York, you may be eligible for federal/state loan forgiveness and repayment assistance programs that lessen your payments or even fully forgive your full balance. For more information, please visit the U.S. Department of Education’s website (https://studentaid.gov/pslf/) - Benefits: City employees are entitled to unmatched benefits such as: o a premium-free health insurance plan that saves employees over $10K annually, per a 2024 assessment. o additional health, fitness, and financial benefits may be available based on the position’s associated union/benefit fund. o a public sector defined benefit pension plan with steady monthly payments in retirement. o a tax-deferred savings program and o a robust Worksite Wellness Program that offers resources and opportunities to keep you healthy while serving New Yorkers. - Work From Home Policy: Depending on your position, you may be able to work up to two days during the week from home. - Job Security - you could enjoy more job security compared to private sector employment and be able to contribute to making NYC a healthy place to live and work. Established in 1805, the New York City Department of Health and Mental Hygiene (NYC Health Department) is the oldest and largest health department in the U.S., dedicated to protecting and improving the health of NYC. Our mission is to safeguard the health of every resident and cultivate a city where everyone, regardless of age, background, or location, can achieve their optimal health. We provide a wide array of programs and services focused on food and nutrition, anti-tobacco support, chronic disease prevention, HIV/AIDS treatment, family and child health, environmental health, mental health, and social justice initiatives. As the primary population health strategist and policy authority for NYC, with a rich history of public health initiatives and scientific advancements, from addressing the 1822 yellow fever outbreak to the COVID-19 pandemic, we serve as a global leader in public health innovation and expertise. Come join us and help to continue our efforts in making a difference in the lives of all New Yorkers! Commitment to Equity: The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic, including but not limited to an individual's sex, race, color, ethnicity, national origin, age, religion, disability, sexual orientation, veteran status, gender identity, or pregnancy. The NYC Health Department is an inclusive equal opportunity employer committed to providing access and reasonable accommodation to all individuals. To request reasonable accommodation to participate in the job application or interview process, contact Sye-Eun Ahn, Director of the Office of Equal Employment Opportunity, at sahn1@health.nyc.gov or 347-396-6549.","Vector-borne Disease Epidemiologist, Bureau of Communicable Diseases
+
+The Division of Disease Control’s mission is to safeguard the health of New Yorkers through identification, surveillance, treatment, control, and prevention of infectious diseases, which is achieved through varied and interrelated endeavors of its seven Bureaus. The Bureau of Communicable Disease (BCD), part of the Division of Disease Control, is responsible for the surveillance, prevention, and control of over 70 infectious diseases including foodborne, enteric, waterborne, respiratory (including COVID-19), zoonotic, and vector-borne diseases. Position Summary: This position is in the Zoonotic and Vector-Borne Disease Unit (ZVDU) within the Bureau of Communicable Disease (BCD). ZVDU is responsible for overseeing the surveillance for reportable, new, high profile, and emerging vector-borne diseases that are reportable in New York City. Vectorborne diseases include, but are not limited to Lyme disease, babesiosis, anaplasmosis, alpha-gal syndrome and certain high-profile diseases such as legionellosis and cyclosporiasis. ZVDU is recruiting an experienced epidemiologist and data analyst to work under the Research Scientist to perform and enhance Lyme disease surveillance as well as contribute to similar efforts for other vectorborne diseases. The person will have experience in epidemiology, data management, and analysis, outreach and education for the public and human and animal health providers, as well as participate in a wide range of activities, with an emphasis on vectorborne diseases, and direct oversight of Lyme disease surveillance. They will be a collaborative partner working closely with the Division of Environmental Health, the Public Health Laboratory, and local, state, and federal partners. Job Duties and Responsibilities: • Assist the Research Scientist II in the development and enhancement of surveillance practices, updating (and developing when needed) disease case investigation protocols and standardized investigation case forms used for tick-borne diseases, • Conduct case investigations and other activities required for routine surveillance of Lyme disease, • Participate in the collection, management and analysis of quality data for research and surveillance purposes, • Conduct quality assurance of data, • Maintain, summarize and report on tick-borne disease data from the BCD surveillance system • Conduct literature reviews of recent and relevant research as it relates to our understanding our diseases of interest, • Work collaboratively with colleagues in Environmental Health and other agencies and organizations, • Participate in ZVDU fieldwork which may include tick dragging as well as other fieldwork opportunities, • Participate in large BCD outbreak investigations as needed, • Supervise seasonal college interns, • Conduct outreach to the medical and veterinary communities, • Participate in agency-wide response activations as needed Preferred Skills: • Experience with disease surveillance, infectious diseases, and database management • Ability to work independently and in teams to collect and analyze data, including leading outbreak and cluster investigations • Excellent written and verbal communication skills with the ability to interpret data and convey concepts clearly and concisely • Proficiency with SAS (programming and analysis) or other analytic software, Adobe Acrobat, and MS Office software; ability to learn new data systems quickly, document in the data systems, and comply with data integrity and security to safeguard all personal identifiable information • Flexibility and adaptability are key attributes for this position; candidates should be highly organized with the ability to manage multiple simultaneous projects Why you should work for us: - Loan Forgiveness: As a prospective employee of the City of New York, you may be eligible for federal/state loan forgiveness and repayment assistance programs that lessen your payments or even fully forgive your full balance. For more information, please visit the U.S. Department of Education’s website (https://studentaid.gov/pslf/) - Benefits: City employees are entitled to unmatched benefits such as: o a premium-free health insurance plan that saves employees over $10K annually, per a 2024 assessment. o additional health, fitness, and financial benefits may be available based on the position’s associated union/benefit fund. o a public sector defined benefit pension plan with steady monthly payments in retirement. o a tax-deferred savings program and o a robust Worksite Wellness Program that offers resources and opportunities to keep you healthy while serving New Yorkers. - Work From Home Policy: Depending on your position, you may be able to work up to two days during the week from home. - Job Security - you could enjoy more job security compared to private sector employment and be able to contribute to making NYC a healthy place to live and work. Established in 1805, the New York City Department of Health and Mental Hygiene (NYC Health Department) is the oldest and largest health department in the U.S., dedicated to protecting and improving the health of NYC. Our mission is to safeguard the health of every resident and cultivate a city where everyone, regardless of age, background, or location, can achieve their optimal health. We provide a wide array of programs and services focused on food and nutrition, anti-tobacco support, chronic disease prevention, HIV/AIDS treatment, family and child health, environmental health, mental health, and social justice initiatives. As the primary population health strategist and policy authority for NYC, with a rich history of public health initiatives and scientific advancements, from addressing the 1822 yellow fever outbreak to the COVID-19 pandemic, we serve as a global leader in public health innovation and expertise. Come join us and help to continue our efforts in making a difference in the lives of all New Yorkers! Commitment to Equity: The City of New York is an inclusive equal opportunity employer committed to recruiting and retaining a diverse workforce and providing a work environment that is free from discrimination and harassment based upon any legally protected status or protected characteristic, including but not limited to an individual's sex, race, color, ethnicity, national origin, age, religion, disability, sexual orientation, veteran status, gender identity, or pregnancy. The NYC Health Department is an inclusive equal opportunity employer committed to providing access and reasonable accommodation to all individuals. To request reasonable accommodation to participate in the job application or interview process, contact Sye-Eun Ahn, Director of the Office of Equal Employment Opportunity, at sahn1@health.nyc.gov or 347-396-6549.
+
+1. For Assignment Level I (only physical, biological and environmental sciences and public health) A master's degree from an accredited college or university with a specialization in an appropriate field of physical, biological or environmental science or in public health. To be appointed to Assignment Level II and above, candidates must have: 1. A doctorate degree from an accredited college or university with specialization in an appropriate field of physical, biological, environmental or social science and one year of full-time experience in a responsible supervisory, administrative or research capacity in the appropriate field of specialization; or 2. A master's degree from an accredited college or university with specialization in an appropriate field of physical, biological, environmental or social science and three years of responsible full-time research experience in the appropriate field of specialization; or 3. Education and/or experience which is equivalent to ""1"" or ""2"" above. However, all candidates must have at least a master's degree in an appropriate field of specialization and at least two years of experience described in ""2"" above. Two years as a City Research Scientist Level I can be substituted for the experience required in ""1"" and ""2"" above. NOTE: Probationary Period Appointments to this position are subject to a minimum probationary period of one year.",,,,not_started,

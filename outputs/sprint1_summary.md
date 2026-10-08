@@ -1,6 +1,6 @@
 # Sprint 1 Summary - Shared Job-Posting Corpus
 
-Generated 2026-09-25T17:32:39Z from `database/taxonomy.duckdb` (all values computed; see `outputs/tables/sprint1_metrics.json`).
+Generated 2026-10-08T20:59:57Z from `database/taxonomy.duckdb` (all values computed; see `outputs/tables/sprint1_metrics.json`).
 
 ## Job sources
 | Source | Raw | Canonical | Unique | Duplicates | Dup. rate | Status |

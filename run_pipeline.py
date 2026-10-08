@@ -59,7 +59,8 @@ def secret_scan() -> list[str]:
     import os
     hits = []
     # literal values of any configured credentials must not appear anywhere outside .env
-    literals = [v for k in ("USAJOBS_API_KEY", "ADZUNA_APP_KEY", "ADZUNA_APP_ID")
+    literals = [v for k in ("USAJOBS_API_KEY", "ADZUNA_APP_KEY", "ADZUNA_APP_ID", "GEMINI_API_KEY", "GROQ_API_KEY",
+                            "ANTHROPIC_API_KEY")
                 if (v := os.environ.get(k, "").strip()) and len(v) >= 6]
     if literals:
         SECRET_PATTERNS.extend(re.compile(re.escape(v)) for v in literals)

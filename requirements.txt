@@ -14,3 +14,9 @@ langdetect==1.0.9
 tqdm==4.70.1
 beautifulsoup4==4.15.0
 pytest==9.1.1
+# Sprint 2 prototype (LLM providers, schemas, local embeddings)
+pydantic==2.13.5
+google-genai==2.25.0
+groq==1.7.0
+anthropic==1.12.1
+fastembed==0.8.1

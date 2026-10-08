@@ -1,4 +1,4 @@
-# Data Sources (generated 2026-09-25T17:32:39Z)
+# Data Sources (generated 2026-10-08T20:59:57Z)
 
 Generated from `data/data_manifest.csv`. For directory snapshots (API pages), SHA-256 is a
 deterministic digest over the sorted list of (relative path, file SHA-256).

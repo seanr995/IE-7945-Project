@@ -1,5 +1,9 @@
 """Gold annotation set (EMPTY labels) + evaluation. PROTOTYPE.
 
+SUPERSEDED FOR TASKS by src/prototype/task_gold.py (blind long-format task gold with evidence spans) and
+src/prototype/task_eval.py (normalized/lexical/semantic one-to-one matching). Kept for the combined
+task+skill prototype; it was never run (data/annotation/sprint2_gold_100.csv does not exist).
+
     python -m src.prototype.gold build      # writes data/annotation/sprint2_gold_100.csv (never overwrites labels)
     python -m src.prototype.gold evaluate   # precision / recall / F1 once humans fill gold_tasks / gold_skills
 

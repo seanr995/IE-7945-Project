@@ -20,6 +20,15 @@
     "max_concurrency": 1,
     "_selection_note": "openai/gpt-oss-120b: different model family from Gemini (independence), supports strict json_schema on Groq."
   },
+  "anthropic": {
+    "model": "claude-opus-5-5",
+    "effort": "medium",
+    "max_tokens": 16000,
+    "timeout_s": 180,
+    "max_retries": 4,
+    "max_concurrency": 2,
+    "_selection_note": "OPTIONAL third-provider experiment arm (python -m src.prototype.run_extraction --provider anthropic). Key only via ANTHROPIC_API_KEY in .env. No temperature parameter (rejected by this model); thinking is adaptive by default and effort is set explicitly. No refusal fallback model: a different model answering would confound the comparison. Override the model with ANTHROPIC_MODEL."
+  },
   "embedding": {
     "provider": "local",
     "model": "BAAI/bge-small-en-v1.5",
@@ -45,5 +54,18 @@
     "rerank_max_statements": 240,
     "rerank_batch_size": 6,
     "adjudication_max_postings": 30
+  },
+  "alignment": {
+    "_comment": "Task -> O*NET alignment (src.prototype.alignment tasks). Cosine thresholds for local bge-small-en-v1.5 embeddings. PROVISIONAL (2026-10-08): set from a manual spot check of 28 top-1 pairs across similarity bands (0.80-0.83 mostly wrong, >=0.86 mostly plausible but generic). Not calibrated - no human O*NET mapping labels exist yet.",
+    "top_k": 10,
+    "accept_min_similarity": 0.86,
+    "review_min_similarity": 0.75,
+    "min_margin": 0.0
+  },
+  "evaluation": {
+    "_comment": "Task evaluation matcher (src.prototype.task_eval). Thresholds are configurable on the CLI.",
+    "lexical_jaccard_min": 0.6,
+    "semantic_match_min": 0.85,
+    "semantic_review_min": 0.75
   }
 }
