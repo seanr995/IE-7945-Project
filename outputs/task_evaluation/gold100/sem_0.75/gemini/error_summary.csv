@@ -1,0 +1,6 @@
+side,error_category,n
+false_negative,missed_task,234
+false_positive,compound_over_split (gold kept it as one task),94
+false_positive,extra_task_not_in_gold (possible gold omission - check),604
+false_positive,hallucinated_or_implied (weak/invalid evidence),31
+false_positive,skill_or_qualification_as_task,85

@@ -1,0 +1,143 @@
+{
+  "all_consistent": true,
+  "checks": [
+    {
+      "claim": "q12_global_stability",
+      "metric": "stability_ari",
+      "stated_winners": [
+        "Agentic taxonomy (Claude concepts + decisions)"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "q13_topic_persistence",
+      "metric": "persistence_share_j50",
+      "stated_winners": [
+        "Agentic taxonomy (Claude concepts + decisions)",
+        "Hybrid: agentic concepts + deterministic T5 assignment"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "q13b_persistence_median",
+      "metric": "persistence_median_jaccard",
+      "stated_winners": [
+        "Agentic taxonomy (Claude concepts + decisions)"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "q14_paraphrase",
+      "metric": "paraphrase_kappa",
+      "stated_winners": [
+        "Leiden k_nn=10 res=5.537 (target 80)"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "cohesion_lift",
+      "metric": "semantic_cohesion_lift_incl_unassigned",
+      "stated_winners": [
+        "Historical: GMM (diag) n=140"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "lowest_ambiguity",
+      "metric": "low_confidence_rate",
+      "stated_winners": [
+        "HDBSCAN mcs=10 ms=1 eom (target 64)"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "clearest_boundaries",
+      "metric": "centroid_inconsistency_rate",
+      "stated_winners": [
+        "HDBSCAN mcs=10 ms=1 eom (target 64)"
+      ],
+      "consistent": true
+    },
+    {
+      "claim": "decision",
+      "metric": "evidence hierarchy",
+      "stated_winners": [
+        "LEIDEN_T5@80"
+      ],
+      "consistent": true
+    }
+  ],
+  "claims": {
+    "q12_global_stability": {
+      "metric": "stability_ari",
+      "direction": "max",
+      "winners": [
+        "Agentic taxonomy (Claude concepts + decisions)"
+      ],
+      "value": 0.6792912677019987,
+      "table": "final",
+      "label_col": "label"
+    },
+    "q13_topic_persistence": {
+      "metric": "persistence_share_j50",
+      "direction": "max",
+      "winners": [
+        "Agentic taxonomy (Claude concepts + decisions)",
+        "Hybrid: agentic concepts + deterministic T5 assignment"
+      ],
+      "value": 0.975,
+      "table": "final",
+      "label_col": "label"
+    },
+    "q13b_persistence_median": {
+      "metric": "persistence_median_jaccard",
+      "direction": "max",
+      "winners": [
+        "Agentic taxonomy (Claude concepts + decisions)"
+      ],
+      "value": 0.7779022859704169,
+      "table": "final",
+      "label_col": "label"
+    },
+    "q14_paraphrase": {
+      "metric": "paraphrase_kappa",
+      "direction": "max",
+      "winners": [
+        "Leiden k_nn=10 res=5.537 (target 80)"
+      ],
+      "value": 0.8002731455942719,
+      "table": "final",
+      "label_col": "label"
+    },
+    "cohesion_lift": {
+      "metric": "semantic_cohesion_lift_incl_unassigned",
+      "direction": "max",
+      "winners": [
+        "Historical: GMM (diag) n=140"
+      ],
+      "value": 0.3154539246535471,
+      "table": "final",
+      "label_col": "label"
+    },
+    "lowest_ambiguity": {
+      "metric": "low_confidence_rate",
+      "direction": "min",
+      "winners": [
+        "HDBSCAN mcs=10 ms=1 eom (target 64)"
+      ],
+      "value": 0.020640269587194608,
+      "table": "final",
+      "label_col": "label"
+    },
+    "clearest_boundaries": {
+      "metric": "centroid_inconsistency_rate",
+      "direction": "min",
+      "winners": [
+        "HDBSCAN mcs=10 ms=1 eom (target 64)"
+      ],
+      "value": 0.013058129738837404,
+      "table": "final",
+      "label_col": "label"
+    }
+  }
+}

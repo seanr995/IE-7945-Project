@@ -1,0 +1,251 @@
+embedding_model,query_statement_id,query_statement,neighbor_rank,neighbor_statement_id,neighbor_statement,cosine_similarity
+intfloat/e5-base-v2,ts_b_16936b08a16b891510ff,Manage candidate communications,1,ts_b_f5e9d7d7cbfb58511962,Manage email communication,0.9034
+intfloat/e5-base-v2,ts_b_16936b08a16b891510ff,Manage candidate communications,2,ts_b_3f6a677c3ddcdc1288e0,Oversee communications plans,0.8963
+intfloat/e5-base-v2,ts_b_16936b08a16b891510ff,Manage candidate communications,3,ts_b_88086d1ab23c5c9b9b66,Manage candidate pipelines,0.888
+intfloat/e5-base-v2,ts_b_16936b08a16b891510ff,Manage candidate communications,4,ts_b_bbf06bad83cc595ecde8,Conduct candidate outreach,0.8821
+intfloat/e5-base-v2,ts_b_16936b08a16b891510ff,Manage candidate communications,5,ts_b_98f6276758f17567548c,Lead communications strategy,0.8752
+intfloat/e5-base-v2,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,1,ts_b_924e9f4fcc7bb91dae63,Identify opportunities for strategic partnerships,0.9511
+intfloat/e5-base-v2,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,2,ts_b_6b8b98ce7f531daa8b50,Identify sales opportunities,0.9383
+intfloat/e5-base-v2,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,3,ts_b_aee270ba9590c772ebd8,Identify high-value opportunities,0.9249
+intfloat/e5-base-v2,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,4,ts_b_57776837a4008868e1f6,Identify project opportunities,0.9236
+intfloat/e5-base-v2,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,5,ts_b_1594c824b346e80e32b7,Identify organizing opportunities,0.9214
+intfloat/e5-base-v2,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",1,ts_b_505d78a5b997c5b956ed,"build strong relationships across Engineering, Customer Success, Commercial and Marketing",0.8541
+intfloat/e5-base-v2,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",2,ts_b_0a1ab7e5bb90a4fb72c8,"Proactively build shared understanding across the team through pairing, discussions, and reviews",0.8521
+intfloat/e5-base-v2,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",3,ts_b_5bbfd0faced9fbd968da,Conduct hands-on reviews,0.839
+intfloat/e5-base-v2,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",4,ts_b_738732bc270188da3281,Shape new engagements with engineering and R&D leaders,0.8371
+intfloat/e5-base-v2,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",5,ts_b_0c55afd994ad2dd33a97,Learn from your peers and actively seek feedback and mentorship,0.836
+intfloat/e5-base-v2,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,1,ts_b_91c8ac9e34b70c86c832,Own products and services end-to-end,0.9029
+intfloat/e5-base-v2,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,2,ts_b_133456176547e33f0c77,Own end-to-end user journey,0.8775
+intfloat/e5-base-v2,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,3,ts_b_44b2e0781a1db2c633bf,Own the product end to end,0.8648
+intfloat/e5-base-v2,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,4,ts_b_b50659bdea7c55b8472e,Lead strategic sourcing activities,0.8617
+intfloat/e5-base-v2,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,5,ts_b_de486265ed7a5740b104,Own hiring experience end-to-end,0.8595
+intfloat/e5-base-v2,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,1,ts_b_222e76da9d54e16ccbab,Reconcile Summary of Payroll,0.9224
+intfloat/e5-base-v2,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,2,ts_b_6d169bb539b405325a89,Manage payroll,0.8844
+intfloat/e5-base-v2,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,3,ts_b_662bdc8cafaf46f783cc,Perform employment verifications,0.8821
+intfloat/e5-base-v2,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,4,ts_b_cab6ef2eb71ee19e8f4b,Validate audit sample data,0.8799
+intfloat/e5-base-v2,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,5,ts_b_e8f2746b5d0f75338315,Perform income verifications,0.8735
+intfloat/e5-base-v2,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,1,ts_b_568c2b4e280d524d6ab3,Attend administrative hearings,0.9037
+intfloat/e5-base-v2,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,2,ts_b_c93ad9c8eea034130e7f,Manage hearings,0.9018
+intfloat/e5-base-v2,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,3,ts_b_df3f5ea9980b29ff93c8,Handle appeals,0.8827
+intfloat/e5-base-v2,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,4,ts_b_727181c07c7f77204893,Prepare appeals,0.8755
+intfloat/e5-base-v2,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,5,ts_b_3b04c82d5bc3d1c17c76,Assign appeals,0.8587
+intfloat/e5-base-v2,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,1,ts_b_3095053835dedd403862,Conduct data analysis,0.8951
+intfloat/e5-base-v2,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,2,ts_b_20ed2e1dbf1cdf18e6da,Perform field analyses,0.8889
+intfloat/e5-base-v2,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,3,ts_b_04ad2154dc879d0c61a2,Analyze data,0.8857
+intfloat/e5-base-v2,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,4,ts_b_743a25f26308ff83b3df,Analyze reports,0.879
+intfloat/e5-base-v2,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,5,ts_b_56ef3ed0c0f2a7fbe063,Perform root cause analysis,0.877
+intfloat/e5-base-v2,ts_b_06709fc684dac5a5ec60,Process copy requests,1,ts_b_8f8b20808db303fd47ae,Process print requests,0.9152
+intfloat/e5-base-v2,ts_b_06709fc684dac5a5ec60,Process copy requests,2,ts_b_4b04f5f596d8583e79d4,Process scanning requests,0.9097
+intfloat/e5-base-v2,ts_b_06709fc684dac5a5ec60,Process copy requests,3,ts_b_da66d92ac4a3a5caf4ef,Process requests for quotes,0.8768
+intfloat/e5-base-v2,ts_b_06709fc684dac5a5ec60,Process copy requests,4,ts_b_0fc0c3d8d991b522239f,Copy edit publications,0.8645
+intfloat/e5-base-v2,ts_b_06709fc684dac5a5ec60,Process copy requests,5,ts_b_0038696f62be1597f3ff,Ensure requests capture relevant details,0.856
+intfloat/e5-base-v2,ts_b_0cde4add0367d0f628ba,Create records,1,ts_b_de4ff0ded051f809d94c,Submit records,0.9205
+intfloat/e5-base-v2,ts_b_0cde4add0367d0f628ba,Create records,2,ts_b_f75bdd700ebbeb8f8ccf,Publish records,0.9126
+intfloat/e5-base-v2,ts_b_0cde4add0367d0f628ba,Create records,3,ts_b_55408f662c1d2d2c0856,Keep records,0.9085
+intfloat/e5-base-v2,ts_b_0cde4add0367d0f628ba,Create records,4,ts_b_22f0ea1e46600d355339,Maintain records,0.9076
+intfloat/e5-base-v2,ts_b_0cde4add0367d0f628ba,Create records,5,ts_b_b5e64fc1592d77886ab3,File records,0.902
+intfloat/e5-base-v2,ts_b_17eecc85e62641441346,Engage with prospects,1,ts_b_34cba26f29d78873443a,Build prospect relationships,0.922
+intfloat/e5-base-v2,ts_b_17eecc85e62641441346,Engage with prospects,2,ts_b_e4734971ac9346a94376,Engage prospective customers,0.9172
+intfloat/e5-base-v2,ts_b_17eecc85e62641441346,Engage with prospects,3,ts_b_91799b593847a985a885,Engage volunteers,0.8926
+intfloat/e5-base-v2,ts_b_17eecc85e62641441346,Engage with prospects,4,ts_b_bbf06bad83cc595ecde8,Conduct candidate outreach,0.8894
+intfloat/e5-base-v2,ts_b_17eecc85e62641441346,Engage with prospects,5,ts_b_67a8dd75d22d5ebde4ae,Create sales opportunities,0.881
+intfloat/e5-base-v2,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,1,ts_b_f261be2b4a3e408cdcab,Assist City agencies with State legislation,0.8574
+intfloat/e5-base-v2,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,2,ts_b_42351662b64e253c4e35,Represent the Mayor’s Office,0.832
+intfloat/e5-base-v2,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,3,ts_b_1009dd1bc75c1f3b72f4,Prepare policy work,0.83
+intfloat/e5-base-v2,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,4,ts_b_39bd385f48b1f04fa560,Represent the Mayor’s Office at city agency events,0.8283
+intfloat/e5-base-v2,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,5,ts_b_710352fc2d6061a055af,Run the official citywide Debates Program,0.8256
+intfloat/e5-base-v2,ts_b_b16706ebacf370d83b5f,ship them,1,ts_b_ca2415cb90244a72bb7c,Ship products,0.9005
+intfloat/e5-base-v2,ts_b_b16706ebacf370d83b5f,ship them,2,ts_b_2b8d48eb70f2c4eca1ee,Ship with conviction,0.8798
+intfloat/e5-base-v2,ts_b_b16706ebacf370d83b5f,ship them,3,ts_b_0bfb75f55709c91c43aa,Receive physical correspondence,0.8556
+intfloat/e5-base-v2,ts_b_b16706ebacf370d83b5f,ship them,4,ts_b_ed53dce9237ef813f167,Ship Android features,0.8544
+intfloat/e5-base-v2,ts_b_b16706ebacf370d83b5f,ship them,5,ts_b_8b588ce88629b2bc60be,Ship workflows,0.8498
+intfloat/e5-base-v2,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,1,ts_b_66ebbc94365345e3046e,Support Teamcenter installation,0.9383
+intfloat/e5-base-v2,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,2,ts_b_19a69146f3bec033ea60,Support Teamcenter deployments,0.9184
+intfloat/e5-base-v2,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,3,ts_b_d6abe844688bb878e888,Perform upgrades,0.8849
+intfloat/e5-base-v2,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,4,ts_b_b0ab1e731df26dbeac39,Support team growth,0.8825
+intfloat/e5-base-v2,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,5,ts_b_328fe39ffdff6062b431,Act as the technical reference for Teamcenter,0.8684
+intfloat/e5-base-v2,ts_b_9788771fd3f993d7dc41,Design experiences,1,ts_b_64f9acebc0c1ce0d61b6,Design customer experiences,0.9477
+intfloat/e5-base-v2,ts_b_9788771fd3f993d7dc41,Design experiences,2,ts_b_1d574f4f743ea63594f5,Design intuitive experiences,0.933
+intfloat/e5-base-v2,ts_b_9788771fd3f993d7dc41,Design experiences,3,ts_b_e4bfa6ad25f309ade77f,Design end-to-end product experiences,0.9273
+intfloat/e5-base-v2,ts_b_9788771fd3f993d7dc41,Design experiences,4,ts_b_d94ae32f28b4f068345f,Design cultural moments,0.896
+intfloat/e5-base-v2,ts_b_9788771fd3f993d7dc41,Design experiences,5,ts_b_3ff6c02cb15a7e446d12,Design client journeys,0.889
+intfloat/e5-base-v2,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,1,ts_b_2daefc3a5938b054aadd,Advise leadership on suicide prevention policy,0.8597
+intfloat/e5-base-v2,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,2,ts_b_6fccbd6cd652acdf098d,Build information security risk register,0.8576
+intfloat/e5-base-v2,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,3,ts_b_77a4af563f19f84b3261,Manage risks,0.8551
+intfloat/e5-base-v2,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,4,ts_b_965d242ec126dbf9c017,Maintain information security risk register,0.848
+intfloat/e5-base-v2,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,5,ts_b_f48f2795ae80354a6cdf,Maintain information security strategy,0.8456
+intfloat/e5-base-v2,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,1,ts_b_0544cf7fa44f769327de,Respond to inquiries,0.8868
+intfloat/e5-base-v2,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,2,ts_b_57b2c3c55c486d8a5c29,Respond to customer service inquiries,0.877
+intfloat/e5-base-v2,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,3,ts_b_aff248e4507b6b6edda0,Respond to client concerns,0.8735
+intfloat/e5-base-v2,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,4,ts_b_8068df92d86fa76dd88b,Respond to incoming inquiries,0.8725
+intfloat/e5-base-v2,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,5,ts_b_936530c0dbb4c87a7f18,Respond to community inquiries,0.8657
+intfloat/e5-base-v2,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,1,ts_b_af8e35b08145ebc0bee5,Review regulatory treatment reports,0.9405
+intfloat/e5-base-v2,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,2,ts_b_73564ed9c8ad77553156,Prepare regulatory briefings,0.9098
+intfloat/e5-base-v2,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,3,ts_b_50cf5e7f96b7afdfe966,Prepare reports,0.9092
+intfloat/e5-base-v2,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,4,ts_b_dac7ec09fd4694201328,Prepare reports on findings,0.8964
+intfloat/e5-base-v2,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,5,ts_b_361e94d8325a6ae5bc77,Prepare management reports,0.896
+intfloat/e5-base-v2,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,1,ts_b_22bd6617a4b0df13a899,Set technical direction,0.887
+intfloat/e5-base-v2,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,2,ts_b_675d7a3fba0a5e6b5fcc,Oversee development of AI tools,0.8826
+intfloat/e5-base-v2,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,3,ts_b_20fac5c26bbd6962fb9c,Lead the AI Process Automation team,0.8796
+intfloat/e5-base-v2,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,4,ts_b_8cf90e710e8e071cc311,Design production-grade AI systems,0.8782
+intfloat/e5-base-v2,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,5,ts_b_3184f9f2ba539ab21937,Deploy production-grade AI systems,0.8717
+intfloat/e5-base-v2,ts_b_9ab68959644731d22ea6,Determine procedural issues,1,ts_b_d987fe5cbe53c2faf686,Analyze technical issues,0.8882
+intfloat/e5-base-v2,ts_b_9ab68959644731d22ea6,Determine procedural issues,2,ts_b_9b082c9d39ef7d98b0a5,Decide approach for problems,0.8869
+intfloat/e5-base-v2,ts_b_9ab68959644731d22ea6,Determine procedural issues,3,ts_b_3d76b29a51df854ebcf7,Determine mailing issues,0.8845
+intfloat/e5-base-v2,ts_b_9ab68959644731d22ea6,Determine procedural issues,4,ts_b_ea1c87c4d7ce2f84e2bc,Troubleshoot issues,0.881
+intfloat/e5-base-v2,ts_b_9ab68959644731d22ea6,Determine procedural issues,5,ts_b_9e9d98274ad3198fc474,Resolve complex technical issues,0.8741
+intfloat/e5-base-v2,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,1,ts_b_2dc382151b3cc0c38fcb,Manage projects,0.9519
+intfloat/e5-base-v2,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,2,ts_b_69125ab26ee968f479e2,Manage projects and tasks,0.9347
+intfloat/e5-base-v2,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,3,ts_b_7b7732d74d07ff76b5e8,Manage project data,0.916
+intfloat/e5-base-v2,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,4,ts_b_c1555d9612c0e3c175e7,Manage ad-hoc projects,0.9112
+intfloat/e5-base-v2,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,5,ts_b_06c22e0bff828993600b,Manage project elements,0.9084
+intfloat/e5-base-v2,ts_b_78a573cafac4e93db55c,Recommend instructional design models,1,ts_b_29a112a995d7d1605391,Design domain models,0.8716
+intfloat/e5-base-v2,ts_b_78a573cafac4e93db55c,Recommend instructional design models,2,ts_b_4124edef97ec811bfd99,Recommend decisions,0.8603
+intfloat/e5-base-v2,ts_b_78a573cafac4e93db55c,Recommend instructional design models,3,ts_b_6cd88697f6fe805670d5,Provide data driven recommendations,0.8487
+intfloat/e5-base-v2,ts_b_78a573cafac4e93db55c,Recommend instructional design models,4,ts_b_b644e0dc7525d9d17a42,Provide best-practice recommendations,0.8475
+intfloat/e5-base-v2,ts_b_78a573cafac4e93db55c,Recommend instructional design models,5,ts_b_d210619b4e2537e6298b,Design curricula,0.8444
+intfloat/e5-base-v2,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,1,ts_b_08e322a2ef636b101900,Build candidate pipelines,0.9126
+intfloat/e5-base-v2,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,2,ts_b_99ac761ecb361c48c2fe,Build CI/CD pipelines,0.8945
+intfloat/e5-base-v2,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,3,ts_b_d0b3a47003c27e3302be,Develop data pipelines,0.8937
+intfloat/e5-base-v2,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,4,ts_b_d73e74224f4b8bb4fd3c,Build data extraction pipelines,0.8912
+intfloat/e5-base-v2,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,5,ts_b_30bbc55ed8f8c67610db,Build scalable representation pipelines,0.8877
+intfloat/e5-base-v2,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,1,ts_b_438a141c9245fa6a0613,Give feedback,0.9011
+intfloat/e5-base-v2,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,2,ts_b_d255c1385577dcc9dd6b,"Provide feedback to marketing, product, and leadership teams",0.8904
+intfloat/e5-base-v2,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,3,ts_b_b83547f5d468e5f5669f,Analyze customer feedback,0.8778
+intfloat/e5-base-v2,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,4,ts_b_3de1619bb0d2eaa55f45,Identify opportunities to expand customer interaction,0.8744
+intfloat/e5-base-v2,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,5,ts_b_072976add5dcf7d6ac3f,Provide field feedback,0.8744
+intfloat/e5-base-v2,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,1,ts_b_0047c060419b1dc71f4f,Educate prospective and existing clients,0.8819
+intfloat/e5-base-v2,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,2,ts_b_b406a12f484341a7005d,Translate client goals,0.8789
+intfloat/e5-base-v2,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,3,ts_b_539f53f2eaa34aa13b63,Coordinate with translation services,0.8582
+intfloat/e5-base-v2,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,4,ts_b_4867f29c3d387f962d3c,Follow up with clients,0.8526
+intfloat/e5-base-v2,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,5,ts_b_1b9258d9ac653aa18244,Educate stakeholders,0.8443
+intfloat/e5-base-v2,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,1,ts_b_69c2681d3bd8d833f98f,Communicate with high-profile customers,0.831
+intfloat/e5-base-v2,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,2,ts_b_5f31696fc1f4e4079769,Identify prospective customers,0.8299
+intfloat/e5-base-v2,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,3,ts_b_9eb4bf3278f0c488d9fd,Gather customer insights,0.8284
+intfloat/e5-base-v2,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,4,ts_b_e4734971ac9346a94376,Engage prospective customers,0.8242
+intfloat/e5-base-v2,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,5,ts_b_13d060c97147826f40df,Convert prospective customers,0.8226
+sentence-transformers/sentence-t5-base,ts_b_16936b08a16b891510ff,Manage candidate communications,1,ts_b_bbf06bad83cc595ecde8,Conduct candidate outreach,0.9297
+sentence-transformers/sentence-t5-base,ts_b_16936b08a16b891510ff,Manage candidate communications,2,ts_b_0c8cd5f0b53d1015cccd,Conduct candidate follow-ups,0.8993
+sentence-transformers/sentence-t5-base,ts_b_16936b08a16b891510ff,Manage candidate communications,3,ts_b_aafa80dbc5510f139c05,Coordinate candidate handovers,0.8934
+sentence-transformers/sentence-t5-base,ts_b_16936b08a16b891510ff,Manage candidate communications,4,ts_b_98f6276758f17567548c,Lead communications strategy,0.8929
+sentence-transformers/sentence-t5-base,ts_b_16936b08a16b891510ff,Manage candidate communications,5,ts_b_88086d1ab23c5c9b9b66,Manage candidate pipelines,0.8859
+sentence-transformers/sentence-t5-base,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,1,ts_b_924e9f4fcc7bb91dae63,Identify opportunities for strategic partnerships,0.9427
+sentence-transformers/sentence-t5-base,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,2,ts_b_36a10dacae36fb207bc9,Build strategic relationships,0.9047
+sentence-transformers/sentence-t5-base,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,3,ts_b_00397a64518de91e6cd1,Develop operational strategy,0.8981
+sentence-transformers/sentence-t5-base,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,4,ts_b_c082c46fae814b21d117,Drive strategic initiatives,0.8977
+sentence-transformers/sentence-t5-base,ts_b_76941c81adfb92d8db3c,Identify strategic opportunities,5,ts_b_05590556c1cf1c262552,Develop strategic partnerships,0.8972
+sentence-transformers/sentence-t5-base,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",1,ts_b_0a1ab7e5bb90a4fb72c8,"Proactively build shared understanding across the team through pairing, discussions, and reviews",0.8579
+sentence-transformers/sentence-t5-base,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",2,ts_b_5bbfd0faced9fbd968da,Conduct hands-on reviews,0.8496
+sentence-transformers/sentence-t5-base,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",3,ts_b_738732bc270188da3281,Shape new engagements with engineering and R&D leaders,0.8481
+sentence-transformers/sentence-t5-base,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",4,ts_b_944db935619072b102de,Develop engineers,0.8413
+sentence-transformers/sentence-t5-base,ts_b_5346f26a8ee40b3298ee,"Growing the depth of the engineers around you through coaching, standards and hands-on reviews",5,ts_b_f30fa38fc34d0944100c,Collaborate with engineering disciplines,0.8401
+sentence-transformers/sentence-t5-base,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,1,ts_b_91c8ac9e34b70c86c832,Own products and services end-to-end,0.8992
+sentence-transformers/sentence-t5-base,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,2,ts_b_a46f69c65232c6c92f11,Own commercial positioning,0.881
+sentence-transformers/sentence-t5-base,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,3,ts_b_aab5ba966f7e2df9473d,Partner with marketing teams,0.8721
+sentence-transformers/sentence-t5-base,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,4,ts_b_8dcb66f7de694923ad63,Set up marketing operations,0.8677
+sentence-transformers/sentence-t5-base,ts_b_7898ea28fb3e8a01bd18,Own end-to-end Marketing sourcing,5,ts_b_5a138b906a78959c6178,Execute marketing strategies,0.8665
+sentence-transformers/sentence-t5-base,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,1,ts_b_222e76da9d54e16ccbab,Reconcile Summary of Payroll,0.9321
+sentence-transformers/sentence-t5-base,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,2,ts_b_128a9eaf849d92b4b41e,Perform performance validation,0.8569
+sentence-transformers/sentence-t5-base,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,3,ts_b_6d169bb539b405325a89,Manage payroll,0.8565
+sentence-transformers/sentence-t5-base,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,4,ts_b_e0e9661c4ef5de9357cc,Review payroll funding requests,0.8501
+sentence-transformers/sentence-t5-base,ts_b_137a4a448556d4cbbac6,Validate Summary of Payroll,5,ts_b_e8f2746b5d0f75338315,Perform income verifications,0.8487
+sentence-transformers/sentence-t5-base,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,1,ts_b_c93ad9c8eea034130e7f,Manage hearings,0.9083
+sentence-transformers/sentence-t5-base,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,2,ts_b_df3f5ea9980b29ff93c8,Handle appeals,0.9047
+sentence-transformers/sentence-t5-base,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,3,ts_b_912656b2d20d16e6a44b,Provide oversight for EH hearing appearances,0.8969
+sentence-transformers/sentence-t5-base,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,4,ts_b_3b04c82d5bc3d1c17c76,Assign appeals,0.8941
+sentence-transformers/sentence-t5-base,ts_b_b55a3dd2161d8af79ea4,Manage EH administrative hearings appeals process,5,ts_b_727181c07c7f77204893,Prepare appeals,0.8925
+sentence-transformers/sentence-t5-base,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,1,ts_b_3095053835dedd403862,Conduct data analysis,0.887
+sentence-transformers/sentence-t5-base,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,2,ts_b_04ad2154dc879d0c61a2,Analyze data,0.8846
+sentence-transformers/sentence-t5-base,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,3,ts_b_3a3763a3932e1476527e,Analyse data,0.8845
+sentence-transformers/sentence-t5-base,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,4,ts_b_0ace5f1b41c45692bd3c,Form a sharp point of view,0.8839
+sentence-transformers/sentence-t5-base,ts_b_b0fa3dc0367c4950bcea,Perform sharp analysis,5,ts_b_85b2063ad3a0a0f6c95a,Investigate information,0.8808
+sentence-transformers/sentence-t5-base,ts_b_06709fc684dac5a5ec60,Process copy requests,1,ts_b_8f8b20808db303fd47ae,Process print requests,0.9046
+sentence-transformers/sentence-t5-base,ts_b_06709fc684dac5a5ec60,Process copy requests,2,ts_b_df03ce2024af70d35956,Operate copiers,0.8936
+sentence-transformers/sentence-t5-base,ts_b_06709fc684dac5a5ec60,Process copy requests,3,ts_b_da66d92ac4a3a5caf4ef,Process requests for quotes,0.8806
+sentence-transformers/sentence-t5-base,ts_b_06709fc684dac5a5ec60,Process copy requests,4,ts_b_4b04f5f596d8583e79d4,Process scanning requests,0.8721
+sentence-transformers/sentence-t5-base,ts_b_06709fc684dac5a5ec60,Process copy requests,5,ts_b_0e899c35f5cbc4068085,Process orders,0.8679
+sentence-transformers/sentence-t5-base,ts_b_0cde4add0367d0f628ba,Create records,1,ts_b_22f0ea1e46600d355339,Maintain records,0.9451
+sentence-transformers/sentence-t5-base,ts_b_0cde4add0367d0f628ba,Create records,2,ts_b_de4ff0ded051f809d94c,Submit records,0.9441
+sentence-transformers/sentence-t5-base,ts_b_0cde4add0367d0f628ba,Create records,3,ts_b_b5e64fc1592d77886ab3,File records,0.9393
+sentence-transformers/sentence-t5-base,ts_b_0cde4add0367d0f628ba,Create records,4,ts_b_f75bdd700ebbeb8f8ccf,Publish records,0.9309
+sentence-transformers/sentence-t5-base,ts_b_0cde4add0367d0f628ba,Create records,5,ts_b_55408f662c1d2d2c0856,Keep records,0.9277
+sentence-transformers/sentence-t5-base,ts_b_17eecc85e62641441346,Engage with prospects,1,ts_b_34cba26f29d78873443a,Build prospect relationships,0.9424
+sentence-transformers/sentence-t5-base,ts_b_17eecc85e62641441346,Engage with prospects,2,ts_b_0de8b62779f20aff5f52,Research customer prospects and targets,0.8923
+sentence-transformers/sentence-t5-base,ts_b_17eecc85e62641441346,Engage with prospects,3,ts_b_34d8402768d8e2a626c8,Identify customer prospects and targets,0.8898
+sentence-transformers/sentence-t5-base,ts_b_17eecc85e62641441346,Engage with prospects,4,ts_b_cceb9a9f1ddc97513649,Develop prospective clients,0.8889
+sentence-transformers/sentence-t5-base,ts_b_17eecc85e62641441346,Engage with prospects,5,ts_b_e4734971ac9346a94376,Engage prospective customers,0.8877
+sentence-transformers/sentence-t5-base,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,1,ts_b_f261be2b4a3e408cdcab,Assist City agencies with State legislation,0.8701
+sentence-transformers/sentence-t5-base,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,2,ts_b_b98d5f3ee0755043aae9,Manage legislative activity,0.8581
+sentence-transformers/sentence-t5-base,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,3,ts_b_42351662b64e253c4e35,Represent the Mayor’s Office,0.85
+sentence-transformers/sentence-t5-base,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,4,ts_b_9d9a789db7efd9dd5e3f,Develop citywide policies,0.8481
+sentence-transformers/sentence-t5-base,ts_b_2443e3f337c5fd27f495,Prepare Mayor's State Legislative Program,5,ts_b_1009dd1bc75c1f3b72f4,Prepare policy work,0.8467
+sentence-transformers/sentence-t5-base,ts_b_b16706ebacf370d83b5f,ship them,1,ts_b_ca2415cb90244a72bb7c,Ship products,0.8826
+sentence-transformers/sentence-t5-base,ts_b_b16706ebacf370d83b5f,ship them,2,ts_b_2b8d48eb70f2c4eca1ee,Ship with conviction,0.8612
+sentence-transformers/sentence-t5-base,ts_b_b16706ebacf370d83b5f,ship them,3,ts_b_27b3714a11614b80a0a9,Tow boats,0.8425
+sentence-transformers/sentence-t5-base,ts_b_b16706ebacf370d83b5f,ship them,4,ts_b_8b588ce88629b2bc60be,Ship workflows,0.8323
+sentence-transformers/sentence-t5-base,ts_b_b16706ebacf370d83b5f,ship them,5,ts_b_4f013bf95f2aadf7cab0,Deliver documents,0.8287
+sentence-transformers/sentence-t5-base,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,1,ts_b_66ebbc94365345e3046e,Support Teamcenter installation,0.9157
+sentence-transformers/sentence-t5-base,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,2,ts_b_19a69146f3bec033ea60,Support Teamcenter deployments,0.9034
+sentence-transformers/sentence-t5-base,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,3,ts_b_d6abe844688bb878e888,Perform upgrades,0.887
+sentence-transformers/sentence-t5-base,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,4,ts_b_b0ab1e731df26dbeac39,Support team growth,0.884
+sentence-transformers/sentence-t5-base,ts_b_ea0ba184382d5ce5a4b4,Support Teamcenter upgrades,5,ts_b_b38fc9b8ba315b5e6076,Evolve Siemens Teamcenter environment,0.8708
+sentence-transformers/sentence-t5-base,ts_b_9788771fd3f993d7dc41,Design experiences,1,ts_b_e4bfa6ad25f309ade77f,Design end-to-end product experiences,0.9476
+sentence-transformers/sentence-t5-base,ts_b_9788771fd3f993d7dc41,Design experiences,2,ts_b_64f9acebc0c1ce0d61b6,Design customer experiences,0.9257
+sentence-transformers/sentence-t5-base,ts_b_9788771fd3f993d7dc41,Design experiences,3,ts_b_1d574f4f743ea63594f5,Design intuitive experiences,0.9229
+sentence-transformers/sentence-t5-base,ts_b_9788771fd3f993d7dc41,Design experiences,4,ts_b_d210619b4e2537e6298b,Design curricula,0.9055
+sentence-transformers/sentence-t5-base,ts_b_9788771fd3f993d7dc41,Design experiences,5,ts_b_c86a4eada1a9e65ddf8a,Design activation strategies,0.8916
+sentence-transformers/sentence-t5-base,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,1,ts_b_f48f2795ae80354a6cdf,Maintain information security strategy,0.888
+sentence-transformers/sentence-t5-base,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,2,ts_b_77a4af563f19f84b3261,Manage risks,0.8819
+sentence-transformers/sentence-t5-base,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,3,ts_b_6f1485e4201eec53ff78,Set information security strategy,0.8768
+sentence-transformers/sentence-t5-base,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,4,ts_b_2daefc3a5938b054aadd,Advise leadership on suicide prevention policy,0.8722
+sentence-transformers/sentence-t5-base,ts_b_b1b420c42612659d6ae3,Advise leadership on information security risk,5,ts_b_965d242ec126dbf9c017,Maintain information security risk register,0.8643
+sentence-transformers/sentence-t5-base,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,1,ts_b_93352947e304ce921354,Participate in the reading and evaluation of RFPs,0.8979
+sentence-transformers/sentence-t5-base,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,2,ts_b_8068df92d86fa76dd88b,Respond to incoming inquiries,0.8773
+sentence-transformers/sentence-t5-base,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,3,ts_b_a8b4fa214f9d5acd7a1b,Respond to incidents,0.8749
+sentence-transformers/sentence-t5-base,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,4,ts_b_0544cf7fa44f769327de,Respond to inquiries,0.8701
+sentence-transformers/sentence-t5-base,ts_b_a0d381ba3ab75bd8a712,Respond to RFI/RFP,5,ts_b_6cf75e28ecd5b2432750,Respond to complaints,0.8627
+sentence-transformers/sentence-t5-base,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,1,ts_b_af8e35b08145ebc0bee5,Review regulatory treatment reports,0.9517
+sentence-transformers/sentence-t5-base,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,2,ts_b_73564ed9c8ad77553156,Prepare regulatory briefings,0.9188
+sentence-transformers/sentence-t5-base,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,3,ts_b_50cf5e7f96b7afdfe966,Prepare reports,0.9165
+sentence-transformers/sentence-t5-base,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,4,ts_b_8b12dd068eb79bb2dcbc,Refine reports,0.9033
+sentence-transformers/sentence-t5-base,ts_b_dffe14d607b42352f1f4,Prepare regulatory treatment reports,5,ts_b_361e94d8325a6ae5bc77,Prepare management reports,0.9001
+sentence-transformers/sentence-t5-base,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,1,ts_b_22bd6617a4b0df13a899,Set technical direction,0.9019
+sentence-transformers/sentence-t5-base,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,2,ts_b_d52fff94be5f4be2ac11,Develop AI application roadmaps,0.888
+sentence-transformers/sentence-t5-base,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,3,ts_b_8cf90e710e8e071cc311,Design production-grade AI systems,0.8709
+sentence-transformers/sentence-t5-base,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,4,ts_b_accbd918165976baa501,Integrate AI expertise,0.8708
+sentence-transformers/sentence-t5-base,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,5,ts_b_885b3aec727bcd56ee2c,Apply AI to company operations,0.8651
+sentence-transformers/sentence-t5-base,ts_b_9ab68959644731d22ea6,Determine procedural issues,1,ts_b_9b082c9d39ef7d98b0a5,Decide approach for problems,0.8884
+sentence-transformers/sentence-t5-base,ts_b_9ab68959644731d22ea6,Determine procedural issues,2,ts_b_e7d91f0e86fffcb21c03,Track high-level issues,0.8712
+sentence-transformers/sentence-t5-base,ts_b_9ab68959644731d22ea6,Determine procedural issues,3,ts_b_ea1c87c4d7ce2f84e2bc,Troubleshoot issues,0.8662
+sentence-transformers/sentence-t5-base,ts_b_9ab68959644731d22ea6,Determine procedural issues,4,ts_b_377ed82fb1ba46a76afa,Identify and recommend solutions for programmatic issues,0.8651
+sentence-transformers/sentence-t5-base,ts_b_9ab68959644731d22ea6,Determine procedural issues,5,ts_b_49c43a93c94562206f98,Resolve critical path issues,0.8601
+sentence-transformers/sentence-t5-base,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,1,ts_b_2dc382151b3cc0c38fcb,Manage projects,0.9716
+sentence-transformers/sentence-t5-base,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,2,ts_b_69125ab26ee968f479e2,Manage projects and tasks,0.9536
+sentence-transformers/sentence-t5-base,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,3,ts_b_06c22e0bff828993600b,Manage project elements,0.9299
+sentence-transformers/sentence-t5-base,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,4,ts_b_70ee5bde93b938fa0da2,Manage tracking system for projects,0.9237
+sentence-transformers/sentence-t5-base,ts_b_0924ee1ff0ab4e2dc898,Manage assigned projects,5,ts_b_d08a54f631d7dfb6656c,Take ownership of projects,0.9189
+sentence-transformers/sentence-t5-base,ts_b_78a573cafac4e93db55c,Recommend instructional design models,1,ts_b_d210619b4e2537e6298b,Design curricula,0.8906
+sentence-transformers/sentence-t5-base,ts_b_78a573cafac4e93db55c,Recommend instructional design models,2,ts_b_9788771fd3f993d7dc41,Design experiences,0.862
+sentence-transformers/sentence-t5-base,ts_b_78a573cafac4e93db55c,Recommend instructional design models,3,ts_b_c18a9387b6b1e656a42f,Design publications,0.8541
+sentence-transformers/sentence-t5-base,ts_b_78a573cafac4e93db55c,Recommend instructional design models,4,ts_b_ecd8c24ab902dbcb0af8,Create training materials,0.8493
+sentence-transformers/sentence-t5-base,ts_b_78a573cafac4e93db55c,Recommend instructional design models,5,ts_b_c86a4eada1a9e65ddf8a,Design activation strategies,0.8484
+sentence-transformers/sentence-t5-base,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,1,ts_b_08e322a2ef636b101900,Build candidate pipelines,0.9205
+sentence-transformers/sentence-t5-base,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,2,ts_b_7fc9585f7f6753f66ea7,Design inference pipelines,0.9199
+sentence-transformers/sentence-t5-base,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,3,ts_b_d0b3a47003c27e3302be,Develop data pipelines,0.9149
+sentence-transformers/sentence-t5-base,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,4,ts_b_88086d1ab23c5c9b9b66,Manage candidate pipelines,0.9041
+sentence-transformers/sentence-t5-base,ts_b_71bcb0dca42e5640b9f7,Generate pipeline,5,ts_b_142e79b0d5c0474e0ef4,Build RAG pipelines,0.8991
+sentence-transformers/sentence-t5-base,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,1,ts_b_d255c1385577dcc9dd6b,"Provide feedback to marketing, product, and leadership teams",0.9068
+sentence-transformers/sentence-t5-base,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,2,ts_b_438a141c9245fa6a0613,Give feedback,0.9035
+sentence-transformers/sentence-t5-base,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,3,ts_b_b83547f5d468e5f5669f,Analyze customer feedback,0.8912
+sentence-transformers/sentence-t5-base,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,4,ts_b_6b8b98ce7f531daa8b50,Identify sales opportunities,0.8865
+sentence-transformers/sentence-t5-base,ts_b_3240cb45f63ef9c83b72,Provide feedback on market opportunities,5,ts_b_072976add5dcf7d6ac3f,Provide field feedback,0.8857
+sentence-transformers/sentence-t5-base,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,1,ts_b_539f53f2eaa34aa13b63,Coordinate with translation services,0.9217
+sentence-transformers/sentence-t5-base,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,2,ts_b_0047c060419b1dc71f4f,Educate prospective and existing clients,0.8924
+sentence-transformers/sentence-t5-base,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,3,ts_b_b406a12f484341a7005d,Translate client goals,0.8889
+sentence-transformers/sentence-t5-base,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,4,ts_b_99db2f03b530cf477607,Translate technical and commercial concepts,0.8862
+sentence-transformers/sentence-t5-base,ts_b_1acd750d934a3b928d50,Educate clients regarding translation process,5,ts_b_1b9258d9ac653aa18244,Educate stakeholders,0.865
+sentence-transformers/sentence-t5-base,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,1,ts_b_69c2681d3bd8d833f98f,Communicate with high-profile customers,0.8719
+sentence-transformers/sentence-t5-base,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,2,ts_b_9eb4bf3278f0c488d9fd,Gather customer insights,0.8412
+sentence-transformers/sentence-t5-base,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,3,ts_b_875ba255b818d998312b,Communicate with users,0.8392
+sentence-transformers/sentence-t5-base,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,4,ts_b_13d060c97147826f40df,Convert prospective customers,0.8388
+sentence-transformers/sentence-t5-base,ts_b_9c3648bbbc729a7e15a6,Consult with global 1000 customers,5,ts_b_1eff6bcfc2bab1d58f86,Develop customer relationships,0.8369

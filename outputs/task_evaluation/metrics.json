@@ -1,0 +1,183 @@
+{
+  "status": "ok",
+  "gold_file": "outputs\\task_evaluation\\gold_subset_labelled.csv",
+  "labelled_postings": 43,
+  "gold_tasks": 129,
+  "gold_span_problems": 31,
+  "thresholds": {
+    "lexical": 0.6,
+    "semantic": 0.85,
+    "review": 0.75
+  },
+  "matching": "one-to-one greedy by (stage, score)",
+  "systems": {
+    "gemini": {
+      "postings_evaluated": 43,
+      "labelled_postings_without_system_output": 0,
+      "micro": {
+        "tp": 63,
+        "fp": 635,
+        "fn": 66,
+        "predicted": 698,
+        "gold": 129,
+        "precision": 0.09025787965616046,
+        "recall": 0.4883720930232558,
+        "f1": 0.15235792019347036
+      },
+      "macro_over_postings": {
+        "precision": 0.11220922937094079,
+        "recall": 0.4883720930232558,
+        "f1": 0.17119774973202145
+      },
+      "if_ambiguous_accepted": {
+        "tp": 93,
+        "fp": 605,
+        "fn": 36,
+        "predicted": 698,
+        "gold": 129,
+        "precision": 0.1332378223495702,
+        "recall": 0.7209302325581395,
+        "f1": 0.22490931076178958
+      },
+      "match_methods": {
+        "semantic": 28,
+        "lexical": 20,
+        "normalized_exact": 15
+      },
+      "error_categories": {
+        "ambiguous_match_pending_review": 30,
+        "compound_over_split (gold kept it as one task)": 6,
+        "extra_task_not_in_gold (possible gold omission - check)": 555,
+        "hallucinated_or_implied (weak/invalid evidence)": 22,
+        "missed_task": 36,
+        "skill_or_qualification_as_task": 52
+      }
+    },
+    "groq": {
+      "postings_evaluated": 43,
+      "labelled_postings_without_system_output": 0,
+      "micro": {
+        "tp": 49,
+        "fp": 364,
+        "fn": 80,
+        "predicted": 413,
+        "gold": 129,
+        "precision": 0.11864406779661017,
+        "recall": 0.3798449612403101,
+        "f1": 0.18081180811808117
+      },
+      "macro_over_postings": {
+        "precision": 0.1255305627956004,
+        "recall": 0.37984496124031003,
+        "f1": 0.18422374548314396
+      },
+      "if_ambiguous_accepted": {
+        "tp": 90,
+        "fp": 323,
+        "fn": 39,
+        "predicted": 413,
+        "gold": 129,
+        "precision": 0.2179176755447942,
+        "recall": 0.6976744186046512,
+        "f1": 0.33210332103321033
+      },
+      "match_methods": {
+        "semantic": 24,
+        "lexical": 18,
+        "normalized_exact": 7
+      },
+      "error_categories": {
+        "ambiguous_match_pending_review": 41,
+        "compound_over_split (gold kept it as one task)": 1,
+        "extra_task_not_in_gold (possible gold omission - check)": 352,
+        "hallucinated_or_implied (weak/invalid evidence)": 4,
+        "missed_task": 39,
+        "skill_or_qualification_as_task": 7
+      }
+    },
+    "baseline_valid": {
+      "postings_evaluated": 43,
+      "labelled_postings_without_system_output": 0,
+      "micro": {
+        "tp": 72,
+        "fp": 770,
+        "fn": 57,
+        "predicted": 842,
+        "gold": 129,
+        "precision": 0.0855106888361045,
+        "recall": 0.5581395348837209,
+        "f1": 0.14830072090628219
+      },
+      "macro_over_postings": {
+        "precision": 0.09499537427032634,
+        "recall": 0.5581395348837209,
+        "f1": 0.15862451879195938
+      },
+      "if_ambiguous_accepted": {
+        "tp": 101,
+        "fp": 741,
+        "fn": 28,
+        "predicted": 842,
+        "gold": 129,
+        "precision": 0.11995249406175772,
+        "recall": 0.7829457364341085,
+        "f1": 0.20803295571575695
+      },
+      "match_methods": {
+        "semantic": 30,
+        "lexical": 23,
+        "normalized_exact": 19
+      },
+      "error_categories": {
+        "ambiguous_match_pending_review": 29,
+        "compound_over_split (gold kept it as one task)": 8,
+        "extra_task_not_in_gold (possible gold omission - check)": 689,
+        "hallucinated_or_implied (weak/invalid evidence)": 21,
+        "missed_task": 28,
+        "skill_or_qualification_as_task": 52
+      }
+    },
+    "baseline_agreed": {
+      "postings_evaluated": 43,
+      "labelled_postings_without_system_output": 0,
+      "micro": {
+        "tp": 38,
+        "fp": 229,
+        "fn": 91,
+        "predicted": 267,
+        "gold": 129,
+        "precision": 0.14232209737827714,
+        "recall": 0.29457364341085274,
+        "f1": 0.19191919191919193
+      },
+      "macro_over_postings": {
+        "precision": 0.15850194778766208,
+        "recall": 0.2945736434108527,
+        "f1": 0.19012422762422765
+      },
+      "if_ambiguous_accepted": {
+        "tp": 62,
+        "fp": 205,
+        "fn": 67,
+        "predicted": 267,
+        "gold": 129,
+        "precision": 0.23220973782771537,
+        "recall": 0.4806201550387597,
+        "f1": 0.31313131313131315
+      },
+      "match_methods": {
+        "semantic": 17,
+        "lexical": 14,
+        "normalized_exact": 7
+      },
+      "error_categories": {
+        "ambiguous_match_pending_review": 24,
+        "compound_over_split (gold kept it as one task)": 1,
+        "extra_task_not_in_gold (possible gold omission - check)": 218,
+        "hallucinated_or_implied (weak/invalid evidence)": 5,
+        "missed_task": 67,
+        "skill_or_qualification_as_task": 5
+      }
+    }
+  }
+}

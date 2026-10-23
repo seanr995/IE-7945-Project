@@ -1,0 +1,35 @@
+{
+  "64": {
+    "target_count": 64,
+    "feasible": true,
+    "actual_count": 3,
+    "abs_difference": 61,
+    "noise_share": 0.21260364842454393,
+    "min_cluster_size": 10,
+    "min_samples": 1,
+    "selection": "eom",
+    "close_match": false
+  },
+  "80": {
+    "target_count": 80,
+    "feasible": true,
+    "actual_count": 3,
+    "abs_difference": 77,
+    "noise_share": 0.21260364842454393,
+    "min_cluster_size": 10,
+    "min_samples": 1,
+    "selection": "eom",
+    "close_match": false
+  },
+  "96": {
+    "target_count": 96,
+    "feasible": true,
+    "actual_count": 3,
+    "abs_difference": 93,
+    "noise_share": 0.21260364842454393,
+    "min_cluster_size": 10,
+    "min_samples": 1,
+    "selection": "eom",
+    "close_match": false
+  }
+}

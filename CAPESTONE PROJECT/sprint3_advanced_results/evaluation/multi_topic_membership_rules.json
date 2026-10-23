@@ -1,0 +1,42 @@
+{
+  "kmeans": {
+    "rule": "Sprint 3 centroid rule (secondary similarity >= P25 own-centroid similarity AND gap <= P10 gap)",
+    "thresholds": {
+      "secondary_min_similarity": 0.8988989293575287,
+      "secondary_max_gap": 0.007227468490600586,
+      "noise_post_hoc_min_similarity": 0.9141106605529785
+    },
+    "secondary_rate": 0.050746268656716415
+  },
+  "bertopic": {
+    "rule": "Sprint 3 centroid rule AND HDBSCAN soft membership of the secondary topic >= P75 of non-primary soft memberships; outliers assigned post hoc only by the Sprint 3 outlier rule",
+    "thresholds": {
+      "soft_membership_P75_non_primary": 0.007429887991235363,
+      "secondary_min_similarity": 0.8974924236536026,
+      "secondary_max_gap": 0.009571027755737305,
+      "noise_post_hoc_min_similarity": 0.9151618480682373
+    },
+    "secondary_rate": 0.028524046434494195
+  },
+  "leiden": {
+    "rule": "Sprint 3 centroid rule AND edge-weight share to the secondary community >= P75 of positive non-own community shares",
+    "thresholds": {
+      "edge_share_P75": 0.08837477476797292,
+      "secondary_min_similarity": 0.8827358782291412,
+      "secondary_max_gap": 0.004312396049499512,
+      "noise_post_hoc_min_similarity": 0.8988345265388489
+    },
+    "secondary_rate": 0.11708126036484245
+  },
+  "gmm": {
+    "rule": "secondary = 2nd-highest posterior iff p2 >= max(P90 of p2, numerical floor) AND p1 - p2 <= P10 of (p1 - p2)",
+    "thresholds": {
+      "p2_P90": 0.001939270455879969,
+      "numerical_floor": 0.05,
+      "p2_threshold_used": 0.05,
+      "gap_P10": 0.9957677045009885,
+      "share_p2_below_floor": 0.9917081260364843
+    },
+    "secondary_rate": 0.008291873963515755
+  }
+}

@@ -1,0 +1,243 @@
+row,topic,mean_coassociation,member_class,statement_id,statement_text,agentic_topic,agentic_topic_name
+0,79,0.75,CORE,ts_b_002c3e4a92f4b38dbb9a,Provision infrastructure with Terraform and Ansible,AT_0105,Streaming and Network Infrastructure Engineering
+11,79,0.75,CORE,ts_b_01604a81b717a32088f9,Migrate agents onto shared infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+23,10,0.6962963342666626,CORE,ts_b_02239a2c20ddea5ccacd,Find highest-leverage workflows,AT_0014,Workflow Mapping and Automation Identification
+34,78,0.717391312122345,CORE,ts_b_0351584262c08c35f300,Deploy Windows 11 updates,AT_0104,Software and Hardware Deployment
+47,77,0.7833333015441895,CORE,ts_b_03f1a7bfa4a4c28fd818,Track physical correspondence,AT_0103,Email and Correspondence Communication
+62,11,0.6857143640518188,CORE,ts_b_04fadf72d79ed34197cf,Advise on contracts,AT_0015,Procurement and Contract Management
+69,77,0.7833333015441895,CORE,ts_b_05757f0fafc310ca531d,Write outbound communications,AT_0103,Email and Correspondence Communication
+90,66,0.6950000524520874,CORE,ts_b_06ed7690790dfdf47f77,Remove bottlenecks,AT_0092,Bottleneck Identification and Resolution
+96,39,0.985897421836853,CORE,ts_b_07954f15bbeee7a54e59,Plan expense budgets,AT_0057,Budget Monitoring and Administration
+99,55,0.800000011920929,CORE,ts_b_07de6b91b447b3ef0658,Optimize SQL Server databases,AT_0079,Database Optimization
+101,32,1.0,CORE,ts_b_08084e51f6987e3e6cd6,Hold the line on shipped features,AT_0048,Product Release Gatekeeping
+103,75,0.7348484396934509,CORE,ts_b_083f95d10ed5658f4008,Lead recruiting efforts,AT_0101,Venture Incorporation and Lead Conversion
+104,39,0.985897421836853,CORE,ts_b_0844ae8432b659dd54b0,Monitor program budgets,AT_0057,Budget Monitoring and Administration
+105,77,0.7604166865348816,CORE,ts_b_084a0c94cf2e73b0bba7,Establish messaging frameworks,AT_0103,Email and Correspondence Communication
+107,11,0.6857143640518188,CORE,ts_b_084f207bb47cee8b33b8,Review contracts,AT_0015,Procurement and Contract Management
+109,66,0.7600000500679016,CORE,ts_b_0862c84949fd29a03f80,Analyze software problems,AT_0092,Bottleneck Identification and Resolution
+150,77,0.7833333015441895,CORE,ts_b_0b153aadb1d66779d20d,Draft officewide communications,AT_0103,Email and Correspondence Communication
+164,77,0.7833333015441895,CORE,ts_b_0bfb75f55709c91c43aa,Receive physical correspondence,AT_0103,Email and Correspondence Communication
+165,23,0.7476189732551575,CORE,ts_b_0c43e838a2ee4d9c2d76,Manage schedule,AT_0034,Scheduling and Calendar Management
+167,75,0.8772726655006409,CORE,ts_b_0c53ca04c7c8f14f6ec5,Lead company incorporation,AT_0101,Venture Incorporation and Lead Conversion
+181,73,0.944444477558136,CORE,ts_b_0d3d821331f24b74cbab,Use AI coding agents,AT_0099,AI Transformation Engagement Delivery
+196,73,0.9333333373069763,CORE,ts_b_0e4a008b1ecc7c68de64,Operate AI-first,AT_0099,AI Transformation Engagement Delivery
+230,40,0.7124999761581421,CORE,ts_b_10b5191bd3cbf1dd2c5d,Support Accounts Receivable,AT_0058,Accounting Operations Support
+233,48,0.7333332896232605,CORE,ts_b_10e91e46d86a24d62a24,Sharpen tooling,AT_0068,Road and Grounds Maintenance
+256,11,0.6857143640518188,CORE,ts_b_1309334e18fc1fdaadff,Make recommendations for contract extensions,AT_0015,Procurement and Contract Management
+265,66,0.7600000500679016,CORE,ts_b_13aa7a483b807a3baa39,Troubleshoot database systems,AT_0092,Bottleneck Identification and Resolution
+271,39,0.8346154093742371,CORE,ts_b_14047abf68c893efdf00,Manage Federal funding,AT_0057,Budget Monitoring and Administration
+274,77,0.7215277552604675,CORE,ts_b_142b334d7ce85240368d,Map physical-mail workflow,AT_0103,Email and Correspondence Communication
+277,39,0.985897421836853,CORE,ts_b_1459d3e800f27d850a0a,Assist in budgeting Federal funding,AT_0057,Budget Monitoring and Administration
+316,66,0.6950000524520874,CORE,ts_b_16a961ed598152149874,Find bottlenecks,AT_0092,Bottleneck Identification and Resolution
+346,59,0.7583333253860474,CORE,ts_b_1907b75e09fd68b332a2,Define metrics,AT_0083,Metric Definition
+348,11,0.6857143640518188,CORE,ts_b_191a6a572fc24a97c10e,Draft contracts,AT_0015,Procurement and Contract Management
+349,39,0.985897421836853,CORE,ts_b_192e6e97af74c2511a23,Support fiscal review of expenditures,AT_0057,Budget Monitoring and Administration
+389,78,0.717391312122345,CORE,ts_b_1c5b3df1f5b9ddc98add,Handle deployment,AT_0104,Software and Hardware Deployment
+394,11,0.6857143640518188,CORE,ts_b_1cb9db147ca117d20882,Prepare service contract scopes of work,AT_0015,Procurement and Contract Management
+398,2,0.8666666150093079,CORE,ts_b_1d574f4f743ea63594f5,Design intuitive experiences,AT_0003,Experience Design
+407,77,0.7833333015441895,CORE,ts_b_1e310ac121eaf77de425,Distribute officewide communications,AT_0103,Email and Correspondence Communication
+411,73,0.944444477558136,CORE,ts_b_1e7dc5437e2cfaa3aa73,Represent AI transformation perspective externally,AT_0099,AI Transformation Engagement Delivery
+417,75,0.7431819438934326,CORE,ts_b_1edaf4b72390ea38670f,Lead analysis and reporting work,AT_0101,Venture Incorporation and Lead Conversion
+446,48,0.6800000071525574,CORE,ts_b_2137505a123e18c69eff,Cut grass,AT_0068,Road and Grounds Maintenance
+449,39,0.9846153855323792,CORE,ts_b_21878fc96bbd0fffbb78,Flag budget deviations,AT_0057,Budget Monitoring and Administration
+477,55,0.8999999761581421,CORE,ts_b_2463d7ca6f117dde8b33,Design SQL Server databases,AT_0079,Database Optimization
+479,79,0.6888888478279114,CORE,ts_b_24917784a0a294ab83ee,Design large-scale event streaming infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+499,39,0.985897421836853,CORE,ts_b_267ea4d84d9f72fcd4da,Manage budget activity,AT_0057,Budget Monitoring and Administration
+510,53,0.75,CORE,ts_b_277a7d7efc73894cf42e,"travel to Elementary Schools to conduct vision screening for Pre-Kindergarten, Kindergarten, and 1st Grade students",AT_0075,Vision Screening and Records
+514,49,0.875,CORE,ts_b_27b3714a11614b80a0a9,Tow boats,AT_0069,Vehicle and Vessel Operation
+517,79,0.6685184836387634,CORE,ts_b_27de2ac46bc15822a688,Design shared cloud infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+567,22,1.0,CORE,ts_b_2b6d50f4e01ce34ad089,Maintain tick-borne disease data,AT_0031,Data Retrieval and Reporting
+587,23,0.7476189732551575,CORE,ts_b_2d58856308165bbe4024,Reconcile calendar daily,AT_0034,Scheduling and Calendar Management
+657,79,0.6685184836387634,CORE,ts_b_332f1521807e79ca926f,Maintain shared cloud infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+670,49,0.875,CORE,ts_b_34fe289e77e6539e4d34,Pilot small watercraft,AT_0069,Vehicle and Vessel Operation
+676,3,0.8999999761581421,CORE,ts_b_3578abd88e8ba897f95d,Review code,AT_0004,Code Review
+697,39,0.985897421836853,CORE,ts_b_36af2c3a12dc96d38143,Track Federal funding,AT_0057,Budget Monitoring and Administration
+700,76,0.9428571462631226,CORE,ts_b_36ef328681f2849aac9b,Manage the voter engagement initiative,AT_0102,Voter Outreach and Education
+719,75,0.8636362552642822,CORE,ts_b_383ec3b097d0186bd915,Lead system end-to-end integration,AT_0101,Venture Incorporation and Lead Conversion
+729,66,0.6950000524520874,CORE,ts_b_3907c619687f0e326523,Optimize throughput,AT_0092,Bottleneck Identification and Resolution
+738,77,0.7833333015441895,CORE,ts_b_39c1c1e8364d1759d512,Shape key messaging,AT_0103,Email and Correspondence Communication
+739,76,0.9428571462631226,CORE,ts_b_39cb530fd8120d57ad0e,Conduct outreach to veterinary communities,AT_0102,Voter Outreach and Education
+763,77,0.7833333015441895,CORE,ts_b_3b67b7f1a8b2ef24f24d,Conduct peer-to-peer texting,AT_0103,Email and Correspondence Communication
+767,44,0.8333333134651184,CORE,ts_b_3bdc0366252fbd1559d7,Read schematics,AT_0063,Engineering Technical Analysis
+777,78,0.717391312122345,CORE,ts_b_3d0bc7afff3a8f42327a,Deploy workstation hardware refreshes,AT_0104,Software and Hardware Deployment
+788,73,0.7888888120651245,CORE,ts_b_3dca991736068ef7f31f,Implement AI driven solutions,AT_0099,AI Transformation Engagement Delivery
+794,48,0.7266666889190674,CORE,ts_b_3e66c2f99dffb33ce0c3,"milling and paving 1,150 lane miles yearly",AT_0068,Road and Grounds Maintenance
+795,75,0.7431819438934326,CORE,ts_b_3e6985b61a8fe778f69a,Lead system verification,AT_0101,Venture Incorporation and Lead Conversion
+837,39,0.985897421836853,CORE,ts_b_423707f76e07f03d0622,Manage annual expense budget,AT_0057,Budget Monitoring and Administration
+838,22,1.0,CORE,ts_b_4238dcc8049503698596,Retrieve FHV trip data,AT_0031,Data Retrieval and Reporting
+848,79,0.6685184836387634,CORE,ts_b_4319a1021edacb99f2ec,Build shared cloud infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+859,10,0.6962963342666626,CORE,ts_b_43d6c53c9d8921493385,Automate processes,AT_0014,Workflow Mapping and Automation Identification
+868,39,0.9846153855323792,CORE,ts_b_4492d78b79ce007a1a3e,Oversee agency budget,AT_0057,Budget Monitoring and Administration
+893,23,0.7476189732551575,CORE,ts_b_468f748d59923d51bdfa,Coordinate scheduling,AT_0034,Scheduling and Calendar Management
+900,11,0.6857143640518188,CORE,ts_b_46c382e9bb5152af076a,Make recommendations for contract modifications,AT_0015,Procurement and Contract Management
+902,3,0.800000011920929,CORE,ts_b_46d5974a891a805d1072,Review software designs,AT_0004,Code Review
+907,39,0.985897421836853,CORE,ts_b_47173c3a99e193497d1e,Support budget guidance,AT_0057,Budget Monitoring and Administration
+936,73,0.9333333373069763,CORE,ts_b_494f2a8f5cc492e3dc26,Leverage AI for security,AT_0099,AI Transformation Engagement Delivery
+943,66,0.7275000810623169,CORE,ts_b_49c43a93c94562206f98,Resolve critical path issues,AT_0092,Bottleneck Identification and Resolution
+951,75,0.8590908646583557,CORE,ts_b_4aac7aa2dc2c5054525c,Lead customer success organization,AT_0101,Venture Incorporation and Lead Conversion
+957,78,0.717391312122345,CORE,ts_b_4af8991c051e091f8831,Handle DevOps,AT_0104,Software and Hardware Deployment
+978,24,1.0,CORE,ts_b_4c73eb08dd3e3da2722a,Participate in extraditions,AT_0035,Law Enforcement Operations
+993,75,0.8772727847099304,CORE,ts_b_4d7b4eab0ca8b2593a9d,Lead incorporation,AT_0101,Venture Incorporation and Lead Conversion
+1006,40,0.7124999761581421,CORE,ts_b_4ed08da191b63b895b58,Support accounting guidance,AT_0058,Accounting Operations Support
+1037,77,0.7833333015441895,CORE,ts_b_518093085c3a236be8b8,Handle physical correspondence,AT_0103,Email and Correspondence Communication
+1062,29,0.6979166865348816,CORE,ts_b_53ddc8474590bc3cbba7,Manage hiring process,AT_0042,Candidate Sourcing and Hiring Support
+1072,73,0.944444477558136,CORE,ts_b_54949a7b8fdd8260dbbf,Advise customers on scaling AI programs,AT_0099,AI Transformation Engagement Delivery
+1076,73,0.944444477558136,CORE,ts_b_54f46d291575a2751ee6,Build with AI,AT_0099,AI Transformation Engagement Delivery
+1083,56,1.0,CORE,ts_b_5587651ba407015c673c,"Debug issues across application code, databases, infrastructure, and third-party APIs",AT_0080,Software Debugging
+1088,22,1.0,CORE,ts_b_567575e060c2525c6389,Report on tick-borne disease data,AT_0031,Data Retrieval and Reporting
+1095,66,0.6950000524520874,CORE,ts_b_56ef9c1ed41549cec136,Optimize latency,AT_0092,Bottleneck Identification and Resolution
+1098,73,0.944444477558136,CORE,ts_b_572d170db1e9efb0170a,Drive AI use cases,AT_0099,AI Transformation Engagement Delivery
+1120,39,0.985897421836853,CORE,ts_b_58f0a86dd8b7bf61b4f8,Monitor forecast expenditures,AT_0057,Budget Monitoring and Administration
+1131,77,0.7833333015441895,CORE,ts_b_5a09ec9177b79b681ad3,Coordinate communications,AT_0103,Email and Correspondence Communication
+1136,10,0.6962963342666626,CORE,ts_b_5a6c960df7840d9c1771,reduce dependency on manual workflows,AT_0014,Workflow Mapping and Automation Identification
+1155,23,0.7476189732551575,CORE,ts_b_5c48840d4f7141e38269,Schedule wires,AT_0034,Scheduling and Calendar Management
+1168,44,0.8333333134651184,CORE,ts_b_5d8c5b01c7cee6edc9b1,Read chemical delivery and feed schematics,AT_0063,Engineering Technical Analysis
+1179,76,0.9428571462631226,CORE,ts_b_5e9a4c154c9fe5730212,Disseminate voting information,AT_0102,Voter Outreach and Education
+1202,73,0.944444477558136,CORE,ts_b_609283d24c8c178d7cb0,Develop high-value AI use cases,AT_0099,AI Transformation Engagement Delivery
+1236,59,0.7583333253860474,CORE,ts_b_648aa47a7c4b57eb995d,Define measurement frameworks,AT_0083,Metric Definition
+1237,39,0.985897421836853,CORE,ts_b_649397b790030e69c34e,Track spending,AT_0057,Budget Monitoring and Administration
+1241,66,0.7600000500679016,CORE,ts_b_6500612eadc51e6f0e65,Analyze hardware problems,AT_0092,Bottleneck Identification and Resolution
+1246,55,0.8999999761581421,CORE,ts_b_654be3e5b0863ae761f9,Maintain SQL Server databases,AT_0079,Database Optimization
+1260,10,0.6962963342666626,CORE,ts_b_668dd26d1bf0972212e2,Automate creative production workflows,AT_0014,Workflow Mapping and Automation Identification
+1263,39,0.985897421836853,CORE,ts_b_66fdd1aab5b267bd769a,Track budgets,AT_0057,Budget Monitoring and Administration
+1270,73,0.944444477558136,CORE,ts_b_675d7a3fba0a5e6b5fcc,Oversee development of AI tools,AT_0099,AI Transformation Engagement Delivery
+1282,40,0.6708333492279053,CORE,ts_b_6891848009b4fa1a9ecc,Work with Finance on balance sheet,AT_0058,Accounting Operations Support
+1296,66,0.6950000524520874,CORE,ts_b_69b327326f1331084b75,Force resolution of bottlenecks,AT_0092,Bottleneck Identification and Resolution
+1322,11,0.6857143640518188,CORE,ts_b_6bc5e0d03238e91cf969,"Review contracts, amendments, agreements and renewals",AT_0015,Procurement and Contract Management
+1346,75,0.781818151473999,CORE,ts_b_6dc7d47402e5a83d4ac5,Lead procurement process implementation,AT_0101,Venture Incorporation and Lead Conversion
+1351,75,0.8772727847099304,CORE,ts_b_6e44e3d47c1b2fc1c9af,Lead supplier management activities,AT_0101,Venture Incorporation and Lead Conversion
+1355,39,0.985897421836853,CORE,ts_b_6e7222c17ca552dcd4ea,Track sustainability and resiliency spending,AT_0057,Budget Monitoring and Administration
+1365,73,0.9333333373069763,CORE,ts_b_6eff37d5e03a5e6bc679,Guide implementation of AI-enabled platform capabilities,AT_0099,AI Transformation Engagement Delivery
+1369,77,0.7833333015441895,CORE,ts_b_6f90cadc20a8240e0173,Challenge key messaging,AT_0103,Email and Correspondence Communication
+1373,78,0.717391312122345,CORE,ts_b_6fc84c40a3b6a5e06bae,Improve deployments,AT_0104,Software and Hardware Deployment
+1381,66,0.7600000500679016,CORE,ts_b_70518e3fd7f0ed42e9e7,Troubleshoot equipment issues,AT_0092,Bottleneck Identification and Resolution
+1408,75,0.7613637447357178,CORE,ts_b_723eb0d400bffc40bc81,Lead research on software & technology companies,AT_0101,Venture Incorporation and Lead Conversion
+1442,11,0.6857143640518188,CORE,ts_b_7549ab3f6465bb107b7a,Manage contract management,AT_0015,Procurement and Contract Management
+1498,73,0.944444477558136,CORE,ts_b_78c0e08849225b99adb3,Oversee integration of AI tools,AT_0099,AI Transformation Engagement Delivery
+1503,11,0.6857143640518188,CORE,ts_b_790e54b1dd1b9f5c2619,Negotiate modifications to Consultant Contract,AT_0015,Procurement and Contract Management
+1504,9,0.6766666769981384,CORE,ts_b_790ff0a632d5fcdef1c8,Identify opportunities to increase funding awards,AT_0013,Fundraising and Sponsorship Development
+1512,77,0.6965277194976807,CORE,ts_b_7a02233148577fc3843a,Improve alerting,AT_0103,Email and Correspondence Communication
+1519,32,1.0,CORE,ts_b_7af736055cdc975161c9,Hold the line on product releases,AT_0048,Product Release Gatekeeping
+1533,73,0.944444477558136,CORE,ts_b_7c1522e9822dc78498f4,Prototype production-grade AI systems,AT_0099,AI Transformation Engagement Delivery
+1536,78,0.717391312122345,CORE,ts_b_7c31772c2a0e3c6389d9,Deploy tools,AT_0104,Software and Hardware Deployment
+1537,77,0.7833333015441895,CORE,ts_b_7c64e0535b989fef6173,Establish lines of communication,AT_0103,Email and Correspondence Communication
+1540,77,0.7215277552604675,CORE,ts_b_7c92194bbe3198875d35,Manage email traffic,AT_0103,Email and Correspondence Communication
+1545,40,0.706250011920929,CORE,ts_b_7d8ef0c21f68b40fb5d6,Manage accounts payable,AT_0058,Accounting Operations Support
+1558,49,0.875,CORE,ts_b_7e758e7882a6e646d2b8,Transport equipment,AT_0069,Vehicle and Vessel Operation
+1566,73,0.944444477558136,CORE,ts_b_7f2e949cab4b56b28390,Scale agentic AI,AT_0099,AI Transformation Engagement Delivery
+1587,11,0.6857143640518188,CORE,ts_b_80ab5e7e9a68f9bedb4f,Manage Job Order Contracts,AT_0015,Procurement and Contract Management
+1607,9,0.7000000476837158,CORE,ts_b_81e6219fe688ab16cc80,Manage fundraising strategy,AT_0013,Fundraising and Sponsorship Development
+1608,40,0.7124999761581421,CORE,ts_b_81fc789fe7bf167ef969,Support outgoing invoicing process,AT_0058,Accounting Operations Support
+1628,9,0.7000000476837158,CORE,ts_b_843bec999ab66884ce0e,Own fundraising strategy,AT_0013,Fundraising and Sponsorship Development
+1635,66,0.7600000500679016,CORE,ts_b_84c05cc99cd5b45c3625,Identify issues in chemical feed systems,AT_0092,Bottleneck Identification and Resolution
+1640,53,0.7333333492279053,CORE,ts_b_854d5e17f416bfff13c6,Screen children,AT_0075,Vision Screening and Records
+1651,78,0.717391312122345,CORE,ts_b_8646188f08d019e2028c,Deploy application updates,AT_0104,Software and Hardware Deployment
+1653,59,0.675000011920929,CORE,ts_b_865bc1b6150abd015117,Define enterprise success metrics,AT_0083,Metric Definition
+1662,77,0.6895833015441895,CORE,ts_b_875ba255b818d998312b,Communicate with users,AT_0103,Email and Correspondence Communication
+1665,66,0.7366666197776794,CORE,ts_b_87ac07da915e8064e0f9,Resolve failures,AT_0092,Bottleneck Identification and Resolution
+1677,73,0.9333333373069763,CORE,ts_b_885b3aec727bcd56ee2c,Apply AI to company operations,AT_0099,AI Transformation Engagement Delivery
+1684,77,0.668749988079071,CORE,ts_b_8925f38115ba45283d2d,Make phone calls,AT_0103,Email and Correspondence Communication
+1702,11,0.6857143640518188,CORE,ts_b_8a7caeea5c709295863a,Manage contracts,AT_0015,Procurement and Contract Management
+1723,23,0.7476189732551575,CORE,ts_b_8bca9ea7274b45a5825a,Plan daily work activities,AT_0034,Scheduling and Calendar Management
+1726,23,0.7476189732551575,CORE,ts_b_8c0dbd7cc8ea6dd8be5b,Manage timelines,AT_0034,Scheduling and Calendar Management
+1728,11,0.6857143640518188,CORE,ts_b_8c5285929a6857761600,Structure contract inventory,AT_0015,Procurement and Contract Management
+1732,73,0.944444477558136,CORE,ts_b_8cf90e710e8e071cc311,Design production-grade AI systems,AT_0099,AI Transformation Engagement Delivery
+1736,11,0.6857143640518188,CORE,ts_b_8d3475e8ff748b619eef,Develop standard contracts,AT_0015,Procurement and Contract Management
+1779,11,0.6857143640518188,CORE,ts_b_916987bcab53a5f312c5,Draft Sales & Purchase Contracts,AT_0015,Procurement and Contract Management
+1782,79,0.6888888478279114,CORE,ts_b_91afccfa59430b02f920,Operate large-scale event streaming infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+1787,75,0.8636361956596375,CORE,ts_b_91e29012a65777aac0ad,Lead incident response,AT_0101,Venture Incorporation and Lead Conversion
+1791,39,0.9846153855323792,CORE,ts_b_923728a50ba9d388f2a0,Prepare Budget Code Modifications,AT_0057,Budget Monitoring and Administration
+1800,75,0.8772726655006409,CORE,ts_b_92d57d57d51c1501e279,Generate leads,AT_0101,Venture Incorporation and Lead Conversion
+1819,77,0.7833333015441895,CORE,ts_b_942a6eafcd69cc2d49da,Enhance communication,AT_0103,Email and Correspondence Communication
+1822,77,0.7833333015441895,CORE,ts_b_94910b870bee68ec3925,Route communications,AT_0103,Email and Correspondence Communication
+1823,77,0.7833333015441895,CORE,ts_b_94a5511b089907f6a61d,Sharpen messaging,AT_0103,Email and Correspondence Communication
+1825,23,0.7476189732551575,CORE,ts_b_94cd99622de3922555ff,Run office hours,AT_0034,Scheduling and Calendar Management
+1837,73,0.944444477558136,CORE,ts_b_9673cea7aff1fdd733de,Use AI-assisted prototyping,AT_0099,AI Transformation Engagement Delivery
+1838,77,0.6895833015441895,CORE,ts_b_96761d7b72d95c3ccf03,Ensure mailing of correspondence,AT_0103,Email and Correspondence Communication
+1848,2,0.8666666150093079,CORE,ts_b_9788771fd3f993d7dc41,Design experiences,AT_0003,Experience Design
+1857,75,0.8772726655006409,CORE,ts_b_980f0a2226f0fac4d4b3,Lead incorporation of Family Flow,AT_0101,Venture Incorporation and Lead Conversion
+1860,77,0.7833333015441895,CORE,ts_b_98485674219ccd8c2fa4,Coordinate daily communication,AT_0103,Email and Correspondence Communication
+1896,73,0.944444477558136,CORE,ts_b_9b4263c3b81680798b7b,Identify AI use cases,AT_0099,AI Transformation Engagement Delivery
+1904,10,0.6962962746620178,CORE,ts_b_9bbaf2a394fed9bd3641,Systematize workflows,AT_0014,Workflow Mapping and Automation Identification
+1917,75,0.7742423415184021,CORE,ts_b_9c8ab6941935dad05cab,Lead solution design,AT_0101,Venture Incorporation and Lead Conversion
+1934,66,0.6950000524520874,CORE,ts_b_9ddecb91c12c9fd754bf,Resolve bottlenecks,AT_0092,Bottleneck Identification and Resolution
+1945,66,0.7366666793823242,CORE,ts_b_9e9d98274ad3198fc474,Resolve complex technical issues,AT_0092,Bottleneck Identification and Resolution
+1954,22,1.0,CORE,ts_b_9f3bd70398f1ef7fdfd4,Review FHV trip data,AT_0031,Data Retrieval and Reporting
+1957,39,0.985897421836853,CORE,ts_b_a00a4becac4110847bb1,"Conduct analysis of budget, spending, revenue, and grant data",AT_0057,Budget Monitoring and Administration
+1972,11,0.6857143640518188,CORE,ts_b_a155b718706e84e70c37,Prepare modifications to Consultant Contract,AT_0015,Procurement and Contract Management
+1984,49,0.875,CORE,ts_b_a242d8647bd437eb6062,Trailer small watercraft,AT_0069,Vehicle and Vessel Operation
+1993,11,0.6857143640518188,CORE,ts_b_a2d2a9ef0fc46592f251,Award contracts,AT_0015,Procurement and Contract Management
+1996,78,0.717391312122345,CORE,ts_b_a30539b9c99eddbe371a,Deploy new software,AT_0104,Software and Hardware Deployment
+2000,22,1.0,CORE,ts_b_a3b99b964bd39ed6e597,Report water quality data,AT_0031,Data Retrieval and Reporting
+2014,24,1.0,CORE,ts_b_a4c906c6f71d50e99c9a,Effect arrests,AT_0035,Law Enforcement Operations
+2057,56,1.0,CORE,ts_b_a9455106c3a556202e01,"Identify and troubleshoot tracking, event collection, or data integration issues",AT_0080,Software Debugging
+2079,39,0.9846153855323792,CORE,ts_b_aa9e6c0dcb924978dbf2,Contribute to cost estimates,AT_0057,Budget Monitoring and Administration
+2082,11,0.6857143640518188,CORE,ts_b_aae1bfb2f84d1781f8a8,Procure BWT contracts,AT_0015,Procurement and Contract Management
+2096,79,0.6888888478279114,CORE,ts_b_ac37fb55d4ee1d7cae5c,Build large-scale event streaming infrastructure,AT_0105,Streaming and Network Infrastructure Engineering
+2104,73,0.944444477558136,CORE,ts_b_accbd918165976baa501,Integrate AI expertise,AT_0099,AI Transformation Engagement Delivery
+2107,75,0.781818151473999,CORE,ts_b_acf5d5bec69e7a5b32f8,Lead procurement tool implementation,AT_0101,Venture Incorporation and Lead Conversion
+2148,23,0.7476189732551575,CORE,ts_b_b1245335a9f10bcadf99,Create timeline of events,AT_0034,Scheduling and Calendar Management
+2170,78,0.717391312122345,CORE,ts_b_b2c72c772605b2871269,Take system through field deployment,AT_0104,Software and Hardware Deployment
+2199,39,0.807692289352417,CORE,ts_b_b4f1d4e92c4fbf8e612e,Reflect fiscal impact of Federal grant awards,AT_0057,Budget Monitoring and Administration
+2201,75,0.8772726058959961,CORE,ts_b_b50659bdea7c55b8472e,Lead strategic sourcing activities,AT_0101,Venture Incorporation and Lead Conversion
+2217,76,0.9428571462631226,CORE,ts_b_b602a067d42c6bfb818a,Conduct direct to voter outreach,AT_0102,Voter Outreach and Education
+2218,39,0.985897421836853,CORE,ts_b_b605b1ffa016d7e28ade,Analyze program contacts and budgets,AT_0057,Budget Monitoring and Administration
+2228,77,0.7833333611488342,CORE,ts_b_b6df0f0638758c24eb2c,Build communication plans,AT_0103,Email and Correspondence Communication
+2236,75,0.7613637447357178,CORE,ts_b_b805a851bf8efd511987,Lead technical discovery,AT_0101,Venture Incorporation and Lead Conversion
+2241,76,0.9428571462631226,CORE,ts_b_b87751e8d673d79e44fc,Deliver accessible voter education,AT_0102,Voter Outreach and Education
+2246,73,0.944444477558136,CORE,ts_b_b8a91f8331a06f9c0eb9,Advise colleagues on AI transformation best practices,AT_0099,AI Transformation Engagement Delivery
+2251,77,0.7604166865348816,CORE,ts_b_b8d5928d830f871b2932,Translate complex features into communication,AT_0103,Email and Correspondence Communication
+2282,76,0.9428571462631226,CORE,ts_b_bbf06bad83cc595ecde8,Conduct candidate outreach,AT_0102,Voter Outreach and Education
+2290,56,1.0,CORE,ts_b_bc7b214b8a7427a9252d,Debug complex distributed systems issues,AT_0080,Software Debugging
+2324,75,0.8772726058959961,CORE,ts_b_bf2c84ca1169ae2d40a8,Contribute to lead conversion,AT_0101,Venture Incorporation and Lead Conversion
+2333,11,0.6857143640518188,CORE,ts_b_c085af79362de87eeac6,Process modifications to Consultant Contract,AT_0015,Procurement and Contract Management
+2347,56,1.0,CORE,ts_b_c1e9a42d639846a827c2,Debug issues,AT_0080,Software Debugging
+2370,10,0.6962963342666626,CORE,ts_b_c4135796c97eae04a59c,Identify workflows for automation,AT_0014,Workflow Mapping and Automation Identification
+2379,39,0.985897421836853,CORE,ts_b_c518f142957cf613d2cf,Administer plant expense budget,AT_0057,Budget Monitoring and Administration
+2386,75,0.7348484396934509,CORE,ts_b_c62a417c53c16664c66f,Lead engagement strategy,AT_0101,Venture Incorporation and Lead Conversion
+2408,73,0.944444477558136,CORE,ts_b_c83c919a19898f685186,Build custom AI solutions,AT_0099,AI Transformation Engagement Delivery
+2417,39,0.985897421836853,CORE,ts_b_c90056289166676808ee,Assess prospect budget,AT_0057,Budget Monitoring and Administration
+2425,73,0.944444477558136,CORE,ts_b_ca38f1278f351efe7ec8,Help shape AI-assisted software development practices,AT_0099,AI Transformation Engagement Delivery
+2430,9,0.6766666769981384,CORE,ts_b_ca93d3d78dd249990e68,Own grant strategy,AT_0013,Fundraising and Sponsorship Development
+2459,73,0.944444477558136,CORE,ts_b_cc7a4efd1b0784deb04d,Oversee deployment of AI tools,AT_0099,AI Transformation Engagement Delivery
+2510,66,0.6950000524520874,CORE,ts_b_d12035ae528f040f6e06,Identify bottlenecks,AT_0092,Bottleneck Identification and Resolution
+2546,73,0.9333333373069763,CORE,ts_b_d52fff94be5f4be2ac11,Develop AI application roadmaps,AT_0099,AI Transformation Engagement Delivery
+2561,77,0.7833333015441895,CORE,ts_b_d682ab55dd5abbf52a66,Create internal communication materials,AT_0103,Email and Correspondence Communication
+2578,79,0.7574074268341064,CORE,ts_b_d83033fadd3f8d6528f5,Implement network infrastructures,AT_0105,Streaming and Network Infrastructure Engineering
+2596,66,0.7600000500679016,CORE,ts_b_d987fe5cbe53c2faf686,Analyze technical issues,AT_0092,Bottleneck Identification and Resolution
+2613,73,0.944444477558136,CORE,ts_b_db5349277a2bbb1eaff8,Build AI-assisted mobile experiences,AT_0099,AI Transformation Engagement Delivery
+2624,77,0.7833333015441895,CORE,ts_b_dbb39d5e18947408183b,Draft key messaging,AT_0103,Email and Correspondence Communication
+2647,77,0.7833333015441895,CORE,ts_b_dd889dcd8d760b29b2a1,Build communication strategies,AT_0103,Email and Correspondence Communication
+2650,78,0.717391312122345,CORE,ts_b_ddc224ca6994847e0dda,Perform deployments,AT_0104,Software and Hardware Deployment
+2667,73,0.944444477558136,CORE,ts_b_df44692844f4ac01d7d9,Understand AI use cases,AT_0099,AI Transformation Engagement Delivery
+2699,23,0.7476189732551575,CORE,ts_b_e247098695dea9409a0e,Manage executive vacation schedule,AT_0034,Scheduling and Calendar Management
+2709,23,0.7476189732551575,CORE,ts_b_e34f76c699b28b23e924,Perform real-time calendar adjustments,AT_0034,Scheduling and Calendar Management
+2723,79,0.7574074268341064,CORE,ts_b_e4561ffc7dc85eb13f4a,Plan network infrastructures,AT_0105,Streaming and Network Infrastructure Engineering
+2727,2,0.8666666150093079,CORE,ts_b_e4bfa6ad25f309ade77f,Design end-to-end product experiences,AT_0003,Experience Design
+2735,39,0.985897421836853,CORE,ts_b_e54022937579a10e6594,Track expenditures,AT_0057,Budget Monitoring and Administration
+2736,59,0.7583333253860474,CORE,ts_b_e544fe907a3e6cea17a6,Define product-health metrics,AT_0083,Metric Definition
+2737,75,0.7613637447357178,CORE,ts_b_e5524d0db830f8566de8,Lead technical SEO audits,AT_0101,Venture Incorporation and Lead Conversion
+2744,77,0.7833333015441895,CORE,ts_b_e5db1a27bca4d7e9a6f0,Route physical correspondence,AT_0103,Email and Correspondence Communication
+2749,73,0.9333333373069763,CORE,ts_b_e69af89b9eeb22043487,Lead clients through end-to-end AI transformation,AT_0099,AI Transformation Engagement Delivery
+2756,73,0.9333333373069763,CORE,ts_b_e740f3f58c397254ac24,Set technical direction for industrial AI portfolio,AT_0099,AI Transformation Engagement Delivery
+2761,66,0.7024999856948853,CORE,ts_b_e7d91f0e86fffcb21c03,Track high-level issues,AT_0092,Bottleneck Identification and Resolution
+2764,44,0.8333333134651184,CORE,ts_b_e8324b87bad7f3dc2741,Interpret chemical delivery and feed schematics,AT_0063,Engineering Technical Analysis
+2771,22,1.0,CORE,ts_b_e8c46b4ac454d2bfdaf5,Summarize tick-borne disease data,AT_0031,Data Retrieval and Reporting
+2781,39,0.985897421836853,CORE,ts_b_e995a37cdbf0eb6021c7,Control budget,AT_0057,Budget Monitoring and Administration
+2787,66,0.7600000500679016,CORE,ts_b_ea1c87c4d7ce2f84e2bc,Troubleshoot issues,AT_0092,Bottleneck Identification and Resolution
+2793,75,0.7431818246841431,CORE,ts_b_ea44ab1f644a8d6f9a2b,Lead customer discovery,AT_0101,Venture Incorporation and Lead Conversion
+2801,76,0.9428571462631226,CORE,ts_b_eb76a9531f2064ca23c2,Conduct door-to-door canvassing,AT_0102,Voter Outreach and Education
+2807,39,0.985897421836853,CORE,ts_b_ec0eb68db15681fd5e1b,Track costs and budgets,AT_0057,Budget Monitoring and Administration
+2811,39,0.985897421836853,CORE,ts_b_ec69f234417a3f8934e2,Manage budget,AT_0057,Budget Monitoring and Administration
+2841,29,0.6979166865348816,CORE,ts_b_ee78dfa2d438625b2305,Bring clarity to hiring decisions,AT_0042,Candidate Sourcing and Hiring Support
+2845,10,0.6962962746620178,CORE,ts_b_eeb2c4b79ca996e90c37,Translate business needs into workflows,AT_0014,Workflow Mapping and Automation Identification
+2861,3,0.8999999761581421,CORE,ts_b_efc512f871177ebfcf45,Perform code reviews,AT_0004,Code Review
+2877,73,0.9333333373069763,CORE,ts_b_f1bf921abbe68756611c,Shape how the world’s most sophisticated enterprises succeed with AI,AT_0099,AI Transformation Engagement Delivery
+2889,73,0.944444477558136,CORE,ts_b_f2cca403b768af234edb,Steer end-to-end execution of AI transformation engagements,AT_0099,AI Transformation Engagement Delivery
+2906,73,0.9333333373069763,CORE,ts_b_f4c4c3766c9c2639e6d3,Monitor AI developments,AT_0099,AI Transformation Engagement Delivery
+2915,53,0.7333333492279053,CORE,ts_b_f5da4336eada91b12857,"screen children using the distance vision, hyperopia, near vision, color and fusion test",AT_0075,Vision Screening and Records
+2916,77,0.7215277552604675,CORE,ts_b_f5e9d7d7cbfb58511962,Manage email communication,AT_0103,Email and Correspondence Communication
+2941,23,0.7476189732551575,CORE,ts_b_f83fc9372f53b0f67ad8,Manage fast-changing schedules,AT_0034,Scheduling and Calendar Management
+2951,10,0.6962962746620178,CORE,ts_b_f97235d2ee48c815a713,Optimize workflows,AT_0014,Workflow Mapping and Automation Identification
+2956,29,0.6979166865348816,CORE,ts_b_fa064f821f711439a35e,Establish clear hiring metrics,AT_0042,Candidate Sourcing and Hiring Support
+3001,39,0.985897421836853,CORE,ts_b_fed7e0ff95022b647fdc,Monitor capital and expense budgets,AT_0057,Budget Monitoring and Administration

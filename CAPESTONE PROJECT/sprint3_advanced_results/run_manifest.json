@@ -1,0 +1,311 @@
+{
+  "created_utc": "2026-10-22T21:52:26.035916+00:00",
+  "script": "sprint3_advanced_challengers.py",
+  "config_fingerprint": "9a172fbc36e7bb86",
+  "project_dir": "/content/drive/MyDrive/CAPESTONE PROJECT",
+  "input_sha256": "010795fed2864f9963f159204a857f2198a2246206009ab0dbbbb786799f4551",
+  "row_count": 3015,
+  "unique_postings": 188,
+  "sentence_t5_embeddings_sha256": "6aaf5c7137854b4a9a960354c6804734042c4057cbecad3ec36cf297cc20eb18",
+  "sentence_t5_mapping_sha256": "88ec485827b0c3e104ebdd6eb1085b2e9e214b4286d01119b4b929dd1f3db799",
+  "paired_embeddings_sha256": "bc7eb13803fc7856fa2475bd139f57b3498701a29f539fbd5249b644465fd52c",
+  "sprint3_manifest_sha256": "4d61327ac89e69435e5ec0ff221aef3e43519f408c1412ca100eee33229a3be3",
+  "sprint3_script_sha256": "c2cbc1bf58126876106b19538769927e2f6cc6b687e9d014818ffb6e7c747a12",
+  "sprint3_script_is_validated_version": true,
+  "validation_checks": {
+    "input_sha256_matches_manifest_and_frozen": true,
+    "input_rows": 3015,
+    "embedding_shape": [
+      3015,
+      768
+    ],
+    "mapping_aligned": true,
+    "embedding_meta_matches": true,
+    "embeddings_normalised": true,
+    "paired_wordings": 432,
+    "pca_matches_sprint3": true
+  },
+  "embedding_model": "sentence-transformers/sentence-t5-base",
+  "embeddings_regenerated": false,
+  "pca": {
+    "n_components": 50,
+    "cumulative_explained_variance": 0.6069994568824768,
+    "svd_solver": "full",
+    "whiten": false
+  },
+  "random_seeds": {
+    "global": 42,
+    "stability_seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "bertopic_umap_seed_runs": 3,
+    "subsample_protocol": "sprint3 subsample_indices (rng seed 42, 5 x 80%)",
+    "bootstrap_rng": 42
+  },
+  "package_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.44",
+    "bertopic": "0.17.4",
+    "python-igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "matplotlib": "3.10.0"
+  },
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "grids": {
+    "bertopic": {
+      "n_neighbors": [
+        15,
+        30
+      ],
+      "n_components": [
+        5,
+        10
+      ],
+      "min_dist": 0.0,
+      "metric": "cosine",
+      "min_cluster_size": [
+        10,
+        20,
+        30
+      ],
+      "min_samples": [
+        5,
+        10
+      ]
+    },
+    "leiden": {
+      "k_neighbors": [
+        10,
+        20,
+        30
+      ],
+      "resolution": [
+        0.5,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "edge_min_cosine": 0.0,
+      "partition": "RBConfigurationVertexPartition",
+      "weights": "cosine"
+    },
+    "gmm": {
+      "n_components": [
+        60,
+        80,
+        100,
+        120,
+        140
+      ],
+      "covariance_type": "diag",
+      "n_init": 3,
+      "max_iter": 500,
+      "reg_covar": 1e-06,
+      "space": "Sprint 3 PCA of Sentence-T5"
+    },
+    "kmeans_baseline": {
+      "k": 100,
+      "sprint3_config_id": "EXP_3_T5_KMEANS__k=100",
+      "reason": "Sprint 3 overall winner (run_manifest.json chosen_configuration)"
+    }
+  },
+  "common_low_confidence_margin": 0.006647086143493653,
+  "selection_hierarchy": [
+    [
+      "semantic_cohesion_lift_incl_noise",
+      0.02
+    ],
+    [
+      "stability_ari",
+      0.05
+    ],
+    [
+      "granularity_score",
+      0.0
+    ],
+    [
+      "robustness",
+      0.05
+    ],
+    [
+      "silhouette",
+      0.01
+    ]
+  ],
+  "gain_tolerances": {
+    "semantic_cohesion_lift_incl_noise": [
+      0.02,
+      "higher"
+    ],
+    "stability_ari": [
+      0.05,
+      "higher"
+    ],
+    "paraphrase_kappa": [
+      0.05,
+      "higher"
+    ],
+    "provider_nn_gap_abs": [
+      0.05,
+      "lower"
+    ],
+    "low_confidence_rate_common": [
+      0.05,
+      "lower"
+    ],
+    "granularity_score": [
+      0.25,
+      "higher"
+    ]
+  },
+  "cost_tolerances": {
+    "semantic_cohesion_lift_incl_noise": 0.02,
+    "stability_ari": 0.05,
+    "paraphrase_kappa": 0.05,
+    "coverage": 0.1
+  },
+  "best_configurations": {
+    "kmeans": "ADV_0_T5_KMEANS_BASELINE__k=100",
+    "bertopic": "ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5",
+    "leiden": "ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0",
+    "gmm": "ADV_3_T5_GMM__n_components=140_cov=diag"
+  },
+  "selection_traces": {
+    "kmeans": [
+      "baseline - fixed by Sprint 3"
+    ],
+    "bertopic": [
+      "no non-pathological configuration - choosing among the least-flagged",
+      "semantic_cohesion_lift_incl_noise: best=0.265 tol=0.02 -> kept ADV_1_T5_BERTOPIC__nn=15_nc=5_mcs=10_ms=5, ADV_1_T5_BERTOPIC__nn=15_nc=5_mcs=10_ms=10, ADV_1_T5_BERTOPIC__nn=15_nc=10_mcs=10_ms=5, ADV_1_T5_BERTOPIC__nn=15_nc=10_mcs=10_ms=10, ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5, ADV_1_T5_BERTOPIC__nn=30_nc=10_mcs=10_ms=5",
+      "stability_ari: best=0.341 tol=0.05 -> kept ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5, ADV_1_T5_BERTOPIC__nn=30_nc=10_mcs=10_ms=5",
+      "granularity_score: best=1.000 tol=0.0 -> kept ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5, ADV_1_T5_BERTOPIC__nn=30_nc=10_mcs=10_ms=5",
+      "robustness: best=0.653 tol=0.05 -> kept ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5",
+      "decided by robustness"
+    ],
+    "leiden": [
+      "semantic_cohesion_lift_incl_noise: best=0.180 tol=0.02 -> kept ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0, ADV_2_T5_LEIDEN__k_neighbors=30_resolution=2.0",
+      "stability_ari: best=0.564 tol=0.05 -> kept ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0, ADV_2_T5_LEIDEN__k_neighbors=30_resolution=2.0",
+      "granularity_score: best=0.368 tol=0.0 -> kept ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0",
+      "decided by granularity_score"
+    ],
+    "gmm": [
+      "no non-pathological configuration - choosing among the least-flagged",
+      "semantic_cohesion_lift_incl_noise: best=0.315 tol=0.02 -> kept ADV_3_T5_GMM__n_components=120_cov=diag, ADV_3_T5_GMM__n_components=140_cov=diag",
+      "stability_ari: best=0.360 tol=0.05 -> kept ADV_3_T5_GMM__n_components=120_cov=diag, ADV_3_T5_GMM__n_components=140_cov=diag",
+      "granularity_score: best=1.000 tol=0.0 -> kept ADV_3_T5_GMM__n_components=120_cov=diag, ADV_3_T5_GMM__n_components=140_cov=diag",
+      "robustness: best=0.706 tol=0.05 -> kept ADV_3_T5_GMM__n_components=120_cov=diag, ADV_3_T5_GMM__n_components=140_cov=diag",
+      "silhouette: best=0.065 tol=0.01 -> kept ADV_3_T5_GMM__n_components=120_cov=diag, ADV_3_T5_GMM__n_components=140_cov=diag",
+      "decided by tie_break"
+    ]
+  },
+  "replacement_decisions": {
+    "bertopic": {
+      "gains": [],
+      "costs": [
+        "semantic_cohesion_lift_incl_noise 0.290 -> 0.253",
+        "coverage 1.000 -> 0.728",
+        "pathology: unstable"
+      ],
+      "qualifies": false
+    },
+    "leiden": {
+      "gains": [
+        "stability_ari 0.385 -> 0.562",
+        "paraphrase_kappa 0.684 -> 0.782"
+      ],
+      "costs": [
+        "semantic_cohesion_lift_incl_noise 0.290 -> 0.180"
+      ],
+      "qualifies": false
+    },
+    "gmm": {
+      "gains": [
+        "semantic_cohesion_lift_incl_noise 0.290 -> 0.315"
+      ],
+      "costs": [
+        "pathology: unstable"
+      ],
+      "qualifies": false
+    }
+  },
+  "final_method": "kmeans",
+  "final_recommendation": "KEEP T5 + KMEANS",
+  "final_trace": [
+    "no challenger shows a meaningful gain without an unacceptable cost"
+  ],
+  "baseline_reproduces_sprint3": true,
+  "membership_rules": {
+    "kmeans": {
+      "rule": "Sprint 3 centroid rule (secondary similarity >= P25 own-centroid similarity AND gap <= P10 gap)",
+      "thresholds": {
+        "secondary_min_similarity": 0.8988989293575287,
+        "secondary_max_gap": 0.007227468490600586,
+        "noise_post_hoc_min_similarity": 0.9141106605529785
+      },
+      "secondary_rate": 0.050746268656716415
+    },
+    "bertopic": {
+      "rule": "Sprint 3 centroid rule AND HDBSCAN soft membership of the secondary topic >= P75 of non-primary soft memberships; outliers assigned post hoc only by the Sprint 3 outlier rule",
+      "thresholds": {
+        "soft_membership_P75_non_primary": 0.007429887991235363,
+        "secondary_min_similarity": 0.8974924236536026,
+        "secondary_max_gap": 0.009571027755737305,
+        "noise_post_hoc_min_similarity": 0.9151618480682373
+      },
+      "secondary_rate": 0.028524046434494195
+    },
+    "leiden": {
+      "rule": "Sprint 3 centroid rule AND edge-weight share to the secondary community >= P75 of positive non-own community shares",
+      "thresholds": {
+        "edge_share_P75": 0.08837477476797292,
+        "secondary_min_similarity": 0.8827358782291412,
+        "secondary_max_gap": 0.004312396049499512,
+        "noise_post_hoc_min_similarity": 0.8988345265388489
+      },
+      "secondary_rate": 0.11708126036484245
+    },
+    "gmm": {
+      "rule": "secondary = 2nd-highest posterior iff p2 >= max(P90 of p2, numerical floor) AND p1 - p2 <= P10 of (p1 - p2)",
+      "thresholds": {
+        "p2_P90": 0.001939270455879969,
+        "numerical_floor": 0.05,
+        "p2_threshold_used": 0.05,
+        "gap_P10": 0.9957677045009885,
+        "share_p2_below_floor": 0.9917081260364843
+      },
+      "secondary_rate": 0.008291873963515755
+    }
+  },
+  "runtime_seconds": {
+    "gmm_seconds": 84.5,
+    "leiden_seconds": 167.8,
+    "bertopic_seconds": 575.8,
+    "total_seconds": 924.1
+  },
+  "figures": {
+    "created": [
+      "01_semantic_cohesion_comparison.png",
+      "02_stability_comparison.png",
+      "03_granularity_comparison.png",
+      "04_paraphrase_consistency.png",
+      "05_provider_robustness.png",
+      "06_gmm_bic_curve.png",
+      "07_leiden_resolution.png",
+      "08_bertopic_noise_topic_tradeoff.png",
+      "09_final_all_method_comparison.png"
+    ],
+    "failed": []
+  },
+  "known_input_quality_limitation": "The Sprint 3 input was section-filtered following a manually labelled task-purity audit. Post-filter audited task purity was 92.9%. Residual non-task contamination may therefore remain and is treated as a known limitation of the clustering experiment."
+}

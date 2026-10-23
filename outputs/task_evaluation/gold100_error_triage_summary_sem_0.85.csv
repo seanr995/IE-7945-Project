@@ -1,0 +1,22 @@
+system,side,category,n
+baseline_agreed,gold_only (FN),gold_row_is_skill_or_qualification,10
+baseline_agreed,gold_only (FN),true_missed_human_task,129
+baseline_agreed,gold_only (FN),wording_or_splitting_mismatch (model used the same sentence / near paraphrase),197
+baseline_agreed,model_only (FP),possible_legit_task_missing_from_gold,8
+baseline_agreed,model_only (FP),qualification_section_item (likely non-task; verify),5
+baseline_agreed,model_only (FP),unsupported_or_non_task (qualification/skill wording or weak evidence),5
+baseline_agreed,model_only (FP),wording_or_splitting_mismatch (same source sentence / near paraphrase),89
+gemini,gold_only (FN),gold_row_is_skill_or_qualification,9
+gemini,gold_only (FN),true_missed_human_task,99
+gemini,gold_only (FN),wording_or_splitting_mismatch (model used the same sentence / near paraphrase),292
+gemini,model_only (FP),possible_legit_task_missing_from_gold,89
+gemini,model_only (FP),qualification_section_item (likely non-task; verify),145
+gemini,model_only (FP),unsupported_or_non_task (qualification/skill wording or weak evidence),36
+gemini,model_only (FP),wording_or_splitting_mismatch (same source sentence / near paraphrase),710
+groq,gold_only (FN),gold_row_is_skill_or_qualification,9
+groq,gold_only (FN),true_missed_human_task,64
+groq,gold_only (FN),wording_or_splitting_mismatch (model used the same sentence / near paraphrase),207
+groq,model_only (FP),possible_legit_task_missing_from_gold,31
+groq,model_only (FP),qualification_section_item (likely non-task; verify),10
+groq,model_only (FP),unsupported_or_non_task (qualification/skill wording or weak evidence),3
+groq,model_only (FP),wording_or_splitting_mismatch (same source sentence / near paraphrase),168

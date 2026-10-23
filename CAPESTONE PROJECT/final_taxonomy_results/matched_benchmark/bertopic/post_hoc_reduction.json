@@ -1,0 +1,7 @@
+{
+  "variant": "POST_HOC_REDUCED_TO_AGENTIC_GRANULARITY",
+  "applicable": false,
+  "natural_topics": 70,
+  "target_count": 80,
+  "reason": "natural topic count is not above the target - reduction can only merge topics"
+}

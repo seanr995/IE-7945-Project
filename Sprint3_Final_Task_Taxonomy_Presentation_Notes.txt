@@ -1,0 +1,31 @@
+Sprint 3 Final Task Taxonomy Presentation - Speaker Notes
+(Numbers match CAPESTONE PROJECT/final_taxonomy_results and agentic_taxonomy_results.)
+
+SLIDE 1 - Sprint 3: From Atomic Tasks to a Task Taxonomy
+------------------------------------------------------------
+Sprint 3 turns individual work tasks into a taxonomy - a set of task topics. We started from 3,015 validated atomic tasks extracted from real job postings, turned them into semantic representations, and tried several clustering methods. The important twist is in the middle of this flow: before choosing a final method, we stopped and questioned an assumption most clustering work makes silently - that you decide the number of topics in advance. So Sprint 3 answers two questions: how should tasks be grouped, and how many groups should there be. Everything that follows is about answering the second question honestly so that the first one can be answered fairly.
+
+SLIDE 2 - What Entered Sprint 3
+------------------------------------------------------------
+This is what went in. 188 real job postings gave us 3,015 deduplicated task statements, each one tied back to the posting text it came from. We represented every task with two different embedding models, Sentence-T5 and E5, so the result would not depend on a single model. One thing we deliberately kept out: O*NET. We did not use O*NET to build or label any topic. That matters because if we had, we would just be copying an existing taxonomy. Instead, the topics come from how employers actually describe work, and O*NET is saved for Sprint 4 as an independent reference to compare against.
+
+SLIDE 3 - How the Decision Evolved
+------------------------------------------------------------
+Here is how our thinking changed. First we ran a controlled two-by-two: two embedding models crossed with K-Means and HDBSCAN. Then we added three stronger challengers: BERTopic, Leiden graph communities, and a Gaussian Mixture Model. The key lesson is in the amber box. Our earlier best result was K-Means with k equal to 100 - but K-Means only produces 100 topics because we tell it to. That number was an input, not a discovery. On top of that, every K-Means run was unstable when we re-ran it on slightly different data, and HDBSCAN collapsed into almost no clusters with mostly noise. So instead of picking a number, we used agentic discovery to find a principled granularity - it suggested 80 - and then compared all methods fairly around 80.
+
+SLIDE 4 - Agentic Topic Discovery
+------------------------------------------------------------
+This is the agentic discovery process. Claude did not read and label all 3,015 tasks one by one - that would be expensive and unnecessary. The embeddings did the repetitive work: sampling a diverse set of tasks, retrieving similar ones, and assigning the clear cases automatically. Claude was used only where real judgement was needed: naming and defining types of work, resolving ambiguous tasks, and deciding whether topics should be merged, split or refined. Claude directly decided 139 tasks; embeddings handled the rest. We never told it how many topics to produce - it arrived at 80. The whole process stayed inside a hard budget: 19 of 20 Claude calls. One honest note: it stopped at its refinement-round limit rather than fully converging. And the key point in the box: agentic discovery is not the winner here - its value was giving us a defensible number of topics instead of an arbitrary one.
+
+SLIDE 5 - Fair Comparison Around 80 Topics
+------------------------------------------------------------
+This is the most important slide. Every method is compared at the same granularity, about 80 topics, so nobody wins just by having more or fewer topics. Read it column by column; darker means better. Coverage is how many tasks get a topic. Stability is whether we get the same grouping when we re-run on 80 percent of the data - if a taxonomy changes every time you re-run it, nobody can rely on it. Persistence asks the same question topic by topic: what share of topics survive resampling. Paraphrase kappa checks something very practical: when Gemini and Groq described the same task in different words, do both wordings land in the same topic? That tells us topics follow meaning, not phrasing. Agentic and hybrid are the most stable, but 41 percent of their topics are tiny, which failed our quality check. K-Means and GMM have slightly higher cohesion, but they are much less stable. BERTopic leaves 27 percent of tasks as outliers, and HDBSCAN collapsed to three clusters. Leiden is the only one strong on everything at once.
+
+SLIDE 6 - Final Decision: Leiden @80
+------------------------------------------------------------
+So the recommendation is Sentence-T5 with Leiden, at 80 topics. It covers every task, it is stable when re-run, 70 percent of its topics persist under resampling, it has the strongest paraphrase consistency at 0.80, and its cohesion is in a useful range. Why not pick the method with the highest cohesion? Because cohesion goes up almost automatically when you make topics smaller or more numerous, and the cohesive methods were the unstable ones - a tight but unrepeatable grouping is not a usable taxonomy. Only two of eleven candidates passed every check, both Leiden, and the 80-topic version kept more of its topics. And agentic discovery still mattered: without it, we would have compared methods at an arbitrary number like 100. It gave us 80 as a principled starting point, which is exactly where Leiden performed best.
+
+SLIDE 7 - Current Status and Sprint 4
+------------------------------------------------------------
+To summarise Sprint 3: 3,015 tasks, represented with Sentence-T5, grouped with Leiden into 80 leaf task topics. But I want to be clear about the status. This is methodologically selected, not yet frozen. All our metrics are internal - they show the structure is stable and consistent, but they cannot show that a human would agree each topic is a coherent type of work. That is why a 66-task human review sample is prepared, with the human fields blank. Once that review is done, Sprint 4 builds on these 80 leaf topics: we name and describe each topic, build the parent hierarchy above them, and only then compare against O*NET as an external reference, followed by another human review.
+

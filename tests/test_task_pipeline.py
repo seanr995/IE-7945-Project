@@ -136,3 +136,53 @@ def test_anthropic_provider_requires_env_key(monkeypatch):
     p = AnthropicProvider({"model": "claude-opus-5-5"})
     with pytest.raises(PermanentError):
         _ = p.client
+
+
+# ---------------------------------------------------------------- TASK / SKILL / OTHER gate (no API calls)
+
+def test_task_classifier_metrics_and_gate():
+    from src.prototype.task_classifier import gate_passed, metrics
+    m = metrics(["TASK", "TASK", "SKILL", "OTHER"], ["TASK", "SKILL", "TASK", "OTHER"])
+    assert m["accuracy"] == 0.5 and m["task_precision"] == 0.5 and m["task_recall"] == 0.5
+    assert m["confusion_matrix_true_x_pred"]["SKILL"]["TASK"] == 1
+    assert not gate_passed(m) and gate_passed({"task_precision": 0.95}) and not gate_passed({"task_precision": None})
+
+
+def test_task_classifier_collect_rejects_id_mismatch():
+    from src.prototype.task_classifier import collect
+    b = [{"statement_id": "a"}, {"statement_id": "b"}]
+    ok = collect(b, {"results": [{"statement_id": "b", "task_class": "SKILL", "reason": ""},
+                                 {"statement_id": "a", "task_class": "TASK", "reason": ""}]})
+    assert [x["statement_id"] for x in ok] == ["a", "b"]
+    with pytest.raises(ValueError):
+        collect(b, {"results": [{"statement_id": "a", "task_class": "TASK", "reason": ""}]})
+    with pytest.raises(ValueError):
+        collect(b, {"results": [{"statement_id": "a", "task_class": "TASK", "reason": ""}] * 2})
+
+
+def test_task_classifier_prompt_never_contains_human_label():
+    from src.prototype.task_classifier import batches, build_prompt
+    rows = [{"statement_id": f"s{i}", "statement_text": "Prepare reports", "evidence_span": "x" * 5000,
+             "source_section": None, "human_label": "SECRET_LABEL"} for i in range(45)]
+    bs = batches(rows)
+    assert [len(b) for b in bs] == [20, 20, 5]
+    p = build_prompt(bs[0])
+    assert "SECRET_LABEL" not in p and "human_label" not in p and '"unknown"' in p and "x" * 1201 not in p
+
+
+# ---------------------------------------------------------------- Sprint 3 frozen input (no DB, no embeddings)
+
+def test_sprint3_freeze_removes_only_exact_normalized_duplicates():
+    from src.prototype.sprint3_freeze import freeze, norm_dup
+    assert norm_dup("  Prepare   Reports. ") == "prepare reports" and norm_dup("Build ETL’s pipelines") == "build etl's pipelines"
+    d = pd.DataFrame({"statement_id": ["s3", "s1", "s2", "s4"], "posting_id": ["p2", "p1", "p1", "p3"],
+                      "provider": ["groq", "gemini", "gemini", "gemini"],
+                      "statement_text": ["prepare reports.", "Prepare  Reports", "Prepare monthly reports", "Analyze data"],
+                      "evidence_span": ["e"] * 4, "source_section": ["responsibilities"] * 4, "evidence_valid": [True] * 4,
+                      "cross_provider_paired_text": [None] * 4})
+    out, prov, stats = freeze(d)
+    assert list(out.statement_id) == ["s1", "s2", "s4"]                       # paraphrase s2 is NOT merged
+    assert prov.to_dict("records")[0]["kept_statement_id"] == "s1" and stats["exact_duplicate_rows_removed"] == 1
+    kept = out.set_index("statement_id").loc["s1"]
+    assert kept.duplicate_statement_ids == "s1;s3" and kept.duplicate_providers == "gemini;groq"
+    assert stats["cross_provider_duplicate_groups"] == 1

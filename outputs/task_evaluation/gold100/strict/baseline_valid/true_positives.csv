@@ -1,0 +1,234 @@
+posting_id,gold_task,predicted_task,match_method,score
+013cb5431128103bc44c,Coordinate with citywide liaisons,Coordinate with citywide liaisons,normalized_exact,1.0
+013cb5431128103bc44c,Identify organizing opportunities,Identify organizing opportunities,normalized_exact,1.0
+013cb5431128103bc44c,Follow up on constituent cases,Follow up on constituent cases,normalized_exact,1.0
+05bb010df9f681ecfb8e,Enhance customer workflows,Enhance customer workflows,normalized_exact,1.0
+05bb010df9f681ecfb8e,Lead customer discovery,Lead customer discovery,normalized_exact,1.0
+05bb010df9f681ecfb8e,Maintain product backlog,Maintain product backlog,normalized_exact,1.0
+06b6dd6358027314646f,Provide executive leadership,Provide executive leadership,normalized_exact,1.0
+06b6dd6358027314646f,Regulate private ferry operations,Regulate private ferry operations,normalized_exact,1.0
+06b6dd6358027314646f,Respond to emergencies,Respond to emergencies,normalized_exact,1.0
+07ef093d7aa6614f0a82,Prepare interview materials,Prepare interview materials,normalized_exact,1.0
+07ef093d7aa6614f0a82,Prepare new hire folders,Prepare new hire folders,normalized_exact,1.0
+07ef093d7aa6614f0a82,Assist with special projects,Assist with special projects,normalized_exact,1.0
+097687274962463b41a1,Conduct outreach to medical communities,Conduct outreach to medical communities,normalized_exact,1.0
+097687274962463b41a1,Conduct quality assurance of data,Conduct quality assurance of data,normalized_exact,1.0
+097687274962463b41a1,Conduct literature reviews,Conduct literature reviews,normalized_exact,1.0
+097687274962463b41a1,Participate in outbreak investigations,Participate in outbreak investigations,normalized_exact,1.0
+0b027611629b03f366f3,Prepare referral forms to parents of children who failed screenings,prepare referral forms to parents of children who failed screenings,normalized_exact,1.0
+0b2d4a40fa501be8086c,Validate customer requirements,Validate customer requirements,normalized_exact,1.0
+0b2d4a40fa501be8086c,Provide Level 2 technical support,Provide Level 2 technical support,normalized_exact,1.0
+0b2d4a40fa501be8086c,Lead technical implementation activities,Lead technical implementation activities,normalized_exact,1.0
+0bd6f04e2cb94755955c,Develop funding request justifications,Develop funding request justifications,normalized_exact,1.0
+12267268cf274f232ece,Take operational responsibility for services,Take operational responsibility for services,normalized_exact,1.0
+12267268cf274f232ece,Participate in on-call rotation,Participate in on-call rotation,normalized_exact,1.0
+1742269a66920b58cfba,Collect and review documentation,Collect and review documentation,normalized_exact,1.0
+1742269a66920b58cfba,Identify opportunities to increase funding awards,Identify opportunities to increase funding awards,normalized_exact,1.0
+1df980408a2da22c4082,Conduct investigations,Conduct investigations,normalized_exact,1.0
+1df980408a2da22c4082,Mentor junior investigators,Mentor junior investigators,normalized_exact,1.0
+1df980408a2da22c4082,Participate in extraditions,Participate in extraditions,normalized_exact,1.0
+24be9713838ce65bb2d1,Develop account strategies,Develop account strategies,normalized_exact,1.0
+24be9713838ce65bb2d1,Build business cases,Build business cases,normalized_exact,1.0
+295b620938f1b4ef0c48,Facilitate meetings,Facilitate meetings,normalized_exact,1.0
+295b620938f1b4ef0c48,Synthesize meeting notes,Synthesize meeting notes,normalized_exact,1.0
+35b02096d9f13d0f2a54,Direct office operations,Direct office operations,normalized_exact,1.0
+35b02096d9f13d0f2a54,Supervise senior leadership,Supervise senior leadership,normalized_exact,1.0
+35b02096d9f13d0f2a54,Set research and data priorities,Set research and data priorities,normalized_exact,1.0
+3613b2486df0c4c5d71a,Collaborate with engineering disciplines,Collaborate with engineering disciplines,normalized_exact,1.0
+391112a1f4a8d0187e88,Develop public health policies,Develop public health policies,normalized_exact,1.0
+3b1acd7dae8f6c808655,Develop data pipelines,Develop data pipelines,normalized_exact,1.0
+3b1acd7dae8f6c808655,Implement data governance protocols,Implement data governance protocols,normalized_exact,1.0
+3b1acd7dae8f6c808655,Automate cross-platform integrations,Automate cross-platform integrations,normalized_exact,1.0
+3b1acd7dae8f6c808655,Collaborate with internal teams,Collaborate with internal teams,normalized_exact,1.0
+3b1acd7dae8f6c808655,Provide technical consulting,Provide technical consulting,normalized_exact,1.0
+3b1acd7dae8f6c808655,Implement data quality protocols,Implement data quality protocols,normalized_exact,1.0
+3b4c29db562915cd966f,Compose eligibility letters,Compose eligibility letters,normalized_exact,1.0
+3b6214df01e1277e6efd,Ensure follow-the-sun coverage,Ensure follow-the-sun coverage,normalized_exact,1.0
+3ca1b50483595c10a701,Monitor regulatory changes,Monitor regulatory changes,normalized_exact,1.0
+3ca1b50483595c10a701,Track project key performance indicators,Track project key performance indicators,normalized_exact,1.0
+3ca1b50483595c10a701,Coordinate with internal and external entities,Coordinate with internal and external entities,normalized_exact,1.0
+41791a6083070a346971,Manage payroll,Manage payroll,normalized_exact,1.0
+41791a6083070a346971,Develop Standard Operating Procedures,Develop Standard Operating Procedures,normalized_exact,1.0
+41791a6083070a346971,Deliver reporting and analytics,Deliver reporting and analytics,normalized_exact,1.0
+41791a6083070a346971,Partner with external experts,Partner with external experts,normalized_exact,1.0
+41791a6083070a346971,Provide business support to leadership team,provide business support to leadership team,normalized_exact,1.0
+41791a6083070a346971,Support international payroll cases,support international payroll cases,normalized_exact,1.0
+41fd8f1659c66291c006,Direct attorneys to utilize forensic experts,Direct attorneys to utilize forensic experts,normalized_exact,1.0
+41fd8f1659c66291c006,Identify state and non-profit programs,Identify state and non-profit programs,normalized_exact,1.0
+458f5701d4c9512eedc8,Prepare executive for key decisions,Prepare executive for key decisions,normalized_exact,1.0
+458f5701d4c9512eedc8,Support strategic workstreams,Support strategic workstreams,normalized_exact,1.0
+458f5701d4c9512eedc8,Work with go-to-market teams,Work with go-to-market teams,normalized_exact,1.0
+45ec14d7fc4b48a6858a,Build evaluation and replay loop,Build evaluation and replay loop,normalized_exact,1.0
+45ec14d7fc4b48a6858a,Maintain regression tests,Maintain regression tests,normalized_exact,1.0
+464d3d3312512fd7f8d0,Oversee daily maintenance operations,Oversee daily maintenance operations,normalized_exact,1.0
+464d3d3312512fd7f8d0,Supervise repair of structures and equipment,Supervise repair of structures and equipment,normalized_exact,1.0
+464d3d3312512fd7f8d0,Conduct building inspections,Conduct building inspections,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Triage incoming emails,Triage incoming emails,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Draft officewide communications,Draft officewide communications,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Provide front desk coverage,Provide front desk coverage,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Maintain office supplies,Maintain office supplies,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Manage executive vacation schedule,Manage executive vacation schedule,normalized_exact,1.0
+4b04c180a59634bd2d72,Refine internal processes,Refine internal processes,normalized_exact,1.0
+4b04c180a59634bd2d72,Develop cross-functional initiatives,Develop cross-functional initiatives,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Monitor patch deployments,Monitor patch deployments,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Compare data across systems,Compare data across systems,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Create how-to documentation,Create how-to documentation,normalized_exact,1.0
+4c7cd47d220c0129298d,Oversee design reviews,Oversee design reviews,normalized_exact,1.0
+4c7cd47d220c0129298d,Translate project concepts from ideation to execution,Translate project concepts from ideation to execution,normalized_exact,1.0
+4c7cd47d220c0129298d,Share energy and resource recovery best practices,Share energy and resource recovery best practices,normalized_exact,1.0
+4c7cd47d220c0129298d,Identify energy conservation opportunities,Identify energy conservation opportunities,normalized_exact,1.0
+4c7cd47d220c0129298d,Support measurement and verification efforts,Support measurement and verification efforts,normalized_exact,1.0
+4c7cd47d220c0129298d,Track energy and resource recovery data,Track energy and resource recovery data,normalized_exact,1.0
+4fafe3e6f5d7b74b4363,Close new clients,Close new clients,normalized_exact,1.0
+4fafe3e6f5d7b74b4363,Liaise with production,Liaise with production,normalized_exact,1.0
+4fd5cae42eb3035824ee,Develop electrical components,Develop electrical components,normalized_exact,1.0
+4fd5cae42eb3035824ee,Develop electrical safety concepts,Develop electrical safety concepts,normalized_exact,1.0
+4fd5cae42eb3035824ee,Collect technical requirements,Collect technical requirements,normalized_exact,1.0
+4fd5cae42eb3035824ee,Perform verification tests,Perform verification tests,normalized_exact,1.0
+4fd5cae42eb3035824ee,Coordinate engineering tasks,Coordinate engineering tasks,normalized_exact,1.0
+4fd5cae42eb3035824ee,Coordinate with third-party suppliers,Coordinate with third-party suppliers,normalized_exact,1.0
+4fd5cae42eb3035824ee,Monitor technological trends,Monitor technological trends,normalized_exact,1.0
+4fed033c30fe7a78c1a5,Conduct business reviews,Conduct business reviews,normalized_exact,1.0
+4fed033c30fe7a78c1a5,Create targeted campaigns,Create targeted campaigns,normalized_exact,1.0
+506dc4579e5e38a043d9,Make architectural decisions,Make architectural decisions,normalized_exact,1.0
+5095082b7a5e8e644d85,Process Department of State summonses,Process Department of State summonses,normalized_exact,1.0
+5095082b7a5e8e644d85,Assemble summons packages,Assemble summons packages,normalized_exact,1.0
+5095082b7a5e8e644d85,Process certified and regular mail,Process certified and regular mail,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Evaluate solicitation documents,Evaluate solicitation documents,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Examine bid samples,Examine bid samples,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Prepare solicitation documents,Prepare solicitation documents,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Analyze vendor responsibility,Analyze vendor responsibility,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Monitor procurement processing,Monitor procurement processing,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Conduct open market research,Conduct open market research,normalized_exact,1.0
+514d14a0cdbffddf9491,Develop joint business plans,Develop joint business plans,normalized_exact,1.0
+53ca8a5ad02b99123994,Prepare petitions,Prepare petitions,normalized_exact,1.0
+53ca8a5ad02b99123994,Negotiate settlements,Negotiate settlements,normalized_exact,1.0
+53ca8a5ad02b99123994,Assemble evidence,Assemble evidence,normalized_exact,1.0
+53ca8a5ad02b99123994,Assess complaints,Assess complaints,normalized_exact,1.0
+53ca8a5ad02b99123994,Maintain confidential information,Maintain confidential information,normalized_exact,1.0
+549e8d159a9b700b28af,Facilitate IFSP meetings,Facilitate IFSP meetings,normalized_exact,1.0
+55f5a8caeb1de0a5ef8c,Increase office visibility at community events,Increase office visibility at community events,normalized_exact,1.0
+55f5a8caeb1de0a5ef8c,Implement document management protocols,Implement document management protocols,normalized_exact,1.0
+55f5a8caeb1de0a5ef8c,Work on special projects,Work on special projects,normalized_exact,1.0
+56a023230654f22dd021,Perform routine clerical tasks,Perform routine clerical tasks,normalized_exact,1.0
+56a023230654f22dd021,Assign cases to probation officers,Assign cases to Probation Officers,normalized_exact,1.0
+56a023230654f22dd021,Prepare case folders,Prepare case folders,normalized_exact,1.0
+56a023230654f22dd021,Provide front desk coverage,Provide front desk coverage,normalized_exact,1.0
+5c4a5e28ceaa8b8e776f,Lead executive business reviews,Lead executive business reviews,normalized_exact,1.0
+5c4a5e28ceaa8b8e776f,Travel to customer sites,Travel to customer sites,normalized_exact,1.0
+5f6558e9db057f08f998,Review code,Review code,normalized_exact,1.0
+615ca0f86df809abe767,Lead research on software & technology companies,Lead research on software & technology companies,normalized_exact,1.0
+615ca0f86df809abe767,Communicate with high-profile customers,Communicate with high-profile customers,normalized_exact,1.0
+615ca0f86df809abe767,Design account-level growth strategies,Design account-level growth strategies,normalized_exact,1.0
+622c7c71deb0fb8b4880,Draft official correspondence,Draft official correspondence,normalized_exact,1.0
+622c7c71deb0fb8b4880,Maintain tracking systems,Maintain tracking systems,normalized_exact,1.0
+622c7c71deb0fb8b4880,Deliver workforce training,Deliver workforce training,normalized_exact,1.0
+628655b95b209e282632,Manage portfolio of B2B customers,Manage portfolio of B2B customers,normalized_exact,1.0
+628655b95b209e282632,Develop complex proposals,Develop complex proposals,normalized_exact,1.0
+644e4b17868b56c3bb3a,Establish software development standards,Establish software development standards,normalized_exact,1.0
+644e4b17868b56c3bb3a,Provide technical leadership,Provide technical leadership,normalized_exact,1.0
+644e4b17868b56c3bb3a,Document architecture decisions,Document architecture decisions,normalized_exact,1.0
+644e4b17868b56c3bb3a,Collaborate with product owners,Collaborate with Product Owners,normalized_exact,1.0
+666f7ebc34ffed256a13,Perform field analyses,Perform field analyses,normalized_exact,1.0
+666f7ebc34ffed256a13,Operate field sampling equipment,Operate field sampling equipment,normalized_exact,1.0
+666f7ebc34ffed256a13,Perform quality control procedures,Perform quality control procedures,normalized_exact,1.0
+666f7ebc34ffed256a13,Contribute to compliance reports,Contribute to compliance reports,normalized_exact,1.0
+68daba4b975c991f0b36,Monitor capital and expense budgets,Monitor capital and expense budgets,normalized_exact,1.0
+68daba4b975c991f0b36,Monitor delinquent tenant accounts,Monitor delinquent tenant accounts,normalized_exact,1.0
+6a42c683d57c96dc4e72,Monitor media presence,Monitor media presence,normalized_exact,1.0
+6a42c683d57c96dc4e72,Observe court proceedings,Observe court proceedings,normalized_exact,1.0
+6abe29c3ccb7241a403c,Translate company vision into prioritized bets,Translate company vision into prioritized bets,normalized_exact,1.0
+6abe29c3ccb7241a403c,Own end-to-end user journey,Own end-to-end user journey,normalized_exact,1.0
+6abe29c3ccb7241a403c,Build platform-level growth capabilities,Build platform-level growth capabilities,normalized_exact,1.0
+6abe29c3ccb7241a403c,Run experimentation and measurement program,Run experimentation and measurement program,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Develop sales content,Develop sales content,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Manage client relationships,Manage client relationships,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Improve CRM hygiene,Improve CRM hygiene,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Streamline data flows,Streamline data flows,normalized_exact,1.0
+751a53b56992ff974884,Recommend program improvements,Recommend program improvements,normalized_exact,1.0
+798de891e649970c4db8,Set technical direction for industrial AI portfolio,Set technical direction for industrial AI portfolio,normalized_exact,1.0
+80f6da7f0eec5c160699,Develop strategies to improve agency performance,Develop strategies to improve agency performance,normalized_exact,1.0
+80f6da7f0eec5c160699,Develop agency-wide strategic plans,Develop agency-wide strategic plans,normalized_exact,1.0
+80f6da7f0eec5c160699,Coordinate special projects,Coordinate special projects,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Maintain records of factual and statistical information,Maintain records of factual and statistical information,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Abstract lease data,Abstract lease data,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Prepare annual budget schedules,Prepare annual budget schedules,normalized_exact,1.0
+8158c179ee705f36b7ca,Design end-to-end product experiences,Design end-to-end product experiences,normalized_exact,1.0
+835d55784f762bec770d,Prepare Mayor's State Legislative Program,Prepare Mayor's State Legislative Program,normalized_exact,1.0
+835d55784f762bec770d,Assist City agencies with State legislation,Assist City agencies with State legislation,normalized_exact,1.0
+835d55784f762bec770d,Coordinate Legislative Coordinating Committee process,Coordinate Legislative Coordinating Committee process,normalized_exact,1.0
+835d55784f762bec770d,Handle special projects,Handle special projects,normalized_exact,1.0
+835d55784f762bec770d,Represent the Director at meetings,Represent the Director at meetings,normalized_exact,1.0
+8fb372a7f51bdc82f220,Follow up on action items,Follow up on action items,normalized_exact,1.0
+8fb372a7f51bdc82f220,Prepare Board-level materials,Prepare Board-level materials,normalized_exact,1.0
+8fb372a7f51bdc82f220,Evaluate strategic technical partnerships,Evaluate strategic technical partnerships,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Assemble electronic boards,Assemble electronic boards,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Build wiring harnesses,Build wiring harnesses,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Inspect electronic boards,Inspect electronic boards,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Build mechanical test setups,Build mechanical test setups,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Support AIT activities,Support AIT activities,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Operate lab equipment,Operate lab equipment,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Support environmental testing,Support environmental testing,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Prepare onboarding documentation,Prepare onboarding documentation,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Process candidates in HR software,Process candidates in HR software,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Maintain overview of open positions,Maintain overview of open positions,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Prepare interview challenges,Prepare interview challenges,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Deliver documents,Deliver documents,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Participate in facilities maintenance projects,Participate in facilities maintenance projects,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Monitor security cameras,Monitor security cameras,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Maintain fleet database,Maintain Fleet database,normalized_exact,1.0
+a1aac521f271426f1c3d,Align HR objectives with agency priorities,Align HR objectives with agency priorities,normalized_exact,1.0
+a1aac521f271426f1c3d,Advise Assistant Commissioner on personnel issues,Advise Assistant Commissioner on personnel issues,normalized_exact,1.0
+a1aac521f271426f1c3d,Provide HR support to executive leadership,Provide HR support to executive leadership,normalized_exact,1.0
+a1aac521f271426f1c3d,Participate in executive search committees,Participate in executive search committees,normalized_exact,1.0
+a3b54b0d34e7b105604f,Navigate industrial procurement processes,Navigate industrial procurement processes,normalized_exact,1.0
+a462d24b2748471a3f2b,Support monthly closing,Support monthly closing,normalized_exact,1.0
+a462d24b2748471a3f2b,Manage non-tech procurement,Manage non-tech procurement,normalized_exact,1.0
+a5cc492b8fcc77fb1848,Assist with legal emergency preparedness,Assist with legal emergency preparedness,normalized_exact,1.0
+a73048332d44b501d8e8,Manage relationships with equity investors,Manage relationships with equity investors,normalized_exact,1.0
+a845c36fc3eb4caf98fb,Document work,Document work,normalized_exact,1.0
+a9268008dd18f84aff54,Build data extraction pipelines,Build data extraction pipelines,normalized_exact,1.0
+a9268008dd18f84aff54,Explore new data sources,Explore new data sources,normalized_exact,1.0
+a9268008dd18f84aff54,Evaluate extraction accuracy,Evaluate extraction accuracy,normalized_exact,1.0
+ab2db63d3df2cbb9d730,Research youth financial education programs,Research youth financial education programs,normalized_exact,1.0
+ab2db63d3df2cbb9d730,Develop assessment tools,Develop assessment tools,normalized_exact,1.0
+ab2db63d3df2cbb9d730,Recommend instructional design models,Recommend instructional design models,normalized_exact,1.0
+b496efdb5d4ba53caff6,Review compliance documentation,Review compliance documentation,normalized_exact,1.0
+b496efdb5d4ba53caff6,Respond to inquiries from base representatives,Respond to inquiries from base representatives,normalized_exact,1.0
+b496efdb5d4ba53caff6,Coordinate with translation services,Coordinate with translation services,normalized_exact,1.0
+b496efdb5d4ba53caff6,Perform administrative support tasks,Perform administrative support tasks,normalized_exact,1.0
+b63d2a18a86b9e94e299,Monitor Slack conversations,Monitor Slack conversations,normalized_exact,1.0
+b63d2a18a86b9e94e299,Manage event logistics,Manage event logistics,normalized_exact,1.0
+be1b0255a559ee527bc9,Own operational groundwork for new markets,Own operational groundwork for new markets,normalized_exact,1.0
+be1b0255a559ee527bc9,Build company-wide processes,Build company-wide processes,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Liaise with community stakeholders,Liaise with community stakeholders,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Provide case management,Provide case management,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Conduct outreach days of action,Conduct outreach Days of Action,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Assist with special projects,Assist with special projects,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Lead aircraft sales campaigns,Lead aircraft sales campaigns,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Negotiate with customers,Negotiate with customers,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Gather customer insights,Gather customer insights,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Mentor technical sales managers,Mentor technical sales managers,normalized_exact,1.0
+c70eb7d0a2e70e711e53,Review application recommendations,Review application recommendations,normalized_exact,1.0
+da3b2951a4e9f5857f38,Coordinate external service providers,Coordinate external service providers,normalized_exact,1.0
+da3b2951a4e9f5857f38,Implement IT systems,Implement IT systems,normalized_exact,1.0
+dc4ffbc270be451c9891,Push ideas through to launch,Push ideas through to launch,normalized_exact,1.0
+e2b9292f713a5f914995,Own day-to-day operations,Own day-to-day operations,normalized_exact,1.0
+e2b9292f713a5f914995,Build launch plan for Germany and France,Build launch plan for Germany and France,normalized_exact,1.0
+ef37f5e4a74b94f5fcce,Contribute to incident response,Contribute to incident response,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Source candidates,Source candidates,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Manage candidate communications,Manage candidate communications,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Schedule interviews,Schedule interviews,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Contribute to employer branding,Contribute to employer branding,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Support onboarding logistics,Support onboarding logistics,normalized_exact,1.0
+f32ccf878072947e70ec,Automate internal processes,Automate internal processes,normalized_exact,1.0
+f32ccf878072947e70ec,Review cooperation agreements,Review cooperation agreements,normalized_exact,1.0
+f32ccf878072947e70ec,Prepare legal memos,Prepare legal memos,normalized_exact,1.0
+f32ccf878072947e70ec,Maintain contract inventory,Maintain contract inventory,normalized_exact,1.0
+f32ccf878072947e70ec,Monitor regulatory developments,Monitor regulatory developments,normalized_exact,1.0
+f32ccf878072947e70ec,Prepare regulatory briefings,Prepare regulatory briefings,normalized_exact,1.0
+fa720a68585d2099f1eb,Track execution,Track execution,normalized_exact,1.0
+fa720a68585d2099f1eb,Run due diligence,Run due diligence,normalized_exact,1.0
+fccbd6e81ed853cffd6d,Define Fuel Cycle Fuel Recycling architecture,Define Fuel Cycle Fuel Recycling architecture,normalized_exact,1.0
+fccbd6e81ed853cffd6d,Lead multidisciplinary team,Lead multidisciplinary team,normalized_exact,1.0
+fccbd6e81ed853cffd6d,Guide design of tritium extraction,Guide design of tritium extraction,normalized_exact,1.0

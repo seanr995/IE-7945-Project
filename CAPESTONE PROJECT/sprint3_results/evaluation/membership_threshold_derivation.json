@@ -1,0 +1,26 @@
+{
+  "config_id": "EXP_3_T5_KMEANS__k=100",
+  "secondary_min_similarity": 0.8988989293575287,
+  "secondary_max_gap": 0.007227468490600586,
+  "noise_post_hoc_min_similarity": 0.9141106605529785,
+  "rule": "secondary topic iff similarity to the best other centroid >= P25 of members' own-centroid similarity AND (primary - secondary) <= P10 of non-negative primary/secondary gaps; HDBSCAN noise is assigned post hoc only if its best centroid similarity >= P50 of members' own-centroid similarity AND its top1-top2 gap >= the same P10 gap; otherwise it stays UNASSIGNED; max 2 memberships",
+  "primary_similarity_quantiles": {
+    "0.05": 0.8759039521217347,
+    "0.1": 0.8843181014060975,
+    "0.25": 0.8988989293575287,
+    "0.5": 0.9141106605529785,
+    "0.75": 0.9298319816589355,
+    "0.9": 0.9436876535415649
+  },
+  "gap_quantiles": {
+    "0.05": 0.0038439810276031496,
+    "0.1": 0.006647086143493653,
+    "0.25": 0.011995375156402588,
+    "0.5": 0.020570993423461914,
+    "0.75": 0.031719475984573364,
+    "0.9": 0.04319949150085449
+  },
+  "statements_with_secondary": 153,
+  "noise_post_hoc_assigned": 0,
+  "noise_unassigned": 0
+}

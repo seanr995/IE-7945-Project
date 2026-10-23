@@ -1,0 +1,50 @@
+posting_id,gold_task,predicted_task,match_method,score
+0b027611629b03f366f3,Prepare referral forms to parents of children who failed screenings,prepare referral forms to parents of children who failed screenings,normalized_exact,1.0
+105e8d569cdb317f77c3,Ability to write correspondence,write correspondence and summaries,lexical,0.6667
+295b620938f1b4ef0c48,Meeting planning,Support meeting planning and coordination,semantic,0.8999
+295b620938f1b4ef0c48,Manage email conversations,Assist in managing email communication,semantic,0.886
+295b620938f1b4ef0c48,Take detailed notes during meetings,"Take comprehensive, detailed notes",semantic,0.87
+35b02096d9f13d0f2a54,Develop suicide prevention plans,Lead development and implementation of a citywide suicide prevention strategy,semantic,0.8714
+3b1acd7dae8f6c808655,Develop data pipelines,"Develop, maintain and improve data pipelines and workflows",semantic,0.9321
+3b1acd7dae8f6c808655,Develop understanding of city financial data,Develop a comprehensive understanding of financial data and architecture,semantic,0.8746
+3b4c29db562915cd966f,Evaluate work of child care administrators,"Assign, supervise and evaluate the work of the child care clearance administrators",semantic,0.8815
+41791a6083070a346971,Manage payroll,manage payroll,normalized_exact,1.0
+41791a6083070a346971,Reduce dependence on manual workflows,reduce dependency on manual workflows,lexical,0.6
+49b81c39bff279fde4a8,Develop customer engagement plans,"Develop, maintain, and manage the implementation of strategic customer engagement plans",semantic,0.9199
+49b81c39bff279fde4a8,Travel to customer sites,Travel to customer sites up to 50% of the time,semantic,0.8943
+4b04c180a59634bd2d72,Lead interns,Lead and mentor the Founder’s Associate Intern team,semantic,0.8684
+4c7cd47d220c0129298d,Translate project concepts from ideation to execution,Translate project concepts from ideation to execution,normalized_exact,1.0
+4c7cd47d220c0129298d,Manage energy projects,Manage ongoing energy projects,lexical,0.75
+4fafe3e6f5d7b74b4363,Develop client strategies,Develop prospective clients,semantic,0.8721
+506dc4579e5e38a043d9,Build back end services,Build backend services and APIs,semantic,0.8919
+5095082b7a5e8e644d85,Process Department of State summonses,Process Department of State summonses,normalized_exact,1.0
+5095082b7a5e8e644d85,Update database records,Update and upload records in database,lexical,0.75
+5095082b7a5e8e644d85,Manage clerical work,Perform clerical functions,semantic,0.8892
+50d7802bf29a2fa99d4e,Evaluate solicitation documents,"Prepare, review, and evaluate solicitation documents",lexical,0.6
+50d7802bf29a2fa99d4e,Examine bid samples,Examine bid samples to determine compliance with specifications or bid standards,semantic,0.9226
+56a023230654f22dd021,Perform routine clerical tasks,Perform routine clerical tasks,normalized_exact,1.0
+5f6558e9db057f08f998,Hire engineers,Hire and lead the engineering team,semantic,0.8592
+615ca0f86df809abe767,Lead research on software & technology companies,Lead research on software & technology companies and market segments,lexical,0.7143
+666f7ebc34ffed256a13,Report on water quality,"Compile, review and report water quality and associated data",semantic,0.8938
+74a1bfae7e7e258d28b5,Develop sales content,Develop sales content,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Design automation for sales stack,Design and implement automations across our sales stack,lexical,0.8
+751a53b56992ff974884,Conduct on-site measurements,Monitor and conduct on-site assessments,semantic,0.8864
+798de891e649970c4db8,Clearly define engineering problems,Taking engineering problems that arrive badly defined and turning them into something that can be solved,semantic,0.869
+80f6da7f0eec5c160699,Develop strategies to improve agency performance,Develop and implement strategies to improve performance,lexical,0.6667
+80f6da7f0eec5c160699,Oversee and manage,Oversee day-to-day administration,semantic,0.8777
+80fd4a82c581d7be2fd6,Research of information pertinent to overall market conditions for properties,Research information pertinent to overall market conditions,lexical,0.8571
+80fd4a82c581d7be2fd6,validation of information pertaining to specific subject and comparable properties,Research and validate information pertaining to specific subject and comparable properties,lexical,0.6667
+80fd4a82c581d7be2fd6,Preparation of appraisal reports,Prepare appraisal reports,semantic,0.9669
+96e7892a422bcab5f86d,Assess information protection services,Assess information protection schemes,lexical,0.6
+96e7892a422bcab5f86d,Impliment data retention solutions,Design data retention solutions,lexical,0.6
+96e7892a422bcab5f86d,Design data lose prevention measures,Design Data Loss Prevention,semantic,0.8954
+a73048332d44b501d8e8,Manage relationships with equity investors,source and manage relationships with equity investors,lexical,0.8
+a73048332d44b501d8e8,Build and maintain financial models,build and maintain detailed financial models for fundraising,lexical,0.6667
+a73048332d44b501d8e8,Monitor capital markets for investment oppurtunities,monitor capital markets for financing opportunities,semantic,0.9116
+a845c36fc3eb4caf98fb,Define code infrastructure,Define infrastructure as code,lexical,1.0
+a845c36fc3eb4caf98fb,Build evidence automation tools,Automate the collection and reporting of evidence for ISO 27001,semantic,0.8529
+c06ce1a21ee6fe762ca6,Liaise with community stakeholders,Liaise with community stakeholders,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Support partners with outreach,Support partners with outreach efforts,lexical,0.75
+c06ce1a21ee6fe762ca6,Respond to calls from helpline,Respond to incoming calls from the Tenant Helpline,lexical,0.6
+f32ccf878072947e70ec,Conduct vendor risk assessment,conduct initial legal reviews and risk assessments of vendor agreements,semantic,0.8837
+fccbd6e81ed853cffd6d,Detail key engineering deliverables,write key engineering deliverables,lexical,0.6

@@ -1,0 +1,748 @@
+posting_id,gold_task,predicted_task,match_method,score
+013cb5431128103bc44c,Coordinate with citywide liaisons,Coordinate with citywide liaisons,normalized_exact,1.0
+013cb5431128103bc44c,Identify organizing opportunities,Identify organizing opportunities,normalized_exact,1.0
+013cb5431128103bc44c,Follow up on constituent cases,Follow up on constituent cases,normalized_exact,1.0
+013cb5431128103bc44c,Attend civic and community meetings,Attend civic meetings,semantic,0.965
+013cb5431128103bc44c,Represent Mayor's Office in emergencies,Represent the Mayor’s Office,semantic,0.8919
+013cb5431128103bc44c,Manage team of engagement staff,Manage a team,semantic,0.8618
+013cb5431128103bc44c,Track high-level borough issues,Track high-level issues,semantic,0.8347
+013cb5431128103bc44c,Maintain key relationships in the borough,Maintain key relationships,semantic,0.8127
+05bb010df9f681ecfb8e,Enhance customer workflows,Enhance customer workflows,normalized_exact,1.0
+05bb010df9f681ecfb8e,Lead customer discovery,Lead customer discovery,normalized_exact,1.0
+05bb010df9f681ecfb8e,Maintain product backlog,Maintain product backlog,normalized_exact,1.0
+05bb010df9f681ecfb8e,Analyze usage and product metrics,Analyze product metrics,semantic,0.953
+05bb010df9f681ecfb8e,Monitor industry and regulatory trends,Monitor industry trends,semantic,0.937
+05bb010df9f681ecfb8e,Run beta programmes,Manage beta programmes,semantic,0.9062
+05bb010df9f681ecfb8e,Collaborate with multiple teams,Collaborate with cross-functional teams,semantic,0.8999
+05bb010df9f681ecfb8e,Own product roadmap,Prioritise product roadmap,semantic,0.8346
+06b6dd6358027314646f,Provide executive leadership,Provide executive leadership,normalized_exact,1.0
+06b6dd6358027314646f,Regulate private ferry operations,Regulate private ferry operations,normalized_exact,1.0
+06b6dd6358027314646f,Respond to emergencies,Respond to emergencies,normalized_exact,1.0
+06b6dd6358027314646f,Implement Safety and Environmental Protection Policy,Establish Safety & Environmental Protection Policy,semantic,0.9617
+06b6dd6358027314646f,Train ferry personnel,Train personnel,semantic,0.9081
+06b6dd6358027314646f,Represent agency to government stakeholders,Represent the agency,semantic,0.8742
+06b6dd6358027314646f,Oversee ferry operations and maintenance,Ensure safe ferry operation,semantic,0.8629
+06b6dd6358027314646f,Plan new technology and replacement vessels,Plan new technology,semantic,0.8573
+07d3cbd036de93e87603,Respond to customer inquiries,Respond to customer service inquiries,semantic,0.9715
+07d3cbd036de93e87603,Supervise daily workflows,Supervise daily assignment workflows,semantic,0.9539
+07d3cbd036de93e87603,Approve payment requests,Approve Payment Requests documents,semantic,0.9491
+07d3cbd036de93e87603,Approve bank deposits,Approve daily bank deposits,semantic,0.9172
+07d3cbd036de93e87603,Perform accounting tasks,Perform analytical accounting tasks,semantic,0.9123
+07d3cbd036de93e87603,Review funding requests,Review payroll funding requests,semantic,0.9059
+07d3cbd036de93e87603,Certify agency payrolls,Authorize and certify City agencies’ payrolls,semantic,0.8755
+07d3cbd036de93e87603,Write process procedures,Write PFCAU processes and procedures,semantic,0.8553
+07d3cbd036de93e87603,Approve employee reimbursements,Review and approve employee EFT credit returns,semantic,0.8399
+07d3cbd036de93e87603,Review electronic funds transfer amounts,Review EFT amounts,semantic,0.8369
+07ef093d7aa6614f0a82,Prepare interview materials,Prepare interview materials,normalized_exact,1.0
+07ef093d7aa6614f0a82,Prepare new hire folders,Prepare new hire folders,normalized_exact,1.0
+07ef093d7aa6614f0a82,Assist with special projects,Assist with special projects,normalized_exact,1.0
+07ef093d7aa6614f0a82,Organize and file documents,Organize documents,semantic,0.9652
+07ef093d7aa6614f0a82,Provide general administrative support,Provide administrative support,semantic,0.9553
+07ef093d7aa6614f0a82,Plan attendance at career fairs and hiring events,Plan career fairs,semantic,0.9224
+07ef093d7aa6614f0a82,Hand out flyers and capture photos,Hand out flyers,semantic,0.878
+07ef093d7aa6614f0a82,Enter data,Perform data entry,semantic,0.8734
+07ef093d7aa6614f0a82,Represent department at career fairs,Attend career fairs,semantic,0.8704
+07ef093d7aa6614f0a82,Assist with onboarding of new hires,Assist with onboarding processes,semantic,0.867
+097687274962463b41a1,Conduct outreach to medical communities,Conduct outreach to medical communities,normalized_exact,1.0
+097687274962463b41a1,Conduct quality assurance of data,Conduct quality assurance of data,normalized_exact,1.0
+097687274962463b41a1,Conduct literature reviews,Conduct literature reviews,normalized_exact,1.0
+097687274962463b41a1,Participate in outbreak investigations,Participate in outbreak investigations,normalized_exact,1.0
+097687274962463b41a1,Participate in agency response activations,Participate in agency-wide response activations,semantic,0.9718
+097687274962463b41a1,Supervise seasonal interns,Supervise seasonal college interns,semantic,0.9619
+097687274962463b41a1,Update case investigation protocols and forms,Update disease case investigation protocols,semantic,0.9286
+097687274962463b41a1,Conduct case investigations for disease surveillance,Develop disease case investigation protocols,semantic,0.8966
+097687274962463b41a1,Maintain and report on surveillance data,Develop surveillance practices,semantic,0.8564
+0b027611629b03f366f3,Maintain and transport equipment,Maintain equipment,semantic,0.9265
+0b027611629b03f366f3,Communicate with children,Communicate to children and staff,semantic,0.922
+0b027611629b03f366f3,Travel to schools,Travel to Elementary Schools,semantic,0.9121
+0b027611629b03f366f3,Set up and break down screening equipment,Set up vision screening equipment,semantic,0.8883
+0b027611629b03f366f3,Enter screening data into ASHR,Enter screening data,semantic,0.8705
+0b027611629b03f366f3,Conduct screenings for students,Conduct vision screening,semantic,0.8373
+0b027611629b03f366f3,Prepare referral forms to parents of children who failed screenings,Prepare referral forms,semantic,0.8112
+0b2d4a40fa501be8086c,Validate customer requirements,Validate customer requirements,normalized_exact,1.0
+0b2d4a40fa501be8086c,Provide Level 2 technical support,Provide Level 2 technical support,normalized_exact,1.0
+0b2d4a40fa501be8086c,Lead technical implementation activities,Lead technical implementation activities,normalized_exact,1.0
+0b2d4a40fa501be8086c,Support pre-sales to implementation handovers,Manage pre-sales-to-implementation handovers,semantic,0.9758
+0b2d4a40fa501be8086c,Support webinars and customer meetings,Support webinars,semantic,0.9125
+0b2d4a40fa501be8086c,Maintain solution libraries and technical documentation,Maintain internal solution libraries,semantic,0.9014
+0b2d4a40fa501be8086c,Provide field feedback to product management,Translate field observations into product feedback,semantic,0.8993
+0b2d4a40fa501be8086c,Develop solution approaches for customers,Develop innovative solution approaches,semantic,0.8806
+0bd6f04e2cb94755955c,Develop funding request justifications,Develop funding request justifications,normalized_exact,1.0
+0bd6f04e2cb94755955c,Manage expense budget,Manage annual expense budget,semantic,0.9487
+0bd6f04e2cb94755955c,Process contract payments and change orders,Process change orders,semantic,0.9032
+0bd6f04e2cb94755955c,Track contract utilization and vendor performance,Track contract utilization,semantic,0.8731
+105e8d569cdb317f77c3,Ability to write correspondence,Write correspondence,semantic,0.9172
+10c829e5b8226b55a98f,Prepare cases for hearings,Prepare cases for hearing,semantic,0.9532
+10c829e5b8226b55a98f,Ensure timely mailing of correspondence,Ensure mailing of correspondence,semantic,0.9403
+10c829e5b8226b55a98f,Create timelines of case events,Create timeline of events,semantic,0.9225
+10c829e5b8226b55a98f,Manage caseload and assign cases,Manage caseload,semantic,0.917
+10c829e5b8226b55a98f,Enter case information in tracking database,Enter cases in Appeal Tracking Database,semantic,0.9135
+10c829e5b8226b55a98f,Review case files for procedural issues,Review case files for evidence,semantic,0.8986
+10c829e5b8226b55a98f,Send pre-resolve emails to senior staff,Send pre-resolve e-mails,semantic,0.8812
+10c829e5b8226b55a98f,Respond to inquiries from applicants and staff,Respond to inquiries,semantic,0.8785
+10c829e5b8226b55a98f,Handle appeals from receipt to completion,Handle appeals,semantic,0.8419
+10c829e5b8226b55a98f,Recommend appeals unit improvements,Present cases to Appeals Unit,semantic,0.8353
+10c829e5b8226b55a98f,Train staff and conduct mock hearings,Train Appeals staff,semantic,0.8276
+12267268cf274f232ece,Take operational responsibility for services,Take operational responsibility for services,normalized_exact,1.0
+12267268cf274f232ece,Participate in on-call rotation,Participate in on-call rotation,normalized_exact,1.0
+12267268cf274f232ece,Own products end-to-end,Own products and services end-to-end,semantic,0.9447
+12267268cf274f232ece,Share knowledge and best practices,Share knowledge,semantic,0.9043
+1742269a66920b58cfba,Collect and review documentation,Collect and review documentation,normalized_exact,1.0
+1742269a66920b58cfba,Identify opportunities to increase funding awards,Identify opportunities to increase funding awards,normalized_exact,1.0
+1742269a66920b58cfba,Identify solutions to programmatic issues,Identify and recommend solutions for programmatic issues,semantic,0.948
+1742269a66920b58cfba,Ensure timely reimbursement requests,Ensure claiming/reimbursement requests are proceeding in a timely manner,semantic,0.9473
+1742269a66920b58cfba,Represent OMB in external partner meetings,Represent OMB/NYC in meetings with external partners,semantic,0.9398
+1742269a66920b58cfba,Report on project status to management,Report on status of projects to upper management,semantic,0.9183
+1742269a66920b58cfba,Develop trainings for staff,Develop and provide trainings,semantic,0.896
+1742269a66920b58cfba,Analyze task force procedures and recommend changes,Analyze the efficiency and effectiveness of task force procedures,semantic,0.8568
+1742269a66920b58cfba,"Monitor federal, state, and city regulations","Obtain working knowledge of applicable Federal, State, and City rules and regulations",semantic,0.8178
+1b9dc57735af5fe3ad3d,Maintain fee database,Maintain centralized fee database,semantic,0.9482
+1b9dc57735af5fe3ad3d,Build dashboards,"Build user-friendly, automated dashboards",semantic,0.9115
+1b9dc57735af5fe3ad3d,Perform data entry and cleaning,Perform data entry,semantic,0.8969
+1b9dc57735af5fe3ad3d,Monitor company revenue,Monitor revenues for City agencies,semantic,0.8287
+1df980408a2da22c4082,Conduct investigations,Conduct investigations,normalized_exact,1.0
+1df980408a2da22c4082,Mentor junior investigators,Mentor junior investigators,normalized_exact,1.0
+1df980408a2da22c4082,Participate in extraditions,Participate in extraditions,normalized_exact,1.0
+1df980408a2da22c4082,Participate in protective details and protect witnesses,Participate in protective details,semantic,0.9466
+1df980408a2da22c4082,Participate in court-ordered electronic eavesdropping,Participate in electronic eavesdropping,semantic,0.928
+1df980408a2da22c4082,Testify before grand and petit juries,Testify before juries,semantic,0.9205
+1df980408a2da22c4082,Execute search warrants and effect arrests,Execute search warrants,semantic,0.9201
+1df980408a2da22c4082,Assist attorneys in court preparation,Assist in preparation for court proceedings,semantic,0.9191
+1df980408a2da22c4082,Prepare reports and maintain records,Prepare reports,semantic,0.9144
+1df980408a2da22c4082,Manage and review cases,Manage cases,semantic,0.9034
+1df980408a2da22c4082,Use computer databases,Access computer databases,semantic,0.9024
+1df980408a2da22c4082,Provide status updates to chief investigators,Provide status updates,semantic,0.8309
+1df980408a2da22c4082,Liaise with law enforcement and financial institutions,Liaison with financial institutions,semantic,0.8246
+24be9713838ce65bb2d1,Develop account strategies,Develop account strategies,normalized_exact,1.0
+24be9713838ce65bb2d1,Build business cases,Build business cases,normalized_exact,1.0
+24be9713838ce65bb2d1,Own sales quota,Own a quota,semantic,0.922
+24be9713838ce65bb2d1,Own enterprise deals end-to-end,Close enterprise deals,semantic,0.8494
+24be9713838ce65bb2d1,Share customer insights with product teams,"Feed structured insights back into product, marketing, and strategy",semantic,0.8094
+24be9713838ce65bb2d1,Build relationships with external organizations,Build trusted relationships with enterprise customers,semantic,0.8039
+2557d72d6c8e6a5e8365,Develop wastewater strategies,Optimize wastewater treatment processes,semantic,0.8447
+295b620938f1b4ef0c48,Facilitate meetings,Facilitate meetings,normalized_exact,1.0
+295b620938f1b4ef0c48,Synthesize meeting notes,Synthesize meeting notes,normalized_exact,1.0
+295b620938f1b4ef0c48,Prepare meeting agendas and materials,Prepare meeting agendas,semantic,0.9514
+295b620938f1b4ef0c48,Take detailed notes during meetings,Take meeting notes,semantic,0.9489
+295b620938f1b4ef0c48,Track data,Perform data tracking,semantic,0.9215
+295b620938f1b4ef0c48,Manage email conversations,Manage email communication,semantic,0.9173
+295b620938f1b4ef0c48,Meeting planning,Support meeting planning and coordination,semantic,0.8999
+295b620938f1b4ef0c48,Set up and break down meetings,Schedule meetings,semantic,0.8493
+35b02096d9f13d0f2a54,Direct office operations,Direct office operations,normalized_exact,1.0
+35b02096d9f13d0f2a54,Supervise senior leadership,Supervise senior leadership,normalized_exact,1.0
+35b02096d9f13d0f2a54,Set research and data priorities,Set research and data priorities,normalized_exact,1.0
+35b02096d9f13d0f2a54,Advise on suicide prevention policy,Advise leadership on suicide prevention policy,semantic,0.9358
+35b02096d9f13d0f2a54,Oversee grants and funding initiatives,Oversee strategic funding initiatives,semantic,0.929
+35b02096d9f13d0f2a54,Develop resource strategies,Develop strategies to sustain resources,semantic,0.9205
+35b02096d9f13d0f2a54,Develop suicide prevention plans,Develop citywide suicide prevention strategy,semantic,0.8944
+35b02096d9f13d0f2a54,Translate findings into recommendations,Translate research findings into policy recommendations,semantic,0.8853
+35b02096d9f13d0f2a54,Coordinate with government officials,Coordinate with City agencies,semantic,0.8064
+3613b2486df0c4c5d71a,Collaborate with engineering disciplines,Collaborate with engineering disciplines,normalized_exact,1.0
+3613b2486df0c4c5d71a,Organize verification reviews,Organize reviews for verification events,semantic,0.9526
+3613b2486df0c4c5d71a,Support test procedure generation,Generate test procedures,semantic,0.919
+3613b2486df0c4c5d71a,Generate verification reports,Generate reports,semantic,0.8721
+3613b2486df0c4c5d71a,Process anomalies from verification campaigns,Process anomalies,semantic,0.8702
+3613b2486df0c4c5d71a,Close verification items,Drive closure of verification items,semantic,0.8555
+3613b2486df0c4c5d71a,Drive system verification campaigns,Prepare system verification campaigns,semantic,0.8506
+3613b2486df0c4c5d71a,Define system integration and verification plans,Define system integration activities,semantic,0.8004
+391112a1f4a8d0187e88,Develop public health policies,Develop public health policies,normalized_exact,1.0
+391112a1f4a8d0187e88,Set strategic vision for health equity,Set strategic vision for advancing health equity,semantic,0.9938
+391112a1f4a8d0187e88,Oversee Race to Justice initiative,Oversee the Race to Justice initiative,semantic,0.9907
+391112a1f4a8d0187e88,Lead assistant commissioners,Lead a team of Assistant Commissioners,semantic,0.923
+391112a1f4a8d0187e88,Develop anti-racist practices,Embed anti-racist practices,semantic,0.9057
+391112a1f4a8d0187e88,Build community partnerships,Strengthen relationships with community organizations,semantic,0.854
+3b1acd7dae8f6c808655,Develop data pipelines,Develop data pipelines,normalized_exact,1.0
+3b1acd7dae8f6c808655,Implement data governance protocols,Implement data governance protocols,normalized_exact,1.0
+3b1acd7dae8f6c808655,Automate cross-platform integrations,Automate cross-platform integrations,normalized_exact,1.0
+3b1acd7dae8f6c808655,Collaborate with internal teams,Collaborate with internal teams,normalized_exact,1.0
+3b1acd7dae8f6c808655,Provide technical consulting,Provide technical consulting,normalized_exact,1.0
+3b1acd7dae8f6c808655,Implement data quality protocols,Implement data quality protocols,normalized_exact,1.0
+3b1acd7dae8f6c808655,Build tools to simply data analysis,Conduct data analysis,semantic,0.8299
+3b1acd7dae8f6c808655,Document data models and workflows,Design data models,semantic,0.8139
+3b4c29db562915cd966f,Compose eligibility letters,Compose eligibility letters,normalized_exact,1.0
+3b4c29db562915cd966f,Develop and coordinate community resources,Develop community resources,semantic,0.9603
+3b4c29db562915cd966f,Maintain confidential provider records,Maintain confidential records,semantic,0.9171
+3b4c29db562915cd966f,Review clearance requests for data accuracy,Review clearance requests,semantic,0.8718
+3b4c29db562915cd966f,Review criminal history and abuse registries,Review criminal history repository,semantic,0.8709
+3b4c29db562915cd966f,Coordinate daily communication with child care programs,Coordinate daily communication,semantic,0.8554
+3b4c29db562915cd966f,Perform outreach for childcare centers,Provide outreach,semantic,0.8427
+3b4c29db562915cd966f,Provide technical assistance to child care operators,Provide technical assistance,semantic,0.8318
+3b6214df01e1277e6efd,Ensure follow-the-sun coverage,Ensure follow-the-sun coverage,normalized_exact,1.0
+3b6214df01e1277e6efd,Partner with Customer Success and Sales leadership,Partner with Customer Success and Sales,semantic,0.9589
+3b6214df01e1277e6efd,Manage and grow engineering teams,Manage engineering teams,semantic,0.946
+3b6214df01e1277e6efd,Establish on-call and incident response processes,Establish incident response processes,semantic,0.9205
+3b6214df01e1277e6efd,Report on team health and customer outcomes,Report on team health,semantic,0.9051
+3b6214df01e1277e6efd,Remove blockers for teams,Remove blockers,semantic,0.9004
+3b6214df01e1277e6efd,Own engineering quality standards,Own engineering quality bar,semantic,0.8739
+3b6214df01e1277e6efd,Drive hiring and performance management,Drive hiring,semantic,0.8535
+3b6214df01e1277e6efd,Set priorities across customer and engineering work,Set priorities,semantic,0.8437
+3ca1b50483595c10a701,Monitor regulatory changes,Monitor regulatory changes,normalized_exact,1.0
+3ca1b50483595c10a701,Track project key performance indicators,Track project key performance indicators,normalized_exact,1.0
+3ca1b50483595c10a701,Coordinate with internal and external entities,Coordinate with internal and external entities,normalized_exact,1.0
+3ca1b50483595c10a701,Support engineering project teams,Provide support services to Engineering project teams,semantic,0.9614
+3ca1b50483595c10a701,Conduct workshops and presentations,Conduct workshops,semantic,0.9346
+3ca1b50483595c10a701,Facilitate LEED and Envision certifications,Facilitate Envision project certifications,semantic,0.8995
+4104f785e0ac83dab8a3,Develop test planning and verification frameworks,Develop test planning frameworks,semantic,0.9608
+4104f785e0ac83dab8a3,Resolve operational bottlenecks,Resolve bottlenecks,semantic,0.9443
+4104f785e0ac83dab8a3,Coordinate with production and procurement teams,Coordinate with procurement teams,semantic,0.9403
+4104f785e0ac83dab8a3,Maintain project documentation and action items,Maintain project documentation,semantic,0.9325
+4104f785e0ac83dab8a3,Maintain project data and track progress,Maintain project data,semantic,0.9294
+4104f785e0ac83dab8a3,Identify process inefficiencies and suggest improvements,Identify inefficiencies,semantic,0.9046
+4104f785e0ac83dab8a3,Support project reporting,Support reporting,semantic,0.9033
+4104f785e0ac83dab8a3,Support test campaigns,Prepare test campaigns,semantic,0.887
+41791a6083070a346971,Manage payroll,Manage payroll,normalized_exact,1.0
+41791a6083070a346971,Develop Standard Operating Procedures,Develop Standard Operating Procedures,normalized_exact,1.0
+41791a6083070a346971,Deliver reporting and analytics,Deliver reporting and analytics,normalized_exact,1.0
+41791a6083070a346971,Partner with external experts,Partner with external experts,normalized_exact,1.0
+41791a6083070a346971,Manage contracts and employee lifecycle processes,Manage employee lifecycle processes,semantic,0.916
+41791a6083070a346971,Write and roll out policies,Contribute to writing policies,semantic,0.8691
+41791a6083070a346971,Scale operations for company growth,Scale People Operations,semantic,0.8503
+41791a6083070a346971,Manage compliance and employee administration in HRIS,Manage compliance,semantic,0.8315
+41fd8f1659c66291c006,Direct attorneys to utilize forensic experts,Direct attorneys to utilize forensic experts,normalized_exact,1.0
+41fd8f1659c66291c006,Identify state and non-profit programs,Identify state and non-profit programs,normalized_exact,1.0
+41fd8f1659c66291c006,Guide attorneys on client communication,Guide attorneys in communicating with clients,semantic,0.9822
+41fd8f1659c66291c006,Respond to client and community concerns,Respond to client concerns,semantic,0.9493
+41fd8f1659c66291c006,Identify practice issues,Identify practice gaps,semantic,0.8811
+41fd8f1659c66291c006,Oversee social workers and forensic experts,Oversee development and work product of forensic experts,semantic,0.8627
+41fd8f1659c66291c006,Coordinate attorney trainings,Develop trainings for panel attorneys,semantic,0.827
+458f5701d4c9512eedc8,Prepare executive for key decisions,Prepare executive for key decisions,normalized_exact,1.0
+458f5701d4c9512eedc8,Support strategic workstreams,Support strategic workstreams,normalized_exact,1.0
+458f5701d4c9512eedc8,Work with go-to-market teams,Work with go-to-market teams,normalized_exact,1.0
+458f5701d4c9512eedc8,Prepare policy work and ecosystem initiatives,Prepare policy work,semantic,0.884
+458f5701d4c9512eedc8,Project management,Run project management,semantic,0.881
+45ec14d7fc4b48a6858a,Build evaluation and replay loop,Build evaluation and replay loop,normalized_exact,1.0
+45ec14d7fc4b48a6858a,Maintain regression tests,Maintain regression tests,normalized_exact,1.0
+45ec14d7fc4b48a6858a,Own the localization roadmap and delivery,Own the localization roadmap,semantic,0.9834
+45ec14d7fc4b48a6858a,Conduct live sensor testing,Take system through live sensor testing,semantic,0.9491
+45ec14d7fc4b48a6858a,Deploy systems in the field,Take system through field deployment,semantic,0.9451
+45ec14d7fc4b48a6858a,Coordinate sensor and compute integration,Coordinate sensor and compute requirements,semantic,0.9215
+45ec14d7fc4b48a6858a,Guide architecture and algorithm decisions,Guide core algorithm decisions,semantic,0.8793
+45ec14d7fc4b48a6858a,Give feedback to engineers,Give feedback,semantic,0.8736
+45ec14d7fc4b48a6858a,Hire and develop localization engineers,Hire engineers,semantic,0.803
+464d3d3312512fd7f8d0,Oversee daily maintenance operations,Oversee daily maintenance operations,normalized_exact,1.0
+464d3d3312512fd7f8d0,Supervise repair of structures and equipment,Supervise repair of structures and equipment,normalized_exact,1.0
+464d3d3312512fd7f8d0,Conduct building inspections,Conduct building inspections,normalized_exact,1.0
+464d3d3312512fd7f8d0,Supervise care of buildings and grounds,Supervise care of buildings and ground,semantic,0.9806
+464d3d3312512fd7f8d0,Supervise move-out preparation,Supervise preparation of move-outs,semantic,0.9788
+464d3d3312512fd7f8d0,Monitor work orders and staff deployment,Monitor work orders,semantic,0.9046
+464d3d3312512fd7f8d0,Monitor inventory and arrange replenishment,Monitor inventory supply,semantic,0.8878
+464d3d3312512fd7f8d0,Oversee repairs in apartments and public spaces,Oversee repair work,semantic,0.8562
+49b81c39bff279fde4a8,Drive business development with alliance partners,Drive business development with company alliance partners,semantic,0.9861
+49b81c39bff279fde4a8,Develop customer engagement plans,Develop strategic customer engagement plans,semantic,0.9666
+49b81c39bff279fde4a8,Research customer prospects,Research customer prospects and targets,semantic,0.9422
+49b81c39bff279fde4a8,Engage in account selling,Engage in strategic account selling,semantic,0.9242
+49b81c39bff279fde4a8,Collaborate on new product offerings,Develop new product offerings,semantic,0.8946
+49b81c39bff279fde4a8,Consult with customers on digital transformation,Engage in strategic relationships with customers,semantic,0.8088
+4af8e56faeb5bf3cb868,Triage incoming emails,Triage incoming emails,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Draft officewide communications,Draft officewide communications,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Provide front desk coverage,Provide front desk coverage,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Maintain office supplies,Maintain office supplies,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Manage executive vacation schedule,Manage executive vacation schedule,normalized_exact,1.0
+4af8e56faeb5bf3cb868,Audit calendars,Conduct calendar audits,semantic,0.9652
+4af8e56faeb5bf3cb868,Manage briefing materials,Maintain briefing materials,semantic,0.9561
+4af8e56faeb5bf3cb868,Coordinate HR and legal logistics,Coordinate legal logistics,semantic,0.9116
+4af8e56faeb5bf3cb868,Manage scheduling,Manage internal and external scheduling,semantic,0.9038
+4af8e56faeb5bf3cb868,Manage conference room schedule,Oversee Executive Conference Room schedule,semantic,0.9
+4b04c180a59634bd2d72,Refine internal processes,Refine internal processes,normalized_exact,1.0
+4b04c180a59634bd2d72,Develop cross-functional initiatives,Develop cross-functional initiatives,normalized_exact,1.0
+4b04c180a59634bd2d72,Analyze competitor dynamics,Analyse competitor dynamics,semantic,0.9849
+4b04c180a59634bd2d72,Lead interns,Lead the Founder’s Associate Intern team,semantic,0.8582
+4b04c180a59634bd2d72,Own special growth projects,Own and lead projects,semantic,0.8491
+4b04c180a59634bd2d72,Analyze financial markets,Analyse market developments,semantic,0.8425
+4b04c180a59634bd2d72,Support CEO on strategic projects,Support strategic and operational projects,semantic,0.8327
+4b0c7f0ad5cce52c7bdf,Monitor patch deployments,Monitor patch deployments,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Compare data across systems,Compare data across systems,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Create how-to documentation,Create how-to documentation,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Resolve common Windows 11 issues,Resolve Windows 11 issues,semantic,0.9728
+4b0c7f0ad5cce52c7bdf,Deploy and maintain Windows 11 updates,Deploy Windows 11 updates,semantic,0.9569
+4b0c7f0ad5cce52c7bdf,Document troubleshooting steps and escalate issues,Document troubleshooting steps,semantic,0.9521
+4b0c7f0ad5cce52c7bdf,Software reporting,Run reports on software inventory,semantic,0.8351
+4b0c7f0ad5cce52c7bdf,Assist in software and hardware deployment,Deploy new software,semantic,0.8313
+4b0c7f0ad5cce52c7bdf,Organize and validate data in Excel,Organize IT data,semantic,0.8282
+4b0c7f0ad5cce52c7bdf,Automate tasks with PowerShell scripts,Automate administrative tasks,semantic,0.8152
+4c7cd47d220c0129298d,Oversee design reviews,Oversee design reviews,normalized_exact,1.0
+4c7cd47d220c0129298d,Identify energy conservation opportunities,Identify energy conservation opportunities,normalized_exact,1.0
+4c7cd47d220c0129298d,Support measurement and verification efforts,Support measurement and verification efforts,normalized_exact,1.0
+4c7cd47d220c0129298d,Track energy and resource recovery data,Track energy and resource recovery data,normalized_exact,1.0
+4c7cd47d220c0129298d,Track and report on project progress,Track project progress,semantic,0.9741
+4c7cd47d220c0129298d,Manage energy projects,Manage ongoing energy projects,semantic,0.9507
+4c7cd47d220c0129298d,Develop and maintain project plans,Maintain project plans,semantic,0.9506
+4c7cd47d220c0129298d,Develop partnership models and contractual terms,Develop partnership models,semantic,0.9412
+4c7cd47d220c0129298d,Prepare reports and presentations,Prepare reports,semantic,0.9263
+4c7cd47d220c0129298d,Contribute to project scopes and cost estimates,Contribute to project scopes of work,semantic,0.9097
+4fafe3e6f5d7b74b4363,Close new clients,Close new clients,normalized_exact,1.0
+4fafe3e6f5d7b74b4363,Liaise with production,Liaise with production,normalized_exact,1.0
+4fafe3e6f5d7b74b4363,Grow business from existing clients,Grow new business from existing clients,semantic,0.9835
+4fafe3e6f5d7b74b4363,Negotiate rates and deadlines,Negotiate deadlines,semantic,0.931
+4fafe3e6f5d7b74b4363,Manage relationships with senior leadership,Work with senior leadership,semantic,0.9125
+4fafe3e6f5d7b74b4363,Source prospective clients,Develop prospective clients,semantic,0.9007
+4fafe3e6f5d7b74b4363,Develop new business strategies,Improve new business development strategy,semantic,0.9003
+4fafe3e6f5d7b74b4363,Follow up on client satisfaction,Follow up with clients,semantic,0.8874
+4fafe3e6f5d7b74b4363,Up-sell service portfolio,Up-sell the TransPerfect portfolio,semantic,0.8526
+4fd5cae42eb3035824ee,Develop electrical components,Develop electrical components,normalized_exact,1.0
+4fd5cae42eb3035824ee,Develop electrical safety concepts,Develop electrical safety concepts,normalized_exact,1.0
+4fd5cae42eb3035824ee,Collect technical requirements,Collect technical requirements,normalized_exact,1.0
+4fd5cae42eb3035824ee,Perform verification tests,Perform verification tests,normalized_exact,1.0
+4fd5cae42eb3035824ee,Coordinate engineering tasks,Coordinate engineering tasks,normalized_exact,1.0
+4fd5cae42eb3035824ee,Coordinate with third-party suppliers,Coordinate with third-party suppliers,normalized_exact,1.0
+4fd5cae42eb3035824ee,Monitor technological trends,Monitor technological trends,normalized_exact,1.0
+4fd5cae42eb3035824ee,Create component and system specifications,Create component specifications,semantic,0.9703
+4fd5cae42eb3035824ee,Create circuit and wiring diagrams,Create wiring diagrams,semantic,0.9574
+4fd5cae42eb3035824ee,Develop power and control boards,Develop power and control electronic boards,semantic,0.949
+4fd5cae42eb3035824ee,Maintain products and systems,Maintain products,semantic,0.9318
+4fd5cae42eb3035824ee,Implement product cost reduction,Execute product cost reduction concepts,semantic,0.9192
+4fed033c30fe7a78c1a5,Conduct business reviews,Conduct business reviews,normalized_exact,1.0
+4fed033c30fe7a78c1a5,Create targeted campaigns,Create targeted campaigns,normalized_exact,1.0
+4fed033c30fe7a78c1a5,Build stakeholder relationships,Build relationships with key stakeholders,semantic,0.9496
+4fed033c30fe7a78c1a5,Introduce services to clients,Introduce services to customers,semantic,0.9228
+4fed033c30fe7a78c1a5,Optimize customer service utilization,Optimize customer value,semantic,0.8815
+4fed033c30fe7a78c1a5,Organize customer events,Organise events,semantic,0.8604
+4fed033c30fe7a78c1a5,Track customer interactions in CRM,Identify opportunities to expand customer interaction,semantic,0.8131
+506dc4579e5e38a043d9,Make architectural decisions,Make architectural decisions,normalized_exact,1.0
+506dc4579e5e38a043d9,Use AI coding agents in development,Use AI coding agents,semantic,0.9611
+506dc4579e5e38a043d9,Build back end services,Build backend services,semantic,0.9468
+506dc4579e5e38a043d9,Build reliable background jobs,Build background jobs,semantic,0.9433
+506dc4579e5e38a043d9,Design domain models and database schemas,Design database schemas,semantic,0.9203
+506dc4579e5e38a043d9,Contribute to mobile frontend,Contribute to Android frontend,semantic,0.9095
+506dc4579e5e38a043d9,"Improve deployments, CI/CD and monitoring",Improve deployments,semantic,0.9067
+506dc4579e5e38a043d9,Contribute to web app development,Contribute to Web frontend,semantic,0.8716
+506dc4579e5e38a043d9,Debugging,Debug issues,semantic,0.8571
+506dc4579e5e38a043d9,Build APIs for campaigns and payments,Build APIs,semantic,0.8529
+5095082b7a5e8e644d85,Assemble summons packages,Assemble summons packages,normalized_exact,1.0
+5095082b7a5e8e644d85,Process certified and regular mail,Process certified and regular mail,normalized_exact,1.0
+5095082b7a5e8e644d85,Update database records,Update records in a database,semantic,0.9421
+5095082b7a5e8e644d85,Manage clerical work,Perform clerical functions,semantic,0.8892
+5095082b7a5e8e644d85,Print summonses by hearing date,Print summonses,semantic,0.8792
+50d7802bf29a2fa99d4e,Evaluate solicitation documents,Evaluate solicitation documents,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Examine bid samples,Examine bid samples,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Prepare solicitation documents,Prepare solicitation documents,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Analyze vendor responsibility,Analyze vendor responsibility,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Monitor procurement processing,Monitor procurement processing,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Conduct open market research,Conduct open market research,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Advise program personnel on procurement,Advise program personnel on procurement actions,semantic,0.9739
+50d7802bf29a2fa99d4e,Determine most reasonable price,Determine reasonable price,semantic,0.969
+50d7802bf29a2fa99d4e,Oversee pre-solicitation review,Oversee pre-solicitation review activities,semantic,0.9498
+50d7802bf29a2fa99d4e,Make recommendations for awards,Make recommendations for small purchase awards,semantic,0.8799
+50d7802bf29a2fa99d4e,Solicit bids through procurement methods,Solicit bids,semantic,0.8761
+50d7802bf29a2fa99d4e,Research goods from Preferred Source,Research goods for procurement,semantic,0.8587
+50d7802bf29a2fa99d4e,Resolve procurement issues with vendors,Implement procurement procedures,semantic,0.836
+514d14a0cdbffddf9491,Develop joint business plans,Develop joint business plans,normalized_exact,1.0
+514d14a0cdbffddf9491,"Analyze market, sales, and customer data",Analyze sales data,semantic,0.9469
+514d14a0cdbffddf9491,Build long-term partnerships with key partners,Build partnerships with key partners,semantic,0.9377
+514d14a0cdbffddf9491,Partner with internal teams on execution,Partner with internal teams,semantic,0.9216
+514d14a0cdbffddf9491,Drive acquisition of new partners,Acquire new strategic partners,semantic,0.8554
+53ca8a5ad02b99123994,Prepare petitions,Prepare petitions,normalized_exact,1.0
+53ca8a5ad02b99123994,Negotiate settlements,Negotiate settlements,normalized_exact,1.0
+53ca8a5ad02b99123994,Assemble evidence,Assemble evidence,normalized_exact,1.0
+53ca8a5ad02b99123994,Assess complaints,Assess complaints,normalized_exact,1.0
+53ca8a5ad02b99123994,Maintain confidential information,Maintain confidential information,normalized_exact,1.0
+53ca8a5ad02b99123994,Represent agency at hearings,Represent the agency at hearings,semantic,0.994
+53ca8a5ad02b99123994,Prepare witnesses,Prepare witness,semantic,0.9763
+53ca8a5ad02b99123994,Prepare reports and summaries,Prepare summaries,semantic,0.9345
+53ca8a5ad02b99123994,Liaise with government agencies,Liaise with state agencies,semantic,0.92
+53ca8a5ad02b99123994,Prepare briefs and legal papers,Prepare briefs,semantic,0.9189
+53ca8a5ad02b99123994,Monitor workflow and deadlines,Monitor workflow,semantic,0.9163
+53ca8a5ad02b99123994,Build case strategy,Design a case strategy,semantic,0.912
+549e8d159a9b700b28af,Facilitate IFSP meetings,Facilitate IFSP meetings,normalized_exact,1.0
+549e8d159a9b700b28af,Participate in mediations and fair hearings,Attend mediations and fair hearings,semantic,0.9725
+549e8d159a9b700b28af,Communicate with providers and families,Communicate with EI providers and families,semantic,0.9038
+549e8d159a9b700b28af,Complete service and billing paperwork,Process service and billing paperwork,semantic,0.8914
+549e8d159a9b700b28af,Report concerns to supervisor,Report concerns,semantic,0.8864
+549e8d159a9b700b28af,Attend regional office meetings,Attend scheduled meetings,semantic,0.8318
+549e8d159a9b700b28af,Ensure accurate completion of procedures,Complete procedures,semantic,0.8198
+55f5a8caeb1de0a5ef8c,Increase office visibility at community events,Increase office visibility at community events,normalized_exact,1.0
+55f5a8caeb1de0a5ef8c,Implement document management protocols,Implement document management protocols,normalized_exact,1.0
+55f5a8caeb1de0a5ef8c,Work on special projects,Work on special projects,normalized_exact,1.0
+55f5a8caeb1de0a5ef8c,Build and maintain database of community partners,Maintain a database of community partners,semantic,0.9743
+55f5a8caeb1de0a5ef8c,Report on community issues and needs,Report information about community issues,semantic,0.956
+55f5a8caeb1de0a5ef8c,Conduct outreach for community events,Conduct outreach for activities,semantic,0.9295
+55f5a8caeb1de0a5ef8c,Collaborate with other office teams,Collaborate with other teams,semantic,0.9269
+55f5a8caeb1de0a5ef8c,Research and identify community partners,Build a database of community partners,semantic,0.8481
+563e6c42e3b5851e81d8,Conduct inspections and monitoring visits,Perform inspections,semantic,0.8558
+563e6c42e3b5851e81d8,Ensure adherence to inspection protocols,"Assure compliance with laws, rules and regulations",semantic,0.8022
+56a023230654f22dd021,Assign cases to probation officers,Assign cases to Probation Officers,normalized_exact,1.0
+56a023230654f22dd021,Prepare case folders,Prepare case folders,normalized_exact,1.0
+56a023230654f22dd021,Provide front desk coverage,Provide front desk coverage,normalized_exact,1.0
+56a023230654f22dd021,Photograph probation clients,Digitally photograph probation clients,semantic,0.9713
+56a023230654f22dd021,Document court actions and case outcomes,Document case outcomes,semantic,0.9334
+56a023230654f22dd021,"Scan, file and route records",Route records,semantic,0.8477
+56c9cb0250807bd7024b,Maintain safety and security of building,Provide physical security,semantic,0.8214
+5c4a5e28ceaa8b8e776f,Lead executive business reviews,Lead executive business reviews,normalized_exact,1.0
+5c4a5e28ceaa8b8e776f,Travel to customer sites,Travel to customer sites,normalized_exact,1.0
+5c4a5e28ceaa8b8e776f,Provide architecture guidance and troubleshooting,Provide architecture guidance,semantic,0.9098
+5c4a5e28ceaa8b8e776f,Operate AI,Operate AI-first,semantic,0.909
+5c4a5e28ceaa8b8e776f,"Track adoption, usage, and health",Track adoption,semantic,0.8893
+5c4a5e28ceaa8b8e776f,Translate customer problems into requirements,Translate problems into actionable requirements,semantic,0.8775
+5c4a5e28ceaa8b8e776f,Perform live demonstrations,Run live demos,semantic,0.8427
+5c4a5e28ceaa8b8e776f,Customer onboarding,Own onboarding,semantic,0.8351
+5c4a5e28ceaa8b8e776f,Identify expansion opportunities with Sales,Identify expansion,semantic,0.8303
+5e3441edc7e25b376050,Lead educational workshops and live events,Lead educational workshops,semantic,0.9468
+5e3441edc7e25b376050,Build custom AI solutions with customers,Build custom AI solutions,semantic,0.9432
+5e3441edc7e25b376050,Train customer trainers,Train internal customer trainers,semantic,0.9263
+5e3441edc7e25b376050,Create advocate and power user networks,Create advocate networks,semantic,0.9163
+5e3441edc7e25b376050,Design and execute activation strategies,Design activation strategies,semantic,0.9087
+5e3441edc7e25b376050,Facilitate live and virtual training sessions,Facilitate training sessions,semantic,0.9073
+5e3441edc7e25b376050,Implement champion programs and usage dashboards,Implement champion programs,semantic,0.897
+5e3441edc7e25b376050,Build champion communities,Build champion networks,semantic,0.8837
+5e3441edc7e25b376050,Customize and deliver workshop curriculum,Run customized workshops,semantic,0.8545
+5e3441edc7e25b376050,Refine materials from customer feedback,Refine materials,semantic,0.8111
+5f6558e9db057f08f998,Review code,Review code,normalized_exact,1.0
+5f6558e9db057f08f998,Build data layer above DATEV,Build the data layer above DATEV,semantic,0.9946
+5f6558e9db057f08f998,Build evaluation from audited work,Build evaluation on audited work,semantic,0.9887
+5f6558e9db057f08f998,Build agent infrastructure,Choose and build the agent infrastructure,semantic,0.9517
+5f6558e9db057f08f998,Lead engineering team,Lead the engineering team,semantic,0.9399
+5f6558e9db057f08f998,Hire engineers,Hire the engineering team,semantic,0.9205
+5f6558e9db057f08f998,Build control layer for agent oversight,Build the control layer,semantic,0.8094
+615ca0f86df809abe767,Lead research on software & technology companies,Lead research on software & technology companies,normalized_exact,1.0
+615ca0f86df809abe767,Communicate with high-profile customers,Communicate with high-profile customers,normalized_exact,1.0
+615ca0f86df809abe767,Design account-level growth strategies,Design account-level growth strategies,normalized_exact,1.0
+615ca0f86df809abe767,Lead local recruitment,Lead recruitment locally,semantic,0.9735
+615ca0f86df809abe767,Lead opening of Munich office,Lead the opening of the Munich office,semantic,0.9541
+615ca0f86df809abe767,Act as voice of the customer internally,Act as the voice of the customer,semantic,0.9265
+615ca0f86df809abe767,Deliver high-quality research deliverables,Deliver high-quality deliverables,semantic,0.8843
+615ca0f86df809abe767,Own client relationships in Toronto market,Own client relationships,semantic,0.8557
+615ca0f86df809abe767,Drive expansion through a solution-focused approach,Drive expansion,semantic,0.8328
+615ca0f86df809abe767,Build and coach research team,Coach a team of analysts and associates,semantic,0.8145
+622c7c71deb0fb8b4880,Draft official correspondence,Draft official correspondence,normalized_exact,1.0
+622c7c71deb0fb8b4880,Maintain tracking systems,Maintain tracking systems,normalized_exact,1.0
+622c7c71deb0fb8b4880,Deliver workforce training,Deliver workforce training,normalized_exact,1.0
+622c7c71deb0fb8b4880,Make reasonable accommodation determinations,Make determinations related to reasonable accommodation process,semantic,0.9657
+622c7c71deb0fb8b4880,Manage accommodation records,Manage records associated with accommodation requests,semantic,0.964
+622c7c71deb0fb8b4880,Assist employees and managers with accommodation rights,Assist employees regarding reasonable accommodations,semantic,0.9163
+622c7c71deb0fb8b4880,Review and process accommodation requests,Review employee requests for reasonable accommodation,semantic,0.9068
+622c7c71deb0fb8b4880,Ensure compliance with DCAS and EEOC rules,Ensure compliance with DCAS laws,semantic,0.9049
+622c7c71deb0fb8b4880,Develop key performance indexes,Develop key performance indicators,semantic,0.8919
+622c7c71deb0fb8b4880,Coordinate accommodation review meetings,Coordinate meetings,semantic,0.8393
+622c7c71deb0fb8b4880,Process sensitive information,Handle sensitive information with discretion,semantic,0.8365
+628655b95b209e282632,Manage portfolio of B2B customers,Manage portfolio of B2B customers,normalized_exact,1.0
+628655b95b209e282632,Develop complex proposals,Develop complex proposals,normalized_exact,1.0
+628655b95b209e282632,Lead negotiations with decision-makers,Lead negotiations at decision-maker level,semantic,0.9726
+628655b95b209e282632,Lead cross-functional improvement projects,Lead cross-functional projects,semantic,0.9635
+628655b95b209e282632,Coordinate internal expert teams,Coordinate internal partner and expert teams,semantic,0.961
+628655b95b209e282632,Develop growth and retention strategies,Develop retention strategies,semantic,0.9468
+628655b95b209e282632,Prepare sales forecasts and management reports,Prepare sales forecasts,semantic,0.9433
+628655b95b209e282632,Manage customer relations,Develop customer relationships,semantic,0.8497
+628655b95b209e282632,Identify opportunities within existing accounts,Identify sales opportunities,semantic,0.8443
+644e4b17868b56c3bb3a,Establish software development standards,Establish software development standards,normalized_exact,1.0
+644e4b17868b56c3bb3a,Provide technical leadership,Provide technical leadership,normalized_exact,1.0
+644e4b17868b56c3bb3a,Document architecture decisions,Document architecture decisions,normalized_exact,1.0
+644e4b17868b56c3bb3a,Collaborate with product owners,Collaborate with Product Owners,normalized_exact,1.0
+644e4b17868b56c3bb3a,Review software design,Review software designs,semantic,0.9707
+644e4b17868b56c3bb3a,Assess AI use cases,Identify AI use cases,semantic,0.9601
+644e4b17868b56c3bb3a,Evaluate technical alternatives and risks,Evaluate technical alternatives,semantic,0.9526
+644e4b17868b56c3bb3a,Drive software modernization,Drive modernization,semantic,0.9489
+644e4b17868b56c3bb3a,Define software architecture,Define software and implementation architecture,semantic,0.9131
+666f7ebc34ffed256a13,Perform field analyses,Perform field analyses,normalized_exact,1.0
+666f7ebc34ffed256a13,Operate field sampling equipment,Operate field sampling equipment,normalized_exact,1.0
+666f7ebc34ffed256a13,Perform quality control procedures,Perform quality control procedures,normalized_exact,1.0
+666f7ebc34ffed256a13,Contribute to compliance reports,Contribute to compliance reports,normalized_exact,1.0
+666f7ebc34ffed256a13,Tow boats with trucks,Tow boats,semantic,0.931
+666f7ebc34ffed256a13,Report on water quality,Report water quality data,semantic,0.9294
+666f7ebc34ffed256a13,Maintain quality control records,Maintain log of Quality Control data,semantic,0.9202
+666f7ebc34ffed256a13,Assist with purchasing supplies and equipment,Purchase supplies,semantic,0.9017
+666f7ebc34ffed256a13,Process sample collection,Perform sample collections,semantic,0.8845
+68daba4b975c991f0b36,Monitor capital and expense budgets,Monitor capital and expense budgets,normalized_exact,1.0
+68daba4b975c991f0b36,Monitor delinquent tenant accounts,Monitor delinquent tenant accounts,normalized_exact,1.0
+68daba4b975c991f0b36,Monitor inventory usage,Monitor inventory usage and consumption,semantic,0.9742
+6a42c683d57c96dc4e72,Monitor media presence,Monitor media presence,normalized_exact,1.0
+6a42c683d57c96dc4e72,Observe court proceedings,Observe court proceedings,normalized_exact,1.0
+6a42c683d57c96dc4e72,Compile daily news clips,Create daily news clips compilation,semantic,0.9751
+6a42c683d57c96dc4e72,Monitor social media,Monitor social media platforms,semantic,0.9408
+6a42c683d57c96dc4e72,Report to press office,Report court proceedings to Press Office,semantic,0.9054
+6a99e4f165697e252b17,Prepare reports for policy team,Prepare reports for SVD and DANY’s policy team,semantic,0.8898
+6a99e4f165697e252b17,Recruit gender-based violence trial experts,Assist the Deputy Chief in the recruitment and use of gender-based violence trial experts,semantic,0.8807
+6a99e4f165697e252b17,Conduct research into federal legislation,"Conduct state, local and federal research on SVD related legislation and policy",semantic,0.834
+6a99e4f165697e252b17,Support partnerships for community events,Support the Division’s partnership with the Community Partnerships Unit,semantic,0.8091
+6abe29c3ccb7241a403c,Translate company vision into prioritized bets,Translate company vision into prioritized bets,normalized_exact,1.0
+6abe29c3ccb7241a403c,Own end-to-end user journey,Own end-to-end user journey,normalized_exact,1.0
+6abe29c3ccb7241a403c,Build platform-level growth capabilities,Build platform-level growth capabilities,normalized_exact,1.0
+6abe29c3ccb7241a403c,Run experimentation and measurement program,Run experimentation and measurement program,normalized_exact,1.0
+6abe29c3ccb7241a403c,"Collaborate with Design, Engineering and Marketing","Collaborate with Design, Engineering, Marketing, and Product Leadership",semantic,0.9479
+6abe29c3ccb7241a403c,Inform pricing and packaging strategy,"Inform pricing, packaging, and self-serve strategy",semantic,0.9425
+74a1bfae7e7e258d28b5,Develop sales content,Develop sales content,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Manage client relationships,Manage client relationships,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Improve CRM hygiene,Improve CRM hygiene,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Streamline data flows,Streamline data flows,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Support sales team in closing deals,Support sales team,semantic,0.8813
+74a1bfae7e7e258d28b5,Analyze revenue metrics,Analyze metrics,semantic,0.8772
+74a1bfae7e7e258d28b5,Design automation for sales stack,Design automations,semantic,0.855
+751a53b56992ff974884,Recommend program improvements,Recommend program improvements,normalized_exact,1.0
+751a53b56992ff974884,Participate in special projects,Participate in special projects and new initiatives,semantic,0.9556
+751a53b56992ff974884,Review contracts and renewals,"Review contracts, amendments, agreements and renewals",semantic,0.9517
+751a53b56992ff974884,Analyze program budgets,Analyze program contacts and budgets,semantic,0.9504
+751a53b56992ff974884,Provide information on community programs,Provide written information on community-based programs,semantic,0.936
+751a53b56992ff974884,Oversee caseloads of adult programs,Oversee assigned caseload of older adult programs,semantic,0.9355
+751a53b56992ff974884,Manage communications between the department and program managers,Communicate between programs and the Department,semantic,0.9306
+751a53b56992ff974884,Prepare written reports,Prepare written reports on findings and recommendations,semantic,0.9242
+751a53b56992ff974884,Provide technical assistance to providers,Provide technical assistance to aging services providers,semantic,0.8994
+751a53b56992ff974884,Conduct on-site measurements,Conduct on-site assessments,semantic,0.865
+751a53b56992ff974884,Evaluate RFP proposals,Participate in the reading and evaluation of RFPs,semantic,0.8451
+751a53b56992ff974884,Analyze contractor performance,Analyze contractual performance of service providers,semantic,0.8423
+751a53b56992ff974884,Assess program compliance,Evaluate quality of program services,semantic,0.813
+798de891e649970c4db8,Set technical direction for industrial AI portfolio,Set technical direction for industrial AI portfolio,normalized_exact,1.0
+798de891e649970c4db8,Create reference architectures and evaluation methods,Create reference architectures,semantic,0.9253
+798de891e649970c4db8,Turn badly defined problems into solvable ones,Turn engineering problems into solvable problems,semantic,0.8895
+798de891e649970c4db8,Coach engineers through standards and reviews,Coach engineers,semantic,0.8764
+80f6da7f0eec5c160699,Develop strategies to improve agency performance,Develop strategies to improve agency performance,normalized_exact,1.0
+80f6da7f0eec5c160699,Develop agency-wide strategic plans,Develop agency-wide strategic plans,normalized_exact,1.0
+80f6da7f0eec5c160699,Coordinate special projects,Coordinate special projects,normalized_exact,1.0
+80f6da7f0eec5c160699,Oversee agency operations and budget,Oversee agency budget,semantic,0.9592
+80f6da7f0eec5c160699,Oversee and manage,Oversee designation activities,semantic,0.8634
+80f6da7f0eec5c160699,Plan and execute strategic initiatives,Oversee strategic planning activities,semantic,0.8524
+80f6da7f0eec5c160699,Engage with elected officials and stakeholders,Oversee public affairs activities,semantic,0.8109
+80fd4a82c581d7be2fd6,Abstract lease data,Abstract lease data,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Prepare annual budget schedules,Prepare annual budget schedules,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Interview commercial property tenants and landlords,Interview commercial property tenants,semantic,0.9834
+80fd4a82c581d7be2fd6,Preparation of appraisal reports,Prepare appraisal reports,semantic,0.9669
+80fd4a82c581d7be2fd6,Maintain and audit electronic files,Maintain electronic files,semantic,0.9575
+80fd4a82c581d7be2fd6,Assist in collating appraisal workfile,Collate appraisal workfiles,semantic,0.9566
+80fd4a82c581d7be2fd6,Validate lease audit sample data,Validate audit sample data,semantic,0.9003
+80fd4a82c581d7be2fd6,Maintain records of factual and statistical information,Maintain records,semantic,0.8638
+80fd4a82c581d7be2fd6,validation of information pertaining to specific subject and comparable properties,Validate property information,semantic,0.8263
+8158c179ee705f36b7ca,Design end-to-end product experiences,Design end-to-end product experiences,normalized_exact,1.0
+8158c179ee705f36b7ca,Maintain consistency across mobile and web,Maintain consistency across mobile and web experiences,semantic,0.9497
+8158c179ee705f36b7ca,Collaborate with engineers on implementation,Collaborate with engineers,semantic,0.9342
+8158c179ee705f36b7ca,Refine interactions and accessibility,Refine interactions,semantic,0.9236
+8158c179ee705f36b7ca,Improve usability using data and feedback,Improve usability,semantic,0.911
+8158c179ee705f36b7ca,Build and maintain design systems,Maintain scalable design systems,semantic,0.9107
+8158c179ee705f36b7ca,Design financial product experiences,Design intuitive experiences,semantic,0.823
+835d55784f762bec770d,Prepare Mayor's State Legislative Program,Prepare Mayor's State Legislative Program,normalized_exact,1.0
+835d55784f762bec770d,Assist City agencies with State legislation,Assist City agencies with State legislation,normalized_exact,1.0
+835d55784f762bec770d,Coordinate Legislative Coordinating Committee process,Coordinate Legislative Coordinating Committee process,normalized_exact,1.0
+835d55784f762bec770d,Handle special projects,Handle special projects,normalized_exact,1.0
+835d55784f762bec770d,Represent the Director at meetings,Represent the Director at meetings,normalized_exact,1.0
+835d55784f762bec770d,Coordinate policy briefings and special events,Coordinate policy briefings,semantic,0.9411
+835d55784f762bec770d,Facilitate meetings with State officials,Facilitate meetings,semantic,0.8679
+835d55784f762bec770d,Manage legislative and budget portfolio,Manage legislative activity,semantic,0.8501
+8fb372a7f51bdc82f220,Follow up on action items,Follow up on action items,normalized_exact,1.0
+8fb372a7f51bdc82f220,Prepare Board-level materials,Prepare Board-level materials,normalized_exact,1.0
+8fb372a7f51bdc82f220,Evaluate strategic technical partnerships,Evaluate strategic technical partnerships,normalized_exact,1.0
+8fb372a7f51bdc82f220,Draft meeting agendas,Draft agendas,semantic,0.9695
+8fb372a7f51bdc82f220,Prepare briefing documents for meetings,Prepare briefing documents,semantic,0.9513
+8fb372a7f51bdc82f220,"Prepare keynotes, articles, and interviews",Prepare keynotes,semantic,0.9281
+8fb372a7f51bdc82f220,Build relationships with founders and experts,Build relationships with tech founders,semantic,0.9232
+8fb372a7f51bdc82f220,Own ad-hoc strategic projects,Manage ad-hoc projects,semantic,0.849
+9497a6d2dd74efc6f1d5,Assemble electronic boards,Assemble electronic boards,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Build wiring harnesses,Build wiring harnesses,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Inspect electronic boards,Inspect electronic boards,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Build mechanical test setups,Build mechanical test setups,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Support AIT activities,Support AIT activities,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Operate lab equipment,Operate lab equipment,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Support environmental testing,Support environmental testing,normalized_exact,1.0
+9497a6d2dd74efc6f1d5,Maintain test records and logs,Maintain test logs,semantic,0.9653
+9497a6d2dd74efc6f1d5,Read schematics and drawings,Read schematics,semantic,0.9217
+9497a6d2dd74efc6f1d5,"Crimp, solder and lace harnesses",Crimp harnesses,semantic,0.8895
+9497a6d2dd74efc6f1d5,Perform product testing,Perform functional testing,semantic,0.8085
+9497a6d2dd74efc6f1d5,Install protective equipment,Install EMC protective measures,semantic,0.807
+96e7892a422bcab5f86d,Conduct pre-sales activities,Engage in pre-sales activities,semantic,0.9671
+96e7892a422bcab5f86d,Impliment data retention solutions,Implement data retention solutions,semantic,0.96
+96e7892a422bcab5f86d,Assess information protection services,Assess information protection schemes,semantic,0.9214
+96e7892a422bcab5f86d,Design data lose prevention measures,Design Data Loss Prevention,semantic,0.8954
+96e7892a422bcab5f86d,Develop data governance best practices,Develop best practices for data protection,semantic,0.8674
+96e7892a422bcab5f86d,Monitor regulatory compliance,Monitor data privacy regulations,semantic,0.8412
+9adaeee050c4ec5d83dd,Prepare onboarding documentation,Prepare onboarding documentation,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Process candidates in HR software,Process candidates in HR software,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Maintain overview of open positions,Maintain overview of open positions,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Prepare interview challenges,Prepare interview challenges,normalized_exact,1.0
+9adaeee050c4ec5d83dd,Coordinate interview scheduling,Coordinate interview slots,semantic,0.9173
+9adaeee050c4ec5d83dd,Support first interviews,Execute 1st interviews,semantic,0.8898
+9adaeee050c4ec5d83dd,Evaluate application questionnaires,Process application questionnaires,semantic,0.8741
+9adaeee050c4ec5d83dd,Coordinate interview process and deadlines,Monitor interview process,semantic,0.8217
+9d7d2b090d3262dd7f95,Deliver documents,Deliver documents,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Participate in facilities maintenance projects,Participate in facilities maintenance projects,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Monitor security cameras,Monitor security cameras,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Maintain fleet database,Maintain Fleet database,normalized_exact,1.0
+9d7d2b090d3262dd7f95,Gather fleet maintenance reports,Gather reports on Fleet maintenance,semantic,0.9932
+9d7d2b090d3262dd7f95,Make inter-office deliveries,Perform inter-office deliveries,semantic,0.9765
+9d7d2b090d3262dd7f95,Produce employee ID badges and keys,Produce ID badges,semantic,0.9083
+a146bd4acd3f84c2cf13,Update dashboards and visualizations,Create dashboards and visualization updates,semantic,0.9698
+a146bd4acd3f84c2cf13,Troubleshoot tracking and data integration issues,"Identify and troubleshoot tracking, event collection, or data integration issues",semantic,0.9496
+a146bd4acd3f84c2cf13,Maintain Mobile Measurement Partners,"Support the setup, maintenance, and monitoring of Mobile Measurement Partners",semantic,0.9255
+a146bd4acd3f84c2cf13,Collaborate with clients,"Collaborate with team members, consultants, and client developers",semantic,0.9153
+a146bd4acd3f84c2cf13,Maintain product feeds and data pipelines,Maintain and structure clients' product feeds,semantic,0.875
+a146bd4acd3f84c2cf13,Support connection of marketing tools,"Connect marketing tools, ad platforms, and data sources",semantic,0.8568
+a1aac521f271426f1c3d,Align HR objectives with agency priorities,Align HR objectives with agency priorities,normalized_exact,1.0
+a1aac521f271426f1c3d,Advise Assistant Commissioner on personnel issues,Advise Assistant Commissioner on personnel issues,normalized_exact,1.0
+a1aac521f271426f1c3d,Provide HR support to executive leadership,Provide HR support to executive leadership,normalized_exact,1.0
+a1aac521f271426f1c3d,Participate in executive search committees,Participate in executive search committees,normalized_exact,1.0
+a1aac521f271426f1c3d,Evaluate recruitment and disciplinary processes,Evaluate recruitment processes,semantic,0.9377
+a1aac521f271426f1c3d,Oversee leaves and benefits administration,Oversee Leaves and Benefits,semantic,0.913
+a1aac521f271426f1c3d,Lead special HR projects,Lead special projects,semantic,0.9032
+a1aac521f271426f1c3d,Provide leadership to HR staff,Provide guidance to HR staff,semantic,0.8855
+a1aac521f271426f1c3d,Monitor HR trends and performance metrics,Monitor HR operations,semantic,0.8763
+a1aac521f271426f1c3d,Collaborate with oversight entities and unions,Collaborate with union leadership,semantic,0.8743
+a1aac521f271426f1c3d,Oversee daily operations of the HR bureau,Oversee daily operations,semantic,0.8603
+a1aac521f271426f1c3d,Develop and enforce personnel policies,Oversee Personnel Actions,semantic,0.8549
+a1aac521f271426f1c3d,Conduct HR research and analysis,Conduct research,semantic,0.8242
+a1aac521f271426f1c3d,Set HR goals for staffing and compliance,Align HR strategies,semantic,0.8188
+a3b54b0d34e7b105604f,Navigate industrial procurement processes,Navigate industrial procurement processes,normalized_exact,1.0
+a3b54b0d34e7b105604f,Fundraising,Support fundraising,semantic,0.9446
+a3b54b0d34e7b105604f,Lead company incorporation,Lead incorporation,semantic,0.9296
+a3b54b0d34e7b105604f,Own pricing and packaging,Own pricing,semantic,0.9059
+a3b54b0d34e7b105604f,Convert leads into pilots,Convert customer interest into pilots,semantic,0.8127
+a462d24b2748471a3f2b,Support monthly closing,Support monthly closing,normalized_exact,1.0
+a462d24b2748471a3f2b,Manage non-tech procurement,Manage non-tech procurement,normalized_exact,1.0
+a462d24b2748471a3f2b,Prepare investor financial reporting,Prepare financial investor reporting,semantic,0.9896
+a462d24b2748471a3f2b,Track receivables and incoming payments,Track receivables,semantic,0.9476
+a462d24b2748471a3f2b,Track budgets and actuals,Track budgets,semantic,0.9426
+a462d24b2748471a3f2b,Manage employee travel and expenses,Manage employee travel arrangements,semantic,0.9249
+a462d24b2748471a3f2b,Manage vendor contracts,Manage vendors,semantic,0.9248
+a462d24b2748471a3f2b,Run accounts payable and payment runs,Execute payment runs,semantic,0.884
+a462d24b2748471a3f2b,Handle general company administration,Perform company administration,semantic,0.8828
+a462d24b2748471a3f2b,Work with accountants,Coordinate with external accountants,semantic,0.8787
+a462d24b2748471a3f2b,Issue customer invoices,Create customer invoices,semantic,0.8526
+a5cc492b8fcc77fb1848,Assist with legal emergency preparedness,Assist with legal emergency preparedness,normalized_exact,1.0
+a5cc492b8fcc77fb1848,Manage administrative hearings appeals process,Manage EH administrative hearings appeals process,semantic,0.9704
+a5cc492b8fcc77fb1848,Evaluate impact of regulatory and legislative change,Evaluate impact of regulatory change,semantic,0.9625
+a5cc492b8fcc77fb1848,Guide rulemaking,Guide EH rulemaking,semantic,0.9483
+a5cc492b8fcc77fb1848,Manage tracking system for legal projects,Manage tracking system for projects,semantic,0.9253
+a5cc492b8fcc77fb1848,Supervise attorneys and coordinator,Supervise legal staff,semantic,0.8698
+a5cc492b8fcc77fb1848,Oversee hearing appearances,Provide oversight for EH hearing appearances,semantic,0.824
+a5cc492b8fcc77fb1848,Liaise with OATH on operational and legal issues,Act as primary liaison with OATH,semantic,0.8143
+a73048332d44b501d8e8,Manage relationships with equity investors,Manage relationships with equity investors,normalized_exact,1.0
+a73048332d44b501d8e8,Support grant and subsidy applications,Support subsidy applications,semantic,0.9584
+a73048332d44b501d8e8,Monitor capital markets for investment oppurtunities,Monitor capital markets,semantic,0.9516
+a73048332d44b501d8e8,Structure and negotiate term sheets,Negotiate term sheets,semantic,0.9207
+a73048332d44b501d8e8,"Source equity investors, debt providers and partners",Source relationships with equity investors,semantic,0.9076
+a73048332d44b501d8e8,Benchmark capital structure against peers,Benchmark capital structure,semantic,0.9031
+a73048332d44b501d8e8,Manage data room and investor materials,Manage data room,semantic,0.8865
+a73048332d44b501d8e8,Build and maintain financial models,Maintain financial models for fundraising,semantic,0.8394
+a845c36fc3eb4caf98fb,Document work,Document work,normalized_exact,1.0
+a845c36fc3eb4caf98fb,Manage secrets and machine identities,"Manage secrets, credentials and machine identities",semantic,0.9737
+a845c36fc3eb4caf98fb,Turn policy into enforced controls,Turn policy into controls,semantic,0.9488
+a845c36fc3eb4caf98fb,Maintain network security tooling,Maintain edge and network security tooling,semantic,0.9436
+a845c36fc3eb4caf98fb,Define code infrastructure,Define infrastructure as code,semantic,0.9339
+a845c36fc3eb4caf98fb,Maintain cloud infrastructure and pipelines,Maintain shared cloud infrastructure,semantic,0.9055
+a845c36fc3eb4caf98fb,Extend platform standards to Google Cloud,Apply standards to Google Cloud,semantic,0.8951
+a845c36fc3eb4caf98fb,Review and tighten cloud access,Review access across cloud accounts,semantic,0.8908
+a845c36fc3eb4caf98fb,Report on security gaps and drift,"Report on gaps, drift and findings",semantic,0.888
+a845c36fc3eb4caf98fb,Build evidence automation tools,Automate collection of evidence,semantic,0.8869
+a9268008dd18f84aff54,Build data extraction pipelines,Build data extraction pipelines,normalized_exact,1.0
+a9268008dd18f84aff54,Explore new data sources,Explore new data sources,normalized_exact,1.0
+a9268008dd18f84aff54,Evaluate extraction accuracy,Evaluate extraction accuracy,normalized_exact,1.0
+a9268008dd18f84aff54,Collaborate with stakeholders on business needs,Collaborate with stakeholders,semantic,0.9275
+a9268008dd18f84aff54,Assess data quality and model performance,Assess data quality,semantic,0.9119
+a9268008dd18f84aff54,Develop analytical and machine-learning models,Develop analytical models,semantic,0.8992
+a9268008dd18f84aff54,Validate assumptions against real-world data,Turn real-world data into analytical models,semantic,0.84
+a9268008dd18f84aff54,Develop simulation models,Develop data-driven models,semantic,0.8274
+ab2db63d3df2cbb9d730,Research youth financial education programs,Research youth financial education programs,normalized_exact,1.0
+ab2db63d3df2cbb9d730,Develop assessment tools,Develop assessment tools,normalized_exact,1.0
+ab2db63d3df2cbb9d730,Recommend instructional design models,Recommend instructional design models,normalized_exact,1.0
+ab2db63d3df2cbb9d730,Coordinate design of workshop curriculum materials,Coordinate workshop curriculum materials,semantic,0.9409
+ab2db63d3df2cbb9d730,Analyze program data to improve content,Analyze program data,semantic,0.9309
+b496efdb5d4ba53caff6,Review compliance documentation,Review compliance documentation,normalized_exact,1.0
+b496efdb5d4ba53caff6,Respond to inquiries from base representatives,Respond to inquiries from base representatives,normalized_exact,1.0
+b496efdb5d4ba53caff6,Coordinate with translation services,Coordinate with translation services,normalized_exact,1.0
+b496efdb5d4ba53caff6,Perform administrative support tasks,Perform administrative support tasks,normalized_exact,1.0
+b496efdb5d4ba53caff6,Communicate with complainants and witnesses,Communicate with complainants,semantic,0.9383
+b496efdb5d4ba53caff6,Prepare affirmations and case documentation,Prepare affirmations,semantic,0.8783
+b496efdb5d4ba53caff6,Retrieve and review trip data,Review FHV trip data,semantic,0.8221
+b63d2a18a86b9e94e299,Monitor Slack conversations,Monitor Slack conversations,normalized_exact,1.0
+b63d2a18a86b9e94e299,Manage event logistics,Manage event logistics,normalized_exact,1.0
+b63d2a18a86b9e94e299,Oversee leadership forum logistics,Oversee logistics for leadership forums,semantic,0.9644
+b63d2a18a86b9e94e299,Manage executive diaries,Manage executive time and diaries,semantic,0.9618
+b63d2a18a86b9e94e299,Monitor team sentiment and blockers,Monitor team sentiment,semantic,0.9552
+b63d2a18a86b9e94e299,Design cultural events,Design cultural moments,semantic,0.9036
+b63d2a18a86b9e94e299,Run executive projects,Run projects,semantic,0.8813
+b7f5516481d961d55a51,Prepare documents and reports,Develop reports,semantic,0.8328
+be1b0255a559ee527bc9,Own operational groundwork for new markets,Own operational groundwork for new markets,normalized_exact,1.0
+be1b0255a559ee527bc9,Build company-wide processes,Build company-wide processes,normalized_exact,1.0
+be1b0255a559ee527bc9,"Scope, prioritize, and track cross-functional projects",Scope cross-functional projects,semantic,0.9073
+be1b0255a559ee527bc9,Set up vendors and partners,Manage vendor and partner setup,semantic,0.9043
+be1b0255a559ee527bc9,Manage local operations for new markets,Manage local operations,semantic,0.8945
+c06ce1a21ee6fe762ca6,Liaise with community stakeholders,Liaise with community stakeholders,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Provide case management,Provide case management,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Conduct outreach days of action,Conduct outreach Days of Action,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Assist with special projects,Assist with special projects,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Support partners with outreach,Support partners with outreach efforts,semantic,0.9894
+c06ce1a21ee6fe762ca6,Engage New Yorkers through canvassing and texting,Engage New Yorkers,semantic,0.8845
+c06ce1a21ee6fe762ca6,Respond to calls from helpline,Respond to incoming calls,semantic,0.864
+c46d30ec6da3e3d14ecb,Lead aircraft sales campaigns,Lead aircraft sales campaigns,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Negotiate with customers,Negotiate with customers,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Gather customer insights,Gather customer insights,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Mentor technical sales managers,Mentor technical sales managers,normalized_exact,1.0
+c46d30ec6da3e3d14ecb,Control global orderbook,Control the global orderbook,semantic,0.9871
+c46d30ec6da3e3d14ecb,Manage B2B sales pipeline,Manage the B2B sales pipeline,semantic,0.9848
+c46d30ec6da3e3d14ecb,Develop sales team and processes,Develop sales processes,semantic,0.9479
+c46d30ec6da3e3d14ecb,Translate engineering perspectives for customers,Translate engineering perspectives,semantic,0.9367
+c46d30ec6da3e3d14ecb,Draft contracts and LOIs,Draft contracts,semantic,0.87
+c46d30ec6da3e3d14ecb,Communicate with customers,Communicate customer requirements,semantic,0.864
+c46d30ec6da3e3d14ecb,Manage timelines,Manage delivery timelines,semantic,0.8389
+c46d30ec6da3e3d14ecb,Develop sales proposals,Initiate the sales process,semantic,0.8147
+c70eb7d0a2e70e711e53,Review application recommendations,Review application recommendations,normalized_exact,1.0
+c70eb7d0a2e70e711e53,Prepare statistical reports and audits,Prepare statistical reports,semantic,0.9456
+c70eb7d0a2e70e711e53,Provide case consultation on difficult cases,Assist with case consultation,semantic,0.9266
+c70eb7d0a2e70e711e53,Sign off on benefits and case entries,Sign off on benefits,semantic,0.9224
+c70eb7d0a2e70e711e53,Instruct new staff on policies and procedures,Instruct new staff members,semantic,0.9174
+c70eb7d0a2e70e711e53,Attend conferences,Attend administrative conferences,semantic,0.8974
+c70eb7d0a2e70e711e53,Facilitate workflow for emergency situations,Facilitate team workflow,semantic,0.8603
+c70eb7d0a2e70e711e53,Supervise a team,Conduct team conferences,semantic,0.804
+c70eb7d0a2e70e711e53,Maintain relationships with housing and social agencies,Maintain cooperative relationships,semantic,0.8006
+da3b2951a4e9f5857f38,Coordinate external service providers,Coordinate external service providers,normalized_exact,1.0
+da3b2951a4e9f5857f38,Implement IT systems,Implement IT systems,normalized_exact,1.0
+da3b2951a4e9f5857f38,Support colleagues with IT issues,Support colleagues on IT issues,semantic,0.9957
+da3b2951a4e9f5857f38,Analyze hardware and software problems,Analyze hardware problems,semantic,0.9658
+da3b2951a4e9f5857f38,Plan system and network infrastructures,Plan network infrastructures,semantic,0.9626
+da3b2951a4e9f5857f38,Create training materials and guides,Create training materials,semantic,0.9425
+dc4ffbc270be451c9891,Push ideas through to launch,Push ideas through to launch,normalized_exact,1.0
+dc4ffbc270be451c9891,Embed across product teams,Embed across product teams to find opportunities,semantic,0.9392
+dc4ffbc270be451c9891,Build company engagement instinct,Build collective instinct for engagement,semantic,0.8883
+dc4ffbc270be451c9891,Partner with founders on engagement ideas,Work with founders as a thinking partner,semantic,0.8794
+e2b9292f713a5f914995,Own day-to-day operations,Own day-to-day operations,normalized_exact,1.0
+e2b9292f713a5f914995,Build launch plan for Germany and France,Build launch plan for Germany and France,normalized_exact,1.0
+e2b9292f713a5f914995,Plan social-media-led B2C acquisition,Execute social-media-led B2C acquisition,semantic,0.9671
+e2b9292f713a5f914995,Own path to DiGA directory,Own path to German DiGA directory,semantic,0.932
+e2b9292f713a5f914995,Raise funding,Raise funding for app development,semantic,0.873
+e2b9292f713a5f914995,Develop software roadmap,Translate clinical concept into software roadmap,semantic,0.8474
+e2b9292f713a5f914995,Partner with tech development team,Manage tech/development team or subcontractor,semantic,0.8445
+e3691fb293998ec2d9b6,Improve product integration and usability,"Improve integration, usability, and product experience",semantic,0.9758
+e3691fb293998ec2d9b6,Engage executive stakeholders,Engage with senior and executive stakeholders,semantic,0.9482
+e3691fb293998ec2d9b6,Define solutions with engineers,Partner with engineers to define solutions,semantic,0.9213
+e3691fb293998ec2d9b6,Iterate based on user feedback,Iterate based on feedback and measurable outcomes,semantic,0.9158
+e3691fb293998ec2d9b6,Contribute to product roadmap,Contribute to product strategy and roadmap definition,semantic,0.9106
+e3691fb293998ec2d9b6,"Align engineering, design, and go-to-market teams","Work across engineering, design, and go-to-market teams",semantic,0.8974
+ef37f5e4a74b94f5fcce,Contribute to incident response,Contribute to incident response,normalized_exact,1.0
+ef37f5e4a74b94f5fcce,Design event streaming infrastructure,Design large-scale event streaming infrastructure,semantic,0.9651
+ef37f5e4a74b94f5fcce,Build self-healing automation,Build self-healing capabilities,semantic,0.8893
+ef37f5e4a74b94f5fcce,Partner with infrastructure teams,Partner with engineering teams,semantic,0.8821
+ef37f5e4a74b94f5fcce,Shape platform architecture,Shape long-term architecture,semantic,0.8777
+ef37f5e4a74b94f5fcce,Improve automation,Improve automation of Kafka,semantic,0.8086
+ef37f5e4a74b94f5fcce,Debug coding systems,Debug complex distributed systems issues,semantic,0.8031
+f25af77c04bb7b98c3f6,Source candidates,Source candidates,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Manage candidate communications,Manage candidate communications,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Schedule interviews,Schedule interviews,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Contribute to employer branding,Contribute to employer branding,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Support onboarding logistics,Support onboarding logistics,normalized_exact,1.0
+f25af77c04bb7b98c3f6,Summarize candidate profiles,Summarise candidate profiles,semantic,0.9944
+f25af77c04bb7b98c3f6,Build and manage candidate pipelines,Build candidate pipelines,semantic,0.9676
+f25af77c04bb7b98c3f6,Conduct initial candidate screening calls,Conduct screening calls,semantic,0.9007
+f25af77c04bb7b98c3f6,Support interview coordination,Coordinate interviews,semantic,0.8909
+f32ccf878072947e70ec,Automate internal processes,Automate internal processes,normalized_exact,1.0
+f32ccf878072947e70ec,Review cooperation agreements,Review cooperation agreements,normalized_exact,1.0
+f32ccf878072947e70ec,Prepare legal memos,Prepare legal memos,normalized_exact,1.0
+f32ccf878072947e70ec,Maintain contract inventory,Maintain contract inventory,normalized_exact,1.0
+f32ccf878072947e70ec,Monitor regulatory developments,Monitor regulatory developments,normalized_exact,1.0
+f32ccf878072947e70ec,Prepare regulatory briefings,Prepare regulatory briefings,normalized_exact,1.0
+f32ccf878072947e70ec,Conduct vendor risk assessment,Conduct risk assessments of vendor agreements,semantic,0.9424
+f32ccf878072947e70ec,Maintain standard contracts and templates,Maintain standard contracts,semantic,0.926
+f32ccf878072947e70ec,Research regulatory legal questions,Research legal questions,semantic,0.9255
+f32ccf878072947e70ec,Prepare agreements with clients,Prepare drafts of cooperation agreements,semantic,0.8091
+fa720a68585d2099f1eb,Track execution,Track execution,normalized_exact,1.0
+fa720a68585d2099f1eb,Run due diligence,Run due diligence,normalized_exact,1.0
+fa720a68585d2099f1eb,Enforce operating cadence,Enforce a clear operating cadence,semantic,0.9618
+fa720a68585d2099f1eb,Identify and resolve bottlenecks,Identify bottlenecks,semantic,0.9605
+fa720a68585d2099f1eb,Work with Finance on P&L and liquidity,Work with Finance on P&L,semantic,0.9451
+fa720a68585d2099f1eb,Drive CEO agenda across functions,Drive the CEO agenda,semantic,0.9332
+fa720a68585d2099f1eb,Support investor communication and board preparation,Support investor communication,semantic,0.9297
+fa720a68585d2099f1eb,Clarify company strategies,Break down company strategy,semantic,0.8765
+fa720a68585d2099f1eb,Automate workflows with AI,Identify workflows for automation,semantic,0.862
+fa720a68585d2099f1eb,Align direct reports on priorities,Align CEO direct reports,semantic,0.8506
+fa720a68585d2099f1eb,Work with financial data,Work with Finance on balance sheet,semantic,0.8353
+fa720a68585d2099f1eb,Lead cross-functional initiatives,Own cross-functional initiatives,semantic,0.8324
+fccbd6e81ed853cffd6d,Define Fuel Cycle Fuel Recycling architecture,Define Fuel Cycle Fuel Recycling architecture,normalized_exact,1.0
+fccbd6e81ed853cffd6d,Lead multidisciplinary team,Lead multidisciplinary team,normalized_exact,1.0
+fccbd6e81ed853cffd6d,Guide design of tritium extraction,Guide design of tritium extraction,normalized_exact,1.0
+fccbd6e81ed853cffd6d,Manage design change control,Manage design change control processes,semantic,0.9674
+fccbd6e81ed853cffd6d,"Report design status, risks and issues",Report design status,semantic,0.9311
+fccbd6e81ed853cffd6d,Resolve complex cross-cutting technical issues,Resolve complex technical issues,semantic,0.9124
+fccbd6e81ed853cffd6d,Detail key engineering deliverables,Write engineering deliverables,semantic,0.8452

@@ -1,0 +1,12 @@
+[
+  {
+    "role": "discovery",
+    "note": "region 4/4 (90 statements)",
+    "error": "discovery: response was not valid JSON for the schema and no repair is possible (invalid JSON: Unterminated string starting at: line 22 column 397 (char 10080))"
+  },
+  {
+    "role": "consistency",
+    "note": "final consistency",
+    "error": "consistency: response was not valid JSON for the schema and no repair is possible (invalid JSON: Expecting ',' delimiter: line 1 column 2791 (char 2790))"
+  }
+]

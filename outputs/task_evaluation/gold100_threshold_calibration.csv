@@ -1,0 +1,11 @@
+system,threshold,gold_tasks,same_posting_best_cos_ge_t,other_posting_best_cos_ge_t (false-match proxy)
+gemini,0.7,1056,0.892,0.303
+gemini,0.75,1056,0.8163,0.0985
+gemini,0.8,1056,0.7301,0.0246
+gemini,0.85,1056,0.6288,0.0047
+gemini,0.9,1056,0.4953,0.0028
+groq,0.7,548,0.8704,0.2172
+groq,0.75,548,0.7974,0.0511
+groq,0.8,548,0.6825,0.0
+groq,0.85,548,0.5383,0.0
+groq,0.9,548,0.3577,0.0

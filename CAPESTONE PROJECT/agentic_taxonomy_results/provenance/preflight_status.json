@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-22T23:45:57.338913+00:00",
+  "checks": [
+    {
+      "check": "input CSV + Sentence-T5 embeddings + mapping alignment",
+      "status": "PASS",
+      "detail": "3015 statements, T5 (3015, 768), E5 present, 432 paired wordings, input SHA-256 frozen"
+    },
+    {
+      "check": "historical results",
+      "status": "PASS",
+      "detail": "Sprint 3 + advanced results present; metric-definition script is the frozen version"
+    },
+    {
+      "check": ".env + ANTHROPIC_API_KEY + ANTHROPIC_MODEL",
+      "status": "PASS",
+      "detail": "key present (not shown); model 'claude-sonnet-5-5'; hard limit 20; AGENTIC_MAX_OUTPUT_TOKENS=2500 raised to the safe ceiling 8000"
+    },
+    {
+      "check": "Anthropic SDK import + messages/models API",
+      "status": "PASS",
+      "detail": "anthropic 2.1.0"
+    },
+    {
+      "check": "request construction (no temperature/top_p/top_k/tools/tool_choice)",
+      "status": "PASS",
+      "detail": "request kwargs = model, max_tokens, system, messages; no sampling/tool parameter anywhere in the runtime"
+    },
+    {
+      "check": "schemas parse mocked Claude replies",
+      "status": "PASS",
+      "detail": "7 role schemas parse mocked plain and fenced JSON; invalid text rejected"
+    },
+    {
+      "check": "mocked client round-trip (repair + cache + budget)",
+      "status": "PASS",
+      "detail": "invalid reply -> one repair (reserve) -> valid; identical request -> cache hit; budget counted"
+    },
+    {
+      "check": "API budget (persisted, preserved, plan feasible)",
+      "status": "PASS",
+      "detail": "calls already made 5 of 20 (never reset); remaining 15; new run plan: normal 13 + reserve 2 {'discovery': 4, 'consolidation': 2, 'boundary_review': 1, 'ambiguous': 2, 'novelty': 1, 'critic': 2, 'consistency': 1}"
+    },
+    {
+      "check": "output directories writable",
+      "status": "PASS",
+      "detail": "/content/drive/MyDrive/CAPESTONE PROJECT/agentic_taxonomy_results and /content/drive/MyDrive/CAPESTONE PROJECT/final_taxonomy_results writable"
+    },
+    {
+      "check": "live model validation (metadata only)",
+      "status": "PASS",
+      "detail": "model 'claude-sonnet-5-5' available (Claude Sonnet 5.5); metadata request, not a taxonomy call"
+    }
+  ],
+  "offline": false,
+  "model": "claude-sonnet-5-5",
+  "code_fingerprint": "dc8877956c029fd7"
+}

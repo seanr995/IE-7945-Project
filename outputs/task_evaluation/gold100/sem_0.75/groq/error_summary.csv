@@ -1,0 +1,7 @@
+side,error_category,n
+false_negative,compound_under_split (model merged several gold tasks),12
+false_negative,missed_task,169
+false_positive,compound_over_split (gold kept it as one task),5
+false_positive,extra_task_not_in_gold (possible gold omission - check),100
+false_positive,hallucinated_or_implied (weak/invalid evidence),2
+false_positive,skill_or_qualification_as_task,6

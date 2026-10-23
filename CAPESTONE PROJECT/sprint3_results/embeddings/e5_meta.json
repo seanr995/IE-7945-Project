@@ -1,0 +1,1 @@
+{"model": "intfloat/e5-base-v2", "input_sha256": "010795fed2864f9963f159204a857f2198a2246206009ab0dbbbb786799f4551", "rows": 3015, "ids_hash": "8f975e0b1a2e60b629804c9c6fb073459a268fef1667cf740a59a7cca031b76e", "prefix": "passage: ", "paired_rows": 432, "dims": 768, "created_utc": "2026-10-22T21:09:01.487328+00:00"}

@@ -1,0 +1,64 @@
+posting_id,gold_task,predicted_task,match_method,score
+05bb010df9f681ecfb8e,Enhance customer workflows,Enhance customer workflows,normalized_exact,1.0
+05bb010df9f681ecfb8e,Collaborate with multiple teams,Collaborate with cross-functional teams,semantic,0.8999
+06b6dd6358027314646f,Provide executive leadership,Provide executive leadership,normalized_exact,1.0
+0b027611629b03f366f3,Communicate with children,Communicate to children and staff,lexical,0.6667
+105e8d569cdb317f77c3,Ability to write correspondence,Write correspondence,lexical,1.0
+295b620938f1b4ef0c48,Take detailed notes during meetings,Take meeting notes,lexical,0.6
+295b620938f1b4ef0c48,Manage email conversations,Manage email communication,semantic,0.9173
+295b620938f1b4ef0c48,Meeting planning,Support meeting planning and coordination,semantic,0.8999
+35b02096d9f13d0f2a54,Direct office operations,Direct office operations,normalized_exact,1.0
+35b02096d9f13d0f2a54,Develop suicide prevention plans,Develop citywide suicide prevention strategy,semantic,0.8944
+391112a1f4a8d0187e88,Develop anti-racist practices,Embed anti-racist practices,semantic,0.9057
+3b1acd7dae8f6c808655,Develop data pipelines,Develop data pipelines,normalized_exact,1.0
+41791a6083070a346971,Manage payroll,Manage payroll,normalized_exact,1.0
+41791a6083070a346971,Scale operations for company growth,Scale People Operations,semantic,0.8503
+49b81c39bff279fde4a8,Develop customer engagement plans,Develop strategic customer engagement plans,lexical,0.8
+49b81c39bff279fde4a8,Engage in account selling,Engage in strategic account selling,lexical,0.75
+4b04c180a59634bd2d72,Lead interns,Lead the Founder’s Associate Intern team,semantic,0.8582
+4c7cd47d220c0129298d,Oversee design reviews,Oversee design reviews,normalized_exact,1.0
+4c7cd47d220c0129298d,Manage energy projects,Manage ongoing energy projects,lexical,0.75
+4fafe3e6f5d7b74b4363,Manage relationships with senior leadership,Work with senior leadership,semantic,0.9125
+4fafe3e6f5d7b74b4363,Develop new business strategies,Improve new business development strategy,semantic,0.9003
+4fafe3e6f5d7b74b4363,Develop client strategies,Develop prospective clients,semantic,0.8721
+506dc4579e5e38a043d9,Build back end services,Build backend services,semantic,0.9468
+506dc4579e5e38a043d9,Contribute to web app development,Contribute to Web frontend,semantic,0.8716
+506dc4579e5e38a043d9,Debugging,Debug issues,semantic,0.8571
+5095082b7a5e8e644d85,Update database records,Update records in a database,lexical,1.0
+5095082b7a5e8e644d85,Manage clerical work,Perform clerical functions,semantic,0.8892
+50d7802bf29a2fa99d4e,Evaluate solicitation documents,Evaluate solicitation documents,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Examine bid samples,Examine bid samples,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Make recommendations for awards,Make recommendations for small purchase awards,lexical,0.6
+56a023230654f22dd021,Assign cases to probation officers,Assign cases to Probation Officers,normalized_exact,1.0
+5f6558e9db057f08f998,Hire engineers,Hire the engineering team,semantic,0.9205
+615ca0f86df809abe767,Lead research on software & technology companies,Lead research on software & technology companies,normalized_exact,1.0
+622c7c71deb0fb8b4880,Develop key performance indexes,Develop key performance indicators,lexical,0.6
+666f7ebc34ffed256a13,Report on water quality,Report water quality data,lexical,0.75
+666f7ebc34ffed256a13,Process sample collection,Perform sample collections,semantic,0.8845
+74a1bfae7e7e258d28b5,Develop sales content,Develop sales content,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Analyze revenue metrics,Analyze metrics,lexical,0.6667
+74a1bfae7e7e258d28b5,Design automation for sales stack,Design automations,semantic,0.855
+751a53b56992ff974884,Oversee caseloads of adult programs,Oversee assigned caseload of older adult programs,lexical,0.6667
+751a53b56992ff974884,Manage communications between the department and program managers,Communicate between programs and the Department,semantic,0.9306
+751a53b56992ff974884,Conduct on-site measurements,Conduct on-site assessments,semantic,0.865
+80f6da7f0eec5c160699,Develop strategies to improve agency performance,Develop strategies to improve agency performance,normalized_exact,1.0
+80f6da7f0eec5c160699,Oversee and manage,Oversee designation activities,semantic,0.8634
+80fd4a82c581d7be2fd6,Preparation of appraisal reports,Prepare appraisal reports,semantic,0.9669
+96e7892a422bcab5f86d,Assess information protection services,Assess information protection schemes,lexical,0.6
+96e7892a422bcab5f86d,Impliment data retention solutions,Design data retention solutions,lexical,0.6
+96e7892a422bcab5f86d,Design data lose prevention measures,Design Data Loss Prevention,semantic,0.8954
+a146bd4acd3f84c2cf13,Collaborate with clients,"Collaborate with team members, consultants, and client developers",semantic,0.9153
+a146bd4acd3f84c2cf13,Dashboard creation,Create dashboards and visualization updates,semantic,0.9029
+a146bd4acd3f84c2cf13,Support connection of marketing tools,"Connect marketing tools, ad platforms, and data sources",semantic,0.8568
+a73048332d44b501d8e8,Manage relationships with equity investors,Manage relationships with equity investors,normalized_exact,1.0
+a73048332d44b501d8e8,Build and maintain financial models,Build financial models for fundraising,lexical,0.6
+a73048332d44b501d8e8,Monitor capital markets for investment oppurtunities,Monitor capital markets,lexical,0.6
+a845c36fc3eb4caf98fb,Define code infrastructure,Define infrastructure as code,lexical,1.0
+a845c36fc3eb4caf98fb,Build evidence automation tools,Automate collection of evidence,semantic,0.8869
+c06ce1a21ee6fe762ca6,Liaise with community stakeholders,Liaise with community stakeholders,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Support partners with outreach,Support partners with outreach efforts,lexical,0.75
+c06ce1a21ee6fe762ca6,Respond to calls from helpline,Respond to incoming calls,semantic,0.864
+e2b9292f713a5f914995,Translate concepts to software,Translate clinical concept into software roadmap,lexical,0.6
+e2b9292f713a5f914995,Raise funding,Raise funding for app development,semantic,0.873
+f32ccf878072947e70ec,Automate internal processes,Automate internal processes,normalized_exact,1.0
+f32ccf878072947e70ec,Conduct vendor risk assessment,Conduct risk assessments of vendor agreements,lexical,0.8
