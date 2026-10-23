@@ -1,0 +1,3 @@
+round,topics_before,topics_after,topic_count_change,assignment_change_rate,assignment_noise_floor,new_topics,merges,splits,refines,rejects,low_confidence_rate,duplicate_flags,flags_before,flags_after,critic_calls,critic_decisions
+1,72,76,4,0.48391376451077944,0.17213930348258707,12,2,6,6,0,0.6852404643449419,0,61,64,1,"{'KEEP': 9, 'MERGE': 2, 'SPLIT': 6, 'REFINE_BOUNDARY': 6, 'REASSIGN': 0, 'invalid': 0}"
+2,76,80,4,0.11708126036484245,0.1652846876727474,8,0,4,8,0,0.6832504145936982,0,64,68,1,"{'KEEP': 11, 'MERGE': 0, 'SPLIT': 4, 'REFINE_BOUNDARY': 8, 'REASSIGN': 0, 'invalid': 0}"

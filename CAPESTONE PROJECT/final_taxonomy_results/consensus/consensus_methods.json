@@ -1,0 +1,11 @@
+{
+  "partitions": [
+    "AGENTIC_FULL",
+    "KMEANS_T5@80",
+    "GMM_T5@80",
+    "LEIDEN_T5@80",
+    "BERTOPIC_NATURAL",
+    "HDBSCAN_T5@80"
+  ],
+  "rule": "CORE: mean co-association with topic-mates >= 2/3; BOUNDARY 1/3-2/3; METHOD_DISAGREEMENT < 1/3 (methods where either statement is unassigned skipped)"
+}

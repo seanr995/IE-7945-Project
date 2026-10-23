@@ -1,0 +1,9 @@
+{
+  "margin_threshold": 0.016740858554840088,
+  "low_similarity_threshold": 0.860065221786499,
+  "anchors": 974,
+  "loo_accuracy_all": 0.6991786447638604,
+  "auto_precision_at_threshold": 0.9,
+  "target": 0.9,
+  "rule": "smallest LOO margin with precision >= target on Claude-labelled anchors; low-similarity = P5 of correct anchors' top-1 similarity"
+}

@@ -1,0 +1,111 @@
+﻿statement_id,posting_id,provider,statement_text,evidence_span,human_label
+ts_b_9c4b0ab23fc6c54ab856,c46d30ec6da3e3d14ecb,gemini,Negotiate with customers,negotiate with customers,TASK
+ts_b_02f02b4b79edb6fecf3d,ed8d4887f67c3c75d35c,gemini,Build reference architectures,"building RAG pipelines, agent workflows, evaluation loops, reference architectures, and custom integrations alongside customer teams.",TASK
+ts_b_03f1a7bfa4a4c28fd818,846b528da871596b1783,gemini,Track physical correspondence,"making sure sensitive physical correspondence—including court documents, legal notices, seizures, and law-enforcement requests—is received, routed, tracked, and handled on time.",TASK
+ts_b_2d02fd972c8e2c0a6f75,644e4b17868b56c3bb3a,gemini,Establish software development standards,"Establish software development standards for coding, APIs, data models, automated testing, versioning, documentation and code reviews",TASK
+ts_b_0efdb4df126fa02072f2,6a42c683d57c96dc4e72,gemini,Manage daily news clips compilation,Creating and managing a daily compilation of news clips relevant to the work of the office.,TASK
+ts_b_5246ec4f007dbd791825,267e584ab70936606262,gemini,Communicate with high level City and State personnel,effective communication with high level City and State personnel and officials,SKILL
+ts_b_671fc248c1d47ad7b257,fa720a68585d2099f1eb,gemini,Push for continuous improvement in execution,Push for continuous improvement in execution,OTHER
+ts_b_525084213ea13cbdcd4f,f44ca0bffbc18da03adc,gemini,Align functions behind roadmap,"align several functions behind one roadmap, operating model and set of priorities",TASK
+ts_b_d2c7a952611efe59766a,622c7c71deb0fb8b4880,gemini,Identify gaps in policies,Strong ability to identify gaps in processes and policies,SKILL
+ts_b_d504a936d3b57eeec400,5ae5e48ce667c9d1c894,gemini,Identify missing information in briefs,Identify and flag missing information or inconsistencies in briefs,TASK
+ts_b_1516d87b610648a6f9f4,3b1acd7dae8f6c808655,gemini,Maintain tools,Build & maintain tools to make data & information readily accessible to technical and non-technical stakeholders.,TASK
+ts_b_738732bc270188da3281,798de891e649970c4db8,gemini,Shape new engagements with engineering and R&D leaders,"Shaping new engagements with engineering and R&D leaders, from the first workshop to the signed proposal",TASK
+ts_b_2d839c2e023f4c5f5777,35be12081f27a258f3d1,gemini,Communicate with stakeholders,"Communicate with stakeholders using various platforms including our internal ticketing system, email, phone and screensharing",TASK
+ts_b_e6ec4b129cf3eb68ce12,2afbb511b4508cc07452,gemini,Support new product introductions,Support new product introductions by sourcing materials that meet emerging process requirements and scalability targets.,TASK
+ts_b_ab795493149b8d4b2552,5521dd20a2ca75fde971,gemini,Coordinate delivery across teams,"Experience developing roadmaps, managing requirements, setting priorities, and coordinating delivery across multiple teams and stakeholders.",SKILL
+ts_b_0ed6b3b54d9d5b897754,296722fa578e1f2ddf06,gemini,Maintain working relationships,"Proven ability to establish and maintain effective working relationships with a wide range of entities from government agencies, other prosecutorial and regulatory bodies, and community organizations.",SKILL
+ts_b_cb41c813c2d38648a0de,94eeac045a9d0989ab27,gemini,Supervise other attorneys,eighteen months of which must have been in the supervision of other attorneys,OTHER
+ts_b_1525310279b5f697dace,bbc30852aba689dd056f,gemini,Review complex land use applications,The Sprint Team's primary responsibility is the direct management and review of complex land use applications progressing through pre-certification.,TASK
+ts_b_4d8f7ad558532de62d09,6550a3f44b6c3ae6272f,gemini,Define v1 of a new consumer product,Defining and shipping v1 of a new consumer product from scratch,TASK
+ts_b_7bb14efa3ff656358f48,674daec54fefda4eb7d0,gemini,Modernize monolithic architecture,Build new features and actively contribute to the modernization of our monolithic architecture towards a more modular architecture with clearly defined domain boundaries.,TASK
+ts_b_6805bd4ef38765722f81,b59cac3ec4f2871a7963,gemini,Manage development of agency policies,"Manage the development, review, revision and implementation of agency policies",TASK
+ts_b_504afb094bb6efccd6f8,a146bd4acd3f84c2cf13,gemini,Maintain and structure automated data pipelines,"Help maintain and structure clients' product feeds, campaign datasets, and automated data pipelines, ensuring high data quality and reliability",TASK
+ts_b_1d3c29a1890a5c52df77,835d55784f762bec770d,gemini,Act as liaison,acts as a liaison between the Mayor’s Office and State elected officials and agencies,TASK
+ts_b_d39c02669d51ea09c2d8,0c9b39100b48af6088d7,gemini,Collaborate with managers and executives,collaborating with other managers and executives to define future state of a program,TASK
+ts_b_fe8733b3b19b2005f8fb,a5cc492b8fcc77fb1848,gemini,Analyze legislative proposals,analyzing legislative proposals,TASK
+ts_b_10d00e1ba7dd2584880a,5e42785a94b37dc7b953,gemini,Drive team upskilling,You drive team upskilling,TASK
+ts_b_a1f30e2ea36143f3a568,ac6b2541ecc346107332,gemini,Conduct field visits,"Conduct field visits for rent collection/home visits regarding housekeeping concerns/window guards/air condition surveys, etc",TASK
+ts_b_74facc5b7ad1b646075e,a1aac521f271426f1c3d,gemini,Develop agency-wide policies,"Develop, update, and enforce agency-wide policies, procedures, and guidelines related to personnel management.",TASK
+ts_b_1383f0b69fce7919f08d,2bf63a069cacd30aafbc,gemini,Collaborate with agency task forces,"Collaborate with agency task forces, City Comptroller’s Office and Department of Finance",TASK
+ts_b_f80a2804406a723a8d44,10c829e5b8226b55a98f,gemini,Determine case timeliness,proper standing and timeliness of cases.,OTHER
+ts_b_ecae9a21796fc89f2a58,967ad227a01f45fc2538,gemini,Create civil service titles,C&C staff create and modify civil service titles,TASK
+ts_b_7545aaec8fbd225dc2d8,5eb7ccf7a4a1b7542848,gemini,Set performance targets,"Set, track, and review team and individual performance targets and KPIs.",TASK
+ts_b_774846e966b9bdf632e3,00861684b3d8b8a43808,gemini,Assist with monthly closing activities,Assist with monthly closing activities by coordinating input from internal stakeholders and tax advisors,TASK
+ts_b_ef9ab401e4368696f0e4,5521dd20a2ca75fde971,gemini,Set priorities,"Experience developing roadmaps, managing requirements, setting priorities, and coordinating delivery across multiple teams and stakeholders.",SKILL
+ts_b_d6da73703d5141f4e52b,94eeac045a9d0989ab27,gemini,Manage regulatory compliance portfolio,will manage RCDA’s regulatory compliance portfolio and labor and employment law compliance portfolio,TASK
+ts_b_83f9263d0120b30a63f4,8d5bb665bbff11e6bbbb,gemini,Maintain GitLab environment,"maintenance
+and
+further
+development
+of
+our
+GitLab
+environment",TASK
+ts_b_361e94d8325a6ae5bc77,628655b95b209e282632,gemini,Prepare management reports,"You prepare well-founded
+sales forecasts and management reports",TASK
+ts_b_85e9683ac371d90b6f9e,7dbd8b7cf3b0bfa5cf9d,gemini,Carry out simple instructions,the ability to understand and carry out simple instructions is required.,SKILL
+ts_b_7ee1f87b45f09430850d,1a22d8ee7bc120ef6e61,gemini,Navigate technical trade-offs,navigate technical trade-offs,SKILL
+ts_b_ff248b72e0150092081a,0c9b39100b48af6088d7,gemini,Prepare briefings,"prepare clear reports, presentations, briefings, recommendations, and other materials",TASK
+ts_b_bcba49042aa4c8068708,0c9b39100b48af6088d7,gemini,Perform strategic planning,strategic planning for an office/division,TASK
+ts_b_971dde69314f9bd3bc60,00861684b3d8b8a43808,gemini,Manage Accounts Payable,"Take the lead on parts of Accounts Payable through
+Spendesk
+for our German and US entities",TASK
+ts_b_394ad26634f0c7fc7db7,3ca1b50483595c10a701,gemini,Facilitate Envision project certifications,facilitates LEED and Envision project certifications,TASK
+ts_b_8fda794363f74ba5559f,24be9713838ce65bb2d1,gemini,Map stakeholders,you map stakeholders,TASK
+ts_b_7cfd8dfdbdca2d1dc67f,ed8d4887f67c3c75d35c,gemini,Build agent workflows,"building RAG pipelines, agent workflows, evaluation loops, reference architectures, and custom integrations alongside customer teams.",TASK
+ts_b_4b1655bf50c5b19dac76,56a023230654f22dd021,gemini,Assign cases to Probation Officers,Prepare case folders (both physical and electronic within the case management system) and assign cases to Probation Officers,TASK
+ts_b_3ff138c086f757fbb1f7,90e825be48fe0d488449,gemini,Conduct investigations,investigations,OTHER
+ts_b_16a961ed598152149874,310b9bece1e530172441,gemini,Find bottlenecks,"Find the bottlenecks, then remove them.",TASK
+ts_b_314e91c1b4d2fedf1f30,55f5a8caeb1de0a5ef8c,gemini,Conduct outreach for activities,Conduct meaningful and intentional outreach for activities,TASK
+ts_b_feb29f951878f794ae58,07ef093d7aa6614f0a82,gemini,Assist with onboarding processes,"Assist with the onboarding processes for DOP hires including full-time staff, Summer Interns and the Summer Youth Employment Program (SYEP).",TASK
+ts_b_bb1651d1425bfe89bb0c,bf3db0f483b46be4ad74,groq,Build pricing and sales process,"Build the commercial organization, pricing and sales process from scratch alongside the technical co-founders (Dr. Dominique Mercier, CTO; Dr. Tobias Wirth, Advisor).",TASK
+ts_b_8c6a79179fb93e1594e3,9cbb10cf5e37644bd804,groq,Collaborate with Comptroller’s Bureaus to troubleshoot issues,"Collaborate with Comptroller’s Bureaus to troubleshoot issues on behalf of the ACCO, including intake of escalations/expedite requests.",TASK
+ts_b_dfb4a77e377b9c416273,74a1bfae7e7e258d28b5,groq,Support the sales team in closing deals and managing key client relationships,Support the sales team in closing deals and managing key client relationships,TASK
+ts_b_5587651ba407015c673c,506dc4579e5e38a043d9,groq,"Debug issues across application code, databases, infrastructure, and third-party APIs","Debug issues across application code, databases, infrastructure, and third-party APIs.",TASK
+ts_b_8965d127fd976dcceca9,7dbd8b7cf3b0bfa5cf9d,groq,Assist in the development of Standard Operating Procedures (SOPs) for internal Fleet Service processes,Assist in the development of Standard Operating Procedures (SOPs) for internal Fleet Service processes.,TASK
+ts_b_d0f1d51c8cc26052706d,80f697c04820c4cc3546,groq,Use GIS platforms,"Hands-on experience using or working with GIS platforms such as ESRI, QGIS, or Carto",SKILL
+ts_b_a9b1dd541e16ced28cab,b63d2a18a86b9e94e299,groq,design impactful cultural moments such as hackathons and Town Hall meetings,"You will partner with the executives and other Executive Assistants to design impactful cultural moments, such as hackathons and Town Hall meetings, ensuring momentum continues long after the events conclude.",TASK
+ts_b_890cba0602d3a345863c,94eeac045a9d0989ab27,groq,"Develop, review, revise, and implement agency policies to ensure legal and regulatory compliance","Develop, review, revise, and implement agency policies to ensure legal and regulatory compliance.",TASK
+ts_b_b2c499e08b6b3c00dd08,46014daa00722a6982c4,groq,"partner with Design, Engineering, Marketing, and Operations teams","Partner with Design, Engineering, Marketing, and Operations teams to drive initiatives forward and ensure smooth delivery of projects.",TASK
+ts_b_3e66c2f99dffb33ce0c3,df716493d4353d446b48,groq,"milling and paving 1,150 lane miles yearly","including milling and paving 1,150 lane miles yearly",OTHER
+ts_b_dc97de7cced60e3d9d47,e2b62c02cbe22cc016e2,groq,Resolve issues independently,"You analyze technical issues in a structured manner, identify potential root causes, resolve them independently where possible, and escalate more complex cases to the appropriate experts",TASK
+ts_b_bbd25d8a52cb052fb095,622c7c71deb0fb8b4880,groq,Assist employees and managers in understanding rights and responsibilities,Assisting employees and managers in understanding their rights and responsibilities regarding reasonable accommodations within the Department.,TASK
+ts_b_6b8f345b702dbe3b6ed8,666f7ebc34ffed256a13,groq,"Comply with environmental, health & safety laws and DEP policies","Compiling with applicable environmental, health & safety laws and regulations and DEP’s Environmental Health & Safety policies set out in the employee Environmental, Health and Safety handbook.",TASK
+ts_b_44b484d4caabc4d05fe5,62058adb591ec93c52d0,groq,Push work forward proactively,You take ownership and proactively push work forward.,OTHER
+ts_b_7d09a08cbfdba336637b,615ca0f86df809abe767,groq,"Build trusted, high-level rapport with PE Partners, M&A Directors, and C-suite leaders","Build trusted, high-level rapport with PE Partners, M&A Directors, and C-suite leaders",TASK
+ts_b_4ccaae110d5b3ef2d6d4,05bb010df9f681ecfb8e,groq,"rapidly validate ideas using prototypes, customer research and experimentation","You'll rapidly validate ideas using prototypes, customer research and experimentation, reducing delivery risk before committing engineering effort.",TASK
+ts_b_73607c699ca351ceac05,80fd4a82c581d7be2fd6,groq,"Confere with architects, surveyors, real estate appraisers, real estate brokers, property owners, managers, mortgage analysts, banks, engineers, builders, attorneys, local preservation units, government agencies and other relevant parties","Conferring with architects, surveyors, real estate appraisers, real estate brokers, property owners, managers, mortgage analysts, banks, engineers, builders, attorneys, local preservation units, government agencies and other relevant parties",TASK
+ts_b_27b0b661a5d166ae4338,53e4556f753510a75c35,groq,presentations,"The team hosts training, presentations, enrollment events and facilitates application assistance for programs such as Homeowners Tax Benefits (HTB) and the Rent Freeze Program (SCRIE/DRIE) in all five boroughs of the city.",TASK
+ts_b_64b74569127b4bd3b9d8,50d7802bf29a2fa99d4e,groq,Prepare Pre‑Solution Pre‑Solicitation review and related documentation,"Prepare Pre- Solution Pre-Solicitation review, Recommendation for Award, Reasonable Price and Responsibility Determinations and other documentation required by the NYC to support the procurement and contract award process",TASK
+ts_b_d9bf65f0b92672819e32,55f5a8caeb1de0a5ef8c,groq,Research and identify appropriate partners to strengthen community relationships,Research and identify appropriate partners to strengthen community relationships.,TASK
+ts_b_4151444e7e258c812d01,a845c36fc3eb4caf98fb,groq,Document your work clearly to support knowledge sharing and future maintenance,Document your work clearly to support knowledge sharing and future maintenance.,TASK
+ts_b_be647f34de78b3eeab7a,6abe29c3ccb7241a403c,groq,"Translate Nelly's company vision into specific, prioritized bets across acquisition, activation, and monetisation","Translate Nelly's company vision into specific, prioritized bets across acquisition, activation, and monetisation, informed by data, experimentation, and customer behavior",TASK
+ts_b_0c55afd994ad2dd33a97,a845c36fc3eb4caf98fb,groq,Learn from your peers and actively seek feedback and mentorship,Learn from your peers and actively seek feedback and mentorship.,OTHER
+ts_b_77a2c2d74375df1b1c38,24be9713838ce65bb2d1,groq,understand who influences the decision,understand who influences the decision,TASK
+ts_b_f5da4336eada91b12857,0b027611629b03f366f3,groq,"screen children using the distance vision, hyperopia, near vision, color and fusion test","Screen children using the distance vision, hyperopia, near vision, color and fusion test.",TASK
+ts_b_0e2a3d40275196cf9086,798de891e649970c4db8,groq,"Leaving behind reference architectures, evaluation methods and accelerators that the whole practice can build on","Leaving behind reference architectures, evaluation methods and accelerators that the whole practice can build on",TASK
+ts_b_d2fdebad775909200d9a,94eeac045a9d0989ab27,groq,"Serve as the agency’s primary liaison with the NYC Law Department, Department of Investigation, Department of Labor, OATH, and other governmental agencies on legal matters","Serve as the agency’s primary liaison with the NYC Law Department, Department of Investigation, Department of Labor, OATH, and other governmental agencies on legal matters.",TASK
+ts_b_9d0be6e019be6480029c,50d7802bf29a2fa99d4e,groq,Make determinations for the most reasonable price in relation to market conditions,Make determinations for the most reasonable price in relation to market conditions,TASK
+ts_b_38a0b12a36d3f795f0c8,105e8d569cdb317f77c3,groq,lead efforts to reduce carbon emissions,Leading the City's efforts to reduce carbon emissions from government operations.,TASK
+ts_b_b0d4bac7c28d2d6e92ed,629a583a8a3c94559217,groq,"Ensure compliance with local laws and required reporting, keeping Workforce Operations in adherence to legal mandates","Ensure compliance with local laws and required reporting, keeping Workforce Operations in adherence to legal mandates.",TASK
+ts_b_bdde8544813993045818,05bb010df9f681ecfb8e,groq,own the Aveni Assist roadmap end-to-end,"You'll own the Aveni Assist roadmap end-to-end, balancing investment between new capabilities, product quality and platform improvements to maximise customer and commercial impact.",TASK
+ts_b_15ee1fe11faf454a0bb7,ed8d4887f67c3c75d35c,groq,scope proofs of concept,"Scope, build, and deliver proofs of concept that demonstrate clear business and technical value",TASK
+ts_b_9e1d663d1836fa6cd8df,c70eb7d0a2e70e711e53,groq,Supervise staff that interview homebound clients,Supervise staff that interview and correspond with homebound clients.,TASK
+ts_b_17aee544bac62f45155d,53ca8a5ad02b99123994,groq,Research and prepare legal papers,"Research and prepare briefs, appeals, orders, motions, legal opinions, memoranda and other legal papers related to enforcement cases.",TASK
+ts_b_c733e9474068fbacc31c,615ca0f86df809abe767,groq,Lead recruitment locally and embed Dedale's culture,Lead recruitment locally and embed Dedale's culture,TASK
+ts_b_752687aec7e3c00fb660,2b363a377acdcc917751,groq,Strengthen organizational alignment through clear executive messaging,"Strengthen organizational alignment through clear executive messaging, visibility of company priorities and more efficient, AI-enabled ways of working.",TASK
+ts_b_ae05752d9c34879cf68f,62058adb591ec93c52d0,groq,Engage with military and agency users,"Externally you are in front of military and agency users, partners and integrators, in workshops, requirement sessions and user tests.",TASK
+ts_b_901a51c3f601899ac4ae,97e119a2d817286b108f,groq,"Provide consultation, guidance and technical assistance","Provide consultation, guidance and technical assistance to prospective and current child care providers and staff concerning educational programming, appropriate organization and classroom management techniques, and other best practices within the field.",TASK
+ts_b_aa8cf60aaa9560287026,96e7892a422bcab5f86d,groq,Provide training to colleagues,"Provide training and technical support to colleagues on Purview capabilities, fostering knowledge and competency in data governance practices.",TASK
+ts_b_c48ffc19350a55d01e32,41791a6083070a346971,groq,provide business support to leadership team,"Provide business support to the leadership team, acting as a sparring partner on People Operations and business partnering topics",TASK
+ts_b_46afc49754a5050e2581,5ae5e48ce667c9d1c894,groq,Proactively identify recurring data inconsistencies or improvement opportunities,Proactively identify recurring data inconsistencies or improvement opportunities,TASK
+ts_b_69e22449999f2d4ec703,94eeac045a9d0989ab27,groq,"Serve as the COIB Liaison, overseeing dual-employment requests and related compliance requirements","Serve as the COIB Liaison, overseeing dual-employment requests and related compliance requirements.",TASK
+ts_b_72c1b3ad3815221b2da6,7dbd8b7cf3b0bfa5cf9d,groq,Assist in data entry and reporting; update and maintain records as well as prepare fleet reports and analysis using computer systems,Assist in data entry and reporting; update and maintain records as well as prepare fleet reports and analysis using computer systems (ie: Fleet Focus vehicle maintenance system and Geotab).,TASK
+ts_b_0e2ff7a4d16436710193,b63d2a18a86b9e94e299,groq,own and run projects on behalf of the executives from planning to delivery,"You will own and run projects on behalf of the executives from planning to delivery, while also managing the logistics for internal and external events, offsites, and team socials.",TASK
+ts_b_619bde1a6a1d3d1bd060,a845c36fc3eb4caf98fb,groq,Work closely with other squad members and stakeholders to align on goals and solutions,Work closely with other squad members and stakeholders to align on goals and solutions.,TASK
+ts_b_e87353ab2ad8de978795,50d7802bf29a2fa99d4e,groq,Perform special projects and related work as required,Perform special projects and related work as required,TASK
+ts_b_a59fee91724e1868d708,5095082b7a5e8e644d85,groq,Carry out assigned tasks,"Ability to carry out assigned tasks decisively and accurately and work efficiently, excellent customer service and oral communication.",SKILL
+ts_b_e50601fa3ec856c855de,3b1acd7dae8f6c808655,groq,Build & maintain tools to make data accessible,Build & maintain tools to make data & information readily accessible to technical and non-technical stakeholders.,TASK
+ts_b_2c67bd8ca6cb928b95b8,c70eb7d0a2e70e711e53,groq,Supervise a team of BOS who provide quick service,Supervise a team of BOS who provide quick service for those clients who walk-in or telephone the center.,TASK
+ts_b_2f284b339945928f7b7c,2bf63a069cacd30aafbc,groq,"Collaborate with agency task forces, City Comptroller’s Office and Department of Finance to assist in creating required accounting entries","Collaborate with agency task forces, City Comptroller’s Office and Department of Finance to assist in creating required accounting entries in the City’s Financial Management System (FMS).",TASK

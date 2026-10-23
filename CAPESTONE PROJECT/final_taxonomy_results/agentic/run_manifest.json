@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-22T23:53:41.861445+00:00",
+  "model": "claude-sonnet-5-5",
+  "request_style": "Messages API: model, max_tokens, system, messages; JSON text parsed + validated locally; no tool calling; no sampling parameters",
+  "max_output_tokens": 8000,
+  "input_sha256": "010795fed2864f9963f159204a857f2198a2246206009ab0dbbbb786799f4551",
+  "embedding_hashes": {
+    "t5": "6aaf5c7137854b4a9a960354c6804734042c4057cbecad3ec36cf297cc20eb18"
+  },
+  "predefined_topic_count": null,
+  "onet_used": false,
+  "kmeans_used_for_sampling": false,
+  "run_plan": {
+    "run_id": "e7d1c325f768",
+    "status": "completed",
+    "started_utc": "2026-10-22T23:46:10.968204+00:00",
+    "normal": 13,
+    "reserve": 2,
+    "role_caps": {
+      "discovery": 4,
+      "consolidation": 2,
+      "boundary_review": 1,
+      "ambiguous": 2,
+      "novelty": 1,
+      "critic": 2,
+      "consistency": 1
+    },
+    "remaining_at_start": 15,
+    "finished_utc": "2026-10-22T23:53:41.835966+00:00"
+  },
+  "budget": {
+    "hard_limit": 20,
+    "calls_made": 19,
+    "remaining_calls": 1,
+    "metadata_requests": 1,
+    "run_id": "e7d1c325f768",
+    "run_status": "completed",
+    "run_plan": {
+      "discovery": 4,
+      "consolidation": 2,
+      "boundary_review": 1,
+      "ambiguous": 2,
+      "novelty": 1,
+      "critic": 2,
+      "consistency": 1
+    },
+    "run_normal_used": 12,
+    "run_reserve_used": 2
+  },
+  "cache": {
+    "hits": 0,
+    "misses": 12
+  },
+  "N_AGENTIC": 80,
+  "stop_reason": "refinement round limit (2) reached; unmet: topic-count change <= 1",
+  "code_fingerprint": "dc8877956c029fd7"
+}

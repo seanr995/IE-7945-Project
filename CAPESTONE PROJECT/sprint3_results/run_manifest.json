@@ -1,0 +1,230 @@
+{
+  "created_utc": "2026-10-22T21:13:34.001556+00:00",
+  "script": "sprint3_colab_experiment.py",
+  "config_fingerprint": "3a387c11aed5718a",
+  "input_filename": "sprint3_task_input.csv",
+  "input_path": "/content/drive/MyDrive/CAPESTONE PROJECT/sprint3_task_input.csv",
+  "input_sha256": "010795fed2864f9963f159204a857f2198a2246206009ab0dbbbb786799f4551",
+  "expected_input_sha256": "010795fed2864f9963f159204a857f2198a2246206009ab0dbbbb786799f4551",
+  "input_is_frozen_version": true,
+  "row_count": 3015,
+  "unique_postings": 188,
+  "provider_counts": {
+    "gemini": 2719,
+    "groq": 296
+  },
+  "section_counts": {
+    "responsibilities": 2289,
+    "general_description": 726
+  },
+  "e5_model": "intfloat/e5-base-v2",
+  "e5_input_format": "'passage: <statement_text>', mean pooling, L2-normalised",
+  "sentence_t5_model": "sentence-transformers/sentence-t5-base",
+  "sentence_t5_input_format": "<statement_text>, L2-normalised",
+  "library_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "sentence-transformers": "5.7.0",
+    "hdbscan": "0.8.44",
+    "umap-learn": "0.5.12",
+    "matplotlib": "3.10.0"
+  },
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "hdbscan_implementation": "hdbscan",
+  "random_seeds": {
+    "global": 42,
+    "kmeans_stability_seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "subsample_rng": 42,
+    "bootstrap_rng": 42,
+    "umap_random_state": 42
+  },
+  "pca": {
+    "e5": {
+      "n_components": 50,
+      "cumulative_explained_variance": 0.5795273184776306,
+      "svd_solver": "full",
+      "whiten": false
+    },
+    "sentence_t5": {
+      "n_components": 50,
+      "cumulative_explained_variance": 0.6069994568824768,
+      "svd_solver": "full",
+      "whiten": false
+    }
+  },
+  "pca_max_components": 50,
+  "grids": {
+    "kmeans_k": [
+      25,
+      40,
+      60,
+      80,
+      100
+    ],
+    "kmeans_n_init": 10,
+    "kmeans_init": "k-means++",
+    "hdbscan_min_cluster_size": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "hdbscan_min_samples": [
+      5,
+      10
+    ],
+    "hdbscan_metric": "euclidean (on PCA space)",
+    "hdbscan_cluster_selection_method": "eom"
+  },
+  "stability_protocol": {
+    "subsamples": 5,
+    "fraction": 0.8,
+    "kmeans_seed_restarts": 5
+  },
+  "bootstrap": {
+    "resamples": 100,
+    "unit": "posting"
+  },
+  "pathology_thresholds": {
+    "min_stability_ari": 0.5,
+    "max_dominant_share": 0.2,
+    "max_tiny_cluster_share": 0.25,
+    "max_noise_share": 0.5,
+    "min_clusters": 10,
+    "max_clusters": 300,
+    "min_cohesion_lift": 0.05
+  },
+  "decision_hierarchy": [
+    [
+      "semantic_cohesion_lift",
+      0.02
+    ],
+    [
+      "stability_ari",
+      0.05
+    ],
+    [
+      "granularity_score",
+      0.0
+    ],
+    [
+      "robustness",
+      0.05
+    ],
+    [
+      "silhouette",
+      0.01
+    ]
+  ],
+  "granularity_median_band": [
+    15,
+    60
+  ],
+  "experiment_candidates": {
+    "EXP_1_E5_KMEANS": "EXP_1_E5_KMEANS__k=100",
+    "EXP_2_E5_HDBSCAN": "EXP_2_E5_HDBSCAN__min_cluster_size=30_min_samples=5",
+    "EXP_3_T5_KMEANS": "EXP_3_T5_KMEANS__k=100",
+    "EXP_4_T5_HDBSCAN": "EXP_4_T5_HDBSCAN__min_cluster_size=20_min_samples=10"
+  },
+  "selection_trace": {
+    "EXP_1_E5_KMEANS": {
+      "chosen": "EXP_1_E5_KMEANS__k=100",
+      "decided_by": "tie_break(semantic_cohesion_lift, stability_ari)",
+      "trace": [
+        "no non-pathological configuration - choosing among the least-flagged",
+        "semantic_cohesion_lift: best=0.280 tol=0.02 -> kept EXP_1_E5_KMEANS__k=80, EXP_1_E5_KMEANS__k=100",
+        "stability_ari: best=0.420 tol=0.05 -> kept EXP_1_E5_KMEANS__k=80, EXP_1_E5_KMEANS__k=100",
+        "granularity_score: best=1.000 tol=0.0 -> kept EXP_1_E5_KMEANS__k=80, EXP_1_E5_KMEANS__k=100",
+        "robustness: best=0.410 tol=0.05 -> kept EXP_1_E5_KMEANS__k=80, EXP_1_E5_KMEANS__k=100",
+        "silhouette: best=0.071 tol=0.01 -> kept EXP_1_E5_KMEANS__k=80, EXP_1_E5_KMEANS__k=100",
+        "still tied -> tie-break on raw cohesion lift then stability -> EXP_1_E5_KMEANS__k=100"
+      ]
+    },
+    "EXP_2_E5_HDBSCAN": {
+      "chosen": "EXP_2_E5_HDBSCAN__min_cluster_size=30_min_samples=5",
+      "decided_by": "semantic_cohesion_lift",
+      "trace": [
+        "no non-pathological configuration - choosing among the least-flagged",
+        "semantic_cohesion_lift: best=0.204 tol=0.02 -> kept EXP_2_E5_HDBSCAN__min_cluster_size=30_min_samples=5"
+      ]
+    },
+    "EXP_3_T5_KMEANS": {
+      "chosen": "EXP_3_T5_KMEANS__k=100",
+      "decided_by": "tie_break(semantic_cohesion_lift, stability_ari)",
+      "trace": [
+        "no non-pathological configuration - choosing among the least-flagged",
+        "semantic_cohesion_lift: best=0.290 tol=0.02 -> kept EXP_3_T5_KMEANS__k=80, EXP_3_T5_KMEANS__k=100",
+        "stability_ari: best=0.391 tol=0.05 -> kept EXP_3_T5_KMEANS__k=80, EXP_3_T5_KMEANS__k=100",
+        "granularity_score: best=1.000 tol=0.0 -> kept EXP_3_T5_KMEANS__k=80, EXP_3_T5_KMEANS__k=100",
+        "robustness: best=0.464 tol=0.05 -> kept EXP_3_T5_KMEANS__k=80, EXP_3_T5_KMEANS__k=100",
+        "silhouette: best=0.069 tol=0.01 -> kept EXP_3_T5_KMEANS__k=80, EXP_3_T5_KMEANS__k=100",
+        "still tied -> tie-break on raw cohesion lift then stability -> EXP_3_T5_KMEANS__k=100"
+      ]
+    },
+    "EXP_4_T5_HDBSCAN": {
+      "chosen": "EXP_4_T5_HDBSCAN__min_cluster_size=20_min_samples=10",
+      "decided_by": "semantic_cohesion_lift",
+      "trace": [
+        "no non-pathological configuration - choosing among the least-flagged",
+        "semantic_cohesion_lift: best=0.189 tol=0.02 -> kept EXP_4_T5_HDBSCAN__min_cluster_size=20_min_samples=10"
+      ]
+    }
+  },
+  "chosen_configuration": {
+    "config_id": "EXP_3_T5_KMEANS__k=100",
+    "embedding_model": "sentence-transformers/sentence-t5-base",
+    "clustering_method": "kmeans",
+    "parameters": "k=100",
+    "decided_by": "robustness",
+    "trace": [
+      "no non-pathological configuration - choosing among the least-flagged",
+      "semantic_cohesion_lift: best=0.290 tol=0.02 -> kept EXP_1_E5_KMEANS__k=100, EXP_3_T5_KMEANS__k=100",
+      "stability_ari: best=0.404 tol=0.05 -> kept EXP_1_E5_KMEANS__k=100, EXP_3_T5_KMEANS__k=100",
+      "granularity_score: best=1.000 tol=0.0 -> kept EXP_1_E5_KMEANS__k=100, EXP_3_T5_KMEANS__k=100",
+      "robustness: best=0.464 tol=0.05 -> kept EXP_3_T5_KMEANS__k=100"
+    ]
+  },
+  "second_best_configuration": {
+    "config_id": "EXP_1_E5_KMEANS__k=100",
+    "decided_by": "semantic_cohesion_lift"
+  },
+  "membership_rule": {
+    "secondary_min_similarity": 0.8988989293575287,
+    "secondary_max_gap": 0.007227468490600586,
+    "noise_post_hoc_min_similarity": 0.9141106605529785,
+    "rule": "secondary topic iff similarity to the best other centroid >= P25 of members' own-centroid similarity AND (primary - secondary) <= P10 of non-negative primary/secondary gaps; HDBSCAN noise is assigned post hoc only if its best centroid similarity >= P50 of members' own-centroid similarity AND its top1-top2 gap >= the same P10 gap; otherwise it stays UNASSIGNED; max 2 memberships"
+  },
+  "runtime_seconds": {
+    "embed_pca_e5": 15.9,
+    "embed_pca_sentence_t5": 23.0,
+    "total_seconds": 313.3
+  },
+  "figures": {
+    "created": [
+      "01_representation_comparison.png",
+      "02_kmeans_sweep.png",
+      "03_hdbscan_cluster_noise_tradeoff.png",
+      "05_semantic_cohesion_comparison.png",
+      "06_final_cluster_size_distribution.png",
+      "07_pca_explained_variance.png",
+      "08_final_umap.png"
+    ],
+    "failed": [
+      "04_stability_comparison.png"
+    ]
+  },
+  "known_input_quality_limitation": "The Sprint 3 input was section-filtered following a manually labelled task-purity audit. Post-filter audited task purity was 92.9%. Residual non-task contamination may therefore remain and is treated as a known limitation of the clustering experiment."
+}

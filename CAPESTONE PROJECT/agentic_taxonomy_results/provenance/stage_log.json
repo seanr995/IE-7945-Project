@@ -1,0 +1,267 @@
+[
+  {
+    "stage": "sampling",
+    "active_topics": 0,
+    "registry_version": 0,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 5,
+      "remaining_calls": 15,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 0,
+      "run_reserve_used": 0
+    },
+    "knee_n": 359,
+    "token_cap_n": 2614,
+    "chosen_n": 359,
+    "mean_tokens_per_statement": 13.767495854063018,
+    "est_statement_tokens_per_call": 1393.75,
+    "coverage_radius_at_chosen": 0.17846399545669556,
+    "rule": "n = max(knee of FPS coverage-radius curve, calls*min_per_call), capped by calls*tokens_per_call"
+  },
+  {
+    "stage": "discovery",
+    "active_topics": 85,
+    "registry_version": 85,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 11,
+      "remaining_calls": 9,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 4,
+      "run_reserve_used": 2
+    },
+    "regions": 4,
+    "calls": 3,
+    "saturated": 3,
+    "non_work_flagged": 8
+  },
+  {
+    "stage": "consolidation",
+    "active_topics": 84,
+    "registry_version": 110,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 13,
+      "remaining_calls": 7,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 6,
+      "run_reserve_used": 2
+    },
+    "candidate_pairs": 475,
+    "reviewed": 80,
+    "deferred": 395,
+    "decisions": {
+      "MERGE": 1,
+      "REFINE_BOUNDARY": 12,
+      "KEEP_SEPARATE": 67,
+      "NEEDS_MORE_EVIDENCE": 0
+    }
+  },
+  {
+    "stage": "boundary_review",
+    "active_topics": 72,
+    "registry_version": 130,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 14,
+      "remaining_calls": 6,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 7,
+      "run_reserve_used": 2
+    },
+    "decisions": 27,
+    "registry_consistent": false,
+    "structural_changes": 20
+  },
+  {
+    "stage": "ambiguous",
+    "active_topics": 72,
+    "registry_version": 130,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 16,
+      "remaining_calls": 4,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 9,
+      "run_reserve_used": 2
+    },
+    "queued": 3006,
+    "reviewed_by_claude": 166,
+    "propagated": 32,
+    "left_low_confidence": 2808,
+    "calls": 2,
+    "per_call_capacity": 83,
+    "decisions": {
+      "ASSIGN": 137,
+      "SECONDARY_ASSIGNMENT": 2,
+      "NEW_TOPIC_CANDIDATE": 6,
+      "UNCERTAIN": 21,
+      "invalid_topic": 1
+    },
+    "propagation_similarity": 0.9184037446975708
+  },
+  {
+    "stage": "novelty",
+    "active_topics": 72,
+    "registry_version": 130,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 16,
+      "remaining_calls": 4,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 9,
+      "run_reserve_used": 2
+    },
+    "candidates": 6,
+    "coherent_groups": 0,
+    "min_support": 3,
+    "created": []
+  },
+  {
+    "stage": "critic_round_1",
+    "active_topics": 76,
+    "registry_version": 156,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 17,
+      "remaining_calls": 3,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 10,
+      "run_reserve_used": 2
+    },
+    "round": 1,
+    "topics_before": 72,
+    "topics_after": 76,
+    "topic_count_change": 4,
+    "assignment_change_rate": 0.48391376451077944,
+    "assignment_noise_floor": 0.17213930348258707,
+    "new_topics": 12,
+    "merges": 2,
+    "splits": 6,
+    "refines": 6,
+    "rejects": 0,
+    "low_confidence_rate": 0.6852404643449419,
+    "duplicate_flags": 0,
+    "flags_before": 61,
+    "flags_after": 64,
+    "critic_calls": 1
+  },
+  {
+    "stage": "critic_round_2",
+    "active_topics": 80,
+    "registry_version": 176,
+    "budget": {
+      "hard_limit": 20,
+      "calls_made": 18,
+      "remaining_calls": 2,
+      "metadata_requests": 1,
+      "run_id": "e7d1c325f768",
+      "run_status": "in_progress",
+      "run_plan": {
+        "discovery": 4,
+        "consolidation": 2,
+        "boundary_review": 1,
+        "ambiguous": 2,
+        "novelty": 1,
+        "critic": 2,
+        "consistency": 1
+      },
+      "run_normal_used": 11,
+      "run_reserve_used": 2
+    },
+    "round": 2,
+    "topics_before": 76,
+    "topics_after": 80,
+    "topic_count_change": 4,
+    "assignment_change_rate": 0.11708126036484245,
+    "assignment_noise_floor": 0.1652846876727474,
+    "new_topics": 8,
+    "merges": 0,
+    "splits": 4,
+    "refines": 8,
+    "rejects": 0,
+    "low_confidence_rate": 0.6832504145936982,
+    "duplicate_flags": 0,
+    "flags_before": 64,
+    "flags_after": 68,
+    "critic_calls": 1
+  }
+]

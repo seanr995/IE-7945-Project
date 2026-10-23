@@ -1,0 +1,182 @@
+posting_id,gold_task,error_category
+05bb010df9f681ecfb8e,Lead prioritization roadmap,missed_task
+05bb010df9f681ecfb8e,Collaborate with multiple teams,missed_task
+05bb010df9f681ecfb8e,Enhance customer workflows,missed_task
+05bb010df9f681ecfb8e,Maintain product backlog,missed_task
+05bb010df9f681ecfb8e,Plan product releases,missed_task
+06b6dd6358027314646f,Provide executive leadership,missed_task
+06b6dd6358027314646f,Oversee customer relations,missed_task
+06b6dd6358027314646f,Manage Safety Management System,missed_task
+06b6dd6358027314646f,Ensure regulatory compliance,missed_task
+06b6dd6358027314646f,Train ferry personnel,missed_task
+06b6dd6358027314646f,Regulate private ferry operations,missed_task
+06b6dd6358027314646f,Respond to emergencies,compound_under_split (model merged several gold tasks)
+0b027611629b03f366f3,Communicate with children,missed_task
+105e8d569cdb317f77c3,Develop training materials,missed_task
+105e8d569cdb317f77c3,Interpersonal skills,missed_task
+105e8d569cdb317f77c3,Coordinate departmental recommendations,missed_task
+105e8d569cdb317f77c3,Prepare meeting agendas and fact sheets,missed_task
+105e8d569cdb317f77c3,Schedule meetings,missed_task
+105e8d569cdb317f77c3,Respond to public inquiries,missed_task
+105e8d569cdb317f77c3,Provide administrative support,missed_task
+105e8d569cdb317f77c3,Research EEO and employment law,missed_task
+105e8d569cdb317f77c3,Assist with special projects,missed_task
+105e8d569cdb317f77c3,Assist with case practice reviews,missed_task
+105e8d569cdb317f77c3,Support investigations,missed_task
+2213f5426499a37cd6e2,Microsoft Excel,missed_task
+2213f5426499a37cd6e2,AutoCAD,missed_task
+2213f5426499a37cd6e2,Organizational skills,missed_task
+2213f5426499a37cd6e2,Assist with design details,missed_task
+2213f5426499a37cd6e2,Assist with construction project coordination,missed_task
+2213f5426499a37cd6e2,Review design drawings against field conditions,missed_task
+2213f5426499a37cd6e2,Prepare sketches for omitted conditions,missed_task
+2213f5426499a37cd6e2,Review consultant reports for payment progress,missed_task
+2213f5426499a37cd6e2,Conduct field inspections,missed_task
+2213f5426499a37cd6e2,Develop change order negotiations,missed_task
+2213f5426499a37cd6e2,Review change orders,missed_task
+2213f5426499a37cd6e2,Review construction requisitions,missed_task
+2213f5426499a37cd6e2,Prepare project estimates,missed_task
+2213f5426499a37cd6e2,Review contractor and consultant estimates,missed_task
+2213f5426499a37cd6e2,Forecast cost trends,missed_task
+24be9713838ce65bb2d1,Run sales processes,missed_task
+24be9713838ce65bb2d1,Own enterprise deals end-to-end,missed_task
+24be9713838ce65bb2d1,Navigate buying committees,missed_task
+24be9713838ce65bb2d1,Own sales quota,missed_task
+24be9713838ce65bb2d1,Build business cases,missed_task
+295b620938f1b4ef0c48,Prepare meeting agendas and materials,missed_task
+295b620938f1b4ef0c48,Set up and break down meetings,missed_task
+295b620938f1b4ef0c48,Disseminate meeting summaries,missed_task
+295b620938f1b4ef0c48,Track data,missed_task
+295b620938f1b4ef0c48,Attend meetings at clinic locations,missed_task
+35b02096d9f13d0f2a54,Connect with critical interagnecy partners,missed_task
+35b02096d9f13d0f2a54,Translate findings into recommendations,missed_task
+35b02096d9f13d0f2a54,Lead cross-sector partnerships,missed_task
+35b02096d9f13d0f2a54,Align public and private investments,missed_task
+35b02096d9f13d0f2a54,Report on strategy progress,missed_task
+391112a1f4a8d0187e88,Manage annual budget,missed_task
+391112a1f4a8d0187e88,Advocate for equity policies,missed_task
+3b1acd7dae8f6c808655,Automate cross-platform integrations,compound_under_split (model merged several gold tasks)
+3b4c29db562915cd966f,Ensure child care providers are following the laws outlined in the Child Care Compliance Guide,missed_task
+3b4c29db562915cd966f,Assign and supervise clearance administrators,compound_under_split (model merged several gold tasks)
+3b4c29db562915cd966f,Review criminal history and abuse registries,missed_task
+3ca1b50483595c10a701,Data analysis,missed_task
+3ca1b50483595c10a701,Design engineering solutions,missed_task
+3ca1b50483595c10a701,Manage project costs,missed_task
+3ca1b50483595c10a701,Develop bureau specific standards,missed_task
+41791a6083070a346971,Scale operations for company growth,missed_task
+41791a6083070a346971,Manage compliance and employee administration in HRIS,missed_task
+41fd8f1659c66291c006,Develop traing materials,missed_task
+4b04c180a59634bd2d72,Analyze financial markets,missed_task
+4b04c180a59634bd2d72,Connect teams and spot blockers,missed_task
+4b0c7f0ad5cce52c7bdf,Software reporting,compound_under_split (model merged several gold tasks)
+4b0c7f0ad5cce52c7bdf,Data analysis,missed_task
+4b0c7f0ad5cce52c7bdf,Windows 11 knowledge,compound_under_split (model merged several gold tasks)
+4b0c7f0ad5cce52c7bdf,Document troubleshooting steps and escalate issues,missed_task
+4c7cd47d220c0129298d,Oversee design reviews,missed_task
+4fafe3e6f5d7b74b4363,Develop client strategies,missed_task
+4fafe3e6f5d7b74b4363,Up-sell service portfolio,missed_task
+4fafe3e6f5d7b74b4363,Research target industries,missed_task
+4fd5cae42eb3035824ee,Develop medical devices,missed_task
+4fd5cae42eb3035824ee,Collaborate with multiple teams,missed_task
+4fd5cae42eb3035824ee,Develop power and control boards,missed_task
+4fd5cae42eb3035824ee,Troubleshoot production issues,missed_task
+4fed033c30fe7a78c1a5,Assess customer satisfaction,missed_task
+4fed033c30fe7a78c1a5,Collaborate with multiple teams,missed_task
+4fed033c30fe7a78c1a5,Document customer needs,missed_task
+4fed033c30fe7a78c1a5,Build stakeholder relationships,missed_task
+506dc4579e5e38a043d9,Contribute to web app development,missed_task
+506dc4579e5e38a043d9,Build APIs for campaigns and payments,missed_task
+5095082b7a5e8e644d85,Upload records to database,compound_under_split (model merged several gold tasks)
+50d7802bf29a2fa99d4e,Prepare award recommendations and determinations,missed_task
+53ca8a5ad02b99123994,Prepare reports and summaries,missed_task
+56a023230654f22dd021,Process case files for probationers,missed_task
+56a023230654f22dd021,Assign cases to probation officers,missed_task
+56a023230654f22dd021,"Scan, file and route records",missed_task
+5f6558e9db057f08f998,Make system architecture decisions,missed_task
+5f6558e9db057f08f998,Hire engineers,missed_task
+5f6558e9db057f08f998,Tax advising,missed_task
+5f6558e9db057f08f998,Build evaluation from audited work,missed_task
+5f6558e9db057f08f998,Review code,missed_task
+5f6558e9db057f08f998,Standardize technology across acquired firms,missed_task
+615ca0f86df809abe767,Drive expansion through a solution-focused approach,compound_under_split (model merged several gold tasks)
+622c7c71deb0fb8b4880,Develop key performance indexes,missed_task
+622c7c71deb0fb8b4880,Process sensitive information,missed_task
+622c7c71deb0fb8b4880,Strong writing skills,missed_task
+666f7ebc34ffed256a13,Process sample collection,missed_task
+666f7ebc34ffed256a13,Operate vehicles,missed_task
+666f7ebc34ffed256a13,Perform field analyses,missed_task
+666f7ebc34ffed256a13,Maintain quality control records,missed_task
+6a42c683d57c96dc4e72,Create news pieces,missed_task
+6a42c683d57c96dc4e72,Record court proceedings,missed_task
+6a42c683d57c96dc4e72,Report to press office,missed_task
+6a99e4f165697e252b17,Coordinate Early Engagement Team Initiative,compound_under_split (model merged several gold tasks)
+6a99e4f165697e252b17,Recruit gender-based violence trial experts,missed_task
+6a99e4f165697e252b17,Coordinate and implement trainings,missed_task
+6abe29c3ccb7241a403c,Experience with SaaS production,missed_task
+6abe29c3ccb7241a403c,Experience with freemium models,missed_task
+6abe29c3ccb7241a403c,Create data acquisition strategies,missed_task
+74a1bfae7e7e258d28b5,Manage client relationships,missed_task
+74a1bfae7e7e258d28b5,Improve CRM hygiene,missed_task
+74a1bfae7e7e258d28b5,Streamline data flows,missed_task
+751a53b56992ff974884,Manage communications between the department and program managers,missed_task
+751a53b56992ff974884,Provide information on community programs,missed_task
+751a53b56992ff974884,Assess program compliance,missed_task
+751a53b56992ff974884,Provide technical assistance to providers,missed_task
+798de891e649970c4db8,Clearly define engineering problems,missed_task
+798de891e649970c4db8,Approve client projects,missed_task
+798de891e649970c4db8,Decide if a prototype becomes product,missed_task
+798de891e649970c4db8,Shape new client engagements,missed_task
+80f6da7f0eec5c160699,Serve as a liason,missed_task
+80f6da7f0eec5c160699,Plan and execute strategic initiatives,missed_task
+80f6da7f0eec5c160699,Engage with elected officials and stakeholders,missed_task
+80f6da7f0eec5c160699,Oversee outreach and stakeholder communications,missed_task
+80f6da7f0eec5c160699,Represent the Commission at public hearings,missed_task
+835d55784f762bec770d,Public policy development,missed_task
+835d55784f762bec770d,Ability to work independently,missed_task
+835d55784f762bec770d,Strong oral skills,missed_task
+835d55784f762bec770d,Manage legislative and budget portfolio,missed_task
+835d55784f762bec770d,Liaise with State officials and agencies,missed_task
+835d55784f762bec770d,Facilitate meetings with State officials,missed_task
+a146bd4acd3f84c2cf13,Dashboard creation,missed_task
+a146bd4acd3f84c2cf13,Support implementation tasks,compound_under_split (model merged several gold tasks)
+a3b54b0d34e7b105604f,Market analysis,missed_task
+a3b54b0d34e7b105604f,Fundraising,missed_task
+a3b54b0d34e7b105604f,Customer acquisition,missed_task
+a3b54b0d34e7b105604f,Build go-to-market route,missed_task
+a73048332d44b501d8e8,"Source equity investors, debt providers and partners",missed_task
+a73048332d44b501d8e8,Negotiate credit facilities and co-investment arrangements,missed_task
+a73048332d44b501d8e8,Manage due diligence process,missed_task
+a73048332d44b501d8e8,Benchmark capital structure against peers,missed_task
+a73048332d44b501d8e8,Advise on optimal timing and instruments,missed_task
+a845c36fc3eb4caf98fb,Build evidence automation tools,missed_task
+b63d2a18a86b9e94e299,Time management skills,missed_task
+b63d2a18a86b9e94e299,Leverage AI products,missed_task
+b63d2a18a86b9e94e299,Action potential steps,missed_task
+b63d2a18a86b9e94e299,Prepare executives for meetings,missed_task
+b7f5516481d961d55a51,Update senior leadership,missed_task
+b7f5516481d961d55a51,Maintain all hiring communications,missed_task
+b7f5516481d961d55a51,Interview teams,missed_task
+b7f5516481d961d55a51,Monitor recruitment activity,missed_task
+b7f5516481d961d55a51,Schedule interviews,missed_task
+b7f5516481d961d55a51,Manage personnel onboarding,missed_task
+b7f5516481d961d55a51,Prepare personnel action requests,missed_task
+b7f5516481d961d55a51,Maintain vacancy and personnel action log,missed_task
+b7f5516481d961d55a51,Coordinate hiring pools and recruitment events,missed_task
+b7f5516481d961d55a51,Coordinate staff placement and relocation,missed_task
+b7f5516481d961d55a51,Coordinate training and staff development,missed_task
+b7f5516481d961d55a51,Monitor administrative processes,missed_task
+b7f5516481d961d55a51,Ensure policy compliance,missed_task
+c70eb7d0a2e70e711e53,Assign tasks,compound_under_split (model merged several gold tasks)
+c70eb7d0a2e70e711e53,Sign off on benefits and case entries,missed_task
+c70eb7d0a2e70e711e53,Maintain relationships with housing and social agencies,missed_task
+c70eb7d0a2e70e711e53,Develop anti-eviction housing plans,missed_task
+e2b9292f713a5f914995,Validate clinical conepts,missed_task
+e2b9292f713a5f914995,Lead incorporation of company,missed_task
+e2b9292f713a5f914995,Develop software roadmap,missed_task
+e2b9292f713a5f914995,Partner with tech development team,missed_task
+e2b9292f713a5f914995,Plan social-media-led B2C acquisition,missed_task
+f32ccf878072947e70ec,Prepare agreements with clients,missed_task
+f32ccf878072947e70ec,Research regulatory legal questions,compound_under_split (model merged several gold tasks)
+f32ccf878072947e70ec,Monitor regulatory developments,compound_under_split (model merged several gold tasks)
+fccbd6e81ed853cffd6d,Recylcing system design,missed_task
+fccbd6e81ed853cffd6d,Manage project schedule,missed_task

@@ -1,0 +1,175 @@
+{
+  "status": "ok",
+  "gold_file": "D:\\Capstone IE7945\\Taxonomy Project\\outputs\\task_evaluation\\gold100_clean.csv",
+  "labelled_postings": 100,
+  "gold_tasks": 1056,
+  "gold_span_problems": 250,
+  "thresholds": {
+    "lexical": 1.01,
+    "semantic": 1.01,
+    "review": 1.01
+  },
+  "matching": "one-to-one greedy by (stage, score)",
+  "systems": {
+    "gemini": {
+      "postings_evaluated": 100,
+      "labelled_postings_without_system_output": 0,
+      "micro": {
+        "tp": 225,
+        "fp": 1411,
+        "fn": 831,
+        "predicted": 1636,
+        "gold": 1056,
+        "precision": 0.13753056234718827,
+        "recall": 0.21306818181818182,
+        "f1": 0.1671619613670134
+      },
+      "macro_over_postings": {
+        "precision": 0.1526767254775591,
+        "recall": 0.21874464424464424,
+        "f1": 0.17541924100163567
+      },
+      "if_ambiguous_accepted": {
+        "tp": 225,
+        "fp": 1411,
+        "fn": 831,
+        "predicted": 1636,
+        "gold": 1056,
+        "precision": 0.13753056234718827,
+        "recall": 0.21306818181818182,
+        "f1": 0.1671619613670134
+      },
+      "match_methods": {
+        "normalized_exact": 225
+      },
+      "error_categories": {
+        "compound_over_split (gold kept it as one task)": 175,
+        "compound_under_split (model merged several gold tasks)": 9,
+        "extra_task_not_in_gold (possible gold omission - check)": 1106,
+        "hallucinated_or_implied (weak/invalid evidence)": 38,
+        "missed_task": 822,
+        "skill_or_qualification_as_task": 92
+      }
+    },
+    "groq": {
+      "postings_evaluated": 52,
+      "labelled_postings_without_system_output": 48,
+      "micro": {
+        "tp": 53,
+        "fp": 442,
+        "fn": 510,
+        "predicted": 495,
+        "gold": 563,
+        "precision": 0.10707070707070707,
+        "recall": 0.0941385435168739,
+        "f1": 0.1001890359168242
+      },
+      "macro_over_postings": {
+        "precision": 0.10440719209158474,
+        "recall": 0.0923569486069486,
+        "f1": 0.0965794490738939
+      },
+      "if_ambiguous_accepted": {
+        "tp": 53,
+        "fp": 442,
+        "fn": 510,
+        "predicted": 495,
+        "gold": 563,
+        "precision": 0.10707070707070707,
+        "recall": 0.0941385435168739,
+        "f1": 0.1001890359168242
+      },
+      "match_methods": {
+        "normalized_exact": 53
+      },
+      "error_categories": {
+        "compound_over_split (gold kept it as one task)": 8,
+        "compound_under_split (model merged several gold tasks)": 37,
+        "extra_task_not_in_gold (possible gold omission - check)": 422,
+        "hallucinated_or_implied (weak/invalid evidence)": 4,
+        "missed_task": 473,
+        "skill_or_qualification_as_task": 8
+      }
+    },
+    "baseline_valid": {
+      "postings_evaluated": 100,
+      "labelled_postings_without_system_output": 0,
+      "micro": {
+        "tp": 233,
+        "fp": 1562,
+        "fn": 823,
+        "predicted": 1795,
+        "gold": 1056,
+        "precision": 0.1298050139275766,
+        "recall": 0.2206439393939394,
+        "f1": 0.1634514205541915
+      },
+      "macro_over_postings": {
+        "precision": 0.14453226813301165,
+        "recall": 0.22664854589854588,
+        "f1": 0.17196063683462284
+      },
+      "if_ambiguous_accepted": {
+        "tp": 233,
+        "fp": 1562,
+        "fn": 823,
+        "predicted": 1795,
+        "gold": 1056,
+        "precision": 0.1298050139275766,
+        "recall": 0.2206439393939394,
+        "f1": 0.1634514205541915
+      },
+      "match_methods": {
+        "normalized_exact": 233
+      },
+      "error_categories": {
+        "compound_over_split (gold kept it as one task)": 185,
+        "compound_under_split (model merged several gold tasks)": 19,
+        "extra_task_not_in_gold (possible gold omission - check)": 1248,
+        "hallucinated_or_implied (weak/invalid evidence)": 37,
+        "missed_task": 804,
+        "skill_or_qualification_as_task": 92
+      }
+    },
+    "baseline_agreed": {
+      "postings_evaluated": 52,
+      "labelled_postings_without_system_output": 48,
+      "micro": {
+        "tp": 82,
+        "fp": 252,
+        "fn": 481,
+        "predicted": 334,
+        "gold": 563,
+        "precision": 0.24550898203592814,
+        "recall": 0.14564831261101244,
+        "f1": 0.18283166109253066
+      },
+      "macro_over_postings": {
+        "precision": 0.2510420407479231,
+        "recall": 0.14360660706814554,
+        "f1": 0.17861369312954123
+      },
+      "if_ambiguous_accepted": {
+        "tp": 82,
+        "fp": 252,
+        "fn": 481,
+        "predicted": 334,
+        "gold": 563,
+        "precision": 0.24550898203592814,
+        "recall": 0.14564831261101244,
+        "f1": 0.18283166109253066
+      },
+      "match_methods": {
+        "normalized_exact": 82
+      },
+      "error_categories": {
+        "compound_over_split (gold kept it as one task)": 8,
+        "compound_under_split (model merged several gold tasks)": 7,
+        "extra_task_not_in_gold (possible gold omission - check)": 232,
+        "hallucinated_or_implied (weak/invalid evidence)": 6,
+        "missed_task": 474,
+        "skill_or_qualification_as_task": 6
+      }
+    }
+  }
+}

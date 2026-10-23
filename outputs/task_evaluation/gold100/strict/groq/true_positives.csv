@@ -1,0 +1,54 @@
+posting_id,gold_task,predicted_task,match_method,score
+0b027611629b03f366f3,Prepare referral forms to parents of children who failed screenings,prepare referral forms to parents of children who failed screenings,normalized_exact,1.0
+24be9713838ce65bb2d1,Develop account strategies,develop account strategies,normalized_exact,1.0
+35b02096d9f13d0f2a54,Supervise senior leadership,Supervise senior leadership,normalized_exact,1.0
+3b4c29db562915cd966f,Compose eligibility letters,Compose eligibility letters,normalized_exact,1.0
+3b4c29db562915cd966f,Develop and coordinate community resources,Develop and coordinate community resources,normalized_exact,1.0
+3ca1b50483595c10a701,Monitor regulatory changes,monitor regulatory changes,normalized_exact,1.0
+3ca1b50483595c10a701,Track project key performance indicators,track project key performance indicators,normalized_exact,1.0
+3ca1b50483595c10a701,Conduct workshops and presentations,conduct workshops and presentations,normalized_exact,1.0
+3ca1b50483595c10a701,Coordinate with internal and external entities,coordinate with internal and external entities,normalized_exact,1.0
+41791a6083070a346971,Manage payroll,manage payroll,normalized_exact,1.0
+41791a6083070a346971,Develop Standard Operating Procedures,develop Standard Operating Procedures,normalized_exact,1.0
+41791a6083070a346971,Deliver reporting and analytics,deliver reporting and analytics,normalized_exact,1.0
+41791a6083070a346971,Partner with external experts,partner with external experts,normalized_exact,1.0
+41791a6083070a346971,Provide business support to leadership team,provide business support to leadership team,normalized_exact,1.0
+41791a6083070a346971,Support international payroll cases,support international payroll cases,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Deploy and maintain Windows 11 updates,deploy and maintain Windows 11 updates,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Monitor patch deployments,monitor patch deployments,normalized_exact,1.0
+4b0c7f0ad5cce52c7bdf,Resolve common Windows 11 issues,resolve common Windows 11 issues,normalized_exact,1.0
+4c7cd47d220c0129298d,Translate project concepts from ideation to execution,Translate project concepts from ideation to execution,normalized_exact,1.0
+4c7cd47d220c0129298d,Share energy and resource recovery best practices,Share energy and resource recovery best practices,normalized_exact,1.0
+4c7cd47d220c0129298d,Identify energy conservation opportunities,Identify energy conservation opportunities,normalized_exact,1.0
+4c7cd47d220c0129298d,Support measurement and verification efforts,Support measurement and verification efforts,normalized_exact,1.0
+4c7cd47d220c0129298d,Track energy and resource recovery data,Track energy and resource recovery data,normalized_exact,1.0
+4fafe3e6f5d7b74b4363,Negotiate rates and deadlines,Negotiate rates and deadlines,normalized_exact,1.0
+4fafe3e6f5d7b74b4363,Liaise with production,Liaise with production,normalized_exact,1.0
+4fd5cae42eb3035824ee,Develop electrical components,Develop electrical components,normalized_exact,1.0
+4fd5cae42eb3035824ee,Develop electrical safety concepts,Develop electrical safety concepts,normalized_exact,1.0
+4fd5cae42eb3035824ee,Create component and system specifications,Create component and system specifications,normalized_exact,1.0
+4fd5cae42eb3035824ee,Perform verification tests,Perform verification tests,normalized_exact,1.0
+4fd5cae42eb3035824ee,Maintain products and systems,Maintain products and systems,normalized_exact,1.0
+506dc4579e5e38a043d9,Build reliable background jobs,Build reliable background jobs,normalized_exact,1.0
+5095082b7a5e8e644d85,Process Department of State summonses,Process Department of State summonses,normalized_exact,1.0
+5095082b7a5e8e644d85,Process certified and regular mail,Process certified and regular mail,normalized_exact,1.0
+50d7802bf29a2fa99d4e,Conduct open market research,Conduct open market research,normalized_exact,1.0
+53ca8a5ad02b99123994,Negotiate settlements,Negotiate settlements,normalized_exact,1.0
+53ca8a5ad02b99123994,Assemble evidence,Assemble evidence,normalized_exact,1.0
+56a023230654f22dd021,Perform routine clerical tasks,Perform routine clerical tasks,normalized_exact,1.0
+56a023230654f22dd021,Prepare case folders,Prepare case folders,normalized_exact,1.0
+56a023230654f22dd021,Document court actions and case outcomes,Document court actions and case outcomes,normalized_exact,1.0
+56a023230654f22dd021,Provide front desk coverage,Provide front desk coverage,normalized_exact,1.0
+74a1bfae7e7e258d28b5,Develop sales content,Develop sales content,normalized_exact,1.0
+751a53b56992ff974884,Participate in special projects,Participate in special projects,normalized_exact,1.0
+80f6da7f0eec5c160699,Develop agency-wide strategic plans,Develop agency-wide strategic plans,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Maintain records of factual and statistical information,Maintain records of factual and statistical information,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Maintain and audit electronic files,Maintain and audit electronic files,normalized_exact,1.0
+80fd4a82c581d7be2fd6,Interview commercial property tenants and landlords,Interview commercial property tenants and landlords,normalized_exact,1.0
+835d55784f762bec770d,Assist City agencies with State legislation,Assist City agencies with State legislation,normalized_exact,1.0
+835d55784f762bec770d,Handle special projects,Handle Special Projects,normalized_exact,1.0
+a73048332d44b501d8e8,Structure and negotiate term sheets,structure and negotiate term sheets,normalized_exact,1.0
+a73048332d44b501d8e8,Support grant and subsidy applications,support grant and subsidy applications,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Liaise with community stakeholders,Liaise with community stakeholders,normalized_exact,1.0
+c06ce1a21ee6fe762ca6,Assist with special projects,Assist with special projects,normalized_exact,1.0
+e2b9292f713a5f914995,Own day-to-day operations,Own day-to-day operations,normalized_exact,1.0

@@ -1,0 +1,1057 @@
+posting_id,task_index,gold_task_statement,task_non_empty,evidence_non_empty,posting_in_job_postings,evidence_match,evidence_verbatim,evidence_chars,task_tokens_in_evidence,words,compound_flag,skill_like,first_word_not_verb,dup_exact_in_posting
+80f6da7f0eec5c160699,1,Develop strategies to improve agency performance,True,True,True,exact,True,5135,1.0,6,,False,False,False
+80f6da7f0eec5c160699,2,Oversee and manage,True,True,True,exact,True,5135,1.0,3,shared_object_verb_pair,False,False,False
+80f6da7f0eec5c160699,3,Serve as a liason,True,True,True,exact,True,5135,0.5,4,,False,False,False
+80f6da7f0eec5c160699,4,Oversee agency operations and budget,True,True,True,exact,True,5135,1.0,5,,False,False,False
+80f6da7f0eec5c160699,5,Develop agency-wide strategic plans,True,True,True,exact,True,5135,1.0,4,,False,False,False
+80f6da7f0eec5c160699,6,Plan and execute strategic initiatives,True,True,True,exact,True,5135,1.0,5,,False,False,False
+80f6da7f0eec5c160699,7,Engage with elected officials and stakeholders,True,True,True,exact,True,5135,1.0,6,,False,False,False
+80f6da7f0eec5c160699,8,Oversee outreach and stakeholder communications,True,True,True,exact,True,5135,1.0,5,,False,False,False
+80f6da7f0eec5c160699,9,Represent the Commission at public hearings,True,True,True,exact,True,5135,1.0,6,,False,False,False
+80f6da7f0eec5c160699,10,Coordinate special projects,True,True,True,exact,True,5135,1.0,3,,False,False,False
+4c7cd47d220c0129298d,1,Manage energy projects,True,True,True,exact,True,1756,1.0,3,,False,False,False
+4c7cd47d220c0129298d,2,Oversee design reviews,True,True,True,exact,True,1756,1.0,3,,False,False,False
+4c7cd47d220c0129298d,3,Translate project concepts from ideation to execution,True,True,True,exact,True,1756,1.0,7,,False,False,False
+4c7cd47d220c0129298d,4,Develop partnership models and contractual terms,True,True,True,exact,True,1756,1.0,6,,False,False,False
+4c7cd47d220c0129298d,5,Track and report on project progress,True,True,True,exact,True,1756,1.0,6,shared_object_verb_pair,False,False,False
+4c7cd47d220c0129298d,6,Advise Bureau on procurement and policy-setting,True,True,True,exact,True,1756,1.0,6,,False,False,False
+4c7cd47d220c0129298d,7,Share energy and resource recovery best practices,True,True,True,exact,True,1756,1.0,7,,False,False,False
+4c7cd47d220c0129298d,8,Identify energy conservation opportunities,True,True,True,exact,True,1756,1.0,4,,False,False,False
+4c7cd47d220c0129298d,9,Contribute to project scopes and cost estimates,True,True,True,exact,True,1756,1.0,7,,False,False,False
+4c7cd47d220c0129298d,10,Support measurement and verification efforts,True,True,True,exact,True,1756,1.0,5,,False,False,False
+4c7cd47d220c0129298d,11,Develop and maintain project plans,True,True,True,exact,True,1756,1.0,5,shared_object_verb_pair,False,False,False
+4c7cd47d220c0129298d,12,Track energy and resource recovery data,True,True,True,exact,True,1756,1.0,6,,False,False,False
+4c7cd47d220c0129298d,13,Prepare reports and presentations,True,True,True,exact,True,1756,1.0,4,,False,False,False
+80fd4a82c581d7be2fd6,1,Research of information pertinent to overall market conditions for properties,True,True,True,exact,True,1371,1.0,10,,False,False,False
+80fd4a82c581d7be2fd6,2,validation of information pertaining to specific subject and comparable properties,True,True,True,exact,True,1371,1.0,10,,False,True,False
+80fd4a82c581d7be2fd6,3,Preparation of appraisal reports,True,True,True,exact,True,1371,1.0,4,,False,True,False
+80fd4a82c581d7be2fd6,4,Maintain records of factual and statistical information,True,True,True,exact,True,1371,1.0,7,,False,False,False
+80fd4a82c581d7be2fd6,5,Assist in collating appraisal workfile,True,True,True,exact,True,1371,0.75,5,,False,False,False
+80fd4a82c581d7be2fd6,6,Maintain and audit electronic files,True,True,True,exact,True,1371,1.0,5,,False,False,False
+80fd4a82c581d7be2fd6,7,"Confer with architects, brokers, and property owners",True,True,True,exact,True,1371,0.8,7,,False,True,False
+80fd4a82c581d7be2fd6,8,Interview commercial property tenants and landlords,True,True,True,exact,True,1371,1.0,6,,False,False,False
+80fd4a82c581d7be2fd6,9,Abstract lease data,True,True,True,exact,True,1371,1.0,3,,False,True,False
+80fd4a82c581d7be2fd6,10,Validate lease audit sample data,True,True,True,exact,True,1371,0.8,5,,False,False,False
+80fd4a82c581d7be2fd6,11,Prepare annual budget schedules,True,True,True,exact,True,1371,1.0,4,,False,False,False
+615ca0f86df809abe767,1,Lead research on software & technology companies,True,True,True,exact,True,1440,1.0,7,,False,False,False
+615ca0f86df809abe767,2,"Build trusted, high-level rapport with clients",True,True,True,exact,True,1440,1.0,6,,False,False,False
+615ca0f86df809abe767,3,Drive expansion through a solution-focused approach,True,True,True,exact,True,1440,1.0,6,,False,False,False
+615ca0f86df809abe767,4,Build and coach research team,True,True,True,exact,True,1440,1.0,5,,False,False,False
+615ca0f86df809abe767,5,Collaborate with consultants at Paris HQ,True,True,True,exact,True,1440,1.0,6,,False,False,False
+615ca0f86df809abe767,6,Deliver high-quality research deliverables,True,True,True,exact,True,1440,1.0,4,,False,False,False
+615ca0f86df809abe767,7,Communicate with high-profile customers,True,True,True,exact,True,1440,1.0,4,,False,False,False
+615ca0f86df809abe767,8,Lead opening of Munich office,True,True,True,exact,True,1440,1.0,5,,False,False,False
+615ca0f86df809abe767,9,Lead local recruitment,True,True,True,exact,True,1440,1.0,3,,False,False,False
+615ca0f86df809abe767,10,Support strategic development of company,True,True,True,exact,True,1440,1.0,5,,False,False,False
+615ca0f86df809abe767,11,Own client relationships in Toronto market,True,True,True,exact,True,1440,1.0,6,,False,False,False
+615ca0f86df809abe767,12,Identify cross-sell and upsell opportunities,True,True,True,exact,True,1440,1.0,5,,False,False,False
+615ca0f86df809abe767,13,Design account-level growth strategies,True,True,True,exact,True,1440,1.0,4,,False,False,False
+615ca0f86df809abe767,14,Act as voice of the customer internally,True,True,True,exact,True,1440,1.0,7,,False,True,False
+e2b9292f713a5f914995,1,Raise funding,True,True,True,none,False,1325,1.0,2,,False,True,False
+e2b9292f713a5f914995,2,Translate concepts to software,True,True,True,none,False,1325,1.0,4,,False,False,False
+e2b9292f713a5f914995,3,Validate clinical conepts,True,True,True,none,False,1325,0.333,3,,False,False,False
+e2b9292f713a5f914995,4,Lead incorporation of company,True,True,True,none,False,1325,1.0,4,,False,False,False
+e2b9292f713a5f914995,5,Own path to DiGA directory,True,True,True,none,False,1325,1.0,5,,False,False,False
+e2b9292f713a5f914995,6,Develop software roadmap,True,True,True,none,False,1325,1.0,3,,False,False,False
+e2b9292f713a5f914995,7,Partner with tech development team,True,True,True,none,False,1325,0.75,5,,False,False,False
+e2b9292f713a5f914995,8,Own day-to-day operations,True,True,True,none,False,1325,1.0,3,,False,False,False
+e2b9292f713a5f914995,9,Build launch plan for Germany and France,True,True,True,none,False,1325,1.0,7,,False,False,False
+e2b9292f713a5f914995,10,Plan social-media-led B2C acquisition,True,True,True,none,False,1325,1.0,4,,False,False,False
+798de891e649970c4db8,1,Clearly define engineering problems,True,True,True,exact,True,1250,0.5,4,,False,True,False
+798de891e649970c4db8,2,Approve client projects,True,True,True,exact,True,1250,0.667,3,,False,False,False
+798de891e649970c4db8,3,Decide if a prototype becomes product,True,True,True,exact,True,1250,0.6,6,,False,True,False
+798de891e649970c4db8,4,Set technical direction for industrial AI portfolio,True,True,True,exact,True,1250,0.833,7,,False,False,False
+798de891e649970c4db8,5,Turn badly defined problems into solvable ones,True,True,True,exact,True,1250,0.667,7,,False,False,False
+798de891e649970c4db8,6,Shape new client engagements,True,True,True,exact,True,1250,0.667,4,,False,False,False
+798de891e649970c4db8,7,Create reference architectures and evaluation methods,True,True,True,exact,True,1250,0.8,6,,False,False,False
+798de891e649970c4db8,8,Coach engineers through standards and reviews,True,True,True,exact,True,1250,1.0,6,,False,True,False
+6a99e4f165697e252b17,1,Assist in coordination and administration,True,True,True,exact,True,902,1.0,5,,False,False,False
+6a99e4f165697e252b17,2,Support partnerships for community events,True,True,True,exact,True,902,1.0,5,,False,False,False
+6a99e4f165697e252b17,3,Conduct research into federal legislation,True,True,True,exact,True,902,1.0,5,,False,False,False
+6a99e4f165697e252b17,4,Coordinate SVD Advisory Council and survivor network,True,True,True,exact,True,902,0.833,7,,False,False,False
+6a99e4f165697e252b17,5,Coordinate Early Engagement Team Initiative,True,True,True,exact,True,902,0.8,5,,False,False,False
+6a99e4f165697e252b17,6,Recruit gender-based violence trial experts,True,True,True,exact,True,902,1.0,5,,False,False,False
+6a99e4f165697e252b17,7,Coordinate and implement trainings,True,True,True,exact,True,902,0.333,4,shared_object_verb_pair,False,False,False
+6a99e4f165697e252b17,8,Prepare reports for policy team,True,True,True,exact,True,902,1.0,5,,False,False,False
+a73048332d44b501d8e8,1,Manage relationships with equity investors,True,True,True,none,False,1207,1.0,5,,False,False,False
+a73048332d44b501d8e8,2,Build and maintain financial models,True,True,True,none,False,1207,1.0,5,shared_object_verb_pair,False,False,False
+a73048332d44b501d8e8,3,Monitor capital markets for investment oppurtunities,True,True,True,none,False,1207,0.6,6,,False,False,False
+a73048332d44b501d8e8,4,"Source equity investors, debt providers and partners",True,True,True,none,False,1207,1.0,7,,False,False,False
+a73048332d44b501d8e8,5,Structure and negotiate term sheets,True,True,True,none,False,1207,1.0,5,shared_object_verb_pair,False,False,False
+a73048332d44b501d8e8,6,Negotiate credit facilities and co-investment arrangements,True,True,True,none,False,1207,1.0,6,,False,False,False
+a73048332d44b501d8e8,7,Manage data room and investor materials,True,True,True,none,False,1207,1.0,6,,False,False,False
+a73048332d44b501d8e8,8,Manage due diligence process,True,True,True,none,False,1207,1.0,4,,False,False,False
+a73048332d44b501d8e8,9,Benchmark capital structure against peers,True,True,True,none,False,1207,1.0,5,,False,True,False
+a73048332d44b501d8e8,10,Advise on optimal timing and instruments,True,True,True,none,False,1207,1.0,6,,False,False,False
+a73048332d44b501d8e8,11,Support grant and subsidy applications,True,True,True,none,False,1207,1.0,5,,False,False,False
+56a023230654f22dd021,1,Perform routine clerical tasks,True,True,True,exact,True,1933,1.0,4,,False,False,False
+56a023230654f22dd021,2,Process case files for probationers,True,True,True,exact,True,1933,0.75,5,,False,False,False
+56a023230654f22dd021,3,Assign cases to probation officers,True,True,True,exact,True,1933,1.0,5,,False,False,False
+56a023230654f22dd021,4,Log incoming cases in control systems,True,True,True,exact,True,1933,0.8,6,,False,True,False
+56a023230654f22dd021,5,Prepare case folders,True,True,True,exact,True,1933,1.0,3,,False,False,False
+56a023230654f22dd021,6,Document court actions and case outcomes,True,True,True,exact,True,1933,1.0,6,,False,False,False
+56a023230654f22dd021,7,Photograph probation clients,True,True,True,exact,True,1933,1.0,3,,False,True,False
+56a023230654f22dd021,8,Provide front desk coverage,True,True,True,exact,True,1933,1.0,4,,False,False,False
+56a023230654f22dd021,9,"Scan, file and route records",True,True,True,exact,True,1933,0.5,5,,False,True,False
+3b4c29db562915cd966f,1,Perform outreach for childcare centers,True,True,True,exact,True,2550,1.0,5,,False,False,False
+3b4c29db562915cd966f,2,Ensure child care providers are following the laws outlined in the Child Care Compliance Guide,True,True,True,exact,True,2550,1.0,15,,False,False,False
+3b4c29db562915cd966f,3,Evaluate work of child care administrators,True,True,True,exact,True,2550,1.0,6,,False,False,False
+3b4c29db562915cd966f,4,Provide technical assistance to child care operators,True,True,True,exact,True,2550,1.0,7,,False,False,False
+3b4c29db562915cd966f,5,Compose eligibility letters,True,True,True,exact,True,2550,1.0,3,,False,True,False
+3b4c29db562915cd966f,6,Develop and coordinate community resources,True,True,True,exact,True,2550,1.0,5,shared_object_verb_pair,False,False,False
+3b4c29db562915cd966f,7,Perform liaison functions with agencies and parents,True,True,True,exact,True,2550,1.0,7,,False,False,False
+3b4c29db562915cd966f,8,Coordinate daily communication with child care programs,True,True,True,exact,True,2550,1.0,7,,False,False,False
+3b4c29db562915cd966f,9,Assign and supervise clearance administrators,True,True,True,exact,True,2550,1.0,5,shared_object_verb_pair,False,False,False
+3b4c29db562915cd966f,10,Review criminal history and abuse registries,True,True,True,exact,True,2550,0.8,6,,False,False,False
+3b4c29db562915cd966f,11,Maintain confidential provider records,True,True,True,exact,True,2550,1.0,4,,False,False,False
+3b4c29db562915cd966f,12,Review clearance requests for data accuracy,True,True,True,exact,True,2550,1.0,6,,False,False,False
+3b4c29db562915cd966f,13,Present at community meetings and health fairs,True,True,True,exact,True,2550,1.0,7,,False,False,False
+41791a6083070a346971,1,Scale operations for company growth,True,True,True,exact,True,3574,1.0,5,,False,False,False
+41791a6083070a346971,2,Manage payroll,True,True,True,exact,True,3574,1.0,2,,False,False,False
+41791a6083070a346971,3,Reduce dependence on manual workflows,True,True,True,exact,True,3574,0.75,5,,False,False,False
+41791a6083070a346971,4,Manage contracts and employee lifecycle processes,True,True,True,exact,True,3574,1.0,6,,False,False,False
+41791a6083070a346971,5,Manage compliance and employee administration in HRIS,True,True,True,exact,True,3574,1.0,7,,False,False,False
+41791a6083070a346971,6,Develop Standard Operating Procedures,True,True,True,exact,True,3574,1.0,4,,False,False,False
+41791a6083070a346971,7,Deliver reporting and analytics,True,True,True,exact,True,3574,1.0,4,,False,False,False
+41791a6083070a346971,8,Partner with external experts,True,True,True,exact,True,3574,1.0,4,,False,False,False
+41791a6083070a346971,9,Collaborate with other People and Culture areas,True,True,True,exact,True,3574,0.75,7,,False,False,False
+41791a6083070a346971,10,Provide business support to leadership team,True,True,True,exact,True,3574,1.0,6,,False,False,False
+41791a6083070a346971,11,Write and roll out policies,True,True,True,exact,True,3574,0.75,5,,False,False,False
+41791a6083070a346971,12,Support international payroll cases,True,True,True,exact,True,3574,1.0,4,,False,False,False
+fccbd6e81ed853cffd6d,1,Recylcing system design,True,True,True,none,False,1203,0.667,3,,False,True,False
+fccbd6e81ed853cffd6d,2,Detail key engineering deliverables,True,True,True,none,False,1203,1.0,4,,False,True,False
+fccbd6e81ed853cffd6d,3,Manage project schedule,True,True,True,none,False,1203,1.0,3,,False,False,False
+fccbd6e81ed853cffd6d,4,Define Fuel Cycle Fuel Recycling architecture,True,True,True,none,False,1203,1.0,6,,False,False,False
+fccbd6e81ed853cffd6d,5,Resolve complex cross-cutting technical issues,True,True,True,none,False,1203,1.0,5,,False,False,False
+fccbd6e81ed853cffd6d,6,Lead multidisciplinary team,True,True,True,none,False,1203,1.0,3,,False,False,False
+fccbd6e81ed853cffd6d,7,"Report design status, risks and issues",True,True,True,none,False,1203,1.0,6,,False,False,False
+fccbd6e81ed853cffd6d,8,Manage design change control,True,True,True,none,False,1203,1.0,4,,False,False,False
+fccbd6e81ed853cffd6d,9,Guide design of tritium extraction,True,True,True,none,False,1203,0.75,5,,False,False,False
+622c7c71deb0fb8b4880,1,Develop key performance indexes,True,True,True,exact,True,5232,0.75,4,,False,False,False
+622c7c71deb0fb8b4880,2,Process sensitive information,True,True,True,exact,True,5232,1.0,3,,False,False,False
+622c7c71deb0fb8b4880,3,Strong writing skills,True,True,True,exact,True,5232,1.0,3,,True,False,False
+622c7c71deb0fb8b4880,4,Review and process accommodation requests,True,True,True,exact,True,5232,1.0,5,shared_object_verb_pair,False,False,False
+622c7c71deb0fb8b4880,5,Make reasonable accommodation determinations,True,True,True,exact,True,5232,0.75,4,,False,False,False
+622c7c71deb0fb8b4880,6,Draft official correspondence,True,True,True,exact,True,5232,1.0,3,,False,False,False
+622c7c71deb0fb8b4880,7,Coordinate accommodation review meetings,True,True,True,exact,True,5232,0.75,4,,False,False,False
+622c7c71deb0fb8b4880,8,Generate accommodation activity reports,True,True,True,exact,True,5232,0.75,4,,False,False,False
+622c7c71deb0fb8b4880,9,Maintain tracking systems,True,True,True,exact,True,5232,1.0,3,,False,False,False
+622c7c71deb0fb8b4880,10,Manage accommodation records,True,True,True,exact,True,5232,1.0,3,,False,False,False
+622c7c71deb0fb8b4880,11,Deliver workforce training,True,True,True,exact,True,5232,0.667,3,,False,False,False
+622c7c71deb0fb8b4880,12,Assist employees and managers with accommodation rights,True,True,True,exact,True,5232,1.0,7,,False,False,False
+622c7c71deb0fb8b4880,13,Ensure compliance with DCAS and EEOC rules,True,True,True,exact,True,5232,1.0,7,,False,False,False
+506dc4579e5e38a043d9,1,Build back end services,True,True,True,exact,True,666,0.5,4,,False,False,False
+506dc4579e5e38a043d9,2,Contribute to web app development,True,True,True,exact,True,666,0.75,5,,False,False,False
+506dc4579e5e38a043d9,3,Debugging,True,True,True,exact,True,666,0.0,1,,False,True,False
+506dc4579e5e38a043d9,4,Build APIs for campaigns and payments,True,True,True,exact,True,666,1.0,6,,False,False,False
+506dc4579e5e38a043d9,5,Design domain models and database schemas,True,True,True,exact,True,666,1.0,6,,False,False,False
+506dc4579e5e38a043d9,6,Build reliable background jobs,True,True,True,exact,True,666,1.0,4,,False,False,False
+506dc4579e5e38a043d9,7,Contribute to mobile frontend,True,True,True,exact,True,666,0.667,4,,False,False,False
+506dc4579e5e38a043d9,8,"Improve deployments, CI/CD and monitoring",True,True,True,exact,True,666,1.0,5,,False,False,False
+506dc4579e5e38a043d9,9,Make architectural decisions,True,True,True,exact,True,666,1.0,3,,False,False,False
+506dc4579e5e38a043d9,10,Use AI coding agents in development,True,True,True,exact,True,666,1.0,6,,False,False,False
+2213f5426499a37cd6e2,1,Microsoft Excel,True,True,True,exact,True,8046,1.0,2,,False,True,False
+2213f5426499a37cd6e2,2,AutoCAD,True,True,True,exact,True,8046,1.0,1,,False,True,False
+2213f5426499a37cd6e2,3,Organizational skills,True,True,True,exact,True,8046,1.0,2,,True,True,False
+2213f5426499a37cd6e2,4,Assist with design details,True,True,True,exact,True,8046,1.0,4,,False,False,False
+2213f5426499a37cd6e2,5,Assist with construction project coordination,True,True,True,exact,True,8046,1.0,5,,False,False,False
+2213f5426499a37cd6e2,6,Review design drawings against field conditions,True,True,True,exact,True,8046,0.833,6,,False,False,False
+2213f5426499a37cd6e2,7,Prepare sketches for omitted conditions,True,True,True,exact,True,8046,1.0,5,,False,False,False
+2213f5426499a37cd6e2,8,Review consultant reports for payment progress,True,True,True,exact,True,8046,1.0,6,,False,False,False
+2213f5426499a37cd6e2,9,Conduct field inspections,True,True,True,exact,True,8046,1.0,3,,False,False,False
+2213f5426499a37cd6e2,10,Develop change order negotiations,True,True,True,exact,True,8046,1.0,4,,False,False,False
+2213f5426499a37cd6e2,11,Review change orders,True,True,True,exact,True,8046,1.0,3,,False,False,False
+2213f5426499a37cd6e2,12,Review construction requisitions,True,True,True,exact,True,8046,1.0,3,,False,False,False
+2213f5426499a37cd6e2,13,Prepare project estimates,True,True,True,exact,True,8046,1.0,3,,False,False,False
+2213f5426499a37cd6e2,14,Review contractor and consultant estimates,True,True,True,exact,True,8046,1.0,5,,False,False,False
+2213f5426499a37cd6e2,15,Forecast cost trends,True,True,True,exact,True,8046,1.0,3,,False,True,False
+a146bd4acd3f84c2cf13,1,Dashboard creation,True,True,True,exact,True,920,1.0,2,,False,True,False
+a146bd4acd3f84c2cf13,2,Collaborate with clients,True,True,True,exact,True,920,1.0,3,,False,False,False
+a146bd4acd3f84c2cf13,3,Support connection of marketing tools,True,True,True,exact,True,920,1.0,5,,False,False,False
+a146bd4acd3f84c2cf13,4,Maintain Mobile Measurement Partners,True,True,True,exact,True,920,1.0,4,,False,False,False
+a146bd4acd3f84c2cf13,5,Maintain product feeds and data pipelines,True,True,True,exact,True,920,1.0,6,two_actions,False,False,False
+a146bd4acd3f84c2cf13,6,Troubleshoot tracking and data integration issues,True,True,True,exact,True,920,1.0,6,two_actions,False,False,False
+a146bd4acd3f84c2cf13,7,Update dashboards and visualizations,True,True,True,exact,True,920,0.667,4,,False,False,False
+a146bd4acd3f84c2cf13,8,Support implementation tasks,True,True,True,exact,True,920,1.0,3,,False,False,False
+835d55784f762bec770d,1,Public policy development,True,True,True,exact,True,3579,1.0,3,,False,True,False
+835d55784f762bec770d,2,Ability to work independently,True,True,True,exact,True,3579,1.0,4,,True,False,False
+835d55784f762bec770d,3,Strong oral skills,True,True,True,exact,True,3579,1.0,3,,True,False,False
+835d55784f762bec770d,4,Manage legislative and budget portfolio,True,True,True,exact,True,3579,1.0,5,,False,False,False
+835d55784f762bec770d,5,Liaise with State officials and agencies,True,True,True,exact,True,3579,0.75,6,,False,False,False
+835d55784f762bec770d,6,Facilitate meetings with State officials,True,True,True,exact,True,3579,0.75,5,,False,False,False
+835d55784f762bec770d,7,Prepare Mayor's State Legislative Program,True,True,True,exact,True,3579,0.833,5,,False,False,False
+835d55784f762bec770d,8,Assist City agencies with State legislation,True,True,True,exact,True,3579,1.0,6,,False,False,False
+835d55784f762bec770d,9,Coordinate Legislative Coordinating Committee process,True,True,True,exact,True,3579,1.0,5,,False,False,False
+835d55784f762bec770d,10,Handle special projects,True,True,True,exact,True,3579,1.0,3,,False,False,False
+835d55784f762bec770d,11,Coordinate policy briefings and special events,True,True,True,exact,True,3579,1.0,6,,False,False,False
+835d55784f762bec770d,12,Represent the Director at meetings,True,True,True,exact,True,3579,1.0,5,,False,False,False
+6abe29c3ccb7241a403c,1,Experience with SaaS production,True,True,True,exact,True,5033,0.5,4,,True,False,False
+6abe29c3ccb7241a403c,2,Experience with freemium models,True,True,True,exact,True,5033,0.5,4,,True,False,False
+6abe29c3ccb7241a403c,3,Create data acquisition strategies,True,True,True,exact,True,5033,1.0,4,,False,False,False
+6abe29c3ccb7241a403c,4,Translate company vision into prioritized bets,True,True,True,exact,True,5033,1.0,6,,False,False,False
+6abe29c3ccb7241a403c,5,Own end-to-end user journey,True,True,True,exact,True,5033,1.0,4,,False,False,False
+6abe29c3ccb7241a403c,6,Build platform-level growth capabilities,True,True,True,exact,True,5033,1.0,4,,False,False,False
+6abe29c3ccb7241a403c,7,Run experimentation and measurement program,True,True,True,exact,True,5033,1.0,5,,False,False,False
+6abe29c3ccb7241a403c,8,"Collaborate with Design, Engineering and Marketing",True,True,True,exact,True,5033,1.0,6,,False,False,False
+6abe29c3ccb7241a403c,9,Inform pricing and packaging strategy,True,True,True,exact,True,5033,1.0,5,,False,True,False
+4b0c7f0ad5cce52c7bdf,1,Software reporting,True,True,True,exact,True,3478,1.0,2,,False,True,False
+4b0c7f0ad5cce52c7bdf,2,Data analysis,True,True,True,exact,True,3478,1.0,2,,False,False,False
+4b0c7f0ad5cce52c7bdf,3,Windows 11 knowledge,True,True,True,exact,True,3478,1.0,3,,True,True,False
+4b0c7f0ad5cce52c7bdf,4,Deploy and maintain Windows 11 updates,True,True,True,exact,True,3478,1.0,6,shared_object_verb_pair,False,False,False
+4b0c7f0ad5cce52c7bdf,5,Monitor patch deployments,True,True,True,exact,True,3478,1.0,3,,False,False,False
+4b0c7f0ad5cce52c7bdf,6,Assist in software and hardware deployment,True,True,True,exact,True,3478,1.0,6,,False,False,False
+4b0c7f0ad5cce52c7bdf,7,Distribute inventory and compliance reports,True,True,True,exact,True,3478,1.0,5,,False,False,False
+4b0c7f0ad5cce52c7bdf,8,Organize and validate data in Excel,True,True,True,exact,True,3478,1.0,6,shared_object_verb_pair,False,False,False
+4b0c7f0ad5cce52c7bdf,9,Compare data across systems,True,True,True,exact,True,3478,1.0,4,,False,True,False
+4b0c7f0ad5cce52c7bdf,10,Resolve common Windows 11 issues,True,True,True,exact,True,3478,0.8,5,,False,False,False
+4b0c7f0ad5cce52c7bdf,11,Automate tasks with PowerShell scripts,True,True,True,exact,True,3478,1.0,5,,False,False,False
+4b0c7f0ad5cce52c7bdf,12,Create how-to documentation,True,True,True,exact,True,3478,0.667,3,,False,False,False
+4b0c7f0ad5cce52c7bdf,13,Document troubleshooting steps and escalate issues,True,True,True,exact,True,3478,0.6,6,,False,False,False
+50d7802bf29a2fa99d4e,1,Evaluate solicitation documents,True,True,True,exact,True,1981,1.0,3,,False,False,False
+50d7802bf29a2fa99d4e,2,Examine bid samples,True,True,True,exact,True,1981,1.0,3,,False,True,False
+50d7802bf29a2fa99d4e,3,Make recommendations for awards,True,True,True,exact,True,1981,1.0,4,,False,False,False
+50d7802bf29a2fa99d4e,4,Prepare solicitation documents,True,True,True,exact,True,1981,1.0,3,,False,False,False
+50d7802bf29a2fa99d4e,5,Prepare award recommendations and determinations,True,True,True,exact,True,1981,1.0,5,,False,False,False
+50d7802bf29a2fa99d4e,6,Oversee pre-solicitation review,True,True,True,exact,True,1981,1.0,3,,False,False,False
+50d7802bf29a2fa99d4e,7,Research goods from Preferred Source,True,True,True,exact,True,1981,1.0,5,,False,False,False
+50d7802bf29a2fa99d4e,8,Solicit bids through procurement methods,True,True,True,exact,True,1981,1.0,5,,False,True,False
+50d7802bf29a2fa99d4e,9,Determine most reasonable price,True,True,True,exact,True,1981,1.0,4,,False,True,False
+50d7802bf29a2fa99d4e,10,Advise program personnel on procurement,True,True,True,exact,True,1981,1.0,5,,False,False,False
+50d7802bf29a2fa99d4e,11,Analyze vendor responsibility,True,True,True,exact,True,1981,1.0,3,,False,False,False
+50d7802bf29a2fa99d4e,12,Monitor procurement processing,True,True,True,exact,True,1981,1.0,3,,False,False,False
+50d7802bf29a2fa99d4e,13,Ensure compliance with regulations,True,True,True,exact,True,1981,1.0,4,,False,False,False
+50d7802bf29a2fa99d4e,14,Conduct open market research,True,True,True,exact,True,1981,1.0,4,,False,False,False
+50d7802bf29a2fa99d4e,15,Resolve procurement issues with vendors,True,True,True,exact,True,1981,0.75,5,,False,False,False
+4b04c180a59634bd2d72,1,Lead projects on captial markets,True,True,True,exact,True,5923,0.75,5,,False,False,False
+4b04c180a59634bd2d72,2,Lead interns,True,True,True,exact,True,5923,1.0,2,,False,False,False
+4b04c180a59634bd2d72,3,Analyze financial markets,True,True,True,exact,True,5923,0.667,3,,False,False,False
+4b04c180a59634bd2d72,4,Support CEO on strategic projects,True,True,True,exact,True,5923,1.0,5,,False,False,False
+4b04c180a59634bd2d72,5,Analyze competitor dynamics,True,True,True,exact,True,5923,0.667,3,,False,False,False
+4b04c180a59634bd2d72,6,Own special growth projects,True,True,True,exact,True,5923,1.0,4,,False,False,False
+4b04c180a59634bd2d72,7,Refine internal processes,True,True,True,exact,True,5923,0.667,3,,False,False,False
+4b04c180a59634bd2d72,8,Develop cross-functional initiatives,True,True,True,exact,True,5923,1.0,3,,False,False,False
+4b04c180a59634bd2d72,9,Connect teams and spot blockers,True,True,True,exact,True,5923,0.75,5,,False,False,False
+06b6dd6358027314646f,1,Provide executive leadership,True,True,True,exact,True,3428,0.667,3,,False,False,False
+06b6dd6358027314646f,2,Be available 24/7,True,True,True,exact,True,3428,1.0,3,,False,True,False
+06b6dd6358027314646f,3,Oversee customer relations,True,True,True,exact,True,3428,1.0,3,,False,False,False
+06b6dd6358027314646f,4,Oversee ferry operations and maintenance,True,True,True,exact,True,3428,1.0,5,,False,False,False
+06b6dd6358027314646f,5,Manage Safety Management System,True,True,True,exact,True,3428,1.0,4,,False,False,False
+06b6dd6358027314646f,6,Implement Safety and Environmental Protection Policy,True,True,True,exact,True,3428,0.8,6,,False,False,False
+06b6dd6358027314646f,7,Ensure regulatory compliance,True,True,True,exact,True,3428,0.0,3,,False,False,False
+06b6dd6358027314646f,8,Train ferry personnel,True,True,True,exact,True,3428,1.0,3,,False,False,False
+06b6dd6358027314646f,9,Plan new technology and replacement vessels,True,True,True,exact,True,3428,1.0,6,,False,False,False
+06b6dd6358027314646f,10,Represent agency to government stakeholders,True,True,True,exact,True,3428,1.0,5,,False,False,False
+06b6dd6358027314646f,11,Regulate private ferry operations,True,True,True,exact,True,3428,0.75,4,,False,True,False
+06b6dd6358027314646f,12,Respond to emergencies,True,True,True,exact,True,3428,1.0,3,,False,False,False
+5f6558e9db057f08f998,1,Make system architecture decisions,True,True,True,none,False,2990,1.0,4,,False,False,False
+5f6558e9db057f08f998,2,Hire engineers,True,True,True,none,False,2990,1.0,2,,False,False,False
+5f6558e9db057f08f998,3,Tax advising,True,True,True,none,False,2990,0.5,2,,False,True,False
+5f6558e9db057f08f998,4,Build data layer above DATEV,True,True,True,none,False,2990,1.0,5,,False,False,False
+5f6558e9db057f08f998,5,Build agent infrastructure,True,True,True,none,False,2990,1.0,3,,False,False,False
+5f6558e9db057f08f998,6,Build integration layer for client systems,True,True,True,none,False,2990,1.0,6,,False,False,False
+5f6558e9db057f08f998,7,Build control layer for agent oversight,True,True,True,none,False,2990,0.8,6,,False,False,False
+5f6558e9db057f08f998,8,Build evaluation from audited work,True,True,True,none,False,2990,1.0,5,,False,False,False
+5f6558e9db057f08f998,9,Lead engineering team,True,True,True,none,False,2990,1.0,3,,False,False,False
+5f6558e9db057f08f998,10,Review code,True,True,True,none,False,2990,1.0,2,,False,False,False
+5f6558e9db057f08f998,11,Standardize technology across acquired firms,True,True,True,none,False,2990,0.75,5,,False,True,False
+b7f5516481d961d55a51,1,Update senior leadership,True,True,True,exact,True,5742,1.0,3,,False,False,False
+b7f5516481d961d55a51,2,Maintain all hiring communications,True,True,True,exact,True,5742,1.0,4,,False,False,False
+b7f5516481d961d55a51,3,Interview teams,True,True,True,exact,True,5742,1.0,2,,False,False,False
+b7f5516481d961d55a51,4,Monitor recruitment activity,True,True,True,exact,True,5742,1.0,3,,False,False,False
+b7f5516481d961d55a51,5,Schedule interviews,True,True,True,exact,True,5742,1.0,2,,False,False,False
+b7f5516481d961d55a51,6,Manage personnel onboarding,True,True,True,exact,True,5742,1.0,3,,False,False,False
+b7f5516481d961d55a51,7,Prepare personnel action requests,True,True,True,exact,True,5742,1.0,4,,False,False,False
+b7f5516481d961d55a51,8,Maintain vacancy and personnel action log,True,True,True,exact,True,5742,1.0,6,,False,False,False
+b7f5516481d961d55a51,9,Coordinate hiring pools and recruitment events,True,True,True,exact,True,5742,1.0,6,,False,False,False
+b7f5516481d961d55a51,10,Coordinate staff placement and relocation,True,True,True,exact,True,5742,1.0,5,,False,False,False
+b7f5516481d961d55a51,11,Coordinate training and staff development,True,True,True,exact,True,5742,1.0,5,,False,False,False
+b7f5516481d961d55a51,12,Prepare documents and reports,True,True,True,exact,True,5742,1.0,4,,False,False,False
+b7f5516481d961d55a51,13,Monitor administrative processes,True,True,True,exact,True,5742,1.0,3,,False,False,False
+b7f5516481d961d55a51,14,Ensure policy compliance,True,True,True,exact,True,5742,0.5,3,,False,False,False
+c06ce1a21ee6fe762ca6,1,Respond to calls from helpline,True,True,True,exact,True,3965,1.0,5,,False,False,False
+c06ce1a21ee6fe762ca6,2,Support partners with outreach,True,True,True,exact,True,3965,1.0,4,,False,False,False
+c06ce1a21ee6fe762ca6,3,Liaise with community stakeholders,True,True,True,exact,True,3965,1.0,4,,False,False,False
+c06ce1a21ee6fe762ca6,4,Engage New Yorkers through canvassing and texting,True,True,True,exact,True,3965,1.0,7,,False,False,False
+c06ce1a21ee6fe762ca6,5,Provide case management,True,True,True,exact,True,3965,1.0,3,,False,False,False
+c06ce1a21ee6fe762ca6,6,Conduct outreach days of action,True,True,True,exact,True,3965,1.0,5,,False,False,False
+c06ce1a21ee6fe762ca6,7,Report to supervisor,True,True,True,exact,True,3965,1.0,3,,False,False,False
+c06ce1a21ee6fe762ca6,8,Assist with special projects,True,True,True,exact,True,3965,1.0,4,,False,False,False
+295b620938f1b4ef0c48,1,Meeting planning,True,True,True,exact,True,4452,1.0,2,,False,True,False
+295b620938f1b4ef0c48,2,Take detailed notes during meetings,True,True,True,exact,True,4452,1.0,5,,False,False,False
+295b620938f1b4ef0c48,3,Manage email conversations,True,True,True,exact,True,4452,0.333,3,,False,False,False
+295b620938f1b4ef0c48,4,Prepare meeting agendas and materials,True,True,True,exact,True,4452,0.75,5,,False,False,False
+295b620938f1b4ef0c48,5,Facilitate meetings,True,True,True,exact,True,4452,0.5,2,,False,False,False
+295b620938f1b4ef0c48,6,Set up and break down meetings,True,True,True,exact,True,4452,1.0,6,,False,False,False
+295b620938f1b4ef0c48,7,Synthesize meeting notes,True,True,True,exact,True,4452,1.0,3,,False,True,False
+295b620938f1b4ef0c48,8,Disseminate meeting summaries,True,True,True,exact,True,4452,0.333,3,,False,True,False
+295b620938f1b4ef0c48,9,Support advisory group recruitment,True,True,True,exact,True,4452,1.0,4,,False,False,False
+295b620938f1b4ef0c48,10,Track data,True,True,True,exact,True,4452,1.0,2,,False,False,False
+295b620938f1b4ef0c48,11,Attend meetings at clinic locations,True,True,True,exact,True,4452,0.75,5,,False,False,False
+74a1bfae7e7e258d28b5,1,Develop sales content,True,True,True,none,False,981,1.0,3,,False,False,False
+74a1bfae7e7e258d28b5,2,Design automation for sales stack,True,True,True,none,False,981,1.0,5,,False,False,False
+74a1bfae7e7e258d28b5,3,Analyze revenue metrics,True,True,True,none,False,981,0.667,3,,False,False,False
+74a1bfae7e7e258d28b5,4,Support sales team in closing deals,True,True,True,none,False,981,1.0,6,,False,False,False
+74a1bfae7e7e258d28b5,5,Manage client relationships,True,True,True,none,False,981,1.0,3,,False,False,False
+74a1bfae7e7e258d28b5,6,Improve CRM hygiene,True,True,True,none,False,981,1.0,3,,False,False,False
+74a1bfae7e7e258d28b5,7,Streamline data flows,True,True,True,none,False,981,0.667,3,,False,True,False
+3b1acd7dae8f6c808655,1,Develop data pipelines,True,True,True,exact,True,1128,1.0,3,,False,False,False
+3b1acd7dae8f6c808655,2,Develop understanding of city financial data,True,True,True,exact,True,1128,1.0,6,,False,False,False
+3b1acd7dae8f6c808655,3,Build tools to simply data analysis,True,True,True,exact,True,1128,0.8,6,,False,False,False
+3b1acd7dae8f6c808655,4,Document data models and workflows,True,True,True,exact,True,1128,0.75,5,,False,False,False
+3b1acd7dae8f6c808655,5,Administer Quickbase system,True,True,True,exact,True,1128,0.667,3,,False,True,False
+3b1acd7dae8f6c808655,6,Implement data governance protocols,True,True,True,exact,True,1128,1.0,4,,False,False,False
+3b1acd7dae8f6c808655,7,Automate cross-platform integrations,True,True,True,exact,True,1128,1.0,3,,False,False,False
+3b1acd7dae8f6c808655,8,Analyze budget and spending data,True,True,True,exact,True,1128,0.75,5,,False,False,False
+3b1acd7dae8f6c808655,9,Collaborate with internal teams,True,True,True,exact,True,1128,1.0,4,,False,False,False
+3b1acd7dae8f6c808655,10,Provide technical consulting,True,True,True,exact,True,1128,1.0,3,,False,False,False
+3b1acd7dae8f6c808655,11,Implement data quality protocols,True,True,True,exact,True,1128,1.0,4,,False,False,False
+3b1acd7dae8f6c808655,12,Develop relationships with IT and agencies,True,True,True,exact,True,1128,1.0,6,,False,False,False
+391112a1f4a8d0187e88,1,Lead employees,True,True,True,exact,True,5007,1.0,2,,False,False,False
+391112a1f4a8d0187e88,2,Manage annual budget,True,True,True,exact,True,5007,1.0,3,,False,False,False
+391112a1f4a8d0187e88,3,Develop anti-racist practices,True,True,True,exact,True,5007,1.0,3,,False,False,False
+391112a1f4a8d0187e88,4,Set strategic vision for health equity,True,True,True,exact,True,5007,1.0,6,,False,False,False
+391112a1f4a8d0187e88,5,Oversee Race to Justice initiative,True,True,True,exact,True,5007,1.0,5,,False,False,False
+391112a1f4a8d0187e88,6,Build community partnerships,True,True,True,exact,True,5007,1.0,3,,False,False,False
+391112a1f4a8d0187e88,7,Develop public health policies,True,True,True,exact,True,5007,1.0,4,,False,False,False
+391112a1f4a8d0187e88,8,Lead assistant commissioners,True,True,True,exact,True,5007,1.0,3,,False,False,False
+391112a1f4a8d0187e88,9,Represent division to city leaders,True,True,True,exact,True,5007,1.0,5,,False,False,False
+391112a1f4a8d0187e88,10,Advocate for equity policies,True,True,True,exact,True,5007,0.667,4,,False,True,False
+05bb010df9f681ecfb8e,1,Lead prioritization roadmap,True,True,True,none,False,2538,0.667,3,,False,False,False
+05bb010df9f681ecfb8e,2,Collaborate with multiple teams,True,True,True,none,False,2538,0.667,4,,False,False,False
+05bb010df9f681ecfb8e,3,Enhance customer workflows,True,True,True,none,False,2538,0.667,3,,False,True,False
+05bb010df9f681ecfb8e,4,Own product roadmap,True,True,True,none,False,2538,1.0,3,,False,False,False
+05bb010df9f681ecfb8e,5,Lead customer discovery,True,True,True,none,False,2538,1.0,3,,False,False,False
+05bb010df9f681ecfb8e,6,Validate ideas with prototypes,True,True,True,none,False,2538,1.0,4,,False,False,False
+05bb010df9f681ecfb8e,7,Run beta programmes,True,True,True,none,False,2538,0.667,3,,False,False,False
+05bb010df9f681ecfb8e,8,Maintain product backlog,True,True,True,none,False,2538,1.0,3,,False,False,False
+05bb010df9f681ecfb8e,9,Plan product releases,True,True,True,none,False,2538,1.0,3,,False,False,False
+05bb010df9f681ecfb8e,10,Analyze usage and product metrics,True,True,True,none,False,2538,0.75,5,,False,False,False
+05bb010df9f681ecfb8e,11,Monitor industry and regulatory trends,True,True,True,none,False,2538,0.5,5,,False,False,False
+105e8d569cdb317f77c3,1,Develop training materials,True,True,True,exact,True,5901,1.0,3,,False,False,False
+105e8d569cdb317f77c3,2,Interpersonal skills,True,True,True,exact,True,5901,1.0,2,,True,True,False
+105e8d569cdb317f77c3,3,Ability to write correspondence,True,True,True,exact,True,5901,1.0,4,,True,False,False
+105e8d569cdb317f77c3,4,Coordinate departmental recommendations,True,True,True,exact,True,5901,0.667,3,,False,False,False
+105e8d569cdb317f77c3,5,Prepare meeting agendas and fact sheets,True,True,True,exact,True,5901,0.8,6,,False,False,False
+105e8d569cdb317f77c3,6,Schedule meetings,True,True,True,exact,True,5901,0.5,2,,False,False,False
+105e8d569cdb317f77c3,7,Respond to public inquiries,True,True,True,exact,True,5901,1.0,4,,False,False,False
+105e8d569cdb317f77c3,8,Provide administrative support,True,True,True,exact,True,5901,1.0,3,,False,False,False
+105e8d569cdb317f77c3,9,Research EEO and employment law,True,True,True,exact,True,5901,1.0,5,,False,False,False
+105e8d569cdb317f77c3,10,Assist with special projects,True,True,True,exact,True,5901,1.0,4,,False,False,False
+105e8d569cdb317f77c3,11,Assist with case practice reviews,True,True,True,exact,True,5901,1.0,5,,False,False,False
+105e8d569cdb317f77c3,12,Support investigations,True,True,True,exact,True,5901,1.0,2,,False,False,False
+751a53b56992ff974884,1,Oversee caseloads of adult programs,True,True,True,exact,True,1528,1.0,5,,False,False,False
+751a53b56992ff974884,2,Manage communications between the department and program managers,True,True,True,exact,True,1528,0.667,8,,False,False,False
+751a53b56992ff974884,3,Conduct on-site measurements,True,True,True,exact,True,1528,0.667,3,,False,False,False
+751a53b56992ff974884,4,Provide information on community programs,True,True,True,exact,True,1528,0.75,5,,False,False,False
+751a53b56992ff974884,5,Assess program compliance,True,True,True,exact,True,1528,0.667,3,,False,False,False
+751a53b56992ff974884,6,Analyze contractor performance,True,True,True,exact,True,1528,0.667,3,,False,False,False
+751a53b56992ff974884,7,Provide technical assistance to providers,True,True,True,exact,True,1528,1.0,5,,False,False,False
+751a53b56992ff974884,8,Recommend program improvements,True,True,True,exact,True,1528,1.0,3,,False,False,False
+751a53b56992ff974884,9,Prepare written reports,True,True,True,exact,True,1528,1.0,3,,False,False,False
+751a53b56992ff974884,10,Analyze program budgets,True,True,True,exact,True,1528,1.0,3,,False,False,False
+751a53b56992ff974884,11,Review contracts and renewals,True,True,True,exact,True,1528,1.0,4,,False,False,False
+751a53b56992ff974884,12,Evaluate RFP proposals,True,True,True,exact,True,1528,1.0,3,,False,False,False
+751a53b56992ff974884,13,Participate in special projects,True,True,True,exact,True,1528,1.0,4,,False,False,False
+96e7892a422bcab5f86d,1,Assess information protection services,True,True,True,exact,True,1780,0.75,4,,False,False,False
+96e7892a422bcab5f86d,2,Design data lose prevention measures,True,True,True,exact,True,1780,0.6,5,,False,False,False
+96e7892a422bcab5f86d,3,Impliment data retention solutions,True,True,True,exact,True,1780,0.75,4,,False,True,False
+96e7892a422bcab5f86d,4,Design sensitivity labels and encryption,True,True,True,exact,True,1780,1.0,5,,False,False,False
+96e7892a422bcab5f86d,5,Collaborate with stakeholders,True,True,True,exact,True,1780,0.5,3,,False,False,False
+96e7892a422bcab5f86d,6,Monitor regulatory compliance,True,True,True,exact,True,1780,1.0,3,,False,False,False
+96e7892a422bcab5f86d,7,Develop data governance best practices,True,True,True,exact,True,1780,1.0,5,,False,False,False
+96e7892a422bcab5f86d,8,Conduct pre-sales activities,True,True,True,exact,True,1780,0.667,3,,False,False,False
+96e7892a422bcab5f86d,9,Provide training and technical support,True,True,True,exact,True,1780,1.0,5,,False,False,False
+5095082b7a5e8e644d85,1,Manage clerical work,True,True,True,normalized,True,666,0.5,3,,False,False,False
+5095082b7a5e8e644d85,2,Process Department of State summonses,True,True,True,normalized,True,666,1.0,5,,False,False,False
+5095082b7a5e8e644d85,3,Update database records,True,True,True,normalized,True,666,1.0,3,,False,False,False
+5095082b7a5e8e644d85,4,Print summonses by hearing date,True,True,True,normalized,True,666,1.0,5,,False,True,False
+5095082b7a5e8e644d85,5,Assemble summons packages,True,True,True,normalized,True,666,0.333,3,,False,False,False
+5095082b7a5e8e644d85,6,Process certified and regular mail,True,True,True,normalized,True,666,1.0,5,,False,False,False
+5095082b7a5e8e644d85,7,Upload records to database,True,True,True,normalized,True,666,1.0,4,,False,True,False
+4fafe3e6f5d7b74b4363,1,Develop client strategies,True,True,True,none,False,2907,1.0,3,,False,False,False
+4fafe3e6f5d7b74b4363,2,Manage relationships with senior leadership,True,True,True,none,False,2907,0.75,5,,False,False,False
+4fafe3e6f5d7b74b4363,3,Develop new business strategies,True,True,True,none,False,2907,1.0,4,,False,False,False
+4fafe3e6f5d7b74b4363,4,Source prospective clients,True,True,True,none,False,2907,0.667,3,,False,False,False
+4fafe3e6f5d7b74b4363,5,Close new clients,True,True,True,none,False,2907,1.0,3,,False,False,False
+4fafe3e6f5d7b74b4363,6,Grow business from existing clients,True,True,True,none,False,2907,1.0,5,,False,True,False
+4fafe3e6f5d7b74b4363,7,Up-sell service portfolio,True,True,True,none,False,2907,1.0,3,,False,True,False
+4fafe3e6f5d7b74b4363,8,Negotiate rates and deadlines,True,True,True,none,False,2907,1.0,4,,False,False,False
+4fafe3e6f5d7b74b4363,9,Educate clients on translation process,True,True,True,none,False,2907,1.0,5,,False,True,False
+4fafe3e6f5d7b74b4363,10,Liaise with production,True,True,True,none,False,2907,1.0,3,,False,False,False
+4fafe3e6f5d7b74b4363,11,Follow up on client satisfaction,True,True,True,none,False,2907,1.0,5,,False,False,False
+4fafe3e6f5d7b74b4363,12,Research target industries,True,True,True,none,False,2907,0.333,3,,False,False,False
+24be9713838ce65bb2d1,1,Build relationships with external organizations,True,True,True,none,False,1969,0.75,5,,False,False,False
+24be9713838ce65bb2d1,2,Run sales processes,True,True,True,none,False,1969,1.0,3,,False,False,False
+24be9713838ce65bb2d1,3,Lead high cost deals,True,True,True,none,False,1969,0.5,4,,False,False,False
+24be9713838ce65bb2d1,4,Own enterprise deals end-to-end,True,True,True,none,False,1969,1.0,4,,False,False,False
+24be9713838ce65bb2d1,5,Build sales pipeline,True,True,True,none,False,1969,1.0,3,,False,False,False
+24be9713838ce65bb2d1,6,Develop account strategies,True,True,True,none,False,1969,1.0,3,,False,False,False
+24be9713838ce65bb2d1,7,Navigate buying committees,True,True,True,none,False,1969,1.0,3,,False,False,False
+24be9713838ce65bb2d1,8,Own sales quota,True,True,True,none,False,1969,1.0,3,,False,False,False
+24be9713838ce65bb2d1,9,Build business cases,True,True,True,none,False,1969,1.0,3,,False,False,False
+24be9713838ce65bb2d1,10,Share customer insights with product teams,True,True,True,none,False,1969,0.8,6,,False,False,False
+666f7ebc34ffed256a13,1,Process sample collection,True,True,True,exact,True,2607,0.667,3,,False,False,False
+666f7ebc34ffed256a13,2,Operate vehicles,True,True,True,exact,True,2607,0.0,2,,False,False,False
+666f7ebc34ffed256a13,3,Report on water quality,True,True,True,exact,True,2607,1.0,4,,False,False,False
+666f7ebc34ffed256a13,4,Collect samples from boats,True,True,True,exact,True,2607,1.0,4,,False,False,False
+666f7ebc34ffed256a13,5,Perform field analyses,True,True,True,exact,True,2607,1.0,3,,False,False,False
+666f7ebc34ffed256a13,6,Tow boats with trucks,True,True,True,exact,True,2607,1.0,4,,False,True,False
+666f7ebc34ffed256a13,7,Operate field sampling equipment,True,True,True,exact,True,2607,0.75,4,,False,False,False
+666f7ebc34ffed256a13,8,Perform quality control procedures,True,True,True,exact,True,2607,1.0,4,,False,False,False
+666f7ebc34ffed256a13,9,Maintain quality control records,True,True,True,exact,True,2607,1.0,4,,False,False,False
+666f7ebc34ffed256a13,10,Assist with purchasing supplies and equipment,True,True,True,exact,True,2607,1.0,6,,False,False,False
+666f7ebc34ffed256a13,11,Contribute to compliance reports,True,True,True,exact,True,2607,0.667,4,,False,False,False
+666f7ebc34ffed256a13,12,Comply with safety regulations,True,True,True,exact,True,2607,0.667,4,,False,True,False
+f32ccf878072947e70ec,1,Prepare agreements with clients,True,True,True,none,False,1331,1.0,4,,False,False,False
+f32ccf878072947e70ec,2,Conduct vendor risk assessment,True,True,True,none,False,1331,1.0,4,,False,False,False
+f32ccf878072947e70ec,3,Automate internal processes,True,True,True,none,False,1331,1.0,3,,False,False,False
+f32ccf878072947e70ec,4,Review cooperation agreements,True,True,True,none,False,1331,1.0,3,,False,False,False
+f32ccf878072947e70ec,5,Research regulatory legal questions,True,True,True,none,False,1331,1.0,4,,False,False,False
+f32ccf878072947e70ec,6,Prepare legal memos,True,True,True,none,False,1331,1.0,3,,False,False,False
+f32ccf878072947e70ec,7,Maintain standard contracts and templates,True,True,True,none,False,1331,1.0,5,,False,False,False
+f32ccf878072947e70ec,8,Maintain contract inventory,True,True,True,none,False,1331,1.0,3,,False,False,False
+f32ccf878072947e70ec,9,Monitor regulatory developments,True,True,True,none,False,1331,1.0,3,,False,False,False
+f32ccf878072947e70ec,10,Prepare regulatory briefings,True,True,True,none,False,1331,1.0,3,,False,False,False
+a845c36fc3eb4caf98fb,1,Define code infrastructure,True,True,True,exact,True,3778,1.0,3,,False,False,False
+a845c36fc3eb4caf98fb,2,Respond to requests from other teams,True,True,True,exact,True,3778,1.0,6,,False,False,False
+a845c36fc3eb4caf98fb,3,Build evidence automation tools,True,True,True,exact,True,3778,1.0,4,,False,False,False
+a845c36fc3eb4caf98fb,4,Maintain cloud infrastructure and pipelines,True,True,True,exact,True,3778,1.0,5,,False,False,False
+a845c36fc3eb4caf98fb,5,Configure secure defaults,True,True,True,exact,True,3778,0.667,3,,False,False,False
+a845c36fc3eb4caf98fb,6,Maintain network security tooling,True,True,True,exact,True,3778,1.0,4,,False,False,False
+a845c36fc3eb4caf98fb,7,Automate ISO 27001 evidence collection,True,True,True,exact,True,3778,1.0,5,,False,False,False
+a845c36fc3eb4caf98fb,8,Report on security gaps and drift,True,True,True,exact,True,3778,1.0,6,,False,False,False
+a845c36fc3eb4caf98fb,9,Turn policy into enforced controls,True,True,True,exact,True,3778,1.0,5,,False,False,False
+a845c36fc3eb4caf98fb,10,Review and tighten cloud access,True,True,True,exact,True,3778,1.0,5,,False,False,False
+a845c36fc3eb4caf98fb,11,Manage secrets and machine identities,True,True,True,exact,True,3778,1.0,5,,False,False,False
+a845c36fc3eb4caf98fb,12,Extend platform standards to Google Cloud,True,True,True,exact,True,3778,1.0,6,,False,True,False
+a845c36fc3eb4caf98fb,13,Support engineers across squads,True,True,True,exact,True,3778,1.0,4,,False,False,False
+a845c36fc3eb4caf98fb,14,Document work,True,True,True,exact,True,3778,1.0,2,,False,False,False
+0b027611629b03f366f3,1,Conduct screenings for students,True,True,True,none,False,1028,1.0,4,,False,False,False
+0b027611629b03f366f3,2,Prepare referral forms to parents of children who failed screenings,True,True,True,none,False,1028,1.0,10,,False,False,False
+0b027611629b03f366f3,3,Communicate with children,True,True,True,none,False,1028,1.0,3,,False,False,False
+0b027611629b03f366f3,4,Travel to schools,True,True,True,none,False,1028,1.0,3,,False,False,False
+0b027611629b03f366f3,5,Set up and break down screening equipment,True,True,True,none,False,1028,0.833,7,,False,False,False
+0b027611629b03f366f3,6,Follow up on failed screenings,True,True,True,none,False,1028,0.75,5,,False,False,False
+0b027611629b03f366f3,7,Maintain and transport equipment,True,True,True,none,False,1028,1.0,4,,False,False,False
+0b027611629b03f366f3,8,Enter screening data into ASHR,True,True,True,none,False,1028,1.0,5,,False,False,False
+b63d2a18a86b9e94e299,1,Time management skills,True,True,True,exact,True,5519,1.0,3,,True,True,False
+b63d2a18a86b9e94e299,2,Leverage AI products,True,True,True,exact,True,5519,0.667,3,,False,True,False
+b63d2a18a86b9e94e299,3,Action potential steps,True,True,True,exact,True,5519,1.0,3,,False,True,False
+b63d2a18a86b9e94e299,4,Manage executive diaries,True,True,True,exact,True,5519,1.0,3,,False,False,False
+b63d2a18a86b9e94e299,5,Draft executive communications,True,True,True,exact,True,5519,1.0,3,,False,False,False
+b63d2a18a86b9e94e299,6,Prepare executives for meetings,True,True,True,exact,True,5519,0.667,4,,False,False,False
+b63d2a18a86b9e94e299,7,Monitor team sentiment and blockers,True,True,True,exact,True,5519,1.0,5,,False,False,False
+b63d2a18a86b9e94e299,8,Design cultural events,True,True,True,exact,True,5519,1.0,3,,False,False,False
+b63d2a18a86b9e94e299,9,Oversee leadership forum logistics,True,True,True,exact,True,5519,1.0,4,,False,False,False
+b63d2a18a86b9e94e299,10,Monitor Slack conversations,True,True,True,exact,True,5519,1.0,3,,False,False,False
+b63d2a18a86b9e94e299,11,Run executive projects,True,True,True,exact,True,5519,1.0,3,,False,False,False
+b63d2a18a86b9e94e299,12,Manage event logistics,True,True,True,exact,True,5519,1.0,3,,False,False,False
+35b02096d9f13d0f2a54,1,Develop suicide prevention plans,True,True,True,exact,True,3650,0.75,4,,False,False,False
+35b02096d9f13d0f2a54,2,Direct office operations,True,True,True,none,False,3649,1.0,3,,False,False,False
+35b02096d9f13d0f2a54,3,Connect with critical interagnecy partners,True,True,True,exact,True,3650,0.5,5,,False,False,False
+35b02096d9f13d0f2a54,4,Supervise senior leadership,True,True,True,exact,True,3650,1.0,3,,False,False,False
+35b02096d9f13d0f2a54,5,Establish performance measures,True,True,True,exact,True,3650,1.0,3,,False,False,False
+35b02096d9f13d0f2a54,6,Oversee research and surveillance functions,True,True,True,exact,True,3650,1.0,5,,False,False,False
+35b02096d9f13d0f2a54,7,Set research and data priorities,True,True,True,exact,True,3650,1.0,5,two_actions,False,False,False
+35b02096d9f13d0f2a54,8,Translate findings into recommendations,True,True,True,exact,True,3650,0.667,4,,False,False,False
+35b02096d9f13d0f2a54,9,Advise on suicide prevention policy,True,True,True,exact,True,3650,1.0,5,,False,False,False
+35b02096d9f13d0f2a54,10,Coordinate with government officials,True,True,True,exact,True,3650,1.0,4,,False,False,False
+35b02096d9f13d0f2a54,11,Lead cross-sector partnerships,True,True,True,exact,True,3650,1.0,3,,False,False,False
+35b02096d9f13d0f2a54,12,Align public and private investments,True,True,True,exact,True,3650,1.0,5,,False,False,False
+35b02096d9f13d0f2a54,13,Develop resource strategies,True,True,True,exact,True,3650,1.0,3,,False,False,False
+35b02096d9f13d0f2a54,14,Oversee grants and funding initiatives,True,True,True,exact,True,3650,1.0,5,,False,False,False
+35b02096d9f13d0f2a54,15,Report on strategy progress,True,True,True,exact,True,3650,1.0,4,,False,False,False
+49b81c39bff279fde4a8,1,Develop customer engagement plans,True,True,True,exact,True,869,1.0,4,,False,False,False
+49b81c39bff279fde4a8,2,Engage in account selling,True,True,True,exact,True,869,1.0,4,,False,False,False
+49b81c39bff279fde4a8,3,Travel to customer sites,True,True,True,exact,True,869,1.0,4,,False,False,False
+49b81c39bff279fde4a8,4,Consult with customers on digital transformation,True,True,True,exact,True,869,1.0,6,,False,True,False
+49b81c39bff279fde4a8,5,Research customer prospects,True,True,True,exact,True,869,1.0,3,,False,False,False
+49b81c39bff279fde4a8,6,Collaborate on new product offerings,True,True,True,exact,True,869,1.0,5,,False,False,False
+49b81c39bff279fde4a8,7,Drive business development with alliance partners,True,True,True,exact,True,869,0.8,6,,False,False,False
+41fd8f1659c66291c006,1,Develop traing materials,True,True,True,exact,True,1315,0.333,3,,False,False,False
+41fd8f1659c66291c006,2,Recruit workers,True,True,True,exact,True,1315,1.0,2,,False,False,False
+41fd8f1659c66291c006,3,Identify practice issues,True,True,True,exact,True,1315,0.667,3,,False,False,False
+41fd8f1659c66291c006,4,Oversee social workers and forensic experts,True,True,True,exact,True,1315,1.0,6,,False,False,False
+41fd8f1659c66291c006,5,Guide attorneys on client communication,True,True,True,exact,True,1315,0.75,5,,False,False,False
+41fd8f1659c66291c006,6,Direct attorneys to utilize forensic experts,True,True,True,exact,True,1315,1.0,6,,False,False,False
+41fd8f1659c66291c006,7,Identify state and non-profit programs,True,True,True,exact,True,1315,1.0,5,,False,False,False
+41fd8f1659c66291c006,8,Coordinate attorney trainings,True,True,True,exact,True,1315,1.0,3,,False,False,False
+41fd8f1659c66291c006,9,Respond to client and community concerns,True,True,True,exact,True,1315,1.0,6,,False,False,False
+4fd5cae42eb3035824ee,1,Develop electrical components,True,True,True,none,False,2250,1.0,3,,False,False,False
+4fd5cae42eb3035824ee,2,Develop medical devices,True,True,True,none,False,2250,1.0,3,,False,False,False
+4fd5cae42eb3035824ee,3,Collaborate with multiple teams,True,True,True,none,False,2250,0.333,4,,False,False,False
+4fd5cae42eb3035824ee,4,Develop power and control boards,True,True,True,none,False,2250,1.0,5,,False,False,False
+4fd5cae42eb3035824ee,5,Create circuit and wiring diagrams,True,True,True,none,False,2250,1.0,5,,False,False,False
+4fd5cae42eb3035824ee,6,Develop electrical safety concepts,True,True,True,none,False,2250,1.0,4,,False,False,False
+4fd5cae42eb3035824ee,7,Implement product cost reduction,True,True,True,none,False,2250,0.75,4,,False,False,False
+4fd5cae42eb3035824ee,8,Collect technical requirements,True,True,True,none,False,2250,0.667,3,,False,False,False
+4fd5cae42eb3035824ee,9,Create component and system specifications,True,True,True,none,False,2250,1.0,5,,False,False,False
+4fd5cae42eb3035824ee,10,Perform verification tests,True,True,True,none,False,2250,1.0,3,,False,False,False
+4fd5cae42eb3035824ee,11,Maintain products and systems,True,True,True,none,False,2250,1.0,4,,False,False,False
+4fd5cae42eb3035824ee,12,Troubleshoot production issues,True,True,True,none,False,2250,1.0,3,,False,False,False
+4fd5cae42eb3035824ee,13,Coordinate engineering tasks,True,True,True,none,False,2250,1.0,3,,False,False,False
+4fd5cae42eb3035824ee,14,Coordinate with third-party suppliers,True,True,True,none,False,2250,1.0,4,,False,False,False
+4fd5cae42eb3035824ee,15,Monitor technological trends,True,True,True,none,False,2250,1.0,3,,False,False,False
+3ca1b50483595c10a701,1,Data analysis,True,True,True,exact,True,6794,1.0,2,,False,False,False
+3ca1b50483595c10a701,2,Design engineering solutions,True,True,True,exact,True,6794,0.667,3,,False,False,False
+3ca1b50483595c10a701,3,Manage project costs,True,True,True,exact,True,6794,0.333,3,,False,False,False
+3ca1b50483595c10a701,4,Monitor regulatory changes,True,True,True,exact,True,6794,1.0,3,,False,False,False
+3ca1b50483595c10a701,5,Track project key performance indicators,True,True,True,exact,True,6794,1.0,5,,False,False,False
+3ca1b50483595c10a701,6,Conduct workshops and presentations,True,True,True,exact,True,6794,1.0,4,,False,False,False
+3ca1b50483595c10a701,7,Coordinate with internal and external entities,True,True,True,exact,True,6794,0.75,6,,False,False,False
+3ca1b50483595c10a701,8,Facilitate LEED and Envision certifications,True,True,True,exact,True,6794,0.75,5,,False,False,False
+3ca1b50483595c10a701,9,Develop bureau specific standards,True,True,True,exact,True,6794,1.0,4,,False,False,False
+3ca1b50483595c10a701,10,Support engineering project teams,True,True,True,exact,True,6794,1.0,4,,False,False,False
+a3b54b0d34e7b105604f,1,Market analysis,True,True,True,none,False,1284,0.0,2,,False,True,False
+a3b54b0d34e7b105604f,2,Fundraising,True,True,True,none,False,1284,1.0,1,,False,True,False
+a3b54b0d34e7b105604f,3,Customer acquisition,True,True,True,none,False,1284,0.5,2,,False,False,False
+a3b54b0d34e7b105604f,4,Build go-to-market route,True,True,True,none,False,1284,1.0,3,,False,False,False
+a3b54b0d34e7b105604f,5,Convert leads into pilots,True,True,True,none,False,1284,1.0,4,,False,True,False
+a3b54b0d34e7b105604f,6,Navigate industrial procurement processes,True,True,True,none,False,1284,1.0,4,,False,False,False
+a3b54b0d34e7b105604f,7,Own pricing and packaging,True,True,True,none,False,1284,1.0,4,,False,False,False
+a3b54b0d34e7b105604f,8,Lead company incorporation,True,True,True,none,False,1284,1.0,3,,False,False,False
+6a42c683d57c96dc4e72,1,Create news pieces,True,True,True,exact,True,572,0.333,3,,False,False,False
+6a42c683d57c96dc4e72,2,Record court proceedings,True,True,True,exact,True,572,0.667,3,,False,False,False
+6a42c683d57c96dc4e72,3,Monitor social media,True,True,True,exact,True,572,1.0,3,,False,False,False
+6a42c683d57c96dc4e72,4,Compile daily news clips,True,True,True,exact,True,572,0.75,4,,False,True,False
+6a42c683d57c96dc4e72,5,Monitor media presence,True,True,True,exact,True,572,1.0,3,,False,False,False
+6a42c683d57c96dc4e72,6,Observe court proceedings,True,True,True,exact,True,572,0.667,3,,False,True,False
+6a42c683d57c96dc4e72,7,Report to press office,True,True,True,exact,True,572,1.0,4,,False,False,False
+4fed033c30fe7a78c1a5,1,Assess customer satisfaction,True,True,True,exact,True,2528,1.0,3,,False,False,False
+4fed033c30fe7a78c1a5,2,Collaborate with multiple teams,True,True,True,exact,True,2528,1.0,4,,False,False,False
+4fed033c30fe7a78c1a5,3,Document customer needs,True,True,True,exact,True,2528,1.0,3,,False,False,False
+4fed033c30fe7a78c1a5,4,Build stakeholder relationships,True,True,True,exact,True,2528,1.0,3,,False,False,False
+4fed033c30fe7a78c1a5,5,Track customer interactions in CRM,True,True,True,exact,True,2528,1.0,5,,False,False,False
+4fed033c30fe7a78c1a5,6,Organize customer events,True,True,True,exact,True,2528,0.667,3,,False,False,False
+4fed033c30fe7a78c1a5,7,Introduce services to clients,True,True,True,exact,True,2528,1.0,4,,False,True,False
+4fed033c30fe7a78c1a5,8,Conduct business reviews,True,True,True,exact,True,2528,1.0,3,,False,False,False
+4fed033c30fe7a78c1a5,9,Create targeted campaigns,True,True,True,exact,True,2528,1.0,3,,False,False,False
+4fed033c30fe7a78c1a5,10,Optimize customer service utilization,True,True,True,exact,True,2528,0.75,4,,False,True,False
+4fed033c30fe7a78c1a5,11,Manage customer engagement cycle,True,True,True,exact,True,2528,1.0,4,,False,False,False
+53ca8a5ad02b99123994,1,Prepare petitions,True,True,True,exact,True,1778,1.0,2,,False,False,False
+53ca8a5ad02b99123994,2,Negotiate settlements,True,True,True,exact,True,1778,0.5,2,,False,False,False
+53ca8a5ad02b99123994,3,Build case strategy,True,True,True,exact,True,1778,0.667,3,,False,False,False
+53ca8a5ad02b99123994,4,Represent agency at hearings,True,True,True,exact,True,1778,1.0,4,,False,False,False
+53ca8a5ad02b99123994,5,Prepare witnesses,True,True,True,exact,True,1778,0.5,2,,False,False,False
+53ca8a5ad02b99123994,6,Assemble evidence,True,True,True,exact,True,1778,0.5,2,,False,False,False
+53ca8a5ad02b99123994,7,Prepare briefs and legal papers,True,True,True,exact,True,1778,1.0,5,,False,False,False
+53ca8a5ad02b99123994,8,Assess complaints,True,True,True,exact,True,1778,1.0,2,,False,False,False
+53ca8a5ad02b99123994,9,Promote enforcement compliance,True,True,True,exact,True,1778,1.0,3,,False,False,False
+53ca8a5ad02b99123994,10,Liaise with government agencies,True,True,True,exact,True,1778,0.667,4,,False,False,False
+53ca8a5ad02b99123994,11,Maintain confidential information,True,True,True,exact,True,1778,1.0,3,,False,False,False
+53ca8a5ad02b99123994,12,Monitor workflow and deadlines,True,True,True,exact,True,1778,1.0,4,,False,False,False
+53ca8a5ad02b99123994,13,Prepare reports and summaries,True,True,True,exact,True,1778,1.0,4,,False,False,False
+4af8e56faeb5bf3cb868,1,Manage scheduling,True,True,True,exact,True,1290,1.0,2,,False,False,False
+4af8e56faeb5bf3cb868,2,Manage briefing materials,True,True,True,exact,True,1290,1.0,3,,False,False,False
+4af8e56faeb5bf3cb868,3,Coordinate interviews,True,True,True,exact,True,1290,1.0,2,,False,False,False
+4af8e56faeb5bf3cb868,4,Triage incoming emails,True,True,True,exact,True,1290,1.0,3,,False,True,False
+4af8e56faeb5bf3cb868,5,Draft officewide communications,True,True,True,exact,True,1290,0.667,3,,False,False,False
+4af8e56faeb5bf3cb868,6,Coordinate HR and legal logistics,True,True,True,exact,True,1290,1.0,5,,False,False,False
+4af8e56faeb5bf3cb868,7,Support notarizations and travel arrangements,True,True,True,exact,True,1290,1.0,5,two_actions,False,False,False
+4af8e56faeb5bf3cb868,8,Provide front desk coverage,True,True,True,exact,True,1290,1.0,4,,False,False,False
+4af8e56faeb5bf3cb868,9,Manage conference room schedule,True,True,True,exact,True,1290,1.0,4,,False,False,False
+4af8e56faeb5bf3cb868,10,Maintain office supplies,True,True,True,exact,True,1290,1.0,3,,False,False,False
+4af8e56faeb5bf3cb868,11,Audit calendars,True,True,True,exact,True,1290,1.0,2,,False,True,False
+4af8e56faeb5bf3cb868,12,Manage executive vacation schedule,True,True,True,exact,True,1290,1.0,4,,False,False,False
+4af8e56faeb5bf3cb868,13,Support special projects,True,True,True,exact,True,1290,1.0,3,,False,False,False
+12267268cf274f232ece,1,Manage autonomous robots,True,True,True,exact,True,3387,0.333,3,,False,False,False
+12267268cf274f232ece,2,Work in small teams,True,True,True,exact,True,3387,1.0,4,,False,False,False
+12267268cf274f232ece,3,Program,True,True,True,exact,True,3387,0.0,1,,False,True,False
+12267268cf274f232ece,4,Own products end-to-end,True,True,True,exact,True,3387,1.0,3,,False,False,False
+12267268cf274f232ece,5,Take operational responsibility for services,True,True,True,exact,True,3387,1.0,5,,False,False,False
+12267268cf274f232ece,6,Participate in on-call rotation,True,True,True,exact,True,3387,0.667,4,,False,False,False
+12267268cf274f232ece,7,Share knowledge and best practices,True,True,True,exact,True,3387,1.0,5,,False,False,False
+12267268cf274f232ece,8,Solve customer problems with latest technologies,True,True,True,exact,True,3387,1.0,6,,False,True,False
+9d7d2b090d3262dd7f95,1,Deliver documents,True,True,True,exact,True,5073,1.0,2,,False,False,False
+9d7d2b090d3262dd7f95,2,Respond to requests,True,True,True,exact,True,5073,1.0,3,,False,False,False
+9d7d2b090d3262dd7f95,3,Communicate with other companies,True,True,True,exact,True,5073,0.0,4,,False,False,False
+9d7d2b090d3262dd7f95,4,Participate in facilities maintenance projects,True,True,True,exact,True,5073,1.0,5,,False,False,False
+9d7d2b090d3262dd7f95,5,Produce employee ID badges and keys,True,True,True,exact,True,5073,0.8,6,,False,False,False
+9d7d2b090d3262dd7f95,6,Monitor security cameras,True,True,True,exact,True,5073,1.0,3,,False,False,False
+9d7d2b090d3262dd7f95,7,Make inter-office deliveries,True,True,True,exact,True,5073,0.333,3,,False,False,False
+9d7d2b090d3262dd7f95,8,Liaise with DCAS engineers,True,True,True,exact,True,5073,1.0,4,,False,False,False
+9d7d2b090d3262dd7f95,9,Maintain fleet database,True,True,True,exact,True,5073,1.0,3,,False,False,False
+9d7d2b090d3262dd7f95,10,Gather fleet maintenance reports,True,True,True,exact,True,5073,1.0,4,,False,False,False
+9497a6d2dd74efc6f1d5,1,Assemble electronic boards,True,True,True,none,False,2531,1.0,3,,False,False,False
+9497a6d2dd74efc6f1d5,2,Install protective equipment,True,True,True,none,False,2531,1.0,3,,False,True,False
+9497a6d2dd74efc6f1d5,3,Perform product testing,True,True,True,none,False,2531,0.333,3,,False,False,False
+9497a6d2dd74efc6f1d5,4,Build wiring harnesses,True,True,True,none,False,2531,1.0,3,,False,False,False
+9497a6d2dd74efc6f1d5,5,Inspect electronic boards,True,True,True,none,False,2531,1.0,3,,False,True,False
+9497a6d2dd74efc6f1d5,6,"Crimp, solder and lace harnesses",True,True,True,none,False,2531,1.0,5,,False,True,False
+9497a6d2dd74efc6f1d5,7,Build mechanical test setups,True,True,True,none,False,2531,1.0,4,,False,False,False
+9497a6d2dd74efc6f1d5,8,Support AIT activities,True,True,True,none,False,2531,1.0,3,,False,False,False
+9497a6d2dd74efc6f1d5,9,Read schematics and drawings,True,True,True,none,False,2531,1.0,4,,False,True,False
+9497a6d2dd74efc6f1d5,10,Maintain test records and logs,True,True,True,none,False,2531,1.0,5,,False,False,False
+9497a6d2dd74efc6f1d5,11,Operate lab equipment,True,True,True,none,False,2531,1.0,3,,False,False,False
+9497a6d2dd74efc6f1d5,12,Support environmental testing,True,True,True,none,False,2531,1.0,3,,False,False,False
+0bd6f04e2cb94755955c,1,Provide resources,True,True,True,exact,True,7172,1.0,2,,False,False,False
+0bd6f04e2cb94755955c,2,Manage company investments,True,True,True,exact,True,7172,0.667,3,,False,False,False
+0bd6f04e2cb94755955c,3,Inter company communication,True,True,True,exact,True,7172,0.333,3,,False,True,False
+0bd6f04e2cb94755955c,4,Manage procurement of contracts,True,True,True,exact,True,7172,1.0,4,,False,False,False
+0bd6f04e2cb94755955c,5,Process contract payments and change orders,True,True,True,exact,True,7172,1.0,6,,False,False,False
+0bd6f04e2cb94755955c,6,Manage expense budget,True,True,True,exact,True,7172,1.0,3,,False,False,False
+0bd6f04e2cb94755955c,7,Develop funding request justifications,True,True,True,exact,True,7172,1.0,4,,False,False,False
+0bd6f04e2cb94755955c,8,Oversee coordination programs,True,True,True,exact,True,7172,1.0,3,,False,False,False
+0bd6f04e2cb94755955c,9,Track contract utilization and vendor performance,True,True,True,exact,True,7172,1.0,6,,False,False,False
+0bd6f04e2cb94755955c,10,Liaise with oversight offices,True,True,True,exact,True,7172,0.667,4,,False,False,False
+0bd6f04e2cb94755955c,11,Support budget presentations,True,True,True,exact,True,7172,1.0,3,,False,False,False
+0bd6f04e2cb94755955c,12,Develop key performance indicators,True,True,True,exact,True,7172,1.0,4,,False,False,False
+0bd6f04e2cb94755955c,13,Ensure engineering resources,True,True,True,exact,True,7172,1.0,3,,False,False,False
+644e4b17868b56c3bb3a,1,Evaluate key performance indicies,True,True,True,exact,True,1156,0.5,4,,False,False,False
+644e4b17868b56c3bb3a,2,Review software design,True,True,True,exact,True,1156,1.0,3,,False,False,False
+644e4b17868b56c3bb3a,3,Establish software development standards,True,True,True,exact,True,1156,1.0,4,,False,False,False
+644e4b17868b56c3bb3a,4,Define software architecture,True,True,True,exact,True,1156,1.0,3,,False,False,False
+644e4b17868b56c3bb3a,5,Provide technical leadership,True,True,True,exact,True,1156,1.0,3,,False,False,False
+644e4b17868b56c3bb3a,6,Evaluate technical alternatives and risks,True,True,True,exact,True,1156,1.0,5,,False,False,False
+644e4b17868b56c3bb3a,7,Document architecture decisions,True,True,True,exact,True,1156,1.0,3,,False,False,False
+644e4b17868b56c3bb3a,8,Assess AI use cases,True,True,True,exact,True,1156,1.0,4,,False,False,False
+644e4b17868b56c3bb3a,9,Collaborate with product owners,True,True,True,exact,True,1156,1.0,4,,False,False,False
+644e4b17868b56c3bb3a,10,Review supplier proposals,True,True,True,exact,True,1156,1.0,3,,False,False,False
+644e4b17868b56c3bb3a,11,Drive software modernization,True,True,True,exact,True,1156,1.0,3,,False,False,False
+2557d72d6c8e6a5e8365,1,Company plan deployment,True,True,True,exact,True,5649,0.667,3,,False,True,False
+2557d72d6c8e6a5e8365,2,Develop wastewater strategies,True,True,True,exact,True,5649,1.0,3,,False,False,False
+2557d72d6c8e6a5e8365,3,Drive stakeholder engagement,True,True,True,exact,True,5649,1.0,3,,False,False,False
+2557d72d6c8e6a5e8365,4,Lead co-digestion and RNG programs,True,True,True,exact,True,5649,1.0,5,,False,False,False
+2557d72d6c8e6a5e8365,5,Design circular economy program,True,True,True,exact,True,5649,1.0,4,,False,False,False
+2557d72d6c8e6a5e8365,6,Lead wastewater heat recovery initiatives,True,True,True,exact,True,5649,1.0,5,,False,False,False
+2557d72d6c8e6a5e8365,7,Develop charging infrastructure plan,True,True,True,exact,True,5649,1.0,4,,False,False,False
+2557d72d6c8e6a5e8365,8,Supervise and mentor staff,True,True,True,exact,True,5649,1.0,4,shared_object_verb_pair,False,False,False
+1b9dc57735af5fe3ad3d,1,Build dashboards,True,True,True,exact,True,794,1.0,2,,False,False,False
+1b9dc57735af5fe3ad3d,2,Monitor company revenue,True,True,True,exact,True,794,0.333,3,,False,False,False
+1b9dc57735af5fe3ad3d,3,Research legislation,True,True,True,exact,True,794,1.0,2,,False,False,False
+1b9dc57735af5fe3ad3d,4,Perform data entry and cleaning,True,True,True,exact,True,794,0.75,5,,False,False,False
+1b9dc57735af5fe3ad3d,5,Maintain fee database,True,True,True,exact,True,794,1.0,3,,False,False,False
+1b9dc57735af5fe3ad3d,6,Evaluate fiscal impact of legislation,True,True,True,exact,True,794,0.75,5,,False,False,False
+ef37f5e4a74b94f5fcce,1,Improve automation,True,True,True,exact,True,2273,1.0,2,,False,False,False
+ef37f5e4a74b94f5fcce,2,Reduce operational expenses,True,True,True,exact,True,2273,0.667,3,,False,False,False
+ef37f5e4a74b94f5fcce,3,Debug coding systems,True,True,True,exact,True,2273,1.0,3,,False,False,False
+ef37f5e4a74b94f5fcce,4,Design event streaming infrastructure,True,True,True,exact,True,2273,1.0,4,,False,False,False
+ef37f5e4a74b94f5fcce,5,Improve platform reliability and scalability,True,True,True,exact,True,2273,1.0,5,,False,False,False
+ef37f5e4a74b94f5fcce,6,Build self-healing automation,True,True,True,exact,True,2273,1.0,3,,False,False,False
+ef37f5e4a74b94f5fcce,7,Contribute to incident response,True,True,True,exact,True,2273,1.0,4,,False,False,False
+ef37f5e4a74b94f5fcce,8,Partner with infrastructure teams,True,True,True,exact,True,2273,1.0,4,,False,False,False
+ef37f5e4a74b94f5fcce,9,Shape platform architecture,True,True,True,exact,True,2273,1.0,3,,False,False,False
+07d3cbd036de93e87603,1,Review funding requests,True,True,True,exact,True,3071,1.0,3,,False,False,False
+07d3cbd036de93e87603,2,Confirm payments,True,True,True,exact,True,3071,1.0,2,,False,True,False
+07d3cbd036de93e87603,3,Write process procedures,True,True,True,exact,True,3071,0.667,3,,False,False,False
+07d3cbd036de93e87603,4,Supervise daily workflows,True,True,True,exact,True,3071,1.0,3,,False,False,False
+07d3cbd036de93e87603,5,Approve payment requests,True,True,True,exact,True,3071,1.0,3,,False,False,False
+07d3cbd036de93e87603,6,Approve bank deposits,True,True,True,exact,True,3071,1.0,3,,False,False,False
+07d3cbd036de93e87603,7,Review electronic funds transfer amounts,True,True,True,exact,True,3071,1.0,5,,False,False,False
+07d3cbd036de93e87603,8,Certify agency payrolls,True,True,True,exact,True,3071,0.667,3,,True,True,False
+07d3cbd036de93e87603,9,Approve employee reimbursements,True,True,True,exact,True,3071,0.667,3,,False,False,False
+07d3cbd036de93e87603,10,Respond to customer inquiries,True,True,True,exact,True,3071,1.0,4,,False,False,False
+07d3cbd036de93e87603,11,Perform accounting tasks,True,True,True,exact,True,3071,1.0,3,,False,False,False
+e3691fb293998ec2d9b6,1,Communiate with engineers,True,True,True,exact,True,1312,0.5,3,,False,False,False
+e3691fb293998ec2d9b6,2,Clarify customer problems,True,True,True,exact,True,1312,0.333,3,,False,False,False
+e3691fb293998ec2d9b6,3,validate solutions,True,True,True,exact,True,1312,0.5,2,,False,False,False
+e3691fb293998ec2d9b6,4,Define solutions with engineers,True,True,True,exact,True,1312,1.0,4,,False,False,False
+e3691fb293998ec2d9b6,5,Iterate based on user feedback,True,True,True,exact,True,1312,1.0,5,,False,True,False
+e3691fb293998ec2d9b6,6,Structure ambiguous problems,True,True,True,exact,True,1312,0.667,3,,False,False,False
+e3691fb293998ec2d9b6,7,Contribute to product roadmap,True,True,True,exact,True,1312,1.0,4,,False,False,False
+e3691fb293998ec2d9b6,8,"Align engineering, design, and go-to-market teams",True,True,True,exact,True,1312,1.0,6,two_actions,False,False,False
+e3691fb293998ec2d9b6,9,Engage executive stakeholders,True,True,True,exact,True,1312,1.0,3,,False,False,False
+e3691fb293998ec2d9b6,10,Identify developer pain points,True,True,True,exact,True,1312,0.75,4,,False,False,False
+e3691fb293998ec2d9b6,11,Improve product integration and usability,True,True,True,exact,True,1312,1.0,5,,False,False,False
+a462d24b2748471a3f2b,1,Work with accountants,True,True,True,exact,True,1038,1.0,3,,False,False,False
+a462d24b2748471a3f2b,2,Track company finances,True,True,True,exact,True,1038,0.667,3,,False,False,False
+a462d24b2748471a3f2b,3,Communiate with vendors,True,True,True,exact,True,1038,0.5,3,,False,False,False
+a462d24b2748471a3f2b,4,Run accounts payable and payment runs,True,True,True,exact,True,1038,1.0,6,,False,False,False
+a462d24b2748471a3f2b,5,Issue customer invoices,True,True,True,exact,True,1038,0.667,3,,False,False,False
+a462d24b2748471a3f2b,6,Track receivables and incoming payments,True,True,True,exact,True,1038,1.0,5,,False,False,False
+a462d24b2748471a3f2b,7,Support monthly closing,True,True,True,exact,True,1038,1.0,3,,False,False,False
+a462d24b2748471a3f2b,8,Prepare investor financial reporting,True,True,True,exact,True,1038,1.0,4,,False,False,False
+a462d24b2748471a3f2b,9,Track budgets and actuals,True,True,True,exact,True,1038,1.0,4,,False,False,False
+a462d24b2748471a3f2b,10,Support year-end audits and tax filings,True,True,True,exact,True,1038,1.0,6,,False,False,False
+a462d24b2748471a3f2b,11,Improve finance tools and processes,True,True,True,exact,True,1038,0.75,5,,False,False,False
+a462d24b2748471a3f2b,12,Manage non-tech procurement,True,True,True,exact,True,1038,1.0,3,,False,False,False
+a462d24b2748471a3f2b,13,Manage vendor contracts,True,True,True,exact,True,1038,1.0,3,,False,False,False
+a462d24b2748471a3f2b,14,Manage employee travel and expenses,True,True,True,exact,True,1038,0.75,5,,False,False,False
+a462d24b2748471a3f2b,15,Handle general company administration,True,True,True,exact,True,1038,0.75,4,,False,False,False
+5c4a5e28ceaa8b8e776f,1,Perform live demonstrations,True,True,True,exact,True,1200,0.333,3,,False,False,False
+5c4a5e28ceaa8b8e776f,2,Operate AI,True,True,True,exact,True,1200,0.5,2,,False,False,False
+5c4a5e28ceaa8b8e776f,3,Customer onboarding,True,True,True,exact,True,1200,1.0,2,,False,False,False
+5c4a5e28ceaa8b8e776f,4,Advise enterprise accounts technically,True,True,True,exact,True,1200,0.5,4,,False,False,False
+5c4a5e28ceaa8b8e776f,5,Drive customer adoption through workshops,True,True,True,exact,True,1200,1.0,5,,False,False,False
+5c4a5e28ceaa8b8e776f,6,Provide architecture guidance and troubleshooting,True,True,True,exact,True,1200,0.75,5,,False,False,False
+5c4a5e28ceaa8b8e776f,7,Translate customer problems into requirements,True,True,True,exact,True,1200,1.0,5,,False,False,False
+5c4a5e28ceaa8b8e776f,8,Identify expansion opportunities with Sales,True,True,True,exact,True,1200,0.75,5,,False,False,False
+5c4a5e28ceaa8b8e776f,9,Lead executive business reviews,True,True,True,exact,True,1200,1.0,4,,False,False,False
+5c4a5e28ceaa8b8e776f,10,Influence product roadmap,True,True,True,exact,True,1200,0.667,3,,False,True,False
+5c4a5e28ceaa8b8e776f,11,"Track adoption, usage, and health",True,True,True,exact,True,1200,1.0,5,,False,False,False
+5c4a5e28ceaa8b8e776f,12,Travel to customer sites,True,True,True,exact,True,1200,1.0,4,,False,False,False
+5c4a5e28ceaa8b8e776f,13,Build tools to automate recurring work,True,True,True,exact,True,1200,0.75,6,,False,False,False
+458f5701d4c9512eedc8,1,Project management,True,True,True,none,False,5383,1.0,2,,False,True,False
+458f5701d4c9512eedc8,2,Work with AI,True,True,True,none,False,5383,1.0,3,,False,False,False
+458f5701d4c9512eedc8,3,Communicate with CEO,True,True,True,none,False,5383,0.0,3,,False,False,False
+458f5701d4c9512eedc8,4,Prepare executive for key decisions,True,True,True,none,False,5383,1.0,5,,False,False,False
+458f5701d4c9512eedc8,5,Support strategic workstreams,True,True,True,none,False,5383,1.0,3,,False,False,False
+458f5701d4c9512eedc8,6,Shape ideas into keynotes and essays,True,True,True,none,False,5383,0.75,6,,False,False,False
+458f5701d4c9512eedc8,7,Design executive engagement events,True,True,True,none,False,5383,1.0,4,,False,False,False
+458f5701d4c9512eedc8,8,Work with go-to-market teams,True,True,True,none,False,5383,1.0,4,,False,False,False
+458f5701d4c9512eedc8,9,Prepare policy work and ecosystem initiatives,True,True,True,none,False,5383,1.0,6,,False,False,False
+458f5701d4c9512eedc8,10,Identify project bottlenecks,True,True,True,none,False,5383,0.667,3,,False,False,False
+458f5701d4c9512eedc8,11,Follow through on action items,True,True,True,none,False,5383,0.75,5,,False,False,False
+c70eb7d0a2e70e711e53,1,Assign tasks,True,True,True,exact,True,4981,1.0,2,,False,False,False
+c70eb7d0a2e70e711e53,2,Supervise a team,True,True,True,exact,True,4981,1.0,3,,False,False,False
+c70eb7d0a2e70e711e53,3,Attend conferences,True,True,True,exact,True,4981,1.0,2,,False,False,False
+c70eb7d0a2e70e711e53,4,Review application recommendations,True,True,True,exact,True,4981,1.0,3,,False,False,False
+c70eb7d0a2e70e711e53,5,Sign off on benefits and case entries,True,True,True,exact,True,4981,1.0,7,,False,True,False
+c70eb7d0a2e70e711e53,6,Prepare statistical reports and audits,True,True,True,exact,True,4981,1.0,5,,False,False,False
+c70eb7d0a2e70e711e53,7,Provide case consultation on difficult cases,True,True,True,exact,True,4981,1.0,6,,False,False,False
+c70eb7d0a2e70e711e53,8,Instruct new staff on policies and procedures,True,True,True,exact,True,4981,0.75,7,,False,True,False
+c70eb7d0a2e70e711e53,9,Facilitate workflow for emergency situations,True,True,True,exact,True,4981,1.0,5,,False,False,False
+c70eb7d0a2e70e711e53,10,Maintain relationships with housing and social agencies,True,True,True,exact,True,4981,1.0,7,,False,False,False
+c70eb7d0a2e70e711e53,11,Supervise interviews with homebound clients,True,True,True,exact,True,4981,1.0,5,,False,False,False
+c70eb7d0a2e70e711e53,12,Supervise walk-in and telephone service,True,True,True,exact,True,4981,1.0,5,,False,False,False
+c70eb7d0a2e70e711e53,13,Develop anti-eviction housing plans,True,True,True,exact,True,4981,0.75,4,,False,False,False
+c46d30ec6da3e3d14ecb,1,Develop sales proposals,True,True,True,exact,True,1146,1.0,3,,False,False,False
+c46d30ec6da3e3d14ecb,2,Communicate with customers,True,True,True,exact,True,1146,1.0,3,,False,False,False
+c46d30ec6da3e3d14ecb,3,Manage timelines,True,True,True,exact,True,1146,1.0,2,,False,False,False
+c46d30ec6da3e3d14ecb,4,Lead aircraft sales campaigns,True,True,True,exact,True,1146,1.0,4,,False,False,False
+c46d30ec6da3e3d14ecb,5,Draft contracts and LOIs,True,True,True,exact,True,1146,0.667,4,,False,False,False
+c46d30ec6da3e3d14ecb,6,Negotiate with customers,True,True,True,exact,True,1146,1.0,3,,False,False,False
+c46d30ec6da3e3d14ecb,7,Manage B2B sales pipeline,True,True,True,exact,True,1146,1.0,4,,False,False,False
+c46d30ec6da3e3d14ecb,8,Represent company at industry events,True,True,True,exact,True,1146,1.0,5,,False,False,False
+c46d30ec6da3e3d14ecb,9,Gather customer insights,True,True,True,exact,True,1146,1.0,3,,False,False,False
+c46d30ec6da3e3d14ecb,10,Translate engineering perspectives for customers,True,True,True,exact,True,1146,1.0,5,,False,False,False
+c46d30ec6da3e3d14ecb,11,Control global orderbook,True,True,True,exact,True,1146,1.0,3,,False,True,False
+c46d30ec6da3e3d14ecb,12,Mentor technical sales managers,True,True,True,exact,True,1146,1.0,4,,False,False,False
+c46d30ec6da3e3d14ecb,13,Develop sales team and processes,True,True,True,exact,True,1146,1.0,5,,False,False,False
+fa720a68585d2099f1eb,1,Work with financial data,True,True,True,exact,True,1733,0.5,4,,False,False,False
+fa720a68585d2099f1eb,2,Clarify company strategies,True,True,True,exact,True,1733,0.333,3,,False,False,False
+fa720a68585d2099f1eb,3,Write reports,True,True,True,exact,True,1733,0.5,2,,False,False,False
+fa720a68585d2099f1eb,4,Drive CEO agenda across functions,True,True,True,exact,True,1733,1.0,5,,False,False,False
+fa720a68585d2099f1eb,5,Enforce operating cadence,True,True,True,exact,True,1733,1.0,3,,False,True,False
+fa720a68585d2099f1eb,6,Monitor company performance metrics,True,True,True,exact,True,1733,0.5,4,,False,False,False
+fa720a68585d2099f1eb,7,Identify and resolve bottlenecks,True,True,True,exact,True,1733,0.667,4,shared_object_verb_pair,False,False,False
+fa720a68585d2099f1eb,8,Break down strategy into executable plans,True,True,True,exact,True,1733,1.0,6,,False,True,False
+fa720a68585d2099f1eb,9,Align direct reports on priorities,True,True,True,exact,True,1733,1.0,5,,False,False,False
+fa720a68585d2099f1eb,10,Track execution,True,True,True,exact,True,1733,1.0,2,,False,False,False
+fa720a68585d2099f1eb,11,Support investor communication and board preparation,True,True,True,exact,True,1733,1.0,6,,False,False,False
+fa720a68585d2099f1eb,12,Work with Finance on P&L and liquidity,True,True,True,exact,True,1733,1.0,7,,False,False,False
+fa720a68585d2099f1eb,13,Automate workflows with AI,True,True,True,exact,True,1733,0.667,4,,False,False,False
+fa720a68585d2099f1eb,14,Lead cross-functional initiatives,True,True,True,exact,True,1733,1.0,3,,False,False,False
+fa720a68585d2099f1eb,15,Run due diligence,True,True,True,exact,True,1733,1.0,3,,False,False,False
+628655b95b209e282632,1,Manage customer relations,True,True,True,exact,True,1213,0.667,3,,False,False,False
+628655b95b209e282632,2,Lead negotiations with decision-makers,True,True,True,exact,True,1213,1.0,4,,False,False,False
+628655b95b209e282632,3,Develop growth and retention strategies,True,True,True,exact,True,1213,1.0,5,,False,False,False
+628655b95b209e282632,4,Manage portfolio of B2B customers,True,True,True,exact,True,1213,1.0,5,,False,False,False
+628655b95b209e282632,5,Develop complex proposals,True,True,True,exact,True,1213,1.0,3,,False,False,False
+628655b95b209e282632,6,Close contracts,True,True,True,exact,True,1213,1.0,2,,False,False,False
+628655b95b209e282632,7,Coordinate internal expert teams,True,True,True,exact,True,1213,1.0,4,,False,False,False
+628655b95b209e282632,8,Identify opportunities within existing accounts,True,True,True,exact,True,1213,1.0,5,,False,False,False
+628655b95b209e282632,9,Prepare sales forecasts and management reports,True,True,True,exact,True,1213,1.0,6,,False,False,False
+628655b95b209e282632,10,Lead cross-functional improvement projects,True,True,True,exact,True,1213,1.0,4,,False,False,False
+8fb372a7f51bdc82f220,1,"Prepare keynotes, articles, and interviews",True,True,True,exact,True,2360,1.0,5,,False,False,False
+8fb372a7f51bdc82f220,2,Manage calendar and inbox,True,True,True,exact,True,2360,1.0,4,,False,False,False
+8fb372a7f51bdc82f220,3,Prepare briefing documents for meetings,True,True,True,exact,True,2360,1.0,5,,False,False,False
+8fb372a7f51bdc82f220,4,Build relationships with founders and experts,True,True,True,exact,True,2360,1.0,6,,False,False,False
+8fb372a7f51bdc82f220,5,Draft meeting agendas,True,True,True,exact,True,2360,1.0,3,,False,False,False
+8fb372a7f51bdc82f220,6,Follow up on action items,True,True,True,exact,True,2360,0.5,5,,False,False,False
+8fb372a7f51bdc82f220,7,Own ad-hoc strategic projects,True,True,True,exact,True,2360,0.75,4,,False,False,False
+8fb372a7f51bdc82f220,8,Research emerging tech trends,True,True,True,exact,True,2360,0.75,4,,False,False,False
+8fb372a7f51bdc82f220,9,Prepare Board-level materials,True,True,True,exact,True,2360,1.0,3,,False,False,False
+8fb372a7f51bdc82f220,10,Evaluate strategic technical partnerships,True,True,True,exact,True,2360,0.75,4,,False,False,False
+a1aac521f271426f1c3d,1,Oversee daily operations of the HR bureau,True,True,True,exact,True,2656,1.0,7,,False,False,False
+a1aac521f271426f1c3d,2,Develop and enforce personnel policies,True,True,True,exact,True,2656,1.0,5,,False,False,False
+a1aac521f271426f1c3d,3,Provide leadership to HR staff,True,True,True,exact,True,2656,1.0,5,,False,False,False
+a1aac521f271426f1c3d,4,Conduct HR research and analysis,True,True,True,exact,True,2656,1.0,5,,False,False,False
+a1aac521f271426f1c3d,5,Align HR objectives with agency priorities,True,True,True,exact,True,2656,1.0,6,,False,False,False
+a1aac521f271426f1c3d,6,Advise Assistant Commissioner on personnel issues,True,True,True,exact,True,2656,1.0,6,,False,False,False
+a1aac521f271426f1c3d,7,Lead special HR projects,True,True,True,exact,True,2656,1.0,4,,False,False,False
+a1aac521f271426f1c3d,8,Set HR goals for staffing and compliance,True,True,True,exact,True,2656,0.8,7,,False,False,False
+a1aac521f271426f1c3d,9,Collaborate with oversight entities and unions,True,True,True,exact,True,2656,1.0,6,,False,False,False
+a1aac521f271426f1c3d,10,Monitor HR trends and performance metrics,True,True,True,exact,True,2656,1.0,6,,False,False,False
+a1aac521f271426f1c3d,11,Evaluate recruitment and disciplinary processes,True,True,True,exact,True,2656,0.75,5,,False,False,False
+a1aac521f271426f1c3d,12,Provide HR support to executive leadership,True,True,True,exact,True,2656,1.0,6,,False,False,False
+a1aac521f271426f1c3d,13,Oversee leaves and benefits administration,True,True,True,exact,True,2656,1.0,5,,False,False,False
+a1aac521f271426f1c3d,14,Participate in executive search committees,True,True,True,exact,True,2656,1.0,5,,False,False,False
+f25af77c04bb7b98c3f6,1,Build and manage candidate pipelines,True,True,True,none,False,1045,1.0,5,shared_object_verb_pair,False,False,False
+f25af77c04bb7b98c3f6,2,Conduct initial candidate screening calls,True,True,True,none,False,1045,1.0,5,,False,False,False
+f25af77c04bb7b98c3f6,3,Support interview coordination,True,True,True,none,False,1045,1.0,3,,False,False,False
+f25af77c04bb7b98c3f6,4,Source candidates,True,True,True,none,False,1045,0.5,2,,False,False,False
+f25af77c04bb7b98c3f6,5,Manage candidate communications,True,True,True,none,False,1045,1.0,3,,False,False,False
+f25af77c04bb7b98c3f6,6,Schedule interviews,True,True,True,none,False,1045,0.5,2,,False,False,False
+f25af77c04bb7b98c3f6,7,Maintain applicant tracking system,True,True,True,none,False,1045,0.25,4,,False,False,False
+f25af77c04bb7b98c3f6,8,Summarize candidate profiles,True,True,True,none,False,1045,0.667,3,,False,True,False
+f25af77c04bb7b98c3f6,9,Contribute to employer branding,True,True,True,none,False,1045,1.0,4,,False,False,False
+f25af77c04bb7b98c3f6,10,Support onboarding logistics,True,True,True,none,False,1045,1.0,3,,False,False,False
+b496efdb5d4ba53caff6,1,Review compliance documentation,True,True,True,exact,True,1770,1.0,3,,False,False,False
+b496efdb5d4ba53caff6,2,Prepare affirmations and case documentation,True,True,True,exact,True,1770,1.0,5,,False,False,False
+b496efdb5d4ba53caff6,3,Communicate with complainants and witnesses,True,True,True,exact,True,1770,1.0,5,,False,False,False
+b496efdb5d4ba53caff6,4,Retrieve and review trip data,True,True,True,exact,True,1770,1.0,5,shared_object_verb_pair,False,True,False
+b496efdb5d4ba53caff6,5,Respond to inquiries from base representatives,True,True,True,exact,True,1770,1.0,6,,False,False,False
+b496efdb5d4ba53caff6,6,Coordinate with translation services,True,True,True,exact,True,1770,1.0,4,,False,False,False
+b496efdb5d4ba53caff6,7,Perform administrative support tasks,True,True,True,exact,True,1770,1.0,4,,False,False,False
+da3b2951a4e9f5857f38,1,Support colleagues with IT issues,True,True,True,exact,True,695,1.0,5,,False,False,False
+da3b2951a4e9f5857f38,2,Analyze hardware and software problems,True,True,True,exact,True,695,1.0,5,,False,False,False
+da3b2951a4e9f5857f38,3,Coordinate external service providers,True,True,True,exact,True,695,0.75,4,,False,False,False
+da3b2951a4e9f5857f38,4,Provide first-level IT support,True,True,True,exact,True,695,0.667,4,,False,False,False
+da3b2951a4e9f5857f38,5,Plan system and network infrastructures,True,True,True,exact,True,695,1.0,5,,False,False,False
+da3b2951a4e9f5857f38,6,Implement IT systems,True,True,True,exact,True,695,1.0,3,,False,False,False
+da3b2951a4e9f5857f38,7,Contribute to IT design projects,True,True,True,exact,True,695,1.0,5,,False,False,False
+da3b2951a4e9f5857f38,8,Create training materials and guides,True,True,True,exact,True,695,0.75,5,,False,False,False
+45ec14d7fc4b48a6858a,1,Hire and develop localization engineers,True,True,True,none,False,1950,1.0,5,shared_object_verb_pair,False,False,False
+45ec14d7fc4b48a6858a,2,Own the localization roadmap and delivery,True,True,True,none,False,1950,1.0,6,,False,False,False
+45ec14d7fc4b48a6858a,3,Build evaluation and replay loop,True,True,True,none,False,1950,1.0,5,,False,False,False
+45ec14d7fc4b48a6858a,4,Guide architecture and algorithm decisions,True,True,True,none,False,1950,1.0,5,,False,False,False
+45ec14d7fc4b48a6858a,5,Set measurable accuracy and runtime criteria,True,True,True,none,False,1950,1.0,6,,False,False,False
+45ec14d7fc4b48a6858a,6,Maintain regression tests,True,True,True,none,False,1950,1.0,3,,False,False,False
+45ec14d7fc4b48a6858a,7,Debug localization failures,True,True,True,none,False,1950,0.667,3,,False,False,False
+45ec14d7fc4b48a6858a,8,Coordinate sensor and compute integration,True,True,True,none,False,1950,1.0,5,,False,False,False
+45ec14d7fc4b48a6858a,9,Conduct live sensor testing,True,True,True,none,False,1950,0.75,4,,False,False,False
+45ec14d7fc4b48a6858a,10,Deploy systems in the field,True,True,True,none,False,1950,1.0,5,,False,False,False
+45ec14d7fc4b48a6858a,11,Write production code,True,True,True,none,False,1950,0.667,3,,False,False,False
+45ec14d7fc4b48a6858a,12,Give feedback to engineers,True,True,True,none,False,1950,1.0,4,,False,True,False
+549e8d159a9b700b28af,1,Facilitate IFSP meetings,True,True,True,exact,True,1058,1.0,3,,False,False,False
+549e8d159a9b700b28af,2,Complete evaluation and IFSP documentation,True,True,True,exact,True,1058,0.75,5,,False,False,False
+549e8d159a9b700b28af,3,Participate in mediations and fair hearings,True,True,True,exact,True,1058,0.25,6,,False,False,False
+549e8d159a9b700b28af,4,Enter case data in NYEIS,True,True,True,exact,True,1058,0.75,5,,False,False,False
+549e8d159a9b700b28af,5,Ensure accurate completion of procedures,True,True,True,exact,True,1058,1.0,5,,False,False,False
+549e8d159a9b700b28af,6,Complete service and billing paperwork,True,True,True,exact,True,1058,0.75,5,,False,False,False
+549e8d159a9b700b28af,7,Attend regional office meetings,True,True,True,exact,True,1058,1.0,4,,False,False,False
+549e8d159a9b700b28af,8,Communicate with providers and families,True,True,True,exact,True,1058,1.0,5,,False,False,False
+549e8d159a9b700b28af,9,Report concerns to supervisor,True,True,True,exact,True,1058,1.0,4,,False,False,False
+549e8d159a9b700b28af,10,Request technical assistance,True,True,True,exact,True,1058,1.0,3,,False,True,False
+8158c179ee705f36b7ca,1,Design end-to-end product experiences,True,True,True,none,False,1013,1.0,4,,False,False,False
+8158c179ee705f36b7ca,2,Build and maintain design systems,True,True,True,none,False,1013,1.0,5,shared_object_verb_pair,False,False,False
+8158c179ee705f36b7ca,3,Collaborate with engineers on implementation,True,True,True,none,False,1013,1.0,5,,False,False,False
+8158c179ee705f36b7ca,4,Create user flows and wireframes,True,True,True,none,False,1013,0.75,5,,False,False,False
+8158c179ee705f36b7ca,5,Build prototypes and interfaces,True,True,True,none,False,1013,1.0,4,,False,False,False
+8158c179ee705f36b7ca,6,Design financial product experiences,True,True,True,none,False,1013,1.0,4,,False,False,False
+8158c179ee705f36b7ca,7,Improve usability using data and feedback,True,True,True,none,False,1013,1.0,6,,False,False,False
+8158c179ee705f36b7ca,8,Maintain consistency across mobile and web,True,True,True,none,False,1013,1.0,6,,False,False,False
+8158c179ee705f36b7ca,9,Refine interactions and accessibility,True,True,True,none,False,1013,1.0,4,,False,False,False
+07ef093d7aa6614f0a82,1,Plan attendance at career fairs and hiring events,True,True,True,exact,True,2486,0.833,8,,False,False,False
+07ef093d7aa6614f0a82,2,Assist with onboarding of new hires,True,True,True,exact,True,2486,1.0,6,,False,False,False
+07ef093d7aa6614f0a82,3,Provide general administrative support,True,True,True,exact,True,2486,1.0,4,,False,False,False
+07ef093d7aa6614f0a82,4,Represent department at career fairs,True,True,True,exact,True,2486,0.75,5,,False,False,False
+07ef093d7aa6614f0a82,5,Hand out flyers and capture photos,True,True,True,exact,True,2486,1.0,6,,False,True,False
+07ef093d7aa6614f0a82,6,Prepare interview materials,True,True,True,exact,True,2486,0.667,3,,False,False,False
+07ef093d7aa6614f0a82,7,Prepare new hire folders,True,True,True,exact,True,2486,0.667,4,,False,False,False
+07ef093d7aa6614f0a82,8,Organize and file documents,True,True,True,exact,True,2486,0.333,4,,False,False,False
+07ef093d7aa6614f0a82,9,Enter data,True,True,True,exact,True,2486,0.5,2,,False,False,False
+07ef093d7aa6614f0a82,10,Assist with special projects,True,True,True,exact,True,2486,1.0,4,,False,False,False
+464d3d3312512fd7f8d0,1,Oversee daily maintenance operations,True,True,True,exact,True,2660,1.0,4,,False,False,False
+464d3d3312512fd7f8d0,2,Supervise repair of structures and equipment,True,True,True,exact,True,2660,1.0,6,,False,False,False
+464d3d3312512fd7f8d0,3,Monitor work orders and staff deployment,True,True,True,exact,True,2660,1.0,6,,False,False,False
+464d3d3312512fd7f8d0,4,Supervise care of buildings and grounds,True,True,True,exact,True,2660,1.0,6,,False,False,False
+464d3d3312512fd7f8d0,5,Monitor inventory and arrange replenishment,True,True,True,exact,True,2660,1.0,5,,False,False,False
+464d3d3312512fd7f8d0,6,Conduct building inspections,True,True,True,exact,True,2660,1.0,3,,False,False,False
+464d3d3312512fd7f8d0,7,Follow up on repairs for PHAS,True,True,True,exact,True,2660,0.75,6,,False,False,False
+464d3d3312512fd7f8d0,8,Oversee repairs in apartments and public spaces,True,True,True,exact,True,2660,1.0,7,,False,False,False
+464d3d3312512fd7f8d0,9,Supervise move-out preparation,True,True,True,exact,True,2660,1.0,3,,False,False,False
+3613b2486df0c4c5d71a,1,Define system integration and verification plans,True,True,True,exact,True,4043,1.0,6,,False,False,False
+3613b2486df0c4c5d71a,2,Drive system verification campaigns,True,True,True,exact,True,4043,1.0,4,,False,False,False
+3613b2486df0c4c5d71a,3,Process anomalies from verification campaigns,True,True,True,exact,True,4043,1.0,5,,False,False,False
+3613b2486df0c4c5d71a,4,Define test plans and success criteria,True,True,True,exact,True,4043,1.0,6,,False,False,False
+3613b2486df0c4c5d71a,5,Support test procedure generation,True,True,True,exact,True,4043,0.75,4,,False,False,False
+3613b2486df0c4c5d71a,6,Organize verification reviews,True,True,True,exact,True,4043,0.667,3,,False,False,False
+3613b2486df0c4c5d71a,7,Generate verification reports,True,True,True,exact,True,4043,1.0,3,,False,False,False
+3613b2486df0c4c5d71a,8,Close verification items,True,True,True,exact,True,4043,0.667,3,,False,False,False
+3613b2486df0c4c5d71a,9,Collaborate with engineering disciplines,True,True,True,exact,True,4043,1.0,4,,False,False,False
+a9268008dd18f84aff54,1,Develop analytical and machine-learning models,True,True,True,none,False,1215,1.0,5,,False,False,False
+a9268008dd18f84aff54,2,Build data extraction pipelines,True,True,True,none,False,1215,1.0,4,,False,False,False
+a9268008dd18f84aff54,3,Assess data quality and model performance,True,True,True,none,False,1215,1.0,6,,False,False,False
+a9268008dd18f84aff54,4,Develop simulation models,True,True,True,none,False,1215,1.0,3,,False,False,False
+a9268008dd18f84aff54,5,Explore new data sources,True,True,True,none,False,1215,1.0,4,,False,True,False
+a9268008dd18f84aff54,6,Validate assumptions against real-world data,True,True,True,none,False,1215,0.8,5,,False,False,False
+a9268008dd18f84aff54,7,Collaborate with stakeholders on business needs,True,True,True,none,False,1215,1.0,6,,False,False,False
+a9268008dd18f84aff54,8,Identify data gaps,True,True,True,none,False,1215,1.0,3,,False,False,False
+a9268008dd18f84aff54,9,Evaluate extraction accuracy,True,True,True,none,False,1215,1.0,3,,False,False,False
+1742269a66920b58cfba,1,Report on project status to management,True,True,True,exact,True,1539,1.0,6,,False,False,False
+1742269a66920b58cfba,2,Oversee team tracking projects,True,True,True,exact,True,1539,1.0,4,,False,False,False
+1742269a66920b58cfba,3,Identify solutions to programmatic issues,True,True,True,exact,True,1539,1.0,5,,False,False,False
+1742269a66920b58cfba,4,"Monitor federal, state, and city regulations",True,True,True,exact,True,1539,1.0,6,,False,False,False
+1742269a66920b58cfba,5,Collect and review documentation,True,True,True,exact,True,1539,1.0,4,shared_object_verb_pair,False,False,False
+1742269a66920b58cfba,6,Train agencies on FEMA requirements,True,True,True,exact,True,1539,1.0,5,,False,False,False
+1742269a66920b58cfba,7,Identify opportunities to increase funding awards,True,True,True,exact,True,1539,1.0,6,,False,False,False
+1742269a66920b58cfba,8,Ensure timely reimbursement requests,True,True,True,exact,True,1539,0.667,4,,False,False,False
+1742269a66920b58cfba,9,Represent OMB in external partner meetings,True,True,True,exact,True,1539,1.0,6,,False,False,False
+1742269a66920b58cfba,10,Ensure projects are budgeted and expenditures tracked,True,True,True,exact,True,1539,1.0,7,,False,False,False
+1742269a66920b58cfba,11,Develop trainings for staff,True,True,True,exact,True,1539,1.0,4,,False,False,False
+1742269a66920b58cfba,12,Analyze task force procedures and recommend changes,True,True,True,exact,True,1539,1.0,7,two_actions,False,False,False
+ab2db63d3df2cbb9d730,1,Research youth financial education programs,True,True,True,exact,True,2071,1.0,5,,False,False,False
+ab2db63d3df2cbb9d730,2,Develop assessment tools,True,True,True,exact,True,2071,1.0,3,,False,False,False
+ab2db63d3df2cbb9d730,3,Draft and edit reports and presentations,True,True,True,exact,True,2071,1.0,6,,False,False,False
+ab2db63d3df2cbb9d730,4,Coordinate design of workshop curriculum materials,True,True,True,exact,True,2071,1.0,6,,False,False,False
+ab2db63d3df2cbb9d730,5,Recommend instructional design models,True,True,True,exact,True,2071,1.0,4,,False,False,False
+ab2db63d3df2cbb9d730,6,Develop pre/post surveys and quizzes,True,True,True,exact,True,2071,1.0,5,,False,False,False
+ab2db63d3df2cbb9d730,7,Analyze program data to improve content,True,True,True,exact,True,2071,0.8,6,,False,False,False
+ab2db63d3df2cbb9d730,8,Provide updates to leadership,True,True,True,exact,True,2071,1.0,4,,False,False,False
+ab2db63d3df2cbb9d730,9,Document curriculum frameworks and impact metrics,True,True,True,exact,True,2071,1.0,6,,False,False,False
+ab2db63d3df2cbb9d730,10,Support broader team projects,True,True,True,exact,True,2071,1.0,4,,False,False,False
+514d14a0cdbffddf9491,1,Drive acquisition of new partners,True,True,True,exact,True,3318,1.0,5,,False,False,False
+514d14a0cdbffddf9491,2,Develop joint business plans,True,True,True,exact,True,3318,1.0,4,,False,False,False
+514d14a0cdbffddf9491,3,"Analyze market, sales, and customer data",True,True,True,exact,True,3318,1.0,6,two_actions,False,False,False
+514d14a0cdbffddf9491,4,Own sales and margin targets for key accounts,True,True,True,exact,True,3318,0.833,8,,False,False,False
+514d14a0cdbffddf9491,5,Build long-term partnerships with key partners,True,True,True,exact,True,3318,1.0,6,,False,False,False
+514d14a0cdbffddf9491,6,Partner with internal teams on execution,True,True,True,exact,True,3318,1.0,6,,False,False,False
+514d14a0cdbffddf9491,7,Share best practices with team,True,True,True,exact,True,3318,1.0,5,,False,False,False
+a5cc492b8fcc77fb1848,1,Guide rulemaking,True,True,True,exact,True,1075,1.0,2,,False,False,False
+a5cc492b8fcc77fb1848,2,Manage administrative hearings appeals process,True,True,True,exact,True,1075,1.0,5,,False,False,False
+a5cc492b8fcc77fb1848,3,Supervise attorneys and coordinator,True,True,True,exact,True,1075,0.667,4,,False,False,False
+a5cc492b8fcc77fb1848,4,Draft amendments to Health Code and regulations,True,True,True,exact,True,1075,1.0,7,,False,False,False
+a5cc492b8fcc77fb1848,5,Assess administrative hearing outcomes and enforcement,True,True,True,exact,True,1075,0.8,6,,False,False,False
+a5cc492b8fcc77fb1848,6,Evaluate impact of regulatory and legislative change,True,True,True,exact,True,1075,1.0,7,,False,False,False
+a5cc492b8fcc77fb1848,7,Liaise with OATH on operational and legal issues,True,True,True,exact,True,1075,0.8,8,,False,False,False
+a5cc492b8fcc77fb1848,8,Oversee hearing appearances,True,True,True,exact,True,1075,0.667,3,,False,False,False
+a5cc492b8fcc77fb1848,9,Manage tracking system for legal projects,True,True,True,exact,True,1075,1.0,6,,False,False,False
+a5cc492b8fcc77fb1848,10,Assist with legal emergency preparedness,True,True,True,exact,True,1075,1.0,5,,False,False,False
+14d07b37d97f6b76cebb,1,Order supplies and manage office stock,True,True,True,exact,True,6265,1.0,6,two_actions,False,True,False
+14d07b37d97f6b76cebb,2,Coordinate meeting room bookings,True,True,True,exact,True,6265,1.0,4,,False,False,False
+14d07b37d97f6b76cebb,3,Support organization of events,True,True,True,exact,True,6265,0.667,4,,False,False,False
+14d07b37d97f6b76cebb,4,Keep office tidy and presentable,True,True,True,exact,True,6265,1.0,5,,False,True,False
+14d07b37d97f6b76cebb,5,Collect deliveries,True,True,True,exact,True,6265,1.0,2,,False,False,False
+14d07b37d97f6b76cebb,6,Coordinate office wellness initiatives with vendors,True,True,True,exact,True,6265,1.0,6,,False,False,False
+14d07b37d97f6b76cebb,7,Promote events within office building,True,True,True,exact,True,6265,1.0,5,,False,False,False
+14d07b37d97f6b76cebb,8,Liaise with building team,True,True,True,exact,True,6265,1.0,4,,False,False,False
+14d07b37d97f6b76cebb,9,Support visitors and manage tracking,True,True,True,exact,True,6265,1.0,5,two_actions,False,False,False
+14d07b37d97f6b76cebb,10,Address employee office management queries,True,True,True,exact,True,6265,1.0,5,,False,True,False
+14d07b37d97f6b76cebb,11,Manage swag orders and distribution,True,True,True,exact,True,6265,1.0,5,,False,False,False
+14d07b37d97f6b76cebb,12,Support charity initiatives,True,True,True,exact,True,6265,1.0,3,,False,False,False
+14d07b37d97f6b76cebb,13,Distribute new hire kits,True,True,True,exact,True,6265,1.0,4,,False,False,False
+14d07b37d97f6b76cebb,14,Send office update communications,True,True,True,exact,True,6265,0.75,4,,False,False,False
+0b2d4a40fa501be8086c,1,Validate customer requirements,True,True,True,none,False,1992,1.0,3,,False,False,False
+0b2d4a40fa501be8086c,2,Configure products for customer deployments,True,True,True,none,False,1992,1.0,5,,False,False,False
+0b2d4a40fa501be8086c,3,Provide Level 2 technical support,True,True,True,none,False,1992,1.0,5,,False,False,False
+0b2d4a40fa501be8086c,4,Lead technical implementation activities,True,True,True,none,False,1992,1.0,4,,False,False,False
+0b2d4a40fa501be8086c,5,Develop solution approaches for customers,True,True,True,none,False,1992,1.0,5,,False,False,False
+0b2d4a40fa501be8086c,6,Maintain solution libraries and technical documentation,True,True,True,none,False,1992,1.0,6,,False,False,False
+0b2d4a40fa501be8086c,7,Support sales engineers with architecture reviews and RFPs,True,True,True,none,False,1992,0.833,8,,False,False,False
+0b2d4a40fa501be8086c,8,Support pre-sales to implementation handovers,True,True,True,none,False,1992,1.0,5,,False,False,False
+0b2d4a40fa501be8086c,9,Provide field feedback to product management,True,True,True,none,False,1992,1.0,6,,False,False,False
+0b2d4a40fa501be8086c,10,Support webinars and customer meetings,True,True,True,none,False,1992,1.0,5,two_actions,False,False,False
+55f5a8caeb1de0a5ef8c,1,Conduct outreach for community events,True,True,True,exact,True,3519,1.0,5,,False,False,False
+55f5a8caeb1de0a5ef8c,2,Build and maintain database of community partners,True,True,True,exact,True,3519,1.0,7,shared_object_verb_pair,False,False,False
+55f5a8caeb1de0a5ef8c,3,Report on community issues and needs,True,True,True,exact,True,3519,1.0,6,,False,False,False
+55f5a8caeb1de0a5ef8c,4,Research and identify community partners,True,True,True,exact,True,3519,1.0,5,shared_object_verb_pair,False,False,False
+55f5a8caeb1de0a5ef8c,5,Increase office visibility at community events,True,True,True,exact,True,3519,1.0,6,,False,True,False
+55f5a8caeb1de0a5ef8c,6,Implement document management protocols,True,True,True,exact,True,3519,1.0,4,,False,False,False
+55f5a8caeb1de0a5ef8c,7,Work on special projects,True,True,True,exact,True,3519,1.0,4,,False,False,False
+55f5a8caeb1de0a5ef8c,8,Collaborate with other office teams,True,True,True,exact,True,3519,1.0,5,,False,False,False
+563e6c42e3b5851e81d8,1,Assign and supervise child care inspectors,True,True,True,exact,True,10008,1.0,6,shared_object_verb_pair,False,False,False
+563e6c42e3b5851e81d8,2,Conduct inspections and monitoring visits,True,True,True,exact,True,10008,1.0,5,,False,False,False
+563e6c42e3b5851e81d8,3,Train and coach new staff,True,True,True,exact,True,10008,1.0,5,,False,False,False
+563e6c42e3b5851e81d8,4,Evaluate inspector performance,True,True,True,exact,True,10008,1.0,3,,False,False,False
+563e6c42e3b5851e81d8,5,Ensure adherence to inspection protocols,True,True,True,exact,True,10008,1.0,5,,False,False,False
+563e6c42e3b5851e81d8,6,Issue notices of violation,True,True,True,exact,True,10008,1.0,4,,False,False,False
+563e6c42e3b5851e81d8,7,Recommend permit issuance or denial,True,True,True,exact,True,10008,1.0,5,,False,False,False
+563e6c42e3b5851e81d8,8,Review child care databases and case files,True,True,True,exact,True,10008,1.0,7,,False,False,False
+563e6c42e3b5851e81d8,9,Respond to public and agency inquiries,True,True,True,exact,True,10008,0.75,6,,False,False,False
+4104f785e0ac83dab8a3,1,Support cross-functional projects,True,True,True,exact,True,4561,1.0,3,,False,False,False
+4104f785e0ac83dab8a3,2,Coordinate with production and procurement teams,True,True,True,exact,True,4561,1.0,6,,False,False,False
+4104f785e0ac83dab8a3,3,Support test campaigns,True,True,True,exact,True,4561,1.0,3,,False,False,False
+4104f785e0ac83dab8a3,4,Maintain project data and track progress,True,True,True,exact,True,4561,1.0,6,two_actions,False,False,False
+4104f785e0ac83dab8a3,5,Resolve operational bottlenecks,True,True,True,exact,True,4561,1.0,3,,False,False,False
+4104f785e0ac83dab8a3,6,Identify process inefficiencies and suggest improvements,True,True,True,exact,True,4561,0.8,6,,False,False,False
+4104f785e0ac83dab8a3,7,Develop test planning and verification frameworks,True,True,True,exact,True,4561,1.0,6,,False,False,False
+4104f785e0ac83dab8a3,8,Maintain project documentation and action items,True,True,True,exact,True,4561,1.0,6,,False,False,False
+4104f785e0ac83dab8a3,9,Support project reporting,True,True,True,exact,True,4561,1.0,3,,False,False,False
+68daba4b975c991f0b36,1,Monitor capital and expense budgets,True,True,True,exact,True,195,1.0,5,,False,False,False
+68daba4b975c991f0b36,2,Monitor delinquent tenant accounts,True,True,True,exact,True,195,1.0,4,,False,False,False
+68daba4b975c991f0b36,3,Monitor inventory usage,True,True,True,exact,True,195,1.0,3,,False,False,False
+be1b0255a559ee527bc9,1,Own operational groundwork for new markets,True,True,True,exact,True,3955,1.0,6,,False,False,False
+be1b0255a559ee527bc9,2,Build company-wide processes,True,True,True,exact,True,3955,0.667,3,,False,False,False
+be1b0255a559ee527bc9,3,Produce analyses to support decisions,True,True,True,exact,True,3955,0.5,5,,False,False,False
+be1b0255a559ee527bc9,4,Research new markets,True,True,True,exact,True,3955,1.0,3,,False,False,False
+be1b0255a559ee527bc9,5,Set up vendors and partners,True,True,True,exact,True,3955,0.75,5,,False,False,False
+be1b0255a559ee527bc9,6,Manage local operations for new markets,True,True,True,exact,True,3955,1.0,6,,False,False,False
+be1b0255a559ee527bc9,7,"Scope, prioritize, and track cross-functional projects",True,True,True,exact,True,3955,0.6,6,two_actions,False,True,False
+1df980408a2da22c4082,1,Conduct investigations,True,True,True,exact,True,1295,1.0,2,,False,False,False
+1df980408a2da22c4082,2,Execute search warrants and effect arrests,True,True,True,exact,True,1295,1.0,6,,False,True,False
+1df980408a2da22c4082,3,Mentor junior investigators,True,True,True,exact,True,1295,1.0,3,,False,False,False
+1df980408a2da22c4082,4,Participate in court-ordered electronic eavesdropping,True,True,True,exact,True,1295,1.0,5,,False,False,False
+1df980408a2da22c4082,5,Manage and review cases,True,True,True,exact,True,1295,1.0,4,shared_object_verb_pair,False,False,False
+1df980408a2da22c4082,6,Provide status updates to chief investigators,True,True,True,exact,True,1295,1.0,6,,False,False,False
+1df980408a2da22c4082,7,Use computer databases,True,True,True,exact,True,1295,1.0,3,,False,False,False
+1df980408a2da22c4082,8,Liaise with law enforcement and financial institutions,True,True,True,exact,True,1295,0.8,7,,False,False,False
+1df980408a2da22c4082,9,Assist attorneys in court preparation,True,True,True,exact,True,1295,1.0,5,,False,False,False
+1df980408a2da22c4082,10,Testify before grand and petit juries,True,True,True,exact,True,1295,1.0,6,,False,True,False
+1df980408a2da22c4082,11,Prepare reports and maintain records,True,True,True,exact,True,1295,1.0,5,two_actions,False,False,False
+1df980408a2da22c4082,12,Participate in protective details and protect witnesses,True,True,True,exact,True,1295,1.0,7,,False,False,False
+1df980408a2da22c4082,13,Participate in extraditions,True,True,True,exact,True,1295,1.0,3,,False,False,False
+56c9cb0250807bd7024b,1,Patrol assigned locations,True,True,True,exact,True,4127,1.0,3,,False,True,False
+56c9cb0250807bd7024b,2,Screen employees and visitors,True,True,True,exact,True,4127,1.0,4,,False,True,False
+56c9cb0250807bd7024b,3,Operate and monitor security equipment,True,True,True,exact,True,4127,0.75,5,shared_object_verb_pair,False,False,False
+56c9cb0250807bd7024b,4,Maintain safety and security of building,True,True,True,exact,True,4127,1.0,6,,False,False,False
+56c9cb0250807bd7024b,5,Prevent unauthorized access,True,True,True,exact,True,4127,1.0,3,,False,True,False
+56c9cb0250807bd7024b,6,Provide information to visitors,True,True,True,exact,True,4127,1.0,4,,False,False,False
+56c9cb0250807bd7024b,7,Verify identification at building entry,True,True,True,exact,True,4127,0.75,5,,False,True,False
+56c9cb0250807bd7024b,8,Record observations in reports,True,True,True,exact,True,4127,1.0,4,,False,False,False
+56c9cb0250807bd7024b,9,Alert management and emergency services,True,True,True,exact,True,4127,1.0,5,,False,True,False
+56c9cb0250807bd7024b,10,Report equipment maintenance needs,True,True,True,exact,True,4127,1.0,4,,False,False,False
+56c9cb0250807bd7024b,11,Eject disorderly persons and issue summonses,True,True,True,exact,True,4127,1.0,6,two_actions,False,True,False
+56c9cb0250807bd7024b,12,Perform supervisor duties in absence,True,True,True,exact,True,4127,1.0,5,,False,False,False
+9adaeee050c4ec5d83dd,1,Coordinate interview scheduling,True,True,True,none,False,1197,0.667,3,,False,False,False
+9adaeee050c4ec5d83dd,2,Prepare onboarding documentation,True,True,True,none,False,1197,0.667,3,,False,False,False
+9adaeee050c4ec5d83dd,3,Process candidates in HR software,True,True,True,none,False,1197,1.0,5,,False,False,False
+9adaeee050c4ec5d83dd,4,Maintain overview of open positions,True,True,True,none,False,1197,1.0,5,,False,False,False
+9adaeee050c4ec5d83dd,5,Support first interviews,True,True,True,none,False,1197,0.667,3,,False,False,False
+9adaeee050c4ec5d83dd,6,Coordinate interview process and deadlines,True,True,True,none,False,1197,0.75,5,,False,False,False
+9adaeee050c4ec5d83dd,7,Evaluate application questionnaires,True,True,True,none,False,1197,0.667,3,,False,False,False
+9adaeee050c4ec5d83dd,8,Prepare interview challenges,True,True,True,none,False,1197,0.667,3,,False,False,False
+9adaeee050c4ec5d83dd,9,Support recruiting team with administrative tasks,True,True,True,none,False,1197,1.0,6,,False,False,False
+3b6214df01e1277e6efd,1,Manage and grow engineering teams,True,True,True,none,False,2106,1.0,5,,False,False,False
+3b6214df01e1277e6efd,2,Set priorities across customer and engineering work,True,True,True,none,False,2106,1.0,7,,False,False,False
+3b6214df01e1277e6efd,3,Establish on-call and incident response processes,True,True,True,none,False,2106,1.0,6,,False,False,False
+3b6214df01e1277e6efd,4,Provide coaching and career development,True,True,True,none,False,2106,0.75,5,,False,False,False
+3b6214df01e1277e6efd,5,Ensure follow-the-sun coverage,True,True,True,none,False,2106,1.0,3,,False,False,False
+3b6214df01e1277e6efd,6,Partner with Customer Success and Sales leadership,True,True,True,none,False,2106,1.0,7,,False,False,False
+3b6214df01e1277e6efd,7,Integrate customer work into platform roadmap,True,True,True,none,False,2106,0.75,6,,False,True,False
+3b6214df01e1277e6efd,8,Own engineering quality standards,True,True,True,none,False,2106,1.0,4,,False,False,False
+3b6214df01e1277e6efd,9,Drive hiring and performance management,True,True,True,none,False,2106,1.0,5,,False,False,False
+3b6214df01e1277e6efd,10,Report on team health and customer outcomes,True,True,True,none,False,2106,1.0,7,two_actions,False,False,False
+3b6214df01e1277e6efd,11,Remove blockers for teams,True,True,True,none,False,2106,1.0,4,,False,True,False
+10c829e5b8226b55a98f,1,Handle appeals from receipt to completion,True,True,True,none,False,4267,0.75,6,,False,False,False
+10c829e5b8226b55a98f,2,Present cases at informal hearings,True,True,True,none,False,4267,1.0,5,,False,False,False
+10c829e5b8226b55a98f,3,Respond to inquiries from applicants and staff,True,True,True,none,False,4267,0.75,7,,False,False,False
+10c829e5b8226b55a98f,4,Review case files for procedural issues,True,True,True,none,False,4267,1.0,6,,False,False,False
+10c829e5b8226b55a98f,5,Create timelines of case events,True,True,True,none,False,4267,0.5,5,,False,False,False
+10c829e5b8226b55a98f,6,Prepare cases for hearings,True,True,True,none,False,4267,0.667,4,,False,False,False
+10c829e5b8226b55a98f,7,Enter case information in tracking database,True,True,True,none,False,4267,1.0,6,,False,False,False
+10c829e5b8226b55a98f,8,Ensure timely mailing of correspondence,True,True,True,none,False,4267,1.0,5,,False,False,False
+10c829e5b8226b55a98f,9,Send pre-resolve emails to senior staff,True,True,True,none,False,4267,0.8,6,,False,False,False
+10c829e5b8226b55a98f,10,Serve as liaison on hearing logistics,True,True,True,none,False,4267,0.5,6,,False,False,False
+10c829e5b8226b55a98f,11,Manage caseload and assign cases,True,True,True,none,False,4267,1.0,5,two_actions,False,False,False
+10c829e5b8226b55a98f,12,Train staff and conduct mock hearings,True,True,True,none,False,4267,0.8,6,two_actions,False,False,False
+10c829e5b8226b55a98f,13,Recommend appeals unit improvements,True,True,True,none,False,4267,1.0,4,,False,False,False
+013cb5431128103bc44c,1,Maintain key relationships in the borough,True,True,True,exact,True,2833,1.0,6,,False,False,False
+013cb5431128103bc44c,2,Manage team of engagement staff,True,True,True,exact,True,2833,1.0,5,,False,False,False
+013cb5431128103bc44c,3,Coordinate with citywide liaisons,True,True,True,exact,True,2833,1.0,4,,False,False,False
+013cb5431128103bc44c,4,Track high-level borough issues,True,True,True,exact,True,2833,1.0,4,,False,False,False
+013cb5431128103bc44c,5,Identify organizing opportunities,True,True,True,exact,True,2833,1.0,3,,False,False,False
+013cb5431128103bc44c,6,Attend civic and community meetings,True,True,True,exact,True,2833,1.0,5,,False,False,False
+013cb5431128103bc44c,7,Follow up on constituent cases,True,True,True,exact,True,2833,0.5,5,,False,False,False
+013cb5431128103bc44c,8,Represent Mayor's Office in emergencies,True,True,True,exact,True,2833,1.0,5,,False,False,False
+5e3441edc7e25b376050,1,Design and execute activation strategies,True,True,True,none,False,3601,1.0,5,,False,False,False
+5e3441edc7e25b376050,2,Lead educational workshops and live events,True,True,True,none,False,3601,1.0,6,,False,False,False
+5e3441edc7e25b376050,3,Build champion communities,True,True,True,none,False,3601,1.0,3,,False,False,False
+5e3441edc7e25b376050,4,Build custom AI solutions with customers,True,True,True,none,False,3601,1.0,6,,False,False,False
+5e3441edc7e25b376050,5,Implement champion programs and usage dashboards,True,True,True,none,False,3601,1.0,6,,False,False,False
+5e3441edc7e25b376050,6,Create advocate and power user networks,True,True,True,none,False,3601,1.0,6,,False,False,False
+5e3441edc7e25b376050,7,Train customer trainers,True,True,True,none,False,3601,1.0,3,,False,False,False
+5e3441edc7e25b376050,8,Facilitate live and virtual training sessions,True,True,True,none,False,3601,1.0,6,,False,False,False
+5e3441edc7e25b376050,9,Customize and deliver workshop curriculum,True,True,True,none,False,3601,0.75,5,shared_object_verb_pair,False,True,False
+5e3441edc7e25b376050,10,Refine materials from customer feedback,True,True,True,none,False,3601,1.0,5,,False,False,False
+5e3441edc7e25b376050,11,Build relationships with executive sponsors,True,True,True,none,False,3601,1.0,5,,False,False,False
+097687274962463b41a1,1,Conduct case investigations for disease surveillance,True,True,True,none,False,6181,1.0,6,,False,False,False
+097687274962463b41a1,2,Maintain and report on surveillance data,True,True,True,none,False,6181,1.0,6,shared_object_verb_pair,False,False,False
+097687274962463b41a1,3,Conduct outreach to medical communities,True,True,True,none,False,6181,1.0,5,,False,False,False
+097687274962463b41a1,4,Update case investigation protocols and forms,True,True,True,none,False,6181,0.8,6,,False,False,False
+097687274962463b41a1,5,Conduct quality assurance of data,True,True,True,none,False,6181,1.0,5,,False,False,False
+097687274962463b41a1,6,Conduct literature reviews,True,True,True,none,False,6181,1.0,3,,False,False,False
+097687274962463b41a1,7,Participate in fieldwork including tick dragging,True,True,True,none,False,6181,1.0,6,,False,False,False
+097687274962463b41a1,8,Participate in outbreak investigations,True,True,True,none,False,6181,1.0,4,,False,False,False
+097687274962463b41a1,9,Supervise seasonal interns,True,True,True,none,False,6181,1.0,3,,False,False,False
+097687274962463b41a1,10,Participate in agency response activations,True,True,True,none,False,6181,0.75,5,,False,False,False
+dc4ffbc270be451c9891,1,Generate ideas for product engagement,True,True,True,exact,True,1549,0.75,5,,False,False,False
+dc4ffbc270be451c9891,2,Turn ideas into one-pagers and test plans,True,True,True,exact,True,1549,1.0,7,,False,False,False
+dc4ffbc270be451c9891,3,Measure results of launched ideas,True,True,True,exact,True,1549,1.0,5,,False,True,False
+dc4ffbc270be451c9891,4,Partner with founders on engagement ideas,True,True,True,exact,True,1549,1.0,6,,False,False,False
+dc4ffbc270be451c9891,5,Embed across product teams,True,True,True,exact,True,1549,1.0,4,,False,True,False
+dc4ffbc270be451c9891,6,Analyze engagement of leading consumer apps,True,True,True,exact,True,1549,0.6,6,,False,False,False
+dc4ffbc270be451c9891,7,Push ideas through to launch,True,True,True,exact,True,1549,1.0,5,,False,True,False
+dc4ffbc270be451c9891,8,Scale or discontinue ideas based on results,True,True,True,exact,True,1549,0.6,7,,False,False,False
+dc4ffbc270be451c9891,9,Build company engagement instinct,True,True,True,exact,True,1549,1.0,4,,False,False,False

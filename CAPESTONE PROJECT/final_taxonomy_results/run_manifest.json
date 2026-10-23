@@ -1,0 +1,292 @@
+{
+  "created_utc": "2026-10-23T00:04:37.790498+00:00",
+  "project_dir": "/content/drive/MyDrive/CAPESTONE PROJECT",
+  "agentic_results": "/content/drive/MyDrive/CAPESTONE PROJECT/agentic_taxonomy_results",
+  "input_sha256": "010795fed2864f9963f159204a857f2198a2246206009ab0dbbbb786799f4551",
+  "embedding_hashes": {
+    "t5": "6aaf5c7137854b4a9a960354c6804734042c4057cbecad3ec36cf297cc20eb18",
+    "e5": "b9b4144d768ff75b8b70fdea4f44a32258878580e35e9aa802f368f619f29025"
+  },
+  "validation": {
+    "rows": 3015,
+    "t5_aligned": true,
+    "e5_aligned": true
+  },
+  "sprint3_script_sha256": "c2cbc1bf58126876106b19538769927e2f6cc6b687e9d014818ffb6e7c747a12",
+  "grid": {
+    "N_LOW": 64,
+    "N_AGENTIC": 80,
+    "N_HIGH": 96,
+    "grid": [
+      64,
+      80,
+      96
+    ],
+    "rule": "delta = max(2, round(0.2 * N)) = 16 (+-20%)"
+  },
+  "T_common_low_confidence_margin": 0.006647086143493653,
+  "partitions": [
+    "AGENTIC_FULL",
+    "HYBRID_PROTOTYPE",
+    "KMEANS_T5@64",
+    "KMEANS_T5@80",
+    "KMEANS_T5@96",
+    "KMEANS_E5@64",
+    "KMEANS_E5@80",
+    "KMEANS_E5@96",
+    "GMM_T5@64",
+    "GMM_T5@80",
+    "GMM_T5@96",
+    "LEIDEN_T5@64",
+    "LEIDEN_T5@80",
+    "LEIDEN_T5@96",
+    "HDBSCAN_T5@64",
+    "HDBSCAN_T5@80",
+    "HDBSCAN_T5@96",
+    "BERTOPIC_NATURAL",
+    "HIST_KMEANS_T5_k100",
+    "HIST_GMM_T5_140",
+    "HIST_LEIDEN_T5_k20_r2.0"
+  ],
+  "best_count_per_family": {
+    "kmeans_t5": {
+      "best_partition": "KMEANS_T5@64",
+      "best_count": 64,
+      "target_count": 64,
+      "decided_by": "5 paraphrase consistency",
+      "trace": [
+        "1 human semantic coherence [human_preference_share]: not available for any candidate -> PENDING / no effect",
+        "2 coverage [coverage_work]: best=1.0000 tol=0.05 -> kept KMEANS_T5@64, KMEANS_T5@80, KMEANS_T5@96",
+        "3 stability [stability_ari]: best=0.4000 tol=0.05 -> kept KMEANS_T5@64, KMEANS_T5@80, KMEANS_T5@96",
+        "4 topic persistence [persistence_share_j50]: best=0.3281 tol=0.05 -> kept KMEANS_T5@64, KMEANS_T5@80",
+        "5 paraphrase consistency [paraphrase_kappa]: best=0.6775 tol=0.05 -> kept KMEANS_T5@64"
+      ]
+    },
+    "kmeans_e5": {
+      "best_partition": "KMEANS_E5@64",
+      "best_count": 64,
+      "target_count": 64,
+      "decided_by": "4 topic persistence",
+      "trace": [
+        "1 human semantic coherence [human_preference_share]: not available for any candidate -> PENDING / no effect",
+        "2 coverage [coverage_work]: best=1.0000 tol=0.05 -> kept KMEANS_E5@64, KMEANS_E5@80, KMEANS_E5@96",
+        "3 stability [stability_ari]: best=0.4564 tol=0.05 -> kept KMEANS_E5@64, KMEANS_E5@80, KMEANS_E5@96",
+        "4 topic persistence [persistence_share_j50]: best=0.5000 tol=0.05 -> kept KMEANS_E5@64"
+      ]
+    },
+    "gmm_t5": {
+      "best_partition": "GMM_T5@80",
+      "best_count": 80,
+      "target_count": 80,
+      "decided_by": "4 topic persistence",
+      "trace": [
+        "1 human semantic coherence [human_preference_share]: not available for any candidate -> PENDING / no effect",
+        "2 coverage [coverage_work]: best=1.0000 tol=0.05 -> kept GMM_T5@64, GMM_T5@80, GMM_T5@96",
+        "3 stability [stability_ari]: best=0.4137 tol=0.05 -> kept GMM_T5@64, GMM_T5@80, GMM_T5@96",
+        "4 topic persistence [persistence_share_j50]: best=0.3875 tol=0.05 -> kept GMM_T5@80"
+      ]
+    },
+    "leiden_t5": {
+      "best_partition": "LEIDEN_T5@80",
+      "best_count": 80,
+      "target_count": 80,
+      "decided_by": "tie after all levels -> lowest complexity, then highest stability",
+      "trace": [
+        "1 human semantic coherence [human_preference_share]: not available for any candidate -> PENDING / no effect",
+        "2 coverage [coverage_work]: best=1.0000 tol=0.05 -> kept LEIDEN_T5@64, LEIDEN_T5@80, LEIDEN_T5@96",
+        "3 stability [stability_ari]: best=0.5988 tol=0.05 -> kept LEIDEN_T5@64, LEIDEN_T5@80, LEIDEN_T5@96",
+        "4 topic persistence [persistence_share_j50]: best=0.7000 tol=0.05 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "5 paraphrase consistency [paraphrase_kappa]: best=0.8003 tol=0.05 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "6 clear / non-redundant boundaries [centroid_inconsistency_rate]: best=0.0975 tol=0.03 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "7 sensible granularity [granularity_score]: best=1.0000 tol=0.25 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "8 low ambiguity [low_confidence_rate]: best=0.1828 tol=0.05 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "9 provider robustness [provider_nn_gap_abs]: best=0.0674 tol=0.05 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "10a cohesion (supporting) [semantic_cohesion_lift_incl_unassigned]: best=0.2745 tol=0.02 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "10b silhouette (supporting) [silhouette]: best=0.0475 tol=0.01 -> kept LEIDEN_T5@80, LEIDEN_T5@96",
+        "11 complexity / cost [complexity_rank]: best=2.0000 tol=0.0 -> kept LEIDEN_T5@80, LEIDEN_T5@96"
+      ]
+    },
+    "hdbscan_t5": {
+      "best_partition": "HDBSCAN_T5@64",
+      "best_count": 3,
+      "target_count": 64,
+      "decided_by": "tie after all levels -> lowest complexity, then highest stability",
+      "trace": [
+        "1 human semantic coherence [human_preference_share]: not available for any candidate -> PENDING / no effect",
+        "2 coverage [coverage_work]: best=0.7875 tol=0.05 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "3 stability [stability_ari]: best=0.1488 tol=0.05 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "4 topic persistence [persistence_share_j50]: best=0.0000 tol=0.05 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "5 paraphrase consistency [paraphrase_kappa]: best=-8.9615 tol=0.05 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "6 clear / non-redundant boundaries [centroid_inconsistency_rate]: best=0.0131 tol=0.03 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "7 sensible granularity [granularity_score]: best=0.0000 tol=0.25 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "8 low ambiguity [low_confidence_rate]: best=0.0206 tol=0.05 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "9 provider robustness [provider_nn_gap_abs]: best=0.0042 tol=0.05 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "10a cohesion (supporting) [semantic_cohesion_lift_incl_unassigned]: best=0.0054 tol=0.02 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "10b silhouette (supporting) [silhouette]: best=-0.0243 tol=0.01 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96",
+        "11 complexity / cost [complexity_rank]: best=2.0000 tol=0.0 -> kept HDBSCAN_T5@64, HDBSCAN_T5@80, HDBSCAN_T5@96"
+      ]
+    }
+  },
+  "leiden_search": {
+    "64": {
+      "target_count": 64,
+      "actual_count": 64,
+      "abs_difference": 0,
+      "resolution": 4.937702,
+      "modularity": 0.45862807554500323,
+      "evaluations": 10,
+      "close_match": true
+    },
+    "80": {
+      "target_count": 80,
+      "actual_count": 80,
+      "abs_difference": 0,
+      "resolution": 5.537317,
+      "modularity": 0.5558806387292378,
+      "evaluations": 5,
+      "close_match": true
+    },
+    "96": {
+      "target_count": 96,
+      "actual_count": 96,
+      "abs_difference": 0,
+      "resolution": 7.516773,
+      "modularity": 0.5440834071317554,
+      "evaluations": 7,
+      "close_match": true
+    }
+  },
+  "hdbscan_search": {
+    "64": {
+      "target_count": 64,
+      "feasible": true,
+      "actual_count": 3,
+      "abs_difference": 61,
+      "noise_share": 0.21260364842454393,
+      "min_cluster_size": 10,
+      "min_samples": 1,
+      "selection": "eom",
+      "close_match": false
+    },
+    "80": {
+      "target_count": 80,
+      "feasible": true,
+      "actual_count": 3,
+      "abs_difference": 77,
+      "noise_share": 0.21260364842454393,
+      "min_cluster_size": 10,
+      "min_samples": 1,
+      "selection": "eom",
+      "close_match": false
+    },
+    "96": {
+      "target_count": 96,
+      "feasible": true,
+      "actual_count": 3,
+      "abs_difference": 93,
+      "noise_share": 0.21260364842454393,
+      "min_cluster_size": 10,
+      "min_samples": 1,
+      "selection": "eom",
+      "close_match": false
+    }
+  },
+  "bertopic": {
+    "variant": "POST_HOC_REDUCED_TO_AGENTIC_GRANULARITY",
+    "applicable": false,
+    "natural_topics": 70,
+    "target_count": 80,
+    "reason": "natural topic count is not above the target - reduction can only merge topics"
+  },
+  "decision": {
+    "gates": {
+      "coverage_work": [
+        ">=",
+        0.8
+      ],
+      "stability_ari": [
+        ">=",
+        0.5
+      ],
+      "persistence_share_j50": [
+        ">=",
+        0.5
+      ],
+      "dominant_share": [
+        "<=",
+        0.2
+      ],
+      "tiny_cluster_share": [
+        "<=",
+        0.25
+      ],
+      "noise_share": [
+        "<=",
+        0.5
+      ]
+    },
+    "hierarchy": [
+      "1 human semantic coherence",
+      "2 coverage",
+      "3 stability",
+      "4 topic persistence",
+      "5 paraphrase consistency",
+      "6 clear / non-redundant boundaries",
+      "7 sensible granularity",
+      "8 low ambiguity",
+      "9 provider robustness",
+      "10a cohesion (supporting)",
+      "10b silhouette (supporting)",
+      "11 complexity / cost"
+    ],
+    "candidates": 11,
+    "passed_gates": [
+      "LEIDEN_T5@80",
+      "HIST_LEIDEN_T5_k20_r2.0"
+    ],
+    "human_review": "PENDING",
+    "outcome": "LEIDEN SELECTED",
+    "selected": "LEIDEN_T5@80",
+    "second": "HIST_LEIDEN_T5_k20_r2.0",
+    "trace": [
+      "1 human semantic coherence [human_preference_share]: not available for any candidate -> PENDING / no effect",
+      "2 coverage [coverage_work]: best=1.0000 tol=0.05 -> kept LEIDEN_T5@80, HIST_LEIDEN_T5_k20_r2.0",
+      "3 stability [stability_ari]: best=0.5675 tol=0.05 -> kept LEIDEN_T5@80, HIST_LEIDEN_T5_k20_r2.0",
+      "4 topic persistence [persistence_share_j50]: best=0.7000 tol=0.05 -> kept LEIDEN_T5@80"
+    ],
+    "decided_by": "4 topic persistence",
+    "freeze_ready": false,
+    "freeze_blockers": [
+      "human review sample not yet labelled (criterion 1: human semantic coherence)"
+    ]
+  },
+  "human_review": null,
+  "claude_calls_in_benchmark": 0,
+  "agentic_api_budget": {
+    "hard_limit": 20,
+    "calls_made": 19,
+    "remaining_calls": 1,
+    "reserve_calls_used": null,
+    "calls_by_role": null
+  },
+  "report_consistency": {
+    "all_consistent": true,
+    "checks": 8
+  },
+  "runtime_seconds": {
+    "total_seconds": 613.0
+  },
+  "seeds": {
+    "global": 42,
+    "stability": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ]
+  },
+  "subsample_protocol": "Sprint 3 subsample_indices (rng 42, 5 x 80%)",
+  "known_input_quality_limitation": "The Sprint 3 input was section-filtered following a manually labelled task-purity audit. Post-filter audited task purity was 92.9%. Residual non-task contamination may therefore remain and is treated as a known limitation of the clustering experiment.",
+  "onet_used": false
+}

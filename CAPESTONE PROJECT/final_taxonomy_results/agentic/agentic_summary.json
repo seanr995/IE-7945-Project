@@ -1,0 +1,140 @@
+{
+  "mode": "full",
+  "stop_reason": "refinement round limit (2) reached; unmet: topic-count change <= 1",
+  "thresholds": {
+    "margin_threshold": 0.016740858554840088,
+    "low_similarity_threshold": 0.860065221786499,
+    "anchors": 974,
+    "loo_accuracy_all": 0.6991786447638604,
+    "auto_precision_at_threshold": 0.9,
+    "target": 0.9,
+    "rule": "smallest LOO margin with precision >= target on Claude-labelled anchors; low-similarity = P5 of correct anchors' top-1 similarity"
+  },
+  "queue": {
+    "queued": 3006,
+    "reviewed_by_claude": 166,
+    "propagated": 32,
+    "left_low_confidence": 2808,
+    "calls": 2,
+    "per_call_capacity": 83,
+    "decisions": {
+      "ASSIGN": 137,
+      "SECONDARY_ASSIGNMENT": 2,
+      "NEW_TOPIC_CANDIDATE": 6,
+      "UNCERTAIN": 21,
+      "invalid_topic": 1
+    },
+    "propagation_similarity": 0.9184037446975708
+  },
+  "convergence": [
+    {
+      "round": 1,
+      "topics_before": 72,
+      "topics_after": 76,
+      "topic_count_change": 4,
+      "assignment_change_rate": 0.48391376451077944,
+      "assignment_noise_floor": 0.17213930348258707,
+      "new_topics": 12,
+      "merges": 2,
+      "splits": 6,
+      "refines": 6,
+      "rejects": 0,
+      "low_confidence_rate": 0.6852404643449419,
+      "duplicate_flags": 0,
+      "flags_before": 61,
+      "flags_after": 64,
+      "critic_calls": 1,
+      "critic_decisions": {
+        "KEEP": 9,
+        "MERGE": 2,
+        "SPLIT": 6,
+        "REFINE_BOUNDARY": 6,
+        "REASSIGN": 0,
+        "invalid": 0
+      }
+    },
+    {
+      "round": 2,
+      "topics_before": 76,
+      "topics_after": 80,
+      "topic_count_change": 4,
+      "assignment_change_rate": 0.11708126036484245,
+      "assignment_noise_floor": 0.1652846876727474,
+      "new_topics": 8,
+      "merges": 0,
+      "splits": 4,
+      "refines": 8,
+      "rejects": 0,
+      "low_confidence_rate": 0.6832504145936982,
+      "duplicate_flags": 0,
+      "flags_before": 64,
+      "flags_after": 68,
+      "critic_calls": 1,
+      "critic_decisions": {
+        "KEEP": 11,
+        "MERGE": 0,
+        "SPLIT": 4,
+        "REFINE_BOUNDARY": 8,
+        "REASSIGN": 0,
+        "invalid": 0
+      }
+    }
+  ],
+  "non_work_flagged": 8,
+  "topics_created_total": 105,
+  "registry_version": 176,
+  "status_counts": {
+    "active": 80,
+    "merged": 12,
+    "split": 10,
+    "rejected": 3
+  },
+  "budget": {
+    "hard_limit": 20,
+    "calls_made": 19,
+    "remaining_calls": 1,
+    "metadata_requests": 1,
+    "run_id": "e7d1c325f768",
+    "run_status": "completed",
+    "run_plan": {
+      "discovery": 4,
+      "consolidation": 2,
+      "boundary_review": 1,
+      "ambiguous": 2,
+      "novelty": 1,
+      "critic": 2,
+      "consistency": 1
+    },
+    "run_normal_used": 12,
+    "run_reserve_used": 2
+  },
+  "deferred_consolidation_pairs": 395,
+  "skipped_decisions": [
+    {
+      "role": "discovery",
+      "note": "region 4/4 (90 statements)",
+      "error": "discovery: response was not valid JSON for the schema and no repair is possible (invalid JSON: Unterminated string starting at: line 22 column 397 (char 10080))"
+    },
+    {
+      "role": "consistency",
+      "note": "final consistency",
+      "error": "consistency: response was not valid JSON for the schema and no repair is possible (invalid JSON: Expecting ',' delimiter: line 1 column 2791 (char 2790))"
+    }
+  ],
+  "N_AGENTIC": 80,
+  "assigned": 2980,
+  "coverage": 0.988391376451078,
+  "secondary_memberships": 2,
+  "ambiguity_rate": 0.6610281923714759,
+  "assignment_sources": {
+    "auto_low_confidence": 1993,
+    "auto_high_confidence": 825,
+    "claude": 139,
+    "propagated_from_claude": 23,
+    "claude_uncertain": 21,
+    "non_work_flagged_by_claude": 8,
+    "novelty_isolated": 6
+  },
+  "model": "claude-sonnet-5-5",
+  "run_id": "e7d1c325f768"
+}

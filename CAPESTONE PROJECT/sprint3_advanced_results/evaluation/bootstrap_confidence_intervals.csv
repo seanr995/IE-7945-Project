@@ -1,0 +1,17 @@
+method,config_id,metric,point_estimate,ci95_low,ci95_high,n_resamples,resampling_unit,note
+kmeans,ADV_0_T5_KMEANS_BASELINE__k=100,semantic_cohesion,0.9140501819835176,0.9126893307741731,0.9154386915578399,100,posting,conditional on the fitted partition; refit variability = stability ARI
+kmeans,ADV_0_T5_KMEANS_BASELINE__k=100,semantic_cohesion_incl_noise,0.9140501819835176,0.9126893307741731,0.9154386915578399,100,posting,conditional on the fitted partition; refit variability = stability ARI
+kmeans,ADV_0_T5_KMEANS_BASELINE__k=100,silhouette,0.0687427477113527,0.06629217072639158,0.0712692058444483,100,posting,conditional on the fitted partition; refit variability = stability ARI
+kmeans,ADV_0_T5_KMEANS_BASELINE__k=100,paraphrase_consistency,0.6875,0.6477167672388541,0.7297821474577555,100,posting,conditional on the fitted partition; refit variability = stability ARI
+bertopic,ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5,semantic_cohesion,0.9145855749044618,0.9132113708869875,0.9159454730930698,100,posting,conditional on the fitted partition; refit variability = stability ARI
+bertopic,ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5,semantic_cohesion_incl_noise,0.9085576365440837,0.9075266458128644,0.9098424552172002,100,posting,conditional on the fitted partition; refit variability = stability ARI
+bertopic,ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5,silhouette,0.061988178011306544,0.05797524139498867,0.06606606975567678,100,posting,conditional on the fitted partition; refit variability = stability ARI
+bertopic,ADV_1_T5_BERTOPIC__nn=30_nc=5_mcs=10_ms=5,paraphrase_consistency,0.6601941747572816,0.6128435753435754,0.7145260989010989,100,posting,conditional on the fitted partition; refit variability = stability ARI
+leiden,ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0,semantic_cohesion,0.8982307977344266,0.8966935161006964,0.8995761082619702,100,posting,conditional on the fitted partition; refit variability = stability ARI
+leiden,ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0,semantic_cohesion_incl_noise,0.8982307977344266,0.8966935161006964,0.8995761082619702,100,posting,conditional on the fitted partition; refit variability = stability ARI
+leiden,ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0,silhouette,0.044771545082338625,0.0415429305082532,0.04767015764376043,100,posting,conditional on the fitted partition; refit variability = stability ARI
+leiden,ADV_2_T5_LEIDEN__k_neighbors=20_resolution=2.0,paraphrase_consistency,0.7893518518518519,0.7517390648485861,0.8283603559340539,100,posting,conditional on the fitted partition; refit variability = stability ARI
+gmm,ADV_3_T5_GMM__n_components=140_cov=diag,semantic_cohesion,0.9183467126011255,0.9172045824382786,0.9195654450284567,100,posting,conditional on the fitted partition; refit variability = stability ARI
+gmm,ADV_3_T5_GMM__n_components=140_cov=diag,semantic_cohesion_incl_noise,0.9183467126011255,0.9172045824382786,0.9195654450284567,100,posting,conditional on the fitted partition; refit variability = stability ARI
+gmm,ADV_3_T5_GMM__n_components=140_cov=diag,silhouette,0.0639077016017425,0.060639967081512154,0.06693708997853122,100,posting,conditional on the fitted partition; refit variability = stability ARI
+gmm,ADV_3_T5_GMM__n_components=140_cov=diag,paraphrase_consistency,0.7083333333333334,0.6622777921369288,0.7424859999148284,100,posting,conditional on the fitted partition; refit variability = stability ARI

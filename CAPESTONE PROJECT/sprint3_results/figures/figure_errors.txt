@@ -1,0 +1,16 @@
+04_stability_comparison.png: 'config_id' is both an index level and a column label, which is ambiguous.
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/CAPESTONE PROJECT/sprint3_colab_experiment.py", line 1366, in fig
+    fn()
+    ~~^^
+  File "/content/drive/MyDrive/CAPESTONE PROJECT/sprint3_colab_experiment.py", line 1423, in f4
+    d = R.sort_values(["clustering_method", "embedding_model", "config_id"])
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py", line 7172, in sort_values
+    keys = [self._get_label_or_level_values(x, axis=axis) for x in by]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/generic.py", line 1906, in _get_label_or_level_values
+    self._check_label_or_level_ambiguity(key, axis=axis)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/generic.py", line 1868, in _check_label_or_level_ambiguity
+    raise ValueError(msg)
+ValueError: 'config_id' is both an index level and a column label, which is ambiguous.

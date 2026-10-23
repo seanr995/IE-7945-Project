@@ -1,0 +1,16 @@
+stage,role,cache_hit,real_call,call_no,input_tokens,output_tokens,note,utc
+agentic,discovery,False,True,6.0,2254.0,7172.0,region 1/4 (90 statements),2026-10-22T23:46:56.588653+00:00
+agentic,discovery,,True,7.0,,,region 2/4 (90 statements),2026-10-22T23:47:45.148705+00:00
+agentic,discovery,False,True,8.0,7255.0,5820.0,region 2/4 (90 statements),2026-10-22T23:48:15.241419+00:00
+agentic,discovery,,True,9.0,,,region 3/4 (89 statements),2026-10-22T23:49:03.802576+00:00
+agentic,discovery,False,True,10.0,6574.0,7990.0,region 3/4 (89 statements),2026-10-22T23:49:55.595658+00:00
+agentic,discovery,,True,11.0,,,region 4/4 (90 statements),2026-10-22T23:50:45.247391+00:00
+agentic,consolidation,False,True,12.0,18774.0,3786.0,40 pairs,2026-10-22T23:51:05.731814+00:00
+agentic,consolidation,False,True,13.0,18928.0,4452.0,40 pairs,2026-10-22T23:51:29.235383+00:00
+agentic,boundary_review,False,True,14.0,5530.0,2543.0,global boundary review,2026-10-22T23:51:43.978103+00:00
+agentic,ambiguous,False,True,15.0,16973.0,6522.0,batch 1: 83 tasks,2026-10-22T23:52:14.673244+00:00
+agentic,ambiguous,False,True,16.0,16894.0,6796.0,batch 2: 83 tasks,2026-10-22T23:52:46.769910+00:00
+agentic,critic,False,True,17.0,11873.0,3516.0,round 1 batch 1: 23 topics,2026-10-22T23:53:09.387790+00:00
+agentic,critic,False,True,18.0,11300.0,3480.0,round 2 batch 1: 23 topics,2026-10-22T23:53:32.714107+00:00
+agentic,consistency,,True,19.0,,,final consistency,2026-10-22T23:53:41.727118+00:00
+matched_benchmark,none,,False,,0.0,0.0,matched benchmark makes ZERO Claude calls,

@@ -1,0 +1,21 @@
+group,value,n_audited,TASK,SKILL,OTHER,task_purity,ci95_low,ci95_high,population_evidence_valid,note
+overall,all,100.0,84.0,9.0,7.0,0.84,0.7558,0.899,3479,
+provider,gemini,50.0,39.0,7.0,4.0,0.78,0.6476,0.8725,3167,
+provider,groq,50.0,45.0,2.0,3.0,0.9,0.7864,0.9565,312,
+source_section,general_description,26.0,26.0,0.0,0.0,1.0,0.8713,1.0,748,
+source_section,preferred_qualifications,6.0,1.0,5.0,0.0,0.1667,0.0301,0.5635,172,
+source_section,requirements,9.0,4.0,3.0,2.0,0.4444,0.1888,0.7334,215,
+source_section,responsibilities,59.0,53.0,1.0,5.0,0.8983,0.7954,0.9526,2342,
+provider_x_section,gemini|general_description,14.0,14.0,0.0,0.0,1.0,0.7847,1.0,693,
+provider_x_section,gemini|preferred_qualifications,4.0,1.0,3.0,0.0,0.25,0.0456,0.6994,167,
+provider_x_section,gemini|requirements,8.0,4.0,3.0,1.0,0.5,0.2152,0.7848,206,
+provider_x_section,gemini|responsibilities,24.0,20.0,1.0,3.0,0.8333,0.6415,0.9332,2099,
+provider_x_section,groq|general_description,12.0,12.0,0.0,0.0,1.0,0.7575,1.0,55,
+provider_x_section,groq|preferred_qualifications,2.0,0.0,2.0,0.0,0.0,0.0,0.6576,5,
+provider_x_section,groq|requirements,1.0,0.0,0.0,1.0,0.0,0.0,0.7935,9,
+provider_x_section,groq|responsibilities,35.0,33.0,0.0,2.0,0.9429,0.8139,0.9842,243,
+source_section,skills,0.0,,,,,,,2,
+filter,unsafe_sections_removed,15.0,5.0,8.0,2.0,0.3333,0.1518,0.5829,389,
+filter,kept_sections (sprint3 input),85.0,79.0,1.0,5.0,0.9294,0.8544,0.9672,3090,
+weighted_estimate,all evidence-valid (provider x section),,,,,0.8257,,,3479,2 statements in unaudited strata excluded from weights
+weighted_estimate,sprint3 input (provider x section),,,,,0.8823,,,3090,0 statements in unaudited strata excluded from weights

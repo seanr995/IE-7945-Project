@@ -1,0 +1,222 @@
+{
+  "hard_limit": 20,
+  "calls_made": 19,
+  "events": [
+    {
+      "call": null,
+      "kind": "prior_usage_floor",
+      "utc": "2026-10-22T23:45:56.753223+00:00",
+      "note": "calls_made raised 0 -> 5: user-reported: about 5 real Claude calls were consumed in Colab by the earlier (tool-calling) implementation before this rebuild; that run's api_budget.json lives on Google Drive and was not available locally"
+    },
+    {
+      "call": null,
+      "kind": "metadata",
+      "note": "models.retrieve(claude-sonnet-5-5)",
+      "utc": "2026-10-22T23:45:57.318449+00:00"
+    },
+    {
+      "call": 6,
+      "role": "discovery",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "region 1/4 (90 statements)",
+      "utc": "2026-10-22T23:46:13.888502+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 2254,
+        "output_tokens": 7172
+      }
+    },
+    {
+      "call": 7,
+      "role": "discovery",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "region 2/4 (90 statements)",
+      "utc": "2026-10-22T23:46:56.609688+00:00",
+      "status": "invalid_json",
+      "usage": {
+        "input_tokens": 2252,
+        "output_tokens": 8000
+      }
+    },
+    {
+      "call": 8,
+      "role": "discovery",
+      "kind": "repair",
+      "run_id": "e7d1c325f768",
+      "note": "region 2/4 (90 statements)",
+      "utc": "2026-10-22T23:47:45.150233+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 7255,
+        "output_tokens": 5820
+      }
+    },
+    {
+      "call": 9,
+      "role": "discovery",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "region 3/4 (89 statements)",
+      "utc": "2026-10-22T23:48:15.249739+00:00",
+      "status": "invalid_json",
+      "usage": {
+        "input_tokens": 2426,
+        "output_tokens": 8000
+      }
+    },
+    {
+      "call": 10,
+      "role": "discovery",
+      "kind": "repair",
+      "run_id": "e7d1c325f768",
+      "note": "region 3/4 (89 statements)",
+      "utc": "2026-10-22T23:49:03.803975+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 6574,
+        "output_tokens": 7990
+      }
+    },
+    {
+      "call": 11,
+      "role": "discovery",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "region 4/4 (90 statements)",
+      "utc": "2026-10-22T23:49:55.605546+00:00",
+      "status": "invalid_json",
+      "usage": {
+        "input_tokens": 2383,
+        "output_tokens": 8000
+      }
+    },
+    {
+      "call": 12,
+      "role": "consolidation",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "40 pairs",
+      "utc": "2026-10-22T23:50:45.331147+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 18774,
+        "output_tokens": 3786
+      }
+    },
+    {
+      "call": 13,
+      "role": "consolidation",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "40 pairs",
+      "utc": "2026-10-22T23:51:05.746897+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 18928,
+        "output_tokens": 4452
+      }
+    },
+    {
+      "call": 14,
+      "role": "boundary_review",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "global boundary review",
+      "utc": "2026-10-22T23:51:29.266291+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 5530,
+        "output_tokens": 2543
+      }
+    },
+    {
+      "call": 15,
+      "role": "ambiguous",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "batch 1: 83 tasks",
+      "utc": "2026-10-22T23:51:45.539910+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 16973,
+        "output_tokens": 6522
+      }
+    },
+    {
+      "call": 16,
+      "role": "ambiguous",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "batch 2: 83 tasks",
+      "utc": "2026-10-22T23:52:14.690111+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 16894,
+        "output_tokens": 6796
+      }
+    },
+    {
+      "call": 17,
+      "role": "critic",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "round 1 batch 1: 23 topics",
+      "utc": "2026-10-22T23:52:49.726527+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 11873,
+        "output_tokens": 3516
+      }
+    },
+    {
+      "call": 18,
+      "role": "critic",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "round 2 batch 1: 23 topics",
+      "utc": "2026-10-22T23:53:12.152224+00:00",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 11300,
+        "output_tokens": 3480
+      }
+    },
+    {
+      "call": 19,
+      "role": "consistency",
+      "kind": "normal",
+      "run_id": "e7d1c325f768",
+      "note": "final consistency",
+      "utc": "2026-10-22T23:53:34.505990+00:00",
+      "status": "invalid_json",
+      "usage": {
+        "input_tokens": 5501,
+        "output_tokens": 1163
+      }
+    }
+  ],
+  "metadata_requests": 1,
+  "created_utc": "2026-10-22T23:45:56.751840+00:00",
+  "remaining_calls": 1,
+  "updated_utc": "2026-10-22T23:53:41.835983+00:00",
+  "active_run": {
+    "run_id": "e7d1c325f768",
+    "status": "completed",
+    "started_utc": "2026-10-22T23:46:10.968204+00:00",
+    "normal": 13,
+    "reserve": 2,
+    "role_caps": {
+      "discovery": 4,
+      "consolidation": 2,
+      "boundary_review": 1,
+      "ambiguous": 2,
+      "novelty": 1,
+      "critic": 2,
+      "consistency": 1
+    },
+    "remaining_at_start": 15,
+    "finished_utc": "2026-10-22T23:53:41.835966+00:00"
+  }
+}
