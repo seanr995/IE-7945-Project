@@ -1,0 +1,50 @@
+{
+  "threshold_noise_p99_background": 0.884721,
+  "threshold_otsu_top1": 0.916811,
+  "threshold_derivation": "tau_noise = 99th percentile of all 80 x 18838 centroid-O*NET cosines; tau_split = Otsu threshold of the observed top-1 scores",
+  "coverage_meaningful_alignment": 0.975,
+  "purity_mean": 0.1935,
+  "purity_median": 0.1765,
+  "nn_agreement_top10_mean": 0.6225,
+  "nn_agreement_top1_exact_mean": 0.2425,
+  "top1_mean": 0.9224,
+  "top1_median": 0.9238,
+  "alignment_counts": {
+    "STRONG_MATCH": 58,
+    "PARTIAL_MATCH": 20,
+    "NO_MATCH": 2,
+    "UNEVALUATED": 0
+  },
+  "top5_similarity_distribution": {
+    "rank1": {
+      "mean": 0.9224,
+      "median": 0.9238,
+      "min": 0.8868,
+      "max": 0.9529
+    },
+    "rank2": {
+      "mean": 0.9173,
+      "median": 0.9213,
+      "min": 0.8854,
+      "max": 0.9397
+    },
+    "rank3": {
+      "mean": 0.9148,
+      "median": 0.9172,
+      "min": 0.8845,
+      "max": 0.9376
+    },
+    "rank4": {
+      "mean": 0.9131,
+      "median": 0.9152,
+      "min": 0.8843,
+      "max": 0.9345
+    },
+    "rank5": {
+      "mean": 0.9118,
+      "median": 0.9143,
+      "min": 0.8836,
+      "max": 0.9344
+    }
+  }
+}

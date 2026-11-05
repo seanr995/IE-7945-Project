@@ -1,0 +1,178 @@
+{
+  "level1": 8,
+  "level2": 20,
+  "leaves": 80,
+  "onet_tasks": 18838,
+  "ledger": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "gemini_real_calls": 10,
+    "gemini_successful_calls": 10,
+    "normal_calls": 10,
+    "normal_successful_calls": 10,
+    "repair_calls": 0,
+    "retry_calls": 0,
+    "split_calls": 0,
+    "cache_hits": 5,
+    "hard_cap": 12,
+    "input_tokens": 36351,
+    "output_tokens": 26236,
+    "claude_sprint4_calls": 0
+  },
+  "historical_claude": {
+    "source": "final_taxonomy_results/agentic/provenance/api_budget.json",
+    "claude_calls_made": 19,
+    "calls_with_token_usage": 14,
+    "input_tokens": 128917,
+    "output_tokens": 77240,
+    "estimated_cost_usd": 1.6195,
+    "note": "historical Sprint 3 Claude estimate at $2/$10 per MTok; calls without token counts priced at the largest observed call"
+  },
+  "convergence": {
+    "rounds": [
+      {
+        "accepts": 30,
+        "leaf_renames": 0,
+        "parent_renames": 0,
+        "refinements": 0,
+        "moves": 1,
+        "merges": 0,
+        "splits": 0,
+        "flagged": 0,
+        "rejected": 0,
+        "round": 1,
+        "cases": 31,
+        "leaf_assignment_change_share": 0.0125,
+        "leaf_labels_changed": 0,
+        "delta_L2_cohesion": -0.0001
+      }
+    ],
+    "stop_reason": "converged after the critic round: <5% leaf-to-parent assignments changed, no merge/split requested, labels stable or metrics not materially improving",
+    "unresolved": {}
+  },
+  "onet": {
+    "threshold_noise_p99_background": 0.884721,
+    "threshold_otsu_top1": 0.916811,
+    "threshold_derivation": "tau_noise = 99th percentile of all 80 x 18838 centroid-O*NET cosines; tau_split = Otsu threshold of the observed top-1 scores",
+    "coverage_meaningful_alignment": 0.975,
+    "purity_mean": 0.1935,
+    "purity_median": 0.1765,
+    "nn_agreement_top10_mean": 0.6225,
+    "nn_agreement_top1_exact_mean": 0.2425,
+    "top1_mean": 0.9224,
+    "top1_median": 0.9238,
+    "alignment_counts": {
+      "STRONG_MATCH": 58,
+      "PARTIAL_MATCH": 20,
+      "NO_MATCH": 2,
+      "UNEVALUATED": 0
+    },
+    "top5_similarity_distribution": {
+      "rank1": {
+        "mean": 0.9224,
+        "median": 0.9238,
+        "min": 0.8868,
+        "max": 0.9529
+      },
+      "rank2": {
+        "mean": 0.9173,
+        "median": 0.9213,
+        "min": 0.8854,
+        "max": 0.9397
+      },
+      "rank3": {
+        "mean": 0.9148,
+        "median": 0.9172,
+        "min": 0.8845,
+        "max": 0.9376
+      },
+      "rank4": {
+        "mean": 0.9131,
+        "median": 0.9152,
+        "min": 0.8843,
+        "max": 0.9345
+      },
+      "rank5": {
+        "mean": 0.9118,
+        "median": 0.9143,
+        "min": 0.8836,
+        "max": 0.9344
+      }
+    }
+  },
+  "selected": {
+    "level2": 20,
+    "level1": 8,
+    "linkage": "ward"
+  },
+  "embedding_source": "sentence-transformers/sentence-t5-base (frozen Sprint 3 embeddings)",
+  "mock": false,
+  "stability": {
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "sample_fraction_per_leaf": 0.8,
+    "sampling": "without replacement, independently inside every leaf",
+    "leaves_kept": 80,
+    "tasks_sampled_per_trial": [
+      2414,
+      2414,
+      2414,
+      2414,
+      2414
+    ],
+    "method": "ward",
+    "target_level2_count": 20,
+    "target_level1_count": 8,
+    "final_level2_count": 20,
+    "final_level1_count": 8,
+    "perturbed_level2_counts": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "perturbed_level1_counts": [
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "matching": "one-to-one Hungarian on maximum Jaccard of child-leaf sets, independently per level",
+    "mean_level1_persistence": 0.715,
+    "mean_level2_persistence": 0.7925,
+    "level1_ari_pairwise_mean": 0.4843,
+    "level2_ari_pairwise_mean": 0.6501,
+    "level1_ari_vs_final_mean": 0.5504,
+    "level2_ari_vs_final_mean": 0.6469,
+    "leaves_level1_persistence_below_0.60": 24,
+    "leaves_level2_persistence_below_0.60": 16,
+    "note": "validation only - the final hierarchy was not changed because of this test"
+  },
+  "gap": {
+    "thresholds_from_observed_distributions": {
+      "top1_P25": 0.915237,
+      "top1_P50": 0.923822,
+      "mean_top10_P25": 0.901706,
+      "purity_P25": 0.1215,
+      "purity_P50": 0.1765,
+      "nn_agreement_P25": 0.4,
+      "nn_agreement_P50": 0.6,
+      "alignment_confidence_P50": 0.95,
+      "core_cohesion_P50": 0.909473
+    },
+    "counts": {
+      "WELL_COVERED": 33,
+      "PARTIALLY_COVERED": 44,
+      "POSSIBLE_EMERGING_WORK": 3
+    },
+    "interpretation": "POSSIBLE_EMERGING_WORK marks possible coverage gaps that need human interpretation; it is not a claim that O*NET is outdated."
+  },
+  "unresolved": {}
+}

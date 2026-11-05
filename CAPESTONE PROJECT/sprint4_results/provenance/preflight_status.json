@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-05T01:31:53.235233+00:00",
+  "mock": false,
+  "status": "OK",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "checks": {
+    "llm_provider": "gemini",
+    "gemini_model_configured": true,
+    "google_genai_import": "ok",
+    "frozen_and_sentence_t5_files": "present",
+    "onet_source": "present",
+    "output_and_checkpoint_folders_writable": true,
+    "ledger_and_gemini_cache_readable": {
+      "ledger_rows": 5,
+      "cached_responses": 5
+    }
+  },
+  "normal_call_plan": 10,
+  "hard_call_cap": 12,
+  "real_calls_used_so_far": 5,
+  "real_calls_remaining": 7,
+  "min_seconds_between_calls": 8.0,
+  "frozen_leaves": 80,
+  "frozen_tasks": 3015,
+  "historical_sprint3_claude": {
+    "source": "final_taxonomy_results/agentic/provenance/api_budget.json",
+    "claude_calls_made": 19,
+    "calls_with_token_usage": 14,
+    "input_tokens": 128917,
+    "output_tokens": 77240,
+    "estimated_cost_usd": 1.6195,
+    "note": "historical Sprint 3 Claude estimate at $2/$10 per MTok; calls without token counts priced at the largest observed call"
+  }
+}

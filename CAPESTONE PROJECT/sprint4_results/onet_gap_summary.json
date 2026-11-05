@@ -1,0 +1,19 @@
+{
+  "thresholds_from_observed_distributions": {
+    "top1_P25": 0.915237,
+    "top1_P50": 0.923822,
+    "mean_top10_P25": 0.901706,
+    "purity_P25": 0.1215,
+    "purity_P50": 0.1765,
+    "nn_agreement_P25": 0.4,
+    "nn_agreement_P50": 0.6,
+    "alignment_confidence_P50": 0.95,
+    "core_cohesion_P50": 0.909473
+  },
+  "counts": {
+    "WELL_COVERED": 33,
+    "PARTIALLY_COVERED": 44,
+    "POSSIBLE_EMERGING_WORK": 3
+  },
+  "interpretation": "POSSIBLE_EMERGING_WORK marks possible coverage gaps that need human interpretation; it is not a claim that O*NET is outdated."
+}

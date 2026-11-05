@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "checks": {
+    "exists:leaf_evidence.csv": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:leaf_topics_labeled.csv": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:task_hierarchy.csv": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:onet_top10_matches.csv": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:onet_evaluation.csv": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:agent_decisions.jsonl": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:hierarchy_diagnostics.csv": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:sprint4_evaluation_report.md": {
+      "ok": true,
+      "detail": ""
+    },
+    "80 leaves labeled": {
+      "ok": true,
+      "detail": ""
+    },
+    "80 leaves evidence": {
+      "ok": true,
+      "detail": ""
+    },
+    "3015 tasks in hierarchy, unique": {
+      "ok": true,
+      "detail": ""
+    },
+    "leaf membership unchanged vs frozen": {
+      "ok": true,
+      "detail": ""
+    },
+    "every task has level1/level2": {
+      "ok": true,
+      "detail": ""
+    },
+    "level2 nested in level1": {
+      "ok": true,
+      "detail": ""
+    },
+    "every leaf has a single level2": {
+      "ok": true,
+      "detail": ""
+    },
+    "no empty parent names": {
+      "ok": true,
+      "detail": ""
+    },
+    "top-10 exactly 10 per topic": {
+      "ok": true,
+      "detail": ""
+    },
+    "top-10 sorted by cosine desc": {
+      "ok": true,
+      "detail": ""
+    },
+    "O*NET best ids only from the deterministic retrieved top-10 (and only the top-5 shown to Gemini)": {
+      "ok": true,
+      "detail": ""
+    },
+    "80 O*NET evaluations": {
+      "ok": true,
+      "detail": ""
+    },
+    "Gemini real calls <= hard cap 12": {
+      "ok": true,
+      "detail": "{'provider': 'gemini', 'model': 'gemini-3.1-flash-lite', 'gemini_real_calls': 10, 'gemini_successful_calls': 10, 'normal_calls': 10, 'normal_successful_calls': 10, 'repair_calls': 0, 'retry_calls': 0, 'split_calls': 0, 'cache_hits': 5, 'hard_cap': 12, 'input_tokens': 36351, 'output_tokens': 26236, 'claude_sprint4_calls': 0}"
+    },
+    "successful normal calls <= 10 (plan) and repair calls <= 2": {
+      "ok": true,
+      "detail": "{'provider': 'gemini', 'model': 'gemini-3.1-flash-lite', 'gemini_real_calls': 10, 'gemini_successful_calls': 10, 'normal_calls': 10, 'normal_successful_calls': 10, 'repair_calls': 0, 'retry_calls': 0, 'split_calls': 0, 'cache_hits': 5, 'hard_cap': 12, 'input_tokens': 36351, 'output_tokens': 26236, 'claude_sprint4_calls': 0}"
+    },
+    "ledger provider is gemini only; Claude Sprint 4 calls = 0": {
+      "ok": true,
+      "detail": ""
+    },
+    "no active Anthropic dependency in runtime code": {
+      "ok": true,
+      "detail": ""
+    },
+    "hierarchy_stability covers all 80 leaves": {
+      "ok": true,
+      "detail": ""
+    },
+    "stability persistence in [0,1] and multiples of 1/5": {
+      "ok": true,
+      "detail": ""
+    },
+    "stability used the 5 required seeds": {
+      "ok": true,
+      "detail": "[101, 202, 303, 404, 505]"
+    },
+    "O*NET gap analysis covers all 80 leaves": {
+      "ok": true,
+      "detail": ""
+    },
+    "80 explainability CSV rows": {
+      "ok": true,
+      "detail": ""
+    },
+    "exactly 80 explainability Markdown cards LT_001..LT_080": {
+      "ok": true,
+      "detail": ""
+    },
+    "human_review_template: 80 rows, human columns blank": {
+      "ok": true,
+      "detail": ""
+    },
+    "api_usage.csv logs every ledger row": {
+      "ok": true,
+      "detail": ""
+    },
+    "no API key in decisions log": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:Sprint4_Agentic_Results.zip": {
+      "ok": true,
+      "detail": ""
+    },
+    "Sprint4_Agentic_Results.zip: all 8 required outputs + extras": {
+      "ok": true,
+      "detail": ""
+    },
+    "Sprint4_Agentic_Results.zip: 80 cards": {
+      "ok": true,
+      "detail": ""
+    },
+    "Sprint4_Agentic_Results.zip: no .env / caches / npy / secrets": {
+      "ok": true,
+      "detail": ""
+    },
+    "exists:Sprint4_RETURN_TO_REPO.zip": {
+      "ok": true,
+      "detail": ""
+    },
+    "Sprint4_RETURN_TO_REPO.zip: all 8 required outputs + extras": {
+      "ok": true,
+      "detail": ""
+    },
+    "Sprint4_RETURN_TO_REPO.zip: 80 cards": {
+      "ok": true,
+      "detail": ""
+    },
+    "Sprint4_RETURN_TO_REPO.zip: no .env / caches / npy / secrets": {
+      "ok": true,
+      "detail": ""
+    },
+    "return zip: relative paths + notebook + README + instructions": {
+      "ok": true,
+      "detail": ""
+    },
+    "return zip: instructions text exact": {
+      "ok": true,
+      "detail": ""
+    }
+  }
+}
