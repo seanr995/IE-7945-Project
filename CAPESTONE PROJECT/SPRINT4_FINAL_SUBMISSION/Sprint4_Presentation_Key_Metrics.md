@@ -31,7 +31,7 @@
 | Gemini cache hits | 5 | `api_usage.csv` |
 | Gemini tokens in / out | 36,351 / 26,236 | `api_usage.csv` |
 | Sprint 4 Claude calls | 0 | `run_summary.json` |
-| Human review | PENDING (all judgment columns blank) | `human_review_template.csv` |
+| Human review | COMPLETE (80/80; 77 labels accepted, 3 renames suggested; 74 coherent / 6 mixed; 28 boundary issues; 5 over-merged; 12 under-merged) | `human_review_template.csv` |
 
 ## Definitions
 - **Coverage**: share of the 80 leaf topics with Gemini STRONG/PARTIAL alignment AND centroid top-1 cosine above the data-derived noise threshold (p99 of all centroid-O*NET cosines) - here 0.975.
@@ -58,4 +58,4 @@
 
 **What does POSSIBLE_EMERGING_WORK mean?** The topic's current job-posting evidence has limited alignment with O*NET by our thresholds (3 topics). It prompts human interpretation; it is not proof that O*NET is outdated.
 
-**How was / will human review be performed?** It has not yet been performed. Teammates review the 80 topics in risk order (`human_review_priority.csv`), record five judgments in `human_review_template.csv`, and `apply_human_review.py` summarises the issues. Until then: HUMAN REVIEW PENDING.
+**How was human review performed?** Teammates reviewed all 80 topics in `human_review_template.csv` (five judgments each); `apply_human_review.py` summarised them into `human_review_summary.md` and `human_review_issues.csv`. Status: COMPLETE. Renames and merges are reported, not applied.

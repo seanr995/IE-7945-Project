@@ -13,8 +13,8 @@ Status vocabulary: COMPLETE / PARTIALLY COMPLETE / REQUIRES HUMAN REVIEW / MISSI
 | 3a | O*NET coverage | COMPLETE | `onet_summary.json`, `onet_evaluation.csv` | 0.975 (78/80 topics with meaningful alignment) |
 | 3b | O*NET purity | COMPLETE | `onet_summary.json`, `onet_evaluation.csv` | mean 0.1935, median 0.1765 |
 | 3c | O*NET nearest-neighbor agreement | COMPLETE | `onet_summary.json`, `onet_evaluation.csv` | top-10 agreement mean 0.6225; exact top-1 mean 0.2425 |
-| 4 | Review hierarchy by hand; document over-/under-merging | REQUIRES HUMAN REVIEW | `human_review_template.csv`, `human_review_priority.csv`, `HUMAN_REVIEW_GUIDE.md`, `apply_human_review.py`, `human_review_summary.md` | Package ready; ALL human columns are blank -> HUMAN REVIEW PENDING. Automated over-/under-merge indicators are review hints only (section C) |
-| 5 | Labeled hierarchical taxonomy + evaluation report | PARTIALLY COMPLETE (pending human review) | `task_hierarchy.csv`, `leaf_topics_labeled.csv`, `sprint4_evaluation_report.md`, `Sprint4_Labeling_Hierarchy_Presentation.pptx` | Taxonomy and report complete; the hand-review component is outstanding |
+| 4 | Review hierarchy by hand; document over-/under-merging | COMPLETE | `human_review_template.csv`, `human_review_priority.csv`, `HUMAN_REVIEW_GUIDE.md`, `apply_human_review.py`, `human_review_summary.md` | Review complete: 80/80 topics judged; 5 over-merged, 12 under-merged flagged. Automated over-/under-merge indicators are review hints only (section C) |
+| 5 | Labeled hierarchical taxonomy + evaluation report | COMPLETE (human review done; issues documented) | `task_hierarchy.csv`, `leaf_topics_labeled.csv`, `sprint4_evaluation_report.md`, `Sprint4_Labeling_Hierarchy_Presentation.pptx` | Taxonomy, report and 80/80 human review complete; renames/merges not applied |
 
 ## B. Specific verifications
 
@@ -50,4 +50,4 @@ Status vocabulary: COMPLETE / PARTIALLY COMPLETE / REQUIRES HUMAN REVIEW / MISSI
 `onet_gap_analysis.csv` and the explainability cards originally carried the word "Claude" in their evidence strings (leftover template wording). Gemini made those judgments, so wording-only corrections ("Claude" -> "Gemini") were applied to those saved files and to `sprint4_src/extras.py`. No numeric value or membership changed.
 
 ## E. Remaining items
-1. Manual hierarchy review by teammates (`HUMAN_REVIEW_GUIDE.md`), then `python apply_human_review.py`. Current status: **HUMAN REVIEW PENDING**.
+1. Manual hierarchy review by teammates (`HUMAN_REVIEW_GUIDE.md`), then `python apply_human_review.py`. Status: **HUMAN REVIEW COMPLETE (80/80)**; next step is applying the 3 suggested renames and deciding on the 12 under-merged / 5 over-merged topics.

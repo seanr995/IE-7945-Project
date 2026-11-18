@@ -132,7 +132,14 @@ Files: `hierarchy_stability.csv`, `hierarchy_stability_summary.json`.
 
 ## 11. Explainability cards and human review
 - 80 explainability cards: `topic_explainability_cards.csv` and `topic_explainability_cards/LT_001.md ... LT_080.md`.
-- `human_review_template.csv` (80 rows, one per leaf) has the human columns left **blank**; no human review has been performed or simulated.
+- Human review status: **COMPLETE** (all 5 judgments entered for every topic; source `human_review_template.csv`, summarised by `apply_human_review.py` into `human_review_summary.md` and `human_review_issues.csv`). A team review, not ground truth.
+- Topics reviewed: **80 / 80**; frozen guard: 3,015 task memberships and 80 leaves unchanged (nothing in Sprint 4 moved a task).
+- Label corrections: **3** labels judged incorrect (77 accepted). Suggested renames (3, reported only, NOT applied): LT_015 Lead Strategic Initiatives -> Lead Projects and Business Initiatives; LT_071 Coordinate Enterprise Development -> Build Reusable Assets and Company-wide Processes; LT_076 Drive Organizational Growth -> Lead Organizational Change and Expansion.
+- Coherent / mixed: **74 coherent / 6 mixed** (LT_015 Lead Strategic Initiatives, LT_039 Draft Project Proposals, LT_048 Designing Experiences and Curricula, LT_071 Coordinate Enterprise Development, LT_076 Drive Organizational Growth, LT_078 Support Onboarding Processes).
+- Boundary issues: **28** topics whose boundary tasks do not all belong (list in `human_review_summary.md`).
+- Over-merged: **5** topics: LT_015 Lead Strategic Initiatives, LT_039 Draft Project Proposals, LT_071 Coordinate Enterprise Development, LT_076 Drive Organizational Growth, LT_078 Support Onboarding Processes.
+- Under-merged: **12** topics (near-duplicate / overlapping with another leaf): LT_004 Collaborate With Cross-Functional Teams, LT_009 Develop Customer Relationships, LT_010 Monitor Operational Performance Trends, LT_021 Manage Project Lifecycles, LT_026 Build Strategic Partnerships, LT_027 Recommend Process Improvements, LT_032 Operationalize Internal Processes, LT_034 Track Performance Metrics, LT_042 Building Stakeholder Relationships, LT_052 Coordinating Special Initiatives, LT_055 Managing Client Engagements, LT_061 Facilitate Cross-Functional Collaboration.
+- Unresolved issues: all of the above remain open. No renames, merges or splits were applied, so the labelled hierarchy is exactly the pre-review version; the 5 over-merged and 12 under-merged topics and 28 boundary cases are documented for Sprint 5. Reviewer verdicts are one team's judgment, not ground truth.
 
 ## 12. LLM usage (Gemini) and historical Claude spend
 | item | value |

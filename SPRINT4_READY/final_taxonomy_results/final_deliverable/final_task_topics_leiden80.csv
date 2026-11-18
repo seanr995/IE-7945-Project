@@ -1,0 +1,81 @@
+topic_id,raw_leiden_label,topic_size,topic_share,representative_task_1,representative_task_2,representative_task_3
+LT_001,0,88,0.029187,Conduct data analysis,Analyze data,Analyse data
+LT_002,1,83,0.027529,Prepare cases for hearing,Process incoming cases,Manage cases
+LT_003,2,78,0.025871,Create documentation,Collect and review documentation,Document work
+LT_004,3,69,0.022886,Partner with Product and Engineering teams,"Collaborate with sales, engineering, products, and marketing teams",Partner with engineering teams
+LT_005,4,67,0.022222,Perform verification tests,Perform testing,Perform application testing
+LT_006,5,66,0.021891,Prepare reports,Develop reports,Produce reports
+LT_007,6,63,0.020896,Manage contracts,Negotiate contracts,Advise on contracts
+LT_008,7,59,0.019569,Coordinate with City agencies,Coordinate with citywide liaisons,Liaise with city agencies
+LT_009,8,57,0.018905,Develop customer relationships,Engage prospective customers,Convert prospective customers
+LT_010,9,54,0.01791,Monitor progress,Monitor inventory supply,Improve monitoring
+LT_011,10,54,0.01791,Perform invoicing,Document finance processes,Prepare payments for approvals
+LT_012,11,52,0.017247,Ensure compliance with laws and regulations,Manage compliance,Ensure compliance with EEOC laws
+LT_013,12,52,0.017247,Develop agency policies,Implement agency policies,Develop and implement agency policies
+LT_014,13,51,0.016915,Respond to complaints,Respond to incidents,Respond to community concerns
+LT_015,14,51,0.016915,Lead strategic projects,Lead strategic sourcing activities,Lead projects
+LT_016,15,51,0.016915,Conduct training sessions,Facilitate training sessions,Develop and provide trainings
+LT_017,16,51,0.016915,Conduct investigations,Conduct research,Conduct field investigations
+LT_018,17,51,0.016915,Supervise staff,Manage staff,Manage employees
+LT_019,18,49,0.016252,Maintain equipment,Handle maintenance,Maintain supplies
+LT_020,19,47,0.015589,Coordinate meetings,Facilitate meetings,Attend meetings
+LT_021,20,47,0.015589,Manage projects,Implement projects,Manage assigned projects
+LT_022,21,46,0.015257,Develop growth strategies,Develop operational strategy,Develop strategic customer engagement plans
+LT_023,22,46,0.015257,Enhance communication,Manage email communication,Route physical correspondence
+LT_024,23,46,0.015257,Perform operational support tasks,Perform administrative tasks,Provide administrative support
+LT_025,24,46,0.015257,Provide executive leadership,Provide people leadership,Provide leadership to Senior Directors
+LT_026,25,45,0.014925,Build partnerships,Develop partnerships,Build partnerships with key partners
+LT_027,26,45,0.014925,Recommend process improvements,Improve internal processes,Make recommendations for process improvement
+LT_028,27,42,0.01393,Implement system infrastructures,Implement network infrastructures,Coordinate infrastructure projects
+LT_029,28,41,0.013599,Oversee designation activities,Supervise work,Oversee daily operations
+LT_030,29,41,0.013599,Analyze technical issues,Troubleshoot issues,Analyze hardware problems
+LT_031,30,41,0.013599,Provide outreach,Conduct outreach for activities,Create outreach strategies
+LT_032,31,40,0.013267,Operationalise internal processes,Refine internal processes,Coordinate with internal and external entities
+LT_033,32,40,0.013267,Build backend systems,Operate backend systems,Build backend features
+LT_034,33,40,0.013267,Develop metrics,Track performance targets,Track action items
+LT_035,34,39,0.012935,Handle deployment,Perform deployments,Deploy tools
+LT_036,35,37,0.012272,Provide legal counsel,Provide litigation support,Assist attorneys with case preparation
+LT_037,36,37,0.012272,Track budgets,Track costs and budgets,Manage budget activity
+LT_038,37,36,0.01194,Maintain records,Keep records,File records
+LT_039,38,36,0.01194,Draft proposals,Prototype new ideas,Write proposals
+LT_040,39,35,0.011609,Prepare specifications,Confirm specifications,Gather business requirements
+LT_041,40,34,0.011277,Understand AI use cases,Identify AI use cases,Develop high-value AI use cases
+LT_042,41,34,0.011277,Build relationships with stakeholders,Build relationships with key stakeholders,Communicate with stakeholders
+LT_043,42,34,0.011277,Own onboarding,Own products and services end-to-end,Own commercial positioning
+LT_044,43,32,0.010614,Implement solutions,Develop solutions,Turn requirements into solutions
+LT_045,44,32,0.010614,Maintain traffic,Coordinate roadway work,Transport equipment
+LT_046,45,31,0.010282,Manage a team,Mentor team members,Guide teams
+LT_047,46,31,0.010282,Automate processes,Implement automations,Optimize workflows
+LT_048,47,31,0.010282,Design experiences,Design curricula,Prepare designs
+LT_049,48,31,0.010282,Manage procurement,Process purchase orders,Implement procurement procedures
+LT_050,49,30,0.00995,Conduct presentations,Deliver presentations,Produce presentations
+LT_051,50,30,0.00995,Prepare plans,Develop project plans,Set up action plans
+LT_052,51,30,0.00995,Coordinate special events,Coordinate special projects,Lead special initiatives
+LT_053,52,30,0.00995,Implement electrical components,Construct electrical components,Develop electrical components
+LT_054,53,29,0.009619,Guide architecture decisions,Provide architecture guidance,Make architectural decisions
+LT_055,54,29,0.009619,Support clients,Manage client relationships,Follow up with clients
+LT_056,55,29,0.009619,Conduct business reviews,Conduct technical architecture reviews,Perform code reviews
+LT_057,56,28,0.009287,Implement information protection schemes,Maintain information security strategy,Operationalize security controls
+LT_058,57,28,0.009287,Provide technical guidance,Provide technical assistance,Serve as technical advisor
+LT_059,58,28,0.009287,Manage schedule,Coordinate scheduling,Manage timelines
+LT_060,59,28,0.009287,Maintain data pipelines,Develop data pipelines,Improve data pipelines
+LT_061,60,27,0.008955,Work on cross-functional initiatives,Execute cross-functional initiatives,Develop cross-functional initiatives
+LT_062,61,27,0.008955,Develop product roadmap,Build product roadmap,Make product roadmap decisions
+LT_063,62,26,0.008624,Evaluate child care programs,Assess child care programs,Provide consultation to child care providers
+LT_064,63,25,0.008292,Manage sales process,Create sales opportunities,Develop sales processes
+LT_065,64,23,0.007629,Prioritize resources,Set priorities,Prioritize work
+LT_066,65,23,0.007629,Manage hiring process,Recruit top talent,Coordinate recruiting
+LT_067,66,23,0.007629,Manage supplier relationships,Manage vendors,Manage relationships with external vendors
+LT_068,67,22,0.007297,Serve as agency liaison,Act as liaison,serve as lead liaison
+LT_069,68,21,0.006965,Assure high-quality deliverables,Deliver quality work,Deliver high-quality deliverables
+LT_070,69,21,0.006965,Identify project opportunities,Identify new project opportunities,Qualify opportunities
+LT_071,70,20,0.006633,Coordinate development activities,Coordinate project elements,Manage employee lifecycle processes
+LT_072,71,20,0.006633,Coordinate HR logistics,Assist employees regarding reasonable accommodations,Provide guidance to HR staff
+LT_073,72,19,0.006302,Prepare interviews,Coordinate interviews,Prepare interview materials
+LT_074,73,18,0.00597,Translate agronomic principles into digital products,Translate regenerative agricultural expertise into digital products,Evolve digital agronomy products
+LT_075,74,18,0.00597,Meet revenue targets,Drive revenue,Drive additional revenue
+LT_076,75,15,0.004975,Drive modernization,Drive system administration,Drive resource planning
+LT_077,76,14,0.004643,Process print requests,Process copy requests,Process requests for quotes
+LT_078,77,11,0.003648,Assist with onboarding processes,Notify certified applicants of onboarding process,Support onboarding logistics
+LT_079,78,8,0.002653,Organize engineering tasks,Coordinate engineering tasks,Perform engineering tasks during prototype setup
+LT_080,79,6,0.00199,Represent the company externally,Contribute to employer branding,Act as company representative

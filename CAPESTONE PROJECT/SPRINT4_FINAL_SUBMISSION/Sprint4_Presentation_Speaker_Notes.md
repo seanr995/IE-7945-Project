@@ -1,10 +1,10 @@
 # Sprint 4 Presentation - Speaker Notes
 
-All figures are real values from `sprint4_results/` (see `Sprint4_Presentation_Key_Metrics.md`). Human review is pending and must not be described as complete.
+All figures are real values from `sprint4_results/` (see `Sprint4_Presentation_Key_Metrics.md`). Human review is complete (80/80, values from human_review_template.csv); it is a team review, not ground truth.
 
 ## Slide 1 - Sprint 4: From 80 Leaf Topics to a Hierarchical Taxonomy
 
-Open with the one-line story. We did not re-cluster anything: the 80 leaf topics from Sprint 3 stay exactly as they were. Sprint 4 adds names, two parent levels, and an outside check against O*NET. The final structure is 8 work domains over 20 activity families over 80 leaves. Point out the colour code: teal is deterministic computation, purple is Gemini, amber is O*NET, red is human review, which is still pending.
+Open with the one-line story. We did not re-cluster anything: the 80 leaf topics from Sprint 3 stay exactly as they were. Sprint 4 adds names, two parent levels, and an outside check against O*NET. The final structure is 8 work domains over 20 activity families over 80 leaves. Point out the colour code: teal is deterministic computation, purple is Gemini, amber is O*NET, red is human review, which is complete (80 of 80 reviewed).
 
 ## Slide 2 - What Entered Sprint 4
 
@@ -20,17 +20,17 @@ Level-3 leaves roll up into Level-2 activity families and Level-1 work domains, 
 
 ## Slide 5 - O*NET Evaluation
 
-Explain the order of operations. For every leaf centroid we computed cosine similarity to all 18,838 O*NET task statements and took the exact top 10. That is plain linear algebra. Only after that did Gemini see the top candidates and judge the semantic match. Gemini did not select the nearest O*NET tasks. Metrics: coverage is 0.975 because 78 of 80 topics matched meaningfully. Purity is low in absolute terms, 0.19, because members of one topic map to many different O*NET activities; read it against the distribution, not as accuracy. Gemini judged 58 strong, 20 partial and 2 no-match topics.
+Explain the order of operations. For every leaf centroid we computed cosine similarity to all 18,838 O*NET task statements and took the exact top 10. That is plain linear algebra. Only after that did Gemini see the top candidates and judge the semantic match. Gemini did not select the nearest O*NET tasks. Metrics: coverage is 0.975 because 78 of 80 topics matched meaningfully. Purity, 0.1935, is concept agreement, not accuracy: it is the share of tasks in a topic whose nearest O*NET task falls in the dominant O*NET concept of that topic. It is low in absolute terms because members of one topic map to many different O*NET activities. Top-10 nearest-neighbour agreement is 0.6225. Gemini judged 58 strong, 20 partial and 2 no-match topics.
 
 ## Slide 6 - Beyond Basic Sprint 4: Robustness and Coverage Gaps
 
-A: We perturbed the hierarchy five times, with seeds 101 to 505, each time keeping a random 80 percent of the tasks inside every leaf, recomputing centroids and re-clustering. Persistence is how often a leaf kept its parent. Mean persistence is 0.71 at Level 1 and 0.79 at Level 2, ARI against the final hierarchy 0.55 and 0.65. That is moderate, not perfect, and we report it honestly. B: The gap analysis uses quantile cut-offs from our own data. Possible emerging work means job-posting evidence has limited alignment with O*NET; it does not prove O*NET is outdated. C: 80 evidence cards, one per topic, are what reviewers will read.
+A: We perturbed the hierarchy five times, with seeds 101 to 505, each time keeping a random 80 percent of the tasks inside every leaf, recomputing centroids and re-clustering. Persistence is how often a leaf kept its parent. Mean persistence is 0.715 at Level 1 and 0.7925 at Level 2, ARI against the final hierarchy 0.55 and 0.65. That is moderate, not perfect, and we report it honestly. B: The gap analysis uses quantile cut-offs from our own data. Possible emerging work means job-posting evidence has limited alignment with O*NET; it does not prove O*NET is outdated. C: 80 evidence cards, one per topic, are what reviewers will read.
 
 ## Slide 7 - Human Validation
 
-Be explicit that human review has not happened yet; the review files are ready and blank. Reviewers go through topics from highest risk to lowest and answer five questions for each. Flagged cases go into the template, and a script turns them into a summary and an issues list without touching the frozen memberships. If asked: nothing in this deck claims human validation. The top of the priority list is LT_048, the topic Gemini flagged as mixed and the critic moved.
+Human review is complete: all 80 topics were judged on five questions and the CSV has no blanks. Labels: 77 accepted, 3 need a rename (LT_015, LT_071, LT_076); suggested names are reported, not applied. Representative tasks: 74 topics coherent, 6 mixed. Boundary tasks: 28 topics have boundary tasks that do not fit, which is the weakest area. Over-merged: 5 topics (LT_015, LT_039, LT_071, LT_076, LT_078); these are grab-bags glued by a word like lead or drive. Under-merged: 12 topics (LT_004, LT_009, LT_010, LT_021, LT_026, LT_027, LT_032, LT_034, LT_042, LT_052, LT_055, LT_061); they form near-duplicate pairs such as LT_004 and LT_061, LT_026 and LT_042, LT_021 and LT_052. We did not change any memberships or names: merges and renames are future work. This is a review by our team, not ground truth.
 
 ## Slide 8 - Sprint 4 Outcome / Sprint 5 Handoff
 
-Summarise the deliverables: 80 labelled leaves, 20 families, 8 domains, 3,015 frozen task memberships, an O*NET evaluation, a stability test and 80 evidence cards. Gemini made 10 real calls with no repairs or retries, and Sprint 4 made no Claude calls. Close with the chain at the bottom and the caveat: this is an interpretable, human-auditable structure, not ground truth. The remaining work is the manual hierarchy review.
+Summarise the deliverables: 80 labelled leaves, 20 families, 8 domains, 3,015 frozen task memberships, an O*NET evaluation, a stability test and 80 evidence cards. Gemini made 10 real calls with no repairs or retries, and Sprint 4 made no Claude calls. Close with the chain at the bottom and the caveat: this is an interpretable, human-auditable structure, not ground truth. Human review is complete: it accepted 77 of 80 labels and 74 of 80 topics as coherent, but found 5 over-merged and 12 under-merged topics. Sprint 5 should apply the 3 renames and decide on merging the near-duplicate pairs.
 

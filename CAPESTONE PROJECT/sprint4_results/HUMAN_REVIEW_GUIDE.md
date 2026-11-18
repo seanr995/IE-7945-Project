@@ -1,6 +1,6 @@
 # Sprint 4 Human Review Guide
 
-**Status: HUMAN REVIEW PENDING.** No judgments have been entered. Do not edit leaf memberships.
+**Status: HUMAN REVIEW COMPLETE (80/80).** Do not edit leaf memberships.
 
 ## Files
 - `human_review_priority.csv` - the 80 topics, riskiest first (`review_priority` 1 = review first; `risk_reason` says why).

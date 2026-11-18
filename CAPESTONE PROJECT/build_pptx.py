@@ -14,8 +14,12 @@ R = json.load(open('run_summary.json')); O = R['onet']; S = R['stability']; G = 
 D = pd.read_csv('hierarchy_diagnostics.csv'); L = pd.read_csv('leaf_topics_labeled.csv'); E = pd.read_csv('leaf_evidence.csv')
 H = pd.read_csv('human_review_template.csv')
 HUMAN_COLS = ['label_correct', 'coherent', 'boundary_ok', 'over_merged', 'under_merged']
-pending = not H[HUMAN_COLS].notna().any().any()
-assert pending, 'human review file has entries; update slide 7/8 wording before building'
+assert len(H) == 80 and H.topic_id.nunique() == 80 and H[HUMAN_COLS].notna().all().all(), 'human review incomplete'
+_y = lambda c, v: int((H[c].astype(str).str.strip().str.upper() == v).sum())
+HR = dict(n=len(H), label_no=_y('label_correct', 'NO'), coh_yes=_y('coherent', 'YES'), coh_no=_y('coherent', 'NO'), bnd_no=_y('boundary_ok', 'NO'),
+          over=_y('over_merged', 'YES'), under=_y('under_merged', 'YES'), ren=int(H.suggested_name.notna().sum()))
+assert HR['coh_yes'] + HR['coh_no'] == 80
+OVER = ', '.join(H[H.over_merged.str.upper() == 'YES'].topic_id); UNDER = ', '.join(H[H.under_merged.str.upper() == 'YES'].topic_id)
 search = D[D.stage == 'search']
 a20 = search[(search.linkage == 'average') & (search.level2_count == 20) & (search.level1_count == 8)].iloc[0]
 w20 = search[(search.linkage == 'ward') & (search.level2_count == 20) & (search.level1_count == 8)].iloc[0]
@@ -85,13 +89,13 @@ def legend(s, y=6.7):
     box(s, 0.5, y, 0.28, 0.22, '', fill=TEAL, shape=MSO_SHAPE.RECTANGLE); txt(s, 0.82, y - 0.05, 3.2, 0.3, 'Deterministic computation', size=11, color=GREY)
     box(s, 3.6, y, 0.28, 0.22, '', fill=PURPLE, shape=MSO_SHAPE.RECTANGLE); txt(s, 3.92, y - 0.05, 3.2, 0.3, 'Gemini semantic reasoning', size=11, color=GREY)
     box(s, 6.7, y, 0.28, 0.22, '', fill=AMBER, shape=MSO_SHAPE.RECTANGLE); txt(s, 7.02, y - 0.05, 3.2, 0.3, 'O*NET external reference', size=11, color=GREY)
-    box(s, 9.9, y, 0.28, 0.22, '', fill=RED, shape=MSO_SHAPE.RECTANGLE); txt(s, 10.22, y - 0.05, 3.0, 0.3, 'Human review (pending)', size=11, color=GREY)
+    box(s, 9.9, y, 0.28, 0.22, '', fill=RED, shape=MSO_SHAPE.RECTANGLE); txt(s, 10.22, y - 0.05, 3.0, 0.3, 'Human review (complete)', size=11, color=GREY)
 
 
 # ------------------------------------------------------------------ Slide 1
 s = new('Sprint 4: From 80 Leaf Topics to a Hierarchical Taxonomy', 'Frozen job-posting topics, named and organised into a labelled hierarchy, then checked against O*NET',
         'Open with the one-line story. We did not re-cluster anything: the 80 leaf topics from Sprint 3 stay exactly as they were. Sprint 4 adds names, two parent levels, and an outside check against O*NET. '
-        f'The final structure is {N1} work domains over {N2} activity families over 80 leaves. Point out the colour code: teal is deterministic computation, purple is Gemini, amber is O*NET, red is human review, which is still pending.')
+        f'The final structure is {N1} work domains over {N2} activity families over 80 leaves. Point out the colour code: teal is deterministic computation, purple is Gemini, amber is O*NET, red is human review, which is complete (80 of 80 reviewed).')
 steps = [('3,015', 'validated tasks', NAVY), ('80', 'frozen Leiden leaf topics', TEAL), ('80', 'labelled leaves (Gemini)', PURPLE),
          (str(N2), 'Level-2 activity families', TEAL), (str(N1), 'Level-1 work domains', TEAL), ('O*NET', 'external evaluation', AMBER)]
 x = 0.4
@@ -101,7 +105,7 @@ for i, (big, lab, c) in enumerate(steps):
     x += 2.14
 box(s, 0.5, 4.75, 12.3, 1.2, [f'Final structure: {N1} Level-1 work domains  >  {N2} Level-2 activity families  >  80 Level-3 leaf topics  >  3,015 tasks',
                               'Task memberships are frozen: Sprint 4 never moved a task between leaves.'], fill=LIGHT, color=NAVY, size=20, bold=True)
-txt(s, 0.5, 6.1, 12.3, 0.4, 'Human hierarchy review: pending (final validation step).', size=15, color=RED, bold=True)
+txt(s, 0.5, 6.1, 12.3, 0.4, f'Human hierarchy review: COMPLETE, {HR["n"]} of 80 topics reviewed; {HR["over"]} over-merged, {HR["under"]} under-merged flagged.', size=15, color=RED, bold=True)
 legend(s)
 
 # ------------------------------------------------------------------ Slide 2
@@ -171,7 +175,7 @@ legend(s)
 # ------------------------------------------------------------------ Slide 5
 s = new('O*NET Evaluation', 'Retrieval is deterministic; Gemini only judges what was already retrieved',
         'Explain the order of operations. For every leaf centroid we computed cosine similarity to all 18,838 O*NET task statements and took the exact top 10. That is plain linear algebra. Only after that did Gemini see the top candidates and judge the semantic match. '
-        'Gemini did not select the nearest O*NET tasks. Metrics: coverage is 0.975 because 78 of 80 topics matched meaningfully. Purity is low in absolute terms, 0.19, because members of one topic map to many different O*NET activities; read it against the distribution, not as accuracy. '
+        'Gemini did not select the nearest O*NET tasks. Metrics: coverage is 0.975 because 78 of 80 topics matched meaningfully. Purity, 0.1935, is concept agreement, not accuracy: it is the share of tasks in a topic whose nearest O*NET task falls in the dominant O*NET concept of that topic. It is low in absolute terms because members of one topic map to many different O*NET activities. Top-10 nearest-neighbour agreement is 0.6225. '
         f'Gemini judged {O["alignment_counts"]["STRONG_MATCH"]} strong, {O["alignment_counts"]["PARTIAL_MATCH"]} partial and {O["alignment_counts"]["NO_MATCH"]} no-match topics.')
 fl = [('Sentence-T5 leaf centroid', TEAL), ('Cosine vs all 18,838 O*NET tasks', TEAL), ('Exact Top-10 (deterministic)', TEAL), ('Gemini semantic evaluation', PURPLE)]
 x = 0.5
@@ -181,8 +185,8 @@ for i, (t, c) in enumerate(fl):
     x += 3.15
 tile(s, 0.5, 3.1, 2.3, 1.6, f'{R["onet_tasks"]:,}', 'O*NET 31.0 task statements', bigsize=28, bigcolor=AMBER)
 tile(s, 3.0, 3.1, 2.3, 1.6, f'{O["coverage_meaningful_alignment"]:.3f}', 'coverage (78 of 80 topics)', bigcolor=TEAL)
-tile(s, 5.5, 3.1, 2.3, 1.6, f'{O["purity_mean"]:.3f}', f'purity, mean (median {O["purity_median"]:.3f})', bigcolor=TEAL)
-tile(s, 8.0, 3.1, 2.3, 1.6, f'{O["nn_agreement_top10_mean"]:.3f}', f'NN agreement, top-10 (exact top-1 {O["nn_agreement_top1_exact_mean"]:.3f})', bigcolor=TEAL)
+tile(s, 5.5, 3.1, 2.3, 1.6, f'{O["purity_mean"]:.4f}', f'purity = concept agreement, not accuracy (median {O["purity_median"]:.3f})', bigcolor=TEAL)
+tile(s, 8.0, 3.1, 2.3, 1.6, f'{O["nn_agreement_top10_mean"]:.4f}', f'NN agreement, top-10 (exact top-1 {O["nn_agreement_top1_exact_mean"]:.3f})', bigcolor=TEAL)
 tile(s, 10.5, 3.1, 2.3, 1.6, f'{O["top1_mean"]:.3f}', 'mean top-1 cosine', bigcolor=TEAL)
 ac = O['alignment_counts']
 box(s, 0.5, 5.0, 3.9, 0.95, [f'{ac["STRONG_MATCH"]} strong', 'Gemini judgment'], fill=PURPLE, size=22)
@@ -194,12 +198,12 @@ legend(s, 6.78)
 # ------------------------------------------------------------------ Slide 6
 s = new('Beyond Basic Sprint 4: Robustness and Coverage Gaps', 'Three additions that test the hierarchy and show where evidence is thin',
         f'A: We perturbed the hierarchy five times, with seeds 101 to 505, each time keeping a random 80 percent of the tasks inside every leaf, recomputing centroids and re-clustering. Persistence is how often a leaf kept its parent. '
-        f'Mean persistence is {S["mean_level1_persistence"]:.2f} at Level 1 and {S["mean_level2_persistence"]:.2f} at Level 2, ARI against the final hierarchy {S["level1_ari_vs_final_mean"]:.2f} and {S["level2_ari_vs_final_mean"]:.2f}. That is moderate, not perfect, and we report it honestly. '
+        f'Mean persistence is {S["mean_level1_persistence"]:.4g} at Level 1 and {S["mean_level2_persistence"]:.4g} at Level 2, ARI against the final hierarchy {S["level1_ari_vs_final_mean"]:.2f} and {S["level2_ari_vs_final_mean"]:.2f}. That is moderate, not perfect, and we report it honestly. '
         'B: The gap analysis uses quantile cut-offs from our own data. Possible emerging work means job-posting evidence has limited alignment with O*NET; it does not prove O*NET is outdated. C: 80 evidence cards, one per topic, are what reviewers will read.')
 txt(s, 0.5, 1.55, 6.2, 0.4, 'A. Hierarchy stability', size=20, color=NAVY, bold=True)
 txt(s, 0.5, 1.95, 6.2, 0.7, '5 deterministic perturbation trials | 80% within-topic task subsampling | recomputed centroids | parent persistence + ARI', size=13, color=GREY)
-tile(s, 0.5, 2.8, 1.45, 1.45, f'{S["mean_level1_persistence"]:.2f}', 'L1 persistence (mean)', bigsize=26, labsize=11, bigcolor=TEAL)
-tile(s, 2.1, 2.8, 1.45, 1.45, f'{S["mean_level2_persistence"]:.2f}', 'L2 persistence (mean)', bigsize=26, labsize=11, bigcolor=TEAL)
+tile(s, 0.5, 2.8, 1.45, 1.45, f'{S["mean_level1_persistence"]:.4g}', 'L1 persistence (mean)', bigsize=26, labsize=11, bigcolor=TEAL)
+tile(s, 2.1, 2.8, 1.45, 1.45, f'{S["mean_level2_persistence"]:.4g}', 'L2 persistence (mean)', bigsize=26, labsize=11, bigcolor=TEAL)
 tile(s, 3.7, 2.8, 1.45, 1.45, f'{S["level1_ari_vs_final_mean"]:.2f}', 'L1 ARI vs final', bigsize=26, labsize=11, bigcolor=TEAL)
 tile(s, 5.3, 2.8, 1.45, 1.45, f'{S["level2_ari_vs_final_mean"]:.2f}', 'L2 ARI vs final', bigsize=26, labsize=11, bigcolor=TEAL)
 txt(s, 0.5, 4.35, 6.3, 0.7, f'Pairwise ARI: L1 {S["level1_ari_pairwise_mean"]:.2f}, L2 {S["level2_ari_pairwise_mean"]:.2f}. Leaves with persistence < 0.60: L1 {S["leaves_level1_persistence_below_0.60"]}, L2 {S["leaves_level2_persistence_below_0.60"]}. Moderate stability; validation only, hierarchy not changed.', size=12, color=GREY)
@@ -216,36 +220,36 @@ box(s, 0.5, 5.4, 12.3, 1.0, ['C. Explainability: 80 topic-level evidence cards',
 legend(s)
 
 # ------------------------------------------------------------------ Slide 7
-s = new('Human Validation', 'Manual hierarchy review is the final validation step',
-        'Be explicit that human review has not happened yet; the review files are ready and blank. Reviewers go through topics from highest risk to lowest and answer five questions for each. Flagged cases go into the template, and a script turns them into a summary and an issues list without touching the frozen memberships. '
-        'If asked: nothing in this deck claims human validation. The top of the priority list is LT_048, the topic Gemini flagged as mixed and the critic moved.')
-box(s, 0.5, 1.6, 12.3, 0.6, 'HUMAN REVIEW PENDING: no human judgments have been entered yet', fill=RED, size=20)
-qs = ['Is the leaf label correct?', 'Do the representative tasks describe one coherent work concept?', 'Do the boundary tasks reasonably belong?', 'Is the topic over-merged?', 'Is it under-merged relative to another topic?']
-for i, q in enumerate(qs):
-    y = 2.45 + i * 0.78
-    box(s, 0.5, y, 0.6, 0.6, str(i + 1), fill=NAVY, size=20, shape=MSO_SHAPE.OVAL)
-    box(s, 1.2, y, 5.7, 0.6, q, fill=LIGHT, color=DARK, size=15, bold=False, align=PP_ALIGN.LEFT)
-fl = [('human_review_priority.csv', 'riskiest first'), ('human_review_template.csv', 'five judgments + notes'), ('apply_human_review.py', 'ingest, frozen leaves untouched'), ('summary.md + issues.csv', 'flagged cases documented')]
-for i, (a, b) in enumerate(fl):
-    y = 2.45 + i * 0.98
-    box(s, 7.5, y, 5.3, 0.75, [a, b], fill=RED if i < 2 else TEAL, size=15)
-    if i < 3: darrow(s, 9.95, y + 0.76, 0.3, 0.2)
+s = new('Human Validation', f'Completed manual review of all {HR["n"]} leaf topics: useful, with real over- and under-merging',
+        f'Human review is complete: all {HR["n"]} topics were judged on five questions and the CSV has no blanks. Labels: {HR["n"]-HR["label_no"]} accepted, {HR["label_no"]} need a rename (LT_015, LT_071, LT_076); suggested names are reported, not applied. '
+        f'Representative tasks: {HR["coh_yes"]} topics coherent, {HR["coh_no"]} mixed. Boundary tasks: {HR["bnd_no"]} topics have boundary tasks that do not fit, which is the weakest area. '
+        f'Over-merged: {HR["over"]} topics ({OVER}); these are grab-bags glued by a word like lead or drive. Under-merged: {HR["under"]} topics ({UNDER}); they form near-duplicate pairs such as LT_004 and LT_061, LT_026 and LT_042, LT_021 and LT_052. '
+        'We did not change any memberships or names: merges and renames are future work. This is a review by our team, not ground truth.')
+box(s, 0.5, 1.6, 12.3, 0.6, f'HUMAN REVIEW COMPLETE: {HR["n"]} of {HR["n"]} topics reviewed', fill=TEAL, size=20)
+tl = [(f'{HR["n"]-HR["label_no"]}/{HR["n"]}', 'labels accepted', TEAL), (f'{HR["coh_yes"]}/{HR["n"]}', 'coherent topics', TEAL), (f'{HR["bnd_no"]}', 'topics with boundary issues', AMBER),
+      (f'{HR["over"]}', 'over-merged topics', RED), (f'{HR["under"]}', 'under-merged topics', RED), (f'{HR["ren"]}', 'suggested renames', PURPLE)]
+for i, (b, l_, c) in enumerate(tl):
+    tile(s, 0.5 + i * 2.07, 2.45, 1.95, 1.5, b, l_, bigcolor=c, bigsize=30, labsize=12)
+box(s, 0.5, 4.2, 6.0, 1.0, ['Over-merged (mixed content)', OVER], fill=RED, size=15)
+box(s, 6.8, 4.2, 6.0, 1.0, ['Under-merged (near-duplicate topics)', UNDER], fill=RED, size=15)
+txt(s, 0.5, 5.35, 12.3, 1.2, [f'Suggested renames (reported, not applied): LT_015 > Lead Projects and Business Initiatives; LT_071 > Build Reusable Assets and Company-wide Processes; LT_076 > Lead Organizational Change and Expansion.',
+    'Unresolved: no merges, splits or renames applied; 3,015 task memberships and 80 leaves unchanged. Review by project team; not ground truth.'], size=14, color=DARK)
 legend(s)
 
 # ------------------------------------------------------------------ Slide 8
-s = new('Sprint 4 Outcome / Sprint 5 Handoff', 'Actual saved outputs; human review not yet complete',
+s = new('Sprint 4 Outcome / Sprint 5 Handoff', 'Actual saved outputs; human review complete, issues documented',
         'Summarise the deliverables: 80 labelled leaves, 20 families, 8 domains, 3,015 frozen task memberships, an O*NET evaluation, a stability test and 80 evidence cards. Gemini made 10 real calls with no repairs or retries, and Sprint 4 made no Claude calls. '
-        'Close with the chain at the bottom and the caveat: this is an interpretable, human-auditable structure, not ground truth. The remaining work is the manual hierarchy review.')
+        'Close with the chain at the bottom and the caveat: this is an interpretable, human-auditable structure, not ground truth. Human review is complete: it accepted 77 of 80 labels and 74 of 80 topics as coherent, but found 5 over-merged and 12 under-merged topics. Sprint 5 should apply the 3 renames and decide on merging the near-duplicate pairs.')
 t8 = [('80', 'labelled leaves'), (str(N2), 'Level-2 families'), (str(N1), 'Level-1 domains'), ('3,015', 'frozen tasks')]
 for i, (b, l_) in enumerate(t8):
     tile(s, 0.5 + i * 3.1, 1.6, 2.9, 1.5, b, l_, bigcolor=TEAL if i < 3 else NAVY)
-items = [f'O*NET evaluation: coverage {O["coverage_meaningful_alignment"]:.3f}, purity {O["purity_mean"]:.3f}, NN agreement {O["nn_agreement_top10_mean"]:.3f}',
-         f'Hierarchy stability: persistence L1 {S["mean_level1_persistence"]:.2f} / L2 {S["mean_level2_persistence"]:.2f}; ARI vs final {S["level1_ari_vs_final_mean"]:.2f} / {S["level2_ari_vs_final_mean"]:.2f}',
+items = [f'O*NET evaluation: coverage {O["coverage_meaningful_alignment"]:.3f}, purity {O["purity_mean"]:.4f}, NN agreement {O["nn_agreement_top10_mean"]:.4f}',
+         f'Hierarchy stability: persistence L1 {S["mean_level1_persistence"]:.4g} / L2 {S["mean_level2_persistence"]:.4g}; ARI vs final {S["level1_ari_vs_final_mean"]:.2f} / {S["level2_ari_vs_final_mean"]:.2f}',
          f'Gap analysis: {gc["WELL_COVERED"]} well / {gc["PARTIALLY_COVERED"]} partial / {gc["POSSIBLE_EMERGING_WORK"]} possible emerging',
          f'80 explainability cards | {LG["gemini_real_calls"]} Gemini calls | 0 Claude calls | 0 unresolved',
-         'Human review: PENDING (final validation step)']
+         f'Human review: COMPLETE ({HR["n"]}/80): {HR["over"]} over-merged, {HR["under"]} under-merged, {HR["label_no"]} label corrections suggested']
 for i, it in enumerate(items):
-    txt(s, 0.7, 3.3 + i * 0.42, 12, 0.4, ('- ' if i < 4 else '- ') + it, size=15, color=RED if i == 4 else DARK, bold=(i == 4))
+    txt(s, 0.7, 3.3 + i * 0.42, 12, 0.4, '- ' + it, size=15, color=RED if i == 4 else DARK, bold=(i == 4))
 ch8 = ['Current job-posting evidence', 'Interpretable task taxonomy', 'Hierarchical organisation', 'External O*NET evaluation', 'Human-auditable structure']
 cs = [TEAL, TEAL, TEAL, AMBER, RED]
 x = 0.45
@@ -256,9 +260,14 @@ for i, t in enumerate(ch8):
 txt(s, 0.5, 6.62, 12.3, 0.3, 'The hierarchy is an auditable organisation of the evidence, not ground truth.', size=12, color=GREY, italic=True)
 
 OUT = os.path.join(ROOT, 'Sprint4_Labeling_Hierarchy_Presentation.pptx')
-prs.save(OUT)
+SUB = os.path.join(ROOT, 'SPRINT4_FINAL_SUBMISSION', 'Sprint4_Labeling_Hierarchy_Presentation.pptx')
+prs.save(SUB)
+try:
+    prs.save(OUT)
+except PermissionError:
+    print('WARNING: root pptx is locked (open in PowerPoint?); saved only to', SUB)
 with open(os.path.join(ROOT, 'Sprint4_Presentation_Speaker_Notes.md'), 'w', encoding='utf-8') as f:
-    f.write('# Sprint 4 Presentation - Speaker Notes\n\nAll figures are real values from `sprint4_results/` (see `Sprint4_Presentation_Key_Metrics.md`). Human review is pending and must not be described as complete.\n\n')
+    f.write('# Sprint 4 Presentation - Speaker Notes\n\nAll figures are real values from `sprint4_results/` (see `Sprint4_Presentation_Key_Metrics.md`). Human review is complete (80/80, values from human_review_template.csv); it is a team review, not ground truth.\n\n')
     for i, (t, n) in enumerate(NOTES, 1):
         f.write(f'## Slide {i} - {t}\n\n{n}\n\n')
 print('saved', OUT)

@@ -68,16 +68,16 @@ def main(argv):
     partial = df[any_judgment & ~df.index.isin(reviewed.index)]
     pending = not bool(any_judgment.any())
 
-    T = {c: df[c].map(tri) for c in HUMAN[:5]}
+    T = {c: df[c].map(tri).astype(object) for c in HUMAN[:5]}
     cnt = lambda c, val: int((T[c] == val).sum())
     issues = []
     for i, r in df.iterrows():
         flags = []
-        if T["label_correct"][i] is False: flags.append("LABEL_NEEDS_RENAME")
-        if T["coherent"][i] is False: flags.append("MIXED_OR_INCOHERENT")
-        if T["boundary_ok"][i] is False: flags.append("BOUNDARY_ISSUE")
-        if T["over_merged"][i] is True: flags.append("OVER_MERGED")
-        if T["under_merged"][i] is True: flags.append("UNDER_MERGED")
+        if T["label_correct"][i] == False: flags.append("LABEL_NEEDS_RENAME")
+        if T["coherent"][i] == False: flags.append("MIXED_OR_INCOHERENT")
+        if T["boundary_ok"][i] == False: flags.append("BOUNDARY_ISSUE")
+        if T["over_merged"][i] == True: flags.append("OVER_MERGED")
+        if T["under_merged"][i] == True: flags.append("UNDER_MERGED")
         if filled(r["suggested_name"]): flags.append("SUGGESTED_RENAME")
         if flags:
             issues.append({"topic_id": r["topic_id"], "topic_name": r["topic_name"], "issue_types": ";".join(flags),
@@ -112,7 +112,7 @@ def main(argv):
               f"- Over-merged topics: **{cnt('over_merged', True)}**; under-merged topics: **{cnt('under_merged', True)}**", ""]
         for title, key in [("Over-merged topics", ("over_merged", True)), ("Under-merged topics", ("under_merged", True)),
                            ("Boundary issues", ("boundary_ok", False)), ("Mixed / incoherent topics", ("coherent", False))]:
-            idx = [i for i in df.index if T[key[0]][i] is key[1]]
+            idx = [i for i in df.index if T[key[0]][i] == key[1]]
             L.append(f"### {title} ({len(idx)})")
             L += [f"- {df.topic_id[i]} {df.topic_name[i]}" + (f" - {df.reviewer_notes[i]}" if filled(df.reviewer_notes[i]) else "") for i in idx] or ["- none"]
             L.append("")
@@ -120,7 +120,7 @@ def main(argv):
         L.append(f"### Suggested renames ({len(ren)}) - reported only, NOT applied")
         L += [f"- {r.topic_id}: **{r.topic_name}** -> **{r.suggested_name}**" for r in ren.itertuples()] or ["- none"]
         L.append("")
-        notes = df[df.reviewer_notes.map(filled)]
+        notes = df[df.reviewer_notes.map(lambda v: filled(v) and str(v).strip().upper() not in ("NO", "N/A"))]
         L.append(f"### Reviewer notes ({len(notes)})")
         L += [f"- {r.topic_id} {r.topic_name}: {r.reviewer_notes}" for r in notes.itertuples()] or ["- none"]
         L.append("")

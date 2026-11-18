@@ -1,1 +1,40 @@
 topic_id,topic_name,issue_types,suggested_name,reviewer_notes
+LT_002,Manage Legal Case Files,BOUNDARY_ISSUE,,"Case prep/processing fits; arrests, extraditions, court travel are not case-file work. Neighbour of LT_036 but distinct."
+LT_003,Prepare Professional Documentation,BOUNDARY_ISSUE,,payment tracking does not.
+LT_004,Collaborate With Cross-Functional Teams,BOUNDARY_ISSUE;UNDER_MERGED,,"Core is 'collaborate with X teams'; near-duplicate of LT_061. Boundary is coaching/ownership, not collaboration."
+LT_005,Conduct Quality Assurance Testing,BOUNDARY_ISSUE,,Testing/verification fits; background check and prospect pain are unrelated.
+LT_009,Develop Customer Relationships,UNDER_MERGED,,Customer engagement/sales; client-vs-customer wording overlaps LT_055. 
+LT_010,Monitor Operational Performance Trends,BOUNDARY_ISSUE;UNDER_MERGED,,"Operational monitoring (inventory, procurement) mixed with market/technology trend watching; tracking overlaps LT_034."
+LT_013,Develop Agency Policies,BOUNDARY_ISSUE,,Policy development fits; risk mitigation and trial representation unrelated.
+LT_014,Respond To Stakeholder Inquiries,BOUNDARY_ISSUE,,"Responding to inquiries/complaints fits; carrying a firearm, lateness alerts unrelated."
+LT_015,Lead Strategic Initiatives,LABEL_NEEDS_RENAME;MIXED_OR_INCOHERENT;OVER_MERGED;SUGGESTED_RENAME,Lead Projects and Business Initiatives,"Glued by the word 'lead': project leadership, lead generation (sales), sourcing, recruiting.     overlaps LT_021/LT_052."
+LT_016,Facilitate Professional Training,BOUNDARY_ISSUE,,Delivering training fits ('attend trainings' is receiving); swim/aquatics items unrelated.
+LT_018,Supervise Staff And Personnel,BOUNDARY_ISSUE,,Supervising staff fits; travel requirements are not supervision.
+LT_021,Manage Project Lifecycles,BOUNDARY_ISSUE;UNDER_MERGED,,Project management; LT_052 ('special projects/events') is near-identical in practice.
+LT_026,Build Strategic Partnerships,UNDER_MERGED,,Partnerships fit; LT_042 is near-identical.
+LT_027,Recommend Process Improvements,UNDER_MERGED,,Process improvement fits; LT_032 (refine/scale/design internal processes) is the same work.
+LT_030,Analyze Technical Issues,BOUNDARY_ISSUE,,Troubleshooting fits; outbound sales and speed reducers unrelated.
+LT_031,Conduct Community Outreach,BOUNDARY_ISSUE,,Community outreach fits; candidate sourcing/SEO belongs to recruiting/marketing.
+LT_032,Operationalize Internal Processes,UNDER_MERGED,,Refining/scaling internal processes duplicates LT_027
+LT_033,Build Backend Systems,BOUNDARY_ISSUE,,Backend/database work fits; Android features and fundraising unrelated.
+LT_034,Track Performance Metrics,UNDER_MERGED,,KPI/milestone tracking fits; overlaps LT_010
+LT_038,Maintain Organizational Records,BOUNDARY_ISSUE,,Record keeping fits; 'set domain direction' and clearance results unrelated.
+LT_039,Draft Project Proposals,MIXED_OR_INCOHERENT;OVER_MERGED,,Proposal writing mixed with prototyping/proofs of concept; name covers only proposals.
+LT_040,Prepare Technical Specifications,BOUNDARY_ISSUE,,NO
+LT_041,Developing AI Application Roadmaps,BOUNDARY_ISSUE,,NO
+LT_042,Building Stakeholder Relationships,UNDER_MERGED,,Stakeholder relationships; near-identical to LT_026. 
+LT_045,Maintaining Roadway Infrastructure,BOUNDARY_ISSUE,,Roadway maintenance fits; watercraft and ferry items unrelated.
+LT_047,Automating Operational Workflows,BOUNDARY_ISSUE,,Workflow automation fits; dashboards and post-processing unrelated.
+LT_048,Designing Experiences and Curricula,MIXED_OR_INCOHERENT;BOUNDARY_ISSUE,,"Glued by 'design': curricula, customer experiences, civil engineering, publications."
+LT_050,Conducting Product Demonstrations,BOUNDARY_ISSUE,,Half of the core is generic presentations; name covers only product demos.
+LT_051,Developing Project Plans,BOUNDARY_ISSUE,,Plan preparation fits; summons packages and recertification unrelated.
+LT_052,Coordinating Special Initiatives,BOUNDARY_ISSUE;UNDER_MERGED,,"'Special' says nothing about the work; this is project/event coordination, near-identical to LT_021."
+LT_055,Managing Client Engagements,BOUNDARY_ISSUE;UNDER_MERGED,,Client engagement; month-end closing and audits are unrelated; near-identical to LT_009.
+LT_061,Facilitate Cross-Functional Collaboration,BOUNDARY_ISSUE;UNDER_MERGED,,Cross-functional collaboration; duplicate of LT_004 but under a different Level-1 domain.
+LT_068,Act as Organizational Liaison,BOUNDARY_ISSUE,,"Liaison/advisor roles fit; boundary items are personal traits, not tasks."
+LT_071,Coordinate Enterprise Development,LABEL_NEEDS_RENAME;MIXED_OR_INCOHERENT;OVER_MERGED;SUGGESTED_RENAME,Build Reusable Assets and Company-wide Processes,"Grab-bag: employee lifecycle, UI components, enterprise assets, committees."
+LT_073,Coordinate Interview Processes,BOUNDARY_ISSUE,,Mostly hiring interviews; user/landlord interviews and housing items are off-topic.
+LT_075,Drive Revenue Growth,BOUNDARY_ISSUE,,Revenue generation mixed with revenue-recognition accounting.
+LT_076,Drive Organizational Growth,LABEL_NEEDS_RENAME;MIXED_OR_INCOHERENT;OVER_MERGED;SUGGESTED_RENAME,Lead Organizational Change and Expansion,"Glued by 'Drive': modernization, sysadmin, launches, ARR, hiring."
+LT_077,Process Administrative Requests,BOUNDARY_ISSUE,,Core is print/copy/scan operations; 'administrative requests' is vague. Level-1 'Data Analysis' placement looks wrong.
+LT_078,Support Onboarding Processes,MIXED_OR_INCOHERENT;OVER_MERGED,,Employee onboarding mixed with licensing-applicant status follow-up.
