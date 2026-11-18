@@ -1,0 +1,387 @@
+{
+  "level1": {
+    "D1_01": {
+      "name": "Technical Development and Engineering",
+      "description": "Broad domain covering software development, system infrastructure, engineering, and technical problem solving.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All families are focused on technical execution and development.",
+      "level": 1,
+      "children": [
+        "F2_03",
+        "F2_04",
+        "F2_15",
+        "F2_18",
+        "F2_19"
+      ]
+    },
+    "D1_02": {
+      "name": "Data Analysis and Quality Assurance",
+      "description": "Domain focused on data processing, research, performance monitoring, and quality control.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All families relate to data, research, or quality assessment.",
+      "level": 1,
+      "children": [
+        "F2_01",
+        "F2_09",
+        "F2_12"
+      ]
+    },
+    "D1_03": {
+      "name": "Stakeholder Engagement and Human Capital",
+      "description": "Domain covering communication, community outreach, training, HR, and legal services.",
+      "confidence": 0.85,
+      "misplaced": [],
+      "reason": "All families involve human-centric or stakeholder-facing activities.",
+      "level": 1,
+      "children": [
+        "F2_06",
+        "F2_10",
+        "F2_11",
+        "F2_13"
+      ]
+    },
+    "D1_04": {
+      "name": "Strategic Planning and Financial Management",
+      "description": "Domain focused on high-level strategy, resource allocation, and financial performance.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All families relate to organizational strategy and finance.",
+      "level": 1,
+      "children": [
+        "F2_08",
+        "F2_14"
+      ]
+    },
+    "D1_05": {
+      "name": "Leadership and Relationship Management",
+      "description": "Domain covering executive leadership, cross-functional collaboration, and brand representation.",
+      "confidence": 0.85,
+      "misplaced": [],
+      "reason": "All families focus on leadership and external/internal relationship management.",
+      "level": 1,
+      "children": [
+        "F2_02",
+        "F2_20"
+      ]
+    },
+    "D1_06": {
+      "name": "Commercial and Procurement Operations",
+      "description": "Domain focused on managing contracts, vendors, and client relationships.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All families relate to commercial business operations.",
+      "level": 1,
+      "children": [
+        "F2_05"
+      ]
+    },
+    "D1_07": {
+      "name": "Governance and Administrative Oversight",
+      "description": "Domain covering policy development, regulatory compliance, and administrative support.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All families relate to organizational governance.",
+      "level": 1,
+      "children": [
+        "F2_07"
+      ]
+    },
+    "D1_08": {
+      "name": "Infrastructure and Commercial Growth",
+      "description": "Domain covering physical maintenance and product-led organizational growth.",
+      "confidence": 0.75,
+      "misplaced": [],
+      "reason": "Families are distinct but both relate to physical/commercial scaling.",
+      "level": 1,
+      "children": [
+        "F2_16",
+        "F2_17"
+      ]
+    }
+  },
+  "level2": {
+    "F2_01": {
+      "name": "Operational Data and Documentation Management",
+      "description": "Systematic processing of organizational data, records, and formal documentation to support operational workflows and reporting.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves relate to data analysis, record keeping, or documentation preparation.",
+      "level": 2,
+      "children": [
+        "LT_001",
+        "LT_003",
+        "LT_006",
+        "LT_038",
+        "LT_040",
+        "LT_077"
+      ]
+    },
+    "F2_02": {
+      "name": "Strategic Leadership and Stakeholder Collaboration",
+      "description": "Providing executive guidance, building partnerships, and fostering collaboration across teams and stakeholders.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All leaves focus on leadership, relationship building, and team guidance.",
+      "level": 2,
+      "children": [
+        "LT_004",
+        "LT_015",
+        "LT_025",
+        "LT_026",
+        "LT_042",
+        "LT_046"
+      ]
+    },
+    "F2_03": {
+      "name": "Technical Infrastructure and System Operations",
+      "description": "Developing, deploying, and maintaining technical systems, data pipelines, and automated workflows.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves are centered on technical infrastructure and system maintenance.",
+      "level": 2,
+      "children": [
+        "LT_028",
+        "LT_032",
+        "LT_033",
+        "LT_035",
+        "LT_047",
+        "LT_060",
+        "LT_071"
+      ]
+    },
+    "F2_04": {
+      "name": "Project Planning and Initiative Coordination",
+      "description": "Managing project lifecycles, designing curricula, and coordinating cross-functional initiatives.",
+      "confidence": 0.85,
+      "misplaced": [],
+      "reason": "All leaves involve project management, planning, or initiative coordination.",
+      "level": 2,
+      "children": [
+        "LT_021",
+        "LT_039",
+        "LT_051",
+        "LT_052",
+        "LT_054",
+        "LT_061"
+      ]
+    },
+    "F2_05": {
+      "name": "Client, Vendor, and Procurement Management",
+      "description": "Managing external relationships, contracts, procurement operations, and sales cycles.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All leaves focus on external business relationships and procurement.",
+      "level": 2,
+      "children": [
+        "LT_007",
+        "LT_009",
+        "LT_049",
+        "LT_055",
+        "LT_064",
+        "LT_067"
+      ]
+    },
+    "F2_06": {
+      "name": "Community Outreach and Organizational Liaison",
+      "description": "Serving as a point of contact for stakeholders, community members, and municipal agencies.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves involve communication and liaison activities.",
+      "level": 2,
+      "children": [
+        "LT_008",
+        "LT_014",
+        "LT_023",
+        "LT_031",
+        "LT_068"
+      ]
+    },
+    "F2_07": {
+      "name": "Policy, Compliance, and Administrative Oversight",
+      "description": "Ensuring regulatory adherence, developing internal policies, and providing administrative oversight.",
+      "confidence": 0.85,
+      "misplaced": [],
+      "reason": "All leaves relate to governance, compliance, and administrative control.",
+      "level": 2,
+      "children": [
+        "LT_012",
+        "LT_013",
+        "LT_024",
+        "LT_029",
+        "LT_057"
+      ]
+    },
+    "F2_08": {
+      "name": "Strategic Planning and Resource Optimization",
+      "description": "Formulating growth strategies, prioritizing resources, and ensuring quality deliverables.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves focus on high-level strategy and resource management.",
+      "level": 2,
+      "children": [
+        "LT_022",
+        "LT_027",
+        "LT_062",
+        "LT_065",
+        "LT_069",
+        "LT_070"
+      ]
+    },
+    "F2_09": {
+      "name": "Research, Testing, and Quality Assessment",
+      "description": "Conducting systematic research, technical reviews, and quality assurance testing.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves involve investigative or evaluative work.",
+      "level": 2,
+      "children": [
+        "LT_005",
+        "LT_017",
+        "LT_056",
+        "LT_063"
+      ]
+    },
+    "F2_10": {
+      "name": "Professional Training and Meeting Coordination",
+      "description": "Facilitating training sessions and coordinating professional meetings and demonstrations.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All leaves focus on knowledge sharing and meeting logistics.",
+      "level": 2,
+      "children": [
+        "LT_016",
+        "LT_020",
+        "LT_048",
+        "LT_050"
+      ]
+    },
+    "F2_11": {
+      "name": "Human Resources and Personnel Management",
+      "description": "Managing the full employee lifecycle, including recruitment, onboarding, and supervision.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All leaves are HR-related functions.",
+      "level": 2,
+      "children": [
+        "LT_018",
+        "LT_066",
+        "LT_072",
+        "LT_073",
+        "LT_078"
+      ]
+    },
+    "F2_12": {
+      "name": "Performance Monitoring and Schedule Management",
+      "description": "Tracking performance metrics, operational trends, and project schedules.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves focus on monitoring and scheduling.",
+      "level": 2,
+      "children": [
+        "LT_010",
+        "LT_034",
+        "LT_059"
+      ]
+    },
+    "F2_13": {
+      "name": "Legal Services and Case Management",
+      "description": "Providing legal counsel and managing legal case files and documentation.",
+      "confidence": 1.0,
+      "misplaced": [],
+      "reason": "All leaves are strictly legal in nature.",
+      "level": 2,
+      "children": [
+        "LT_002",
+        "LT_036"
+      ]
+    },
+    "F2_14": {
+      "name": "Financial Management and Revenue Growth",
+      "description": "Managing financial processes, budgets, and revenue-generating activities.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All leaves are financial or revenue-focused.",
+      "level": 2,
+      "children": [
+        "LT_011",
+        "LT_037",
+        "LT_075"
+      ]
+    },
+    "F2_15": {
+      "name": "Technical Consultation and Problem Solving",
+      "description": "Providing technical advice and resolving complex business or technical issues.",
+      "confidence": 0.85,
+      "misplaced": [],
+      "reason": "All leaves involve technical advisory or problem-solving roles.",
+      "level": 2,
+      "children": [
+        "LT_030",
+        "LT_044",
+        "LT_058"
+      ]
+    },
+    "F2_16": {
+      "name": "Infrastructure and Equipment Maintenance",
+      "description": "Maintaining physical equipment and roadway infrastructure.",
+      "confidence": 0.9,
+      "misplaced": [],
+      "reason": "All leaves involve physical maintenance.",
+      "level": 2,
+      "children": [
+        "LT_019",
+        "LT_045"
+      ]
+    },
+    "F2_17": {
+      "name": "Product Commercialization and Organizational Growth",
+      "description": "Managing product lifecycles and leading initiatives for organizational expansion.",
+      "confidence": 0.8,
+      "misplaced": [],
+      "reason": "All leaves focus on commercial growth and product strategy.",
+      "level": 2,
+      "children": [
+        "LT_043",
+        "LT_074",
+        "LT_076"
+      ]
+    },
+    "F2_18": {
+      "name": "Engineering and Electrical Assembly",
+      "description": "Performing engineering tasks and assembling electrical components.",
+      "confidence": 0.95,
+      "misplaced": [],
+      "reason": "All leaves are technical engineering tasks.",
+      "level": 2,
+      "children": [
+        "LT_053",
+        "LT_079"
+      ]
+    },
+    "F2_19": {
+      "name": "AI Application Development",
+      "description": "Developing roadmaps and implementing AI-driven solutions.",
+      "confidence": 1.0,
+      "misplaced": [],
+      "reason": "The leaf is specific to AI development.",
+      "level": 2,
+      "children": [
+        "LT_041"
+      ]
+    },
+    "F2_20": {
+      "name": "External Brand Representation",
+      "description": "Representing the company externally to promote brand value.",
+      "confidence": 1.0,
+      "misplaced": [],
+      "reason": "The leaf is specific to brand representation.",
+      "level": 2,
+      "children": [
+        "LT_080"
+      ]
+    }
+  },
+  "provisional_names": []
+}

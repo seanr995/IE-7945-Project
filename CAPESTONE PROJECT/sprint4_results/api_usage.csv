@@ -1,0 +1,16 @@
+call_number,provider,model,agent_role,batch_id,topic_count,input_tokens,output_tokens,status,cached,error_type,timestamp,kind
+1.0,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-1,20,1958,3059,ok,False,,2026-11-04T23:51:50.896836+00:00,normal
+2.0,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-2,20,1885,2958,ok,False,,2026-11-04T23:51:58.908950+00:00,normal
+3.0,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-3,20,1977,3098,ok,False,,2026-11-04T23:52:06.924825+00:00,normal
+4.0,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-4,20,2038,3066,ok,False,,2026-11-04T23:52:14.943795+00:00,normal
+5.0,gemini,gemini-3.1-flash-lite,hierarchy_builder,hier-1,28,4022,2603,ok,False,,2026-11-04T23:52:22.960587+00:00,normal
+,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-1,20,0,0,cache_hit,True,,2026-11-05T01:32:30.577518+00:00,cache
+,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-2,20,0,0,cache_hit,True,,2026-11-05T01:32:30.948436+00:00,cache
+,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-3,20,0,0,cache_hit,True,,2026-11-05T01:32:31.269774+00:00,cache
+,gemini,gemini-3.1-flash-lite,leaf_labeler,leaf-4,20,0,0,cache_hit,True,,2026-11-05T01:32:31.590805+00:00,cache
+,gemini,gemini-3.1-flash-lite,hierarchy_builder,hier-1,28,0,0,cache_hit,True,,2026-11-05T01:32:32.266747+00:00,cache
+6.0,gemini,gemini-3.1-flash-lite,onet_evaluator,onet-1,20,4560,2519,ok,False,,2026-11-05T01:32:49.785386+00:00,normal
+7.0,gemini,gemini-3.1-flash-lite,onet_evaluator,onet-2,20,4488,2294,ok,False,,2026-11-05T01:32:57.802195+00:00,normal
+8.0,gemini,gemini-3.1-flash-lite,onet_evaluator,onet-3,20,4743,2216,ok,False,,2026-11-05T01:33:05.815568+00:00,normal
+9.0,gemini,gemini-3.1-flash-lite,onet_evaluator,onet-4,20,4672,2302,ok,False,,2026-11-05T01:33:13.829589+00:00,normal
+10.0,gemini,gemini-3.1-flash-lite,critic,critic-1,31,6008,2121,ok,False,,2026-11-05T01:33:21.842092+00:00,normal

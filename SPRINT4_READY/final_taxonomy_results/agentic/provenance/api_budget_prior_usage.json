@@ -1,0 +1,6 @@
+{
+  "calls_already_made_floor": 5,
+  "source": "user-reported: about 5 real Claude calls were consumed in Colab by the earlier (tool-calling) implementation before this rebuild; that run's api_budget.json lives on Google Drive and was not available locally",
+  "rule": "the runtime uses max(calls_made in api_budget.json, this floor) and never resets either",
+  "recorded_utc": "2026-10-22"
+}

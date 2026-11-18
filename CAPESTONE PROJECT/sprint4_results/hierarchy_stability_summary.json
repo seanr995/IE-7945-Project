@@ -1,0 +1,48 @@
+{
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "sample_fraction_per_leaf": 0.8,
+  "sampling": "without replacement, independently inside every leaf",
+  "leaves_kept": 80,
+  "tasks_sampled_per_trial": [
+    2414,
+    2414,
+    2414,
+    2414,
+    2414
+  ],
+  "method": "ward",
+  "target_level2_count": 20,
+  "target_level1_count": 8,
+  "final_level2_count": 20,
+  "final_level1_count": 8,
+  "perturbed_level2_counts": [
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "perturbed_level1_counts": [
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "matching": "one-to-one Hungarian on maximum Jaccard of child-leaf sets, independently per level",
+  "mean_level1_persistence": 0.715,
+  "mean_level2_persistence": 0.7925,
+  "level1_ari_pairwise_mean": 0.4843,
+  "level2_ari_pairwise_mean": 0.6501,
+  "level1_ari_vs_final_mean": 0.5504,
+  "level2_ari_vs_final_mean": 0.6469,
+  "leaves_level1_persistence_below_0.60": 24,
+  "leaves_level2_persistence_below_0.60": 16,
+  "note": "validation only - the final hierarchy was not changed because of this test"
+}

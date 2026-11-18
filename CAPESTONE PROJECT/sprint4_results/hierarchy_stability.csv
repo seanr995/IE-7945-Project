@@ -1,0 +1,81 @@
+topic_id,topic_name,level2_id,level2_name,level1_id,level1_name,level2_trials_persisted,level2_parent_persistence,level1_trials_persisted,level1_parent_persistence,l2_persisted_seed_101,l1_persisted_seed_101,l2_persisted_seed_202,l1_persisted_seed_202,l2_persisted_seed_303,l1_persisted_seed_303,l2_persisted_seed_404,l1_persisted_seed_404,l2_persisted_seed_505,l1_persisted_seed_505
+LT_001,Analyze Operational Data,F2_01,Operational Data and Documentation Management,D1_02,Data Analysis and Quality Assurance,2,0.4,5,1.0,0,1,0,1,1,1,0,1,1,1
+LT_002,Manage Legal Case Files,F2_13,Legal Services and Case Management,D1_03,Stakeholder Engagement and Human Capital,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_003,Prepare Professional Documentation,F2_01,Operational Data and Documentation Management,D1_02,Data Analysis and Quality Assurance,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_004,Collaborate With Cross-Functional Teams,F2_02,Strategic Leadership and Stakeholder Collaboration,D1_05,Leadership and Relationship Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_005,Conduct Quality Assurance Testing,F2_09,"Research, Testing, and Quality Assessment",D1_02,Data Analysis and Quality Assurance,5,1.0,2,0.4,1,0,1,0,1,1,1,1,1,0
+LT_006,Produce Organizational Reports,F2_01,Operational Data and Documentation Management,D1_02,Data Analysis and Quality Assurance,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_007,Negotiate And Manage Contracts,F2_05,"Client, Vendor, and Procurement Management",D1_06,Commercial and Procurement Operations,1,0.2,4,0.8,1,1,0,1,0,0,0,1,0,1
+LT_008,Coordinate Citywide Agency Initiatives,F2_06,Community Outreach and Organizational Liaison,D1_03,Stakeholder Engagement and Human Capital,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1
+LT_009,Develop Customer Relationships,F2_05,"Client, Vendor, and Procurement Management",D1_06,Commercial and Procurement Operations,5,1.0,2,0.4,1,1,1,1,1,0,1,0,1,0
+LT_010,Monitor Operational Performance Trends,F2_12,Performance Monitoring and Schedule Management,D1_02,Data Analysis and Quality Assurance,3,0.6,4,0.8,1,1,1,1,0,1,1,0,0,1
+LT_011,Manage Financial Processes,F2_14,Financial Management and Revenue Growth,D1_04,Strategic Planning and Financial Management,4,0.8,1,0.2,0,0,1,0,1,1,1,0,1,0
+LT_012,Ensure Regulatory Compliance,F2_07,"Policy, Compliance, and Administrative Oversight",D1_07,Governance and Administrative Oversight,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_013,Develop Agency Policies,F2_07,"Policy, Compliance, and Administrative Oversight",D1_07,Governance and Administrative Oversight,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_014,Respond To Stakeholder Inquiries,F2_06,Community Outreach and Organizational Liaison,D1_03,Stakeholder Engagement and Human Capital,4,0.8,4,0.8,1,1,1,1,0,0,1,1,1,1
+LT_015,Lead Strategic Initiatives,F2_02,Strategic Leadership and Stakeholder Collaboration,D1_05,Leadership and Relationship Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_016,Facilitate Professional Training,F2_10,Professional Training and Meeting Coordination,D1_03,Stakeholder Engagement and Human Capital,4,0.8,5,1.0,0,1,1,1,1,1,1,1,1,1
+LT_017,Conduct Investigative Research,F2_09,"Research, Testing, and Quality Assessment",D1_02,Data Analysis and Quality Assurance,5,1.0,2,0.4,1,0,1,0,1,1,1,1,1,0
+LT_018,Supervise Staff And Personnel,F2_11,Human Resources and Personnel Management,D1_03,Stakeholder Engagement and Human Capital,1,0.2,2,0.4,0,0,0,1,1,1,0,0,0,0
+LT_019,Maintain Operational Equipment,F2_16,Infrastructure and Equipment Maintenance,D1_08,Infrastructure and Commercial Growth,5,1.0,4,0.8,1,0,1,1,1,1,1,1,1,1
+LT_020,Coordinate Professional Meetings,F2_10,Professional Training and Meeting Coordination,D1_03,Stakeholder Engagement and Human Capital,4,0.8,5,1.0,0,1,1,1,1,1,1,1,1,1
+LT_021,Manage Project Lifecycles,F2_04,Project Planning and Initiative Coordination,D1_01,Technical Development and Engineering,3,0.6,5,1.0,1,1,0,1,0,1,1,1,1,1
+LT_022,Develop Strategic Growth Plans,F2_08,Strategic Planning and Resource Optimization,D1_04,Strategic Planning and Financial Management,2,0.4,5,1.0,0,1,0,1,1,1,1,1,0,1
+LT_023,Coordinate Organizational Communications,F2_06,Community Outreach and Organizational Liaison,D1_03,Stakeholder Engagement and Human Capital,2,0.4,2,0.4,0,0,0,0,0,0,1,1,1,1
+LT_024,Provide Administrative Support,F2_07,"Policy, Compliance, and Administrative Oversight",D1_07,Governance and Administrative Oversight,2,0.4,4,0.8,0,1,0,0,1,1,0,1,1,1
+LT_025,Provide Executive Leadership,F2_02,Strategic Leadership and Stakeholder Collaboration,D1_05,Leadership and Relationship Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_026,Build Strategic Partnerships,F2_02,Strategic Leadership and Stakeholder Collaboration,D1_05,Leadership and Relationship Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_027,Recommend Process Improvements,F2_08,Strategic Planning and Resource Optimization,D1_04,Strategic Planning and Financial Management,3,0.6,3,0.6,1,1,1,1,0,0,0,0,1,1
+LT_028,Implement System Infrastructures,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_029,Oversee Operational Activities,F2_07,"Policy, Compliance, and Administrative Oversight",D1_07,Governance and Administrative Oversight,2,0.4,4,0.8,0,1,0,0,1,1,0,1,1,1
+LT_030,Analyze Technical Issues,F2_15,Technical Consultation and Problem Solving,D1_01,Technical Development and Engineering,5,1.0,1,0.2,1,0,1,0,1,0,1,1,1,0
+LT_031,Conduct Community Outreach,F2_06,Community Outreach and Organizational Liaison,D1_03,Stakeholder Engagement and Human Capital,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1
+LT_032,Operationalize Internal Processes,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_033,Build Backend Systems,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_034,Track Performance Metrics,F2_12,Performance Monitoring and Schedule Management,D1_02,Data Analysis and Quality Assurance,3,0.6,4,0.8,1,1,1,1,0,1,1,0,0,1
+LT_035,Handle Software Deployments,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_036,Provide Legal Counsel,F2_13,Legal Services and Case Management,D1_03,Stakeholder Engagement and Human Capital,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_037,Track Budget Expenditures,F2_14,Financial Management and Revenue Growth,D1_04,Strategic Planning and Financial Management,4,0.8,2,0.4,1,0,1,0,1,1,0,1,1,0
+LT_038,Maintain Organizational Records,F2_01,Operational Data and Documentation Management,D1_02,Data Analysis and Quality Assurance,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_039,Draft Project Proposals,F2_04,Project Planning and Initiative Coordination,D1_01,Technical Development and Engineering,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1
+LT_040,Prepare Technical Specifications,F2_01,Operational Data and Documentation Management,D1_02,Data Analysis and Quality Assurance,0,0.0,0,0.0,0,0,0,0,0,0,0,0,0,0
+LT_041,Developing AI Application Roadmaps,F2_19,AI Application Development,D1_01,Technical Development and Engineering,5,1.0,2,0.4,1,0,1,0,1,1,1,1,1,0
+LT_042,Building Stakeholder Relationships,F2_02,Strategic Leadership and Stakeholder Collaboration,D1_05,Leadership and Relationship Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_043,Owning End-to-End Product Commercialization,F2_17,Product Commercialization and Organizational Growth,D1_08,Infrastructure and Commercial Growth,2,0.4,1,0.2,1,0,1,0,0,0,0,1,0,0
+LT_044,Implementing Creative Business Solutions,F2_15,Technical Consultation and Problem Solving,D1_01,Technical Development and Engineering,5,1.0,1,0.2,1,0,1,0,1,0,1,1,1,0
+LT_045,Maintaining Roadway Infrastructure,F2_16,Infrastructure and Equipment Maintenance,D1_08,Infrastructure and Commercial Growth,5,1.0,4,0.8,1,0,1,1,1,1,1,1,1,1
+LT_046,Mentoring and Guiding Teams,F2_02,Strategic Leadership and Stakeholder Collaboration,D1_05,Leadership and Relationship Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_047,Automating Operational Workflows,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_048,Designing Experiences and Curricula,F2_10,Professional Training and Meeting Coordination,D1_03,Stakeholder Engagement and Human Capital,0,0.0,0,0.0,0,0,0,0,0,0,0,0,0,0
+LT_049,Managing Procurement Operations,F2_05,"Client, Vendor, and Procurement Management",D1_06,Commercial and Procurement Operations,2,0.4,3,0.6,1,1,0,1,0,0,0,1,1,0
+LT_050,Conducting Product Demonstrations,F2_10,Professional Training and Meeting Coordination,D1_03,Stakeholder Engagement and Human Capital,4,0.8,5,1.0,0,1,1,1,1,1,1,1,1,1
+LT_051,Developing Project Plans,F2_04,Project Planning and Initiative Coordination,D1_01,Technical Development and Engineering,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1
+LT_052,Coordinating Special Initiatives,F2_04,Project Planning and Initiative Coordination,D1_01,Technical Development and Engineering,3,0.6,5,1.0,1,1,0,1,0,1,1,1,1,1
+LT_053,Assembling Electrical Components,F2_18,Engineering and Electrical Assembly,D1_01,Technical Development and Engineering,4,0.8,1,0.2,1,0,0,0,1,0,1,1,1,0
+LT_054,Guiding Architectural Decisions,F2_04,Project Planning and Initiative Coordination,D1_01,Technical Development and Engineering,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1
+LT_055,Managing Client Engagements,F2_05,"Client, Vendor, and Procurement Management",D1_06,Commercial and Procurement Operations,5,1.0,2,0.4,1,1,1,1,1,0,1,0,1,0
+LT_056,Conducting Technical Reviews,F2_09,"Research, Testing, and Quality Assessment",D1_02,Data Analysis and Quality Assurance,5,1.0,2,0.4,1,0,1,0,1,1,1,1,1,0
+LT_057,Implementing Information Security,F2_07,"Policy, Compliance, and Administrative Oversight",D1_07,Governance and Administrative Oversight,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_058,Providing Technical Consultation,F2_15,Technical Consultation and Problem Solving,D1_01,Technical Development and Engineering,5,1.0,1,0.2,1,0,1,0,1,0,1,1,1,0
+LT_059,Managing Project Schedules,F2_12,Performance Monitoring and Schedule Management,D1_02,Data Analysis and Quality Assurance,1,0.2,2,0.4,0,0,0,1,0,0,1,0,0,1
+LT_060,Maintaining Data Pipelines,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_061,Facilitate Cross-Functional Collaboration,F2_04,Project Planning and Initiative Coordination,D1_01,Technical Development and Engineering,1,0.2,5,1.0,0,1,0,1,0,1,1,1,0,1
+LT_062,Define Product Roadmaps,F2_08,Strategic Planning and Resource Optimization,D1_04,Strategic Planning and Financial Management,2,0.4,5,1.0,0,1,0,1,1,1,1,1,0,1
+LT_063,Assess Child Care Programs,F2_09,"Research, Testing, and Quality Assessment",D1_02,Data Analysis and Quality Assurance,5,1.0,2,0.4,1,0,1,0,1,1,1,1,1,0
+LT_064,Manage Sales Processes,F2_05,"Client, Vendor, and Procurement Management",D1_06,Commercial and Procurement Operations,5,1.0,2,0.4,1,1,1,1,1,0,1,0,1,0
+LT_065,Prioritize Operational Resources,F2_08,Strategic Planning and Resource Optimization,D1_04,Strategic Planning and Financial Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_066,Execute Recruitment Processes,F2_11,Human Resources and Personnel Management,D1_03,Stakeholder Engagement and Human Capital,4,0.8,3,0.6,1,1,1,1,1,1,1,0,0,0
+LT_067,Manage Vendor Relationships,F2_05,"Client, Vendor, and Procurement Management",D1_06,Commercial and Procurement Operations,5,1.0,2,0.4,1,1,1,1,1,0,1,0,1,0
+LT_068,Act as Organizational Liaison,F2_06,Community Outreach and Organizational Liaison,D1_03,Stakeholder Engagement and Human Capital,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1
+LT_069,Ensure Quality Deliverables,F2_08,Strategic Planning and Resource Optimization,D1_04,Strategic Planning and Financial Management,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_070,Identify Strategic Opportunities,F2_08,Strategic Planning and Resource Optimization,D1_04,Strategic Planning and Financial Management,2,0.4,4,0.8,0,0,0,1,1,1,1,1,0,1
+LT_071,Coordinate Enterprise Development,F2_03,Technical Infrastructure and System Operations,D1_01,Technical Development and Engineering,5,1.0,5,1.0,1,1,1,1,1,1,1,1,1,1
+LT_072,Manage Human Resources,F2_11,Human Resources and Personnel Management,D1_03,Stakeholder Engagement and Human Capital,4,0.8,3,0.6,1,1,1,1,1,1,0,0,1,0
+LT_073,Coordinate Interview Processes,F2_11,Human Resources and Personnel Management,D1_03,Stakeholder Engagement and Human Capital,5,1.0,3,0.6,1,1,1,1,1,1,1,0,1,0
+LT_074,Develop Digital Agronomy Products,F2_17,Product Commercialization and Organizational Growth,D1_08,Infrastructure and Commercial Growth,3,0.6,0,0.0,1,0,1,0,1,0,0,0,0,0
+LT_075,Drive Revenue Growth,F2_14,Financial Management and Revenue Growth,D1_04,Strategic Planning and Financial Management,0,0.0,5,1.0,0,1,0,1,0,1,0,1,0,1
+LT_076,Drive Organizational Growth,F2_17,Product Commercialization and Organizational Growth,D1_08,Infrastructure and Commercial Growth,4,0.8,2,0.4,1,0,1,0,1,0,0,1,1,1
+LT_077,Process Administrative Requests,F2_01,Operational Data and Documentation Management,D1_02,Data Analysis and Quality Assurance,3,0.6,3,0.6,1,1,1,1,0,0,1,1,0,0
+LT_078,Support Onboarding Processes,F2_11,Human Resources and Personnel Management,D1_03,Stakeholder Engagement and Human Capital,5,1.0,3,0.6,1,1,1,1,1,1,1,0,1,0
+LT_079,Perform Engineering Tasks,F2_18,Engineering and Electrical Assembly,D1_01,Technical Development and Engineering,4,0.8,2,0.4,1,0,0,1,1,0,1,1,1,0
+LT_080,Represent Company Externally,F2_20,External Brand Representation,D1_05,Leadership and Relationship Management,5,1.0,4,0.8,1,1,1,1,1,0,1,1,1,1

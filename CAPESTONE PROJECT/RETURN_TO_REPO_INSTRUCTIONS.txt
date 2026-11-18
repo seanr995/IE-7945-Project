@@ -1,0 +1,7 @@
+1. Download Sprint4_RETURN_TO_REPO.zip from Google Drive.
+2. Extract it into:
+   D:\Capstone IE7945\Taxonomy Project\CAPESTONE PROJECT\
+3. Allow the new Sprint 4 files to merge into the project.
+4. Do not delete or overwrite Sprint 3 result folders.
+5. Run `git status`.
+6. Commit the new Sprint 4 files.
