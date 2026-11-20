@@ -1,0 +1,2662 @@
+[
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Quickbase",
+  "normalized_skill": "quickbase",
+  "type": "tool",
+  "evidence_span": "• Serve as a Quickbase subject matter expert to drive system administration, implement data governance protocols, and automate cross-platform integrations."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "data governance",
+  "normalized_skill": "data governance",
+  "type": "concept",
+  "evidence_span": "• Serve as a Quickbase subject matter expert to drive system administration, implement data governance protocols, and automate cross-platform integrations."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "system administration",
+  "normalized_skill": "system administration",
+  "type": "concept",
+  "evidence_span": "• Serve as a Quickbase subject matter expert to drive system administration, implement data governance protocols, and automate cross-platform integrations."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "cross-platform integrations",
+  "normalized_skill": "system integration",
+  "type": "concept",
+  "evidence_span": "• Serve as a Quickbase subject matter expert to drive system administration, implement data governance protocols, and automate cross-platform integrations."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "data engineering",
+  "normalized_skill": "data engineering",
+  "type": "concept",
+  "evidence_span": "• Must possess a strong expertise in data engineering, in particular building, automating, and optimizing ETL processes."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "ETL",
+  "normalized_skill": "etl",
+  "type": "concept",
+  "evidence_span": "• Must possess a strong expertise in data engineering, in particular building, automating, and optimizing ETL processes."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Python",
+  "normalized_skill": "python",
+  "type": "tool",
+  "evidence_span": "• Proficiency in Python, SQL, and Apache Spark to process large-scale datasets (i.e., CSV, Parquet, Delta Lake formats) and build data pipelines."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "SQL",
+  "normalized_skill": "sql",
+  "type": "tool",
+  "evidence_span": "• Proficiency in Python, SQL, and Apache Spark to process large-scale datasets (i.e., CSV, Parquet, Delta Lake formats) and build data pipelines."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Apache Spark",
+  "normalized_skill": "apache spark",
+  "type": "tool",
+  "evidence_span": "• Proficiency in Python, SQL, and Apache Spark to process large-scale datasets (i.e., CSV, Parquet, Delta Lake formats) and build data pipelines."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Parquet",
+  "normalized_skill": "parquet",
+  "type": "tool",
+  "evidence_span": "• Proficiency in Python, SQL, and Apache Spark to process large-scale datasets (i.e., CSV, Parquet, Delta Lake formats) and build data pipelines."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Delta Lake",
+  "normalized_skill": "delta lake",
+  "type": "tool",
+  "evidence_span": "• Proficiency in Python, SQL, and Apache Spark to process large-scale datasets (i.e., CSV, Parquet, Delta Lake formats) and build data pipelines."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "data pipelines",
+  "normalized_skill": "data pipelines",
+  "type": "concept",
+  "evidence_span": "• Proficiency in Python, SQL, and Apache Spark to process large-scale datasets (i.e., CSV, Parquet, Delta Lake formats) and build data pipelines."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "APIs",
+  "normalized_skill": "api",
+  "type": "concept",
+  "evidence_span": "• Strong experiences with integrating data systems and automating workflows using APIs and webhooks."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "webhooks",
+  "normalized_skill": "webhooks",
+  "type": "concept",
+  "evidence_span": "• Strong experiences with integrating data systems and automating workflows using APIs and webhooks."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "automating workflows",
+  "normalized_skill": "workflow automation",
+  "type": "concept",
+  "evidence_span": "• Strong experiences with integrating data systems and automating workflows using APIs and webhooks."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "data models",
+  "normalized_skill": "data modeling",
+  "type": "concept",
+  "evidence_span": "• Experience in designing and implementing data models, particularly in establishing table-to-table relationships."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Azure Synapse",
+  "normalized_skill": "azure synapse",
+  "type": "tool",
+  "evidence_span": "• Familiarity with cloud-based platforms like Quickbase, Azure Synapse, AWS, Salesforce is preferred."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "AWS",
+  "normalized_skill": "aws",
+  "type": "tool",
+  "evidence_span": "• Familiarity with cloud-based platforms like Quickbase, Azure Synapse, AWS, Salesforce is preferred."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "Salesforce",
+  "normalized_skill": "salesforce",
+  "type": "tool",
+  "evidence_span": "• Familiarity with cloud-based platforms like Quickbase, Azure Synapse, AWS, Salesforce is preferred."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "analytical",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "• Strong analytical, organizational, and problem-solving skills with an emphasis on attention to detail."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "problem-solving",
+  "normalized_skill": "problem solving",
+  "type": "concept",
+  "evidence_span": "• Strong analytical, organizational, and problem-solving skills with an emphasis on attention to detail."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "attention to detail",
+  "normalized_skill": "attention to detail",
+  "type": "concept",
+  "evidence_span": "• Strong analytical, organizational, and problem-solving skills with an emphasis on attention to detail."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "organizational",
+  "normalized_skill": "organizational skills",
+  "type": "concept",
+  "evidence_span": "• Strong analytical, organizational, and problem-solving skills with an emphasis on attention to detail."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "interpersonal skills",
+  "normalized_skill": "interpersonal skills",
+  "type": "concept",
+  "evidence_span": "• Strong interpersonal skills, and the ability to maintain working relationships with other teams."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "data quality",
+  "normalized_skill": "data quality",
+  "type": "concept",
+  "evidence_span": "• Design and implement rigorous data quality protocols to ensure accuracy, governance, and system adequacy."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "documentation standards",
+  "normalized_skill": "documentation",
+  "type": "concept",
+  "evidence_span": "establish rigorous documentation standards for all data models, infrastructure, and workflows."
+ },
+ {
+  "posting_id": "3b1acd7dae8f6c808655",
+  "skill_text": "analysis of data",
+  "normalized_skill": "data analysis",
+  "type": "concept",
+  "evidence_span": "• Conduct analysis of data related to the City’s budget, spending, revenue, and grant processes."
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "• Excellent oral written interpersonal communication skills;"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "attention to detail",
+  "normalized_skill": "attention to detail",
+  "type": "concept",
+  "evidence_span": "• Highly organized, strong attention to detail and solution oriented;"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "organized",
+  "normalized_skill": "organizational skills",
+  "type": "concept",
+  "evidence_span": "• Highly organized, strong attention to detail and solution oriented;"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "customer service",
+  "normalized_skill": "customer service",
+  "type": "concept",
+  "evidence_span": "• Dedication to customer service;"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "multitask",
+  "normalized_skill": "multitasking",
+  "type": "concept",
+  "evidence_span": "• Ability to multitask in a fast-paced environment;"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "child care regulations",
+  "normalized_skill": "child care regulations",
+  "type": "concept",
+  "evidence_span": "• Working knowledge of child care regulations desired but not required;"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "data entry",
+  "normalized_skill": "data entry",
+  "type": "concept",
+  "evidence_span": "• Experience with data entry and querying large datasets a plus"
+ },
+ {
+  "posting_id": "3b4c29db562915cd966f",
+  "skill_text": "querying large datasets",
+  "normalized_skill": "data querying",
+  "type": "concept",
+  "evidence_span": "• Experience with data entry and querying large datasets a plus"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "managing software engineers",
+  "normalized_skill": "engineering team management",
+  "type": "concept",
+  "evidence_span": "5+ years of experience managing software engineers, ideally across distributed or multi-region teams"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "cybersecurity",
+  "normalized_skill": "cybersecurity",
+  "type": "concept",
+  "evidence_span": "Experience in cybersecurity, vulnerability management, or threat intelligence"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "vulnerability management",
+  "normalized_skill": "vulnerability management",
+  "type": "concept",
+  "evidence_span": "Experience in cybersecurity, vulnerability management, or threat intelligence"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "threat intelligence",
+  "normalized_skill": "threat intelligence",
+  "type": "concept",
+  "evidence_span": "Experience in cybersecurity, vulnerability management, or threat intelligence"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "people leadership",
+  "normalized_skill": "leadership",
+  "type": "concept",
+  "evidence_span": "Manage and grow engineering teams based in the US, UK, and APAC, providing hands-on people leadership, coaching, and career development"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "coaching",
+  "normalized_skill": "coaching",
+  "type": "concept",
+  "evidence_span": "Manage and grow engineering teams based in the US, UK, and APAC, providing hands-on people leadership, coaching, and career development"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "prioritize",
+  "normalized_skill": "prioritization",
+  "type": "concept",
+  "evidence_span": "Proven ability to prioritize and sequence competing demands"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "backend systems",
+  "normalized_skill": "backend systems",
+  "type": "concept",
+  "evidence_span": "Solid understanding of backend systems, APIs, distributed systems, and cloud infrastructure (AWS preferred)"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "APIs",
+  "normalized_skill": "api",
+  "type": "concept",
+  "evidence_span": "Solid understanding of backend systems, APIs, distributed systems, and cloud infrastructure (AWS preferred)"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "distributed systems",
+  "normalized_skill": "distributed systems",
+  "type": "concept",
+  "evidence_span": "Solid understanding of backend systems, APIs, distributed systems, and cloud infrastructure (AWS preferred)"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "cloud infrastructure",
+  "normalized_skill": "cloud infrastructure",
+  "type": "concept",
+  "evidence_span": "Solid understanding of backend systems, APIs, distributed systems, and cloud infrastructure (AWS preferred)"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "AWS",
+  "normalized_skill": "aws",
+  "type": "tool",
+  "evidence_span": "Solid understanding of backend systems, APIs, distributed systems, and cloud infrastructure (AWS preferred)"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "Excellent communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "Excellent communication skills, with the ability to work effectively with customers, Sales, Customer Success, and other Engineering teams"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "data pipelines",
+  "normalized_skill": "data pipelines",
+  "type": "concept",
+  "evidence_span": "Experience working with data pipelines, ETL systems, or high-volume data processing is a plus"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "ETL",
+  "normalized_skill": "etl",
+  "type": "concept",
+  "evidence_span": "Experience working with data pipelines, ETL systems, or high-volume data processing is a plus"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "CVE",
+  "normalized_skill": "cve",
+  "type": "tool",
+  "evidence_span": "Familiarity with CVE, NVD, KEV, or exploit intelligence datasets"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "NVD",
+  "normalized_skill": "nvd",
+  "type": "tool",
+  "evidence_span": "Familiarity with CVE, NVD, KEV, or exploit intelligence datasets"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "KEV",
+  "normalized_skill": "kev",
+  "type": "tool",
+  "evidence_span": "Familiarity with CVE, NVD, KEV, or exploit intelligence datasets"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "exploit intelligence",
+  "normalized_skill": "exploit intelligence",
+  "type": "concept",
+  "evidence_span": "Familiarity with CVE, NVD, KEV, or exploit intelligence datasets"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "incident response",
+  "normalized_skill": "incident response",
+  "type": "concept",
+  "evidence_span": "Establish and refine on-call, escalation, and incident response processes for the team"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "performance management",
+  "normalized_skill": "performance management",
+  "type": "concept",
+  "evidence_span": "Drive hiring, onboarding, and performance management across all three regional teams"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "hiring",
+  "normalized_skill": "hiring",
+  "type": "concept",
+  "evidence_span": "Drive hiring, onboarding, and performance management across all three regional teams"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "async communication",
+  "normalized_skill": "asynchronous communication",
+  "type": "concept",
+  "evidence_span": "Experience managing teams across multiple time zones and regions, with strong async communication habits"
+ },
+ {
+  "posting_id": "3b6214df01e1277e6efd",
+  "skill_text": "root-cause",
+  "normalized_skill": "root cause analysis",
+  "type": "concept",
+  "evidence_span": "including code quality, root-cause practices, and long-term fixes over one-off patches"
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "communication",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "• Demonstrated excellent communication, organization, writing, and public speaking skills and ability to meet/manage aggressive deadlines."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "organization",
+  "normalized_skill": "organizational skills",
+  "type": "concept",
+  "evidence_span": "• Demonstrated excellent communication, organization, writing, and public speaking skills and ability to meet/manage aggressive deadlines."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "writing",
+  "normalized_skill": "writing",
+  "type": "concept",
+  "evidence_span": "• Demonstrated excellent communication, organization, writing, and public speaking skills and ability to meet/manage aggressive deadlines."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "public speaking",
+  "normalized_skill": "public speaking",
+  "type": "concept",
+  "evidence_span": "• Demonstrated excellent communication, organization, writing, and public speaking skills and ability to meet/manage aggressive deadlines."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "LEED",
+  "normalized_skill": "leed",
+  "type": "tool",
+  "evidence_span": "• Preference may be given to candidates with LEED and/or Envision accreditation."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "Envision",
+  "normalized_skill": "envision",
+  "type": "tool",
+  "evidence_span": "• Preference may be given to candidates with LEED and/or Envision accreditation."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "AutoCAD",
+  "normalized_skill": "autocad",
+  "type": "tool",
+  "evidence_span": "• Preference will be given to candidates with computer proficiency including AutoCAD, and Microsoft Word, Excel, PowerPoint, and Visio."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "Microsoft Word",
+  "normalized_skill": "microsoft word",
+  "type": "tool",
+  "evidence_span": "• Preference will be given to candidates with computer proficiency including AutoCAD, and Microsoft Word, Excel, PowerPoint, and Visio."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "Excel",
+  "normalized_skill": "microsoft excel",
+  "type": "tool",
+  "evidence_span": "• Preference will be given to candidates with computer proficiency including AutoCAD, and Microsoft Word, Excel, PowerPoint, and Visio."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "PowerPoint",
+  "normalized_skill": "microsoft powerpoint",
+  "type": "tool",
+  "evidence_span": "• Preference will be given to candidates with computer proficiency including AutoCAD, and Microsoft Word, Excel, PowerPoint, and Visio."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "Visio",
+  "normalized_skill": "microsoft visio",
+  "type": "tool",
+  "evidence_span": "• Preference will be given to candidates with computer proficiency including AutoCAD, and Microsoft Word, Excel, PowerPoint, and Visio."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "legislative affairs",
+  "normalized_skill": "legislative affairs",
+  "type": "concept",
+  "evidence_span": "• Demonstrated ability and enthusiasm for legislative affairs and code enforcement."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "code enforcement",
+  "normalized_skill": "code enforcement",
+  "type": "concept",
+  "evidence_span": "• Demonstrated ability and enthusiasm for legislative affairs and code enforcement."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "collaborative team approaches",
+  "normalized_skill": "teamwork",
+  "type": "concept",
+  "evidence_span": "• Demonstrates collaborative team approaches."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "data analysis",
+  "normalized_skill": "data analysis",
+  "type": "concept",
+  "evidence_span": "Advancing sustainability goals will include a mix of data analysis, conducting workshops and presentations, and coordinating with internal and external entities."
+ },
+ {
+  "posting_id": "3ca1b50483595c10a701",
+  "skill_text": "client service",
+  "normalized_skill": "customer service",
+  "type": "concept",
+  "evidence_span": "This position requires work with a variety of project stakeholders including engineers, architects, operators, community boards and urban planners where excellent communication and client service skills are required."
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "cold calling",
+  "normalized_skill": "cold calling",
+  "type": "concept",
+  "evidence_span": "Outbound Execution: Run high-velocity outbound with cold calling as your primary channel, backed by email and LinkedIn cadences where they add value"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "outbound",
+  "normalized_skill": "outbound sales",
+  "type": "concept",
+  "evidence_span": "Outbound Execution: Run high-velocity outbound with cold calling as your primary channel, backed by email and LinkedIn cadences where they add value"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "LinkedIn",
+  "normalized_skill": "linkedin",
+  "type": "tool",
+  "evidence_span": "Outbound Execution: Run high-velocity outbound with cold calling as your primary channel, backed by email and LinkedIn cadences where they add value"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "Qualification",
+  "normalized_skill": "lead qualification",
+  "type": "concept",
+  "evidence_span": "Qualification: Assess real pain, urgency, budget, and the right stakeholders before booking a meeting"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "discovery calls",
+  "normalized_skill": "discovery calls",
+  "type": "concept",
+  "evidence_span": "Discovery: Book qualified meetings, then increasingly run discovery calls and define use cases yourself"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "HubSpot",
+  "normalized_skill": "hubspot",
+  "type": "tool",
+  "evidence_span": "Pipeline Management: Keep HubSpot clean: accurate notes, stages, and funnel numbers you can defend"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "Pipeline Management",
+  "normalized_skill": "pipeline management",
+  "type": "concept",
+  "evidence_span": "Pipeline Management: Keep HubSpot clean: accurate notes, stages, and funnel numbers you can defend"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "have excellent communication skills in English (one additional European language is a big plus)"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "have excellent communication skills in English (one additional European language is a big plus)"
+ },
+ {
+  "posting_id": "3cebe8b709eb968ecc68",
+  "skill_text": "generating leads",
+  "normalized_skill": "lead generation",
+  "type": "concept",
+  "evidence_span": "identifying pain points, generating leads, and converting interest into real opportunities."
+ },
+ {
+  "posting_id": "4104f785e0ac83dab8a3",
+  "skill_text": "organizational skills",
+  "normalized_skill": "organizational skills",
+  "type": "concept",
+  "evidence_span": "Strong organizational skills with the ability to manage multiple tasks and priorities in a fast-paced environment."
+ },
+ {
+  "posting_id": "4104f785e0ac83dab8a3",
+  "skill_text": "attention to detail",
+  "normalized_skill": "attention to detail",
+  "type": "concept",
+  "evidence_span": "Structured and analytical mindset with strong attention to detail."
+ },
+ {
+  "posting_id": "4104f785e0ac83dab8a3",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "Excellent communication skills and confidence working with cross-functional teams."
+ },
+ {
+  "posting_id": "4104f785e0ac83dab8a3",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "Fluent in English; German is a plus."
+ },
+ {
+  "posting_id": "4104f785e0ac83dab8a3",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "Fluent in English; German is a plus."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "payroll",
+  "normalized_skill": "payroll",
+  "type": "concept",
+  "evidence_span": "Take ownership of payroll for NL and DE, while supporting cases involving international payroll."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "HRIS",
+  "normalized_skill": "hris",
+  "type": "concept",
+  "evidence_span": "Strong knowledge of HRIS systems (Personio required), payroll and benefits administration systems, and reporting analytics."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "Personio",
+  "normalized_skill": "personio",
+  "type": "tool",
+  "evidence_span": "Strong knowledge of HRIS systems (Personio required), payroll and benefits administration systems, and reporting analytics."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "benefits administration",
+  "normalized_skill": "benefits administration",
+  "type": "concept",
+  "evidence_span": "Strong knowledge of HRIS systems (Personio required), payroll and benefits administration systems, and reporting analytics."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "reporting analytics",
+  "normalized_skill": "reporting analytics",
+  "type": "concept",
+  "evidence_span": "Strong knowledge of HRIS systems (Personio required), payroll and benefits administration systems, and reporting analytics."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "German labour law",
+  "normalized_skill": "german labor law",
+  "type": "concept",
+  "evidence_span": "Practical experience applying German labour law in an HR environment, with the ability to make informed day-to-day decisions."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "Standard Operating Procedures",
+  "normalized_skill": "standard operating procedures",
+  "type": "concept",
+  "evidence_span": "Experience building processes, Standard Operating Procedures (SOPs), and HR infrastructure."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "building processes",
+  "normalized_skill": "process development",
+  "type": "concept",
+  "evidence_span": "Experience building processes, Standard Operating Procedures (SOPs), and HR infrastructure."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "immigration",
+  "normalized_skill": "immigration",
+  "type": "concept",
+  "evidence_span": "Experience managing immigration, visas, relocation, and international mobility programs is a plus."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "international mobility",
+  "normalized_skill": "global mobility",
+  "type": "concept",
+  "evidence_span": "Experience managing immigration, visas, relocation, and international mobility programs is a plus."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "decision-making",
+  "normalized_skill": "decision making",
+  "type": "concept",
+  "evidence_span": "Skilled in decision-making, collaboration, and stakeholder management, with proven ability to balance operational needs with employee experience."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "collaboration",
+  "normalized_skill": "collaboration",
+  "type": "concept",
+  "evidence_span": "Skilled in decision-making, collaboration, and stakeholder management, with proven ability to balance operational needs with employee experience."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "stakeholder management",
+  "normalized_skill": "stakeholder management",
+  "type": "concept",
+  "evidence_span": "Skilled in decision-making, collaboration, and stakeholder management, with proven ability to balance operational needs with employee experience."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "Fluency in German (minimum C1) and English."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "Fluency in German (minimum C1) and English."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "Microsoft 365",
+  "normalized_skill": "microsoft 365",
+  "type": "tool",
+  "evidence_span": "Advanced Microsoft 365 skills."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "contract management",
+  "normalized_skill": "contract management",
+  "type": "concept",
+  "evidence_span": "Manage contract management, employee lifecycle processes, compliance, and employee administration within our HRIS."
+ },
+ {
+  "posting_id": "41791a6083070a346971",
+  "skill_text": "compliance",
+  "normalized_skill": "compliance",
+  "type": "concept",
+  "evidence_span": "Manage contract management, employee lifecycle processes, compliance, and employee administration within our HRIS."
+ },
+ {
+  "posting_id": "41fd8f1659c66291c006",
+  "skill_text": "navigating federal and state benefits",
+  "normalized_skill": "benefits navigation",
+  "type": "concept",
+  "evidence_span": "· Experience navigating federal and state benefits, including but not limited to healthcare, housing, and ACT teams."
+ },
+ {
+  "posting_id": "41fd8f1659c66291c006",
+  "skill_text": "recruitment",
+  "normalized_skill": "recruitment",
+  "type": "concept",
+  "evidence_span": "· Assist in the recruitment of experts."
+ },
+ {
+  "posting_id": "458f5701d4c9512eedc8",
+  "skill_text": "project management",
+  "normalized_skill": "project management",
+  "type": "concept",
+  "evidence_span": "Run meticulous project management."
+ },
+ {
+  "posting_id": "458f5701d4c9512eedc8",
+  "skill_text": "write clearly",
+  "normalized_skill": "writing",
+  "type": "concept",
+  "evidence_span": "You write clearly and speak well in the room, in both German and English."
+ },
+ {
+  "posting_id": "458f5701d4c9512eedc8",
+  "skill_text": "speak well",
+  "normalized_skill": "speaking",
+  "type": "concept",
+  "evidence_span": "You write clearly and speak well in the room, in both German and English."
+ },
+ {
+  "posting_id": "458f5701d4c9512eedc8",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "You write clearly and speak well in the room, in both German and English."
+ },
+ {
+  "posting_id": "458f5701d4c9512eedc8",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "You write clearly and speak well in the room, in both German and English."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "VIO",
+  "normalized_skill": "visual-inertial odometry",
+  "type": "concept",
+  "evidence_span": "Own the roadmap and delivery of VIO, SLAM, sensor fusion, calibration, mapping and relocalization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "SLAM",
+  "normalized_skill": "slam",
+  "type": "concept",
+  "evidence_span": "Own the roadmap and delivery of VIO, SLAM, sensor fusion, calibration, mapping and relocalization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "sensor fusion",
+  "normalized_skill": "sensor fusion",
+  "type": "concept",
+  "evidence_span": "Own the roadmap and delivery of VIO, SLAM, sensor fusion, calibration, mapping and relocalization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "calibration",
+  "normalized_skill": "calibration",
+  "type": "concept",
+  "evidence_span": "Own the roadmap and delivery of VIO, SLAM, sensor fusion, calibration, mapping and relocalization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "mapping",
+  "normalized_skill": "mapping",
+  "type": "concept",
+  "evidence_span": "Own the roadmap and delivery of VIO, SLAM, sensor fusion, calibration, mapping and relocalization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "relocalization",
+  "normalized_skill": "relocalization",
+  "type": "concept",
+  "evidence_span": "Own the roadmap and delivery of VIO, SLAM, sensor fusion, calibration, mapping and relocalization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "3D geometry",
+  "normalized_skill": "3d geometry",
+  "type": "concept",
+  "evidence_span": "You have strong foundations in 3D geometry, estimation, optimization and sensor fusion, and enough depth to examine algorithm and architecture decisions in detail."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "estimation",
+  "normalized_skill": "state estimation",
+  "type": "concept",
+  "evidence_span": "You have strong foundations in 3D geometry, estimation, optimization and sensor fusion, and enough depth to examine algorithm and architecture decisions in detail."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "optimization",
+  "normalized_skill": "optimization",
+  "type": "concept",
+  "evidence_span": "You have strong foundations in 3D geometry, estimation, optimization and sensor fusion, and enough depth to examine algorithm and architecture decisions in detail."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "C++",
+  "normalized_skill": "c++",
+  "type": "tool",
+  "evidence_span": "You write production C++ and use Python for analysis, evaluation and tooling."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "Python",
+  "normalized_skill": "python",
+  "type": "tool",
+  "evidence_span": "You write production C++ and use Python for analysis, evaluation and tooling."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "Linux",
+  "normalized_skill": "linux",
+  "type": "tool",
+  "evidence_span": "You are comfortable working with Linux, real sensors, calibration, synchronization and constrained onboard compute."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "Rust",
+  "normalized_skill": "rust",
+  "type": "tool",
+  "evidence_span": "Rust experience is a plus."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "Nvidia Jetson",
+  "normalized_skill": "nvidia jetson",
+  "type": "tool",
+  "evidence_span": "Experience deploying perception systems on Nvidia Jetson, embedded CPUs/GPUs, writing CUDA kernels, optimizing deep neural networks for edge deployment."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "CUDA",
+  "normalized_skill": "cuda",
+  "type": "tool",
+  "evidence_span": "Experience deploying perception systems on Nvidia Jetson, embedded CPUs/GPUs, writing CUDA kernels, optimizing deep neural networks for edge deployment."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "deep neural networks",
+  "normalized_skill": "deep neural networks",
+  "type": "concept",
+  "evidence_span": "Experience deploying perception systems on Nvidia Jetson, embedded CPUs/GPUs, writing CUDA kernels, optimizing deep neural networks for edge deployment."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "perception systems",
+  "normalized_skill": "perception systems",
+  "type": "concept",
+  "evidence_span": "Experience deploying perception systems on Nvidia Jetson, embedded CPUs/GPUs, writing CUDA kernels, optimizing deep neural networks for edge deployment."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "visual-inertial calibration",
+  "normalized_skill": "visual-inertial calibration",
+  "type": "concept",
+  "evidence_span": "Experience with LWIR thermal cameras (for navigation), rolling shutter effects, visual-inertial calibration, multi-camera rigs, fisheye/wide-angle lenses or monocular depth."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "monocular depth",
+  "normalized_skill": "monocular depth estimation",
+  "type": "concept",
+  "evidence_span": "Experience with LWIR thermal cameras (for navigation), rolling shutter effects, visual-inertial calibration, multi-camera rigs, fisheye/wide-angle lenses or monocular depth."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "GNSS-denied navigation",
+  "normalized_skill": "gnss-denied navigation",
+  "type": "concept",
+  "evidence_span": "Experience with GNSS-denied navigation in UAV context, terrain-relative navigation, map-based localization and re-localization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "terrain-relative navigation",
+  "normalized_skill": "terrain-relative navigation",
+  "type": "concept",
+  "evidence_span": "Experience with GNSS-denied navigation in UAV context, terrain-relative navigation, map-based localization and re-localization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "map-based localization",
+  "normalized_skill": "localization",
+  "type": "concept",
+  "evidence_span": "Experience with GNSS-denied navigation in UAV context, terrain-relative navigation, map-based localization and re-localization."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "evaluation datasets",
+  "normalized_skill": "evaluation datasets",
+  "type": "concept",
+  "evidence_span": "Experience building evaluation datasets, replay systems, perception observability, log tooling, and automated regression pipelines."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "automated regression pipelines",
+  "normalized_skill": "regression testing",
+  "type": "concept",
+  "evidence_span": "Experience building evaluation datasets, replay systems, perception observability, log tooling, and automated regression pipelines."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "3D computer vision",
+  "normalized_skill": "computer vision",
+  "type": "concept",
+  "evidence_span": "Publications or open-source contributions in SLAM, VIO, 3D computer vision, state estimation, or robotics are welcome, but not required."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "robotics",
+  "normalized_skill": "robotics",
+  "type": "concept",
+  "evidence_span": "Publications or open-source contributions in SLAM, VIO, 3D computer vision, state estimation, or robotics are welcome, but not required."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "led engineers",
+  "normalized_skill": "team leadership",
+  "type": "concept",
+  "evidence_span": "You have led engineers through difficult technical work."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "automated tests",
+  "normalized_skill": "automated testing",
+  "type": "concept",
+  "evidence_span": "You have used replay, evaluation datasets and automated tests to guide development."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "You speak fluent English; German is a plus."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "You speak fluent English; German is a plus."
+ },
+ {
+  "posting_id": "45ec14d7fc4b48a6858a",
+  "skill_text": "debugging",
+  "normalized_skill": "debugging",
+  "type": "concept",
+  "evidence_span": "Stay involved in critical algorithms, production code and difficult debugging."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "user research",
+  "normalized_skill": "user research",
+  "type": "concept",
+  "evidence_span": "from ideation and user research to go-live"
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "product strategy",
+  "normalized_skill": "product strategy",
+  "type": "concept",
+  "evidence_span": "Shape our product strategy with data analysis, reports, and processes."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "data analysis",
+  "normalized_skill": "data analysis",
+  "type": "concept",
+  "evidence_span": "Shape our product strategy with data analysis, reports, and processes."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "research on competitors, markets, and trends",
+  "normalized_skill": "market research",
+  "type": "concept",
+  "evidence_span": "Conduct research on competitors, markets, and trends."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "analytical",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "Strong analytical and problem-solving skills, with curiosity for data-driven decision making."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "problem-solving",
+  "normalized_skill": "problem solving",
+  "type": "concept",
+  "evidence_span": "Strong analytical and problem-solving skills, with curiosity for data-driven decision making."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "Excellent communication skills, collaborate openly, and build strong relationships across Product, Design, and Engineering teams."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "Fluency in German and English."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "Fluency in German and English."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "Linear",
+  "normalized_skill": "linear",
+  "type": "tool",
+  "evidence_span": "Experience with Linear, Figma, Webflow, JavaScript or other tech/product tools."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "Figma",
+  "normalized_skill": "figma",
+  "type": "tool",
+  "evidence_span": "Experience with Linear, Figma, Webflow, JavaScript or other tech/product tools."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "Webflow",
+  "normalized_skill": "webflow",
+  "type": "tool",
+  "evidence_span": "Experience with Linear, Figma, Webflow, JavaScript or other tech/product tools."
+ },
+ {
+  "posting_id": "46014daa00722a6982c4",
+  "skill_text": "JavaScript",
+  "normalized_skill": "javascript",
+  "type": "tool",
+  "evidence_span": "Experience with Linear, Figma, Webflow, JavaScript or other tech/product tools."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "Maximo",
+  "normalized_skill": "maximo",
+  "type": "tool",
+  "evidence_span": "Monitor work orders in Maximo and deployment of staff to address repairs."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "work orders",
+  "normalized_skill": "work order management",
+  "type": "concept",
+  "evidence_span": "Monitor work orders in Maximo and deployment of staff to address repairs."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "building inspections",
+  "normalized_skill": "building inspection",
+  "type": "concept",
+  "evidence_span": "Conduct building inspections and follow-up on repairs for PHAS preparations."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "PHAS",
+  "normalized_skill": "phas",
+  "type": "tool",
+  "evidence_span": "Conduct building inspections and follow-up on repairs for PHAS preparations."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "maintenance operations",
+  "normalized_skill": "building maintenance",
+  "type": "concept",
+  "evidence_span": "Oversee daily maintenance operations at development."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "inventory",
+  "normalized_skill": "inventory management",
+  "type": "concept",
+  "evidence_span": "Monitor inventory supply and arrange for replenishment as needed."
+ },
+ {
+  "posting_id": "464d3d3312512fd7f8d0",
+  "skill_text": "Supervise",
+  "normalized_skill": "supervision",
+  "type": "concept",
+  "evidence_span": "Supervise the repair of structures and equipment"
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "oral and written communication",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "• Strong oral and written communication."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "Microsoft Office",
+  "normalized_skill": "microsoft office",
+  "type": "tool",
+  "evidence_span": "• Proficient in Microsoft Office suite."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "water and sewer construction",
+  "normalized_skill": "water and sewer construction",
+  "type": "concept",
+  "evidence_span": "• Knowledge of water and sewer construction, and field experience on water and sewer jobs."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "Research",
+  "normalized_skill": "research",
+  "type": "concept",
+  "evidence_span": "• Research capabilities."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "engineering calculations",
+  "normalized_skill": "engineering calculations",
+  "type": "concept",
+  "evidence_span": "• Perform simple engineering calculations for sewer investigations, actual sewer flow and design capacity, and quantity takeoffs."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "quantity takeoffs",
+  "normalized_skill": "quantity takeoffs",
+  "type": "concept",
+  "evidence_span": "• Perform simple engineering calculations for sewer investigations, actual sewer flow and design capacity, and quantity takeoffs."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "Write comprehensive reports",
+  "normalized_skill": "report writing",
+  "type": "concept",
+  "evidence_span": "• Write comprehensive reports pertaining to the work or contract and other events such as: bid item analysis, job meeting minutes, delays in construction, accidents, complaints, etc."
+ },
+ {
+  "posting_id": "47c10352e85400d9c8bc",
+  "skill_text": "field investigations",
+  "normalized_skill": "field investigation",
+  "type": "concept",
+  "evidence_span": "• Conducts and tracks in-office and field investigations to determine the causes of sewer failures and malfunctions."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "legal research",
+  "normalized_skill": "legal research",
+  "type": "concept",
+  "evidence_span": "Conduct legal research and drafting assignments."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "drafting",
+  "normalized_skill": "legal drafting",
+  "type": "concept",
+  "evidence_span": "Conduct legal research and drafting assignments."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "maintain confidentiality",
+  "normalized_skill": "confidentiality",
+  "type": "concept",
+  "evidence_span": "Ability to maintain confidentiality of information"
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "analytical abilities",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "Successful interns demonstrate strong analytical abilities, sound judgment, professionalism, initiative, and a willingness to contribute as members of a team."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "Criminal Law",
+  "normalized_skill": "criminal law",
+  "type": "concept",
+  "evidence_span": "Completion of a Criminal Law class"
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "advocacy",
+  "normalized_skill": "advocacy",
+  "type": "concept",
+  "evidence_span": "Engage in simulation exercises designed to strengthen advocacy and litigation skills."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "litigation",
+  "normalized_skill": "litigation",
+  "type": "concept",
+  "evidence_span": "Engage in simulation exercises designed to strengthen advocacy and litigation skills."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "case preparation",
+  "normalized_skill": "case preparation",
+  "type": "concept",
+  "evidence_span": "Assist attorneys with case preparation and litigation support."
+ },
+ {
+  "posting_id": "4893aacedb5516530438",
+  "skill_text": "litigation support",
+  "normalized_skill": "litigation support",
+  "type": "concept",
+  "evidence_span": "Assist attorneys with case preparation and litigation support."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "AI",
+  "normalized_skill": "artificial intelligence",
+  "type": "concept",
+  "evidence_span": "Candidates should possess technical fluency in AI, machine learning, operations research, physics, math, engineering, data integration, or computer science."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "machine learning",
+  "normalized_skill": "machine learning",
+  "type": "concept",
+  "evidence_span": "Candidates should possess technical fluency in AI, machine learning, operations research, physics, math, engineering, data integration, or computer science."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "operations research",
+  "normalized_skill": "operations research",
+  "type": "concept",
+  "evidence_span": "Candidates should possess technical fluency in AI, machine learning, operations research, physics, math, engineering, data integration, or computer science."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "data integration",
+  "normalized_skill": "data integration",
+  "type": "concept",
+  "evidence_span": "Candidates should possess technical fluency in AI, machine learning, operations research, physics, math, engineering, data integration, or computer science."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "generative AI",
+  "normalized_skill": "generative ai",
+  "type": "concept",
+  "evidence_span": "Experience with generative AI tools such as Claude."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "Claude",
+  "normalized_skill": "claude",
+  "type": "tool",
+  "evidence_span": "Experience with generative AI tools such as Claude."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "Exemplary written and oral communication skills."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "interpersonal",
+  "normalized_skill": "interpersonal skills",
+  "type": "concept",
+  "evidence_span": "Excellent interpersonal, planning, and organizational skills."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "planning",
+  "normalized_skill": "planning",
+  "type": "concept",
+  "evidence_span": "Excellent interpersonal, planning, and organizational skills."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "organizational skills",
+  "normalized_skill": "organizational skills",
+  "type": "concept",
+  "evidence_span": "Excellent interpersonal, planning, and organizational skills."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "analytical skills",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "Strong analytical skills."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "strategic account selling",
+  "normalized_skill": "account selling",
+  "type": "concept",
+  "evidence_span": "Personally engage in strategic account selling, business development, and ongoing customer success."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "business development",
+  "normalized_skill": "business development",
+  "type": "concept",
+  "evidence_span": "Personally engage in strategic account selling, business development, and ongoing customer success."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "customer success",
+  "normalized_skill": "customer success",
+  "type": "concept",
+  "evidence_span": "Personally engage in strategic account selling, business development, and ongoing customer success."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "sales",
+  "normalized_skill": "sales",
+  "type": "concept",
+  "evidence_span": "Prior sales experience in SaaS/Product company and/or management consulting experience."
+ },
+ {
+  "posting_id": "49b81c39bff279fde4a8",
+  "skill_text": "management consulting",
+  "normalized_skill": "management consulting",
+  "type": "concept",
+  "evidence_span": "Prior sales experience in SaaS/Product company and/or management consulting experience."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "scheduling",
+  "normalized_skill": "scheduling",
+  "type": "concept",
+  "evidence_span": "• Manage all internal and external scheduling for the District Attorney and Executive staff, including real-time calendar adjustments and meeting coordination."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "calendar adjustments",
+  "normalized_skill": "calendar management",
+  "type": "concept",
+  "evidence_span": "• Manage all internal and external scheduling for the District Attorney and Executive staff, including real-time calendar adjustments and meeting coordination."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "meeting coordination",
+  "normalized_skill": "meeting coordination",
+  "type": "concept",
+  "evidence_span": "• Manage all internal and external scheduling for the District Attorney and Executive staff, including real-time calendar adjustments and meeting coordination."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "Microsoft Word",
+  "normalized_skill": "microsoft word",
+  "type": "tool",
+  "evidence_span": "• Proficient in Microsoft Word, Excel and Access."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "Excel",
+  "normalized_skill": "microsoft excel",
+  "type": "tool",
+  "evidence_span": "• Proficient in Microsoft Word, Excel and Access."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "Access",
+  "normalized_skill": "microsoft access",
+  "type": "tool",
+  "evidence_span": "• Proficient in Microsoft Word, Excel and Access."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "telephone skills",
+  "normalized_skill": "telephone skills",
+  "type": "concept",
+  "evidence_span": "• Excellent diction and telephone skills."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "• Excellent written and verbal interpersonal, organizational, and communication skills."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "organizational",
+  "normalized_skill": "organizational skills",
+  "type": "concept",
+  "evidence_span": "• Excellent written and verbal interpersonal, organizational, and communication skills."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "interpersonal",
+  "normalized_skill": "interpersonal skills",
+  "type": "concept",
+  "evidence_span": "• Excellent written and verbal interpersonal, organizational, and communication skills."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "multi-task",
+  "normalized_skill": "multitasking",
+  "type": "concept",
+  "evidence_span": "• Must be able to perform under pressure in a fast-paced environment; able to multi-task and meet deadlines."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "triage incoming emails",
+  "normalized_skill": "email management",
+  "type": "concept",
+  "evidence_span": "• Monitor and triage incoming emails, respond to inquiries, route communications, and draft/distribute officewide and alumni communications."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "travel arrangements",
+  "normalized_skill": "travel arrangements",
+  "type": "concept",
+  "evidence_span": "• Support administrative procedures including notarizations, scheduling wires, travel arrangements, and reimbursements for the District Attorney and Executive staff."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "record keeping",
+  "normalized_skill": "record keeping",
+  "type": "concept",
+  "evidence_span": "• Reconcile the calendar daily, conduct periodic and quarterly calendar audits, and manage the executive vacation schedule with monthly reminders, reports and record keeping."
+ },
+ {
+  "posting_id": "4af8e56faeb5bf3cb868",
+  "skill_text": "handle confidential, sensitive, and privileged information",
+  "normalized_skill": "confidentiality",
+  "type": "concept",
+  "evidence_span": "The Executive Assistant will routinely handle confidential, sensitive, and privileged information while managing complex priorities, coordinating communications, and ensuring the seamless execution of executive-level operations."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "Analyse market developments",
+  "normalized_skill": "market analysis",
+  "type": "concept",
+  "evidence_span": "Analyse market developments, competitor dynamics, and trends across the European brokerage, wealth, and investment infrastructure landscape."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "brokerage",
+  "normalized_skill": "brokerage",
+  "type": "concept",
+  "evidence_span": "Own and lead projects with a deep focus on brokerage, custody and capital markets, this is where you will spend a significant part of your time and where domain knowledge is essential."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "custody",
+  "normalized_skill": "custody",
+  "type": "concept",
+  "evidence_span": "Own and lead projects with a deep focus on brokerage, custody and capital markets, this is where you will spend a significant part of your time and where domain knowledge is essential."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "capital markets",
+  "normalized_skill": "capital markets",
+  "type": "concept",
+  "evidence_span": "Own and lead projects with a deep focus on brokerage, custody and capital markets, this is where you will spend a significant part of your time and where domain knowledge is essential."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "analytical skills",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "You strive to take ownership of the tasks you get and apply your analytical skills, structured thinking, and independent working style towards solving them."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "break down complex problems",
+  "normalized_skill": "problem solving",
+  "type": "concept",
+  "evidence_span": "You are able to think logically, break down complex problems and prioritise between multiple tasks on your table."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "prioritise",
+  "normalized_skill": "prioritization",
+  "type": "concept",
+  "evidence_span": "You are able to think logically, break down complex problems and prioritise between multiple tasks on your table."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "Lead and mentor",
+  "normalized_skill": "mentoring",
+  "type": "concept",
+  "evidence_span": "Lead and mentor the Founder’s Associate Intern team, providing structure, guidance, and prioritisation across projects while helping develop their skills and ensuring high-quality execution."
+ },
+ {
+  "posting_id": "4b04c180a59634bd2d72",
+  "skill_text": "refining and scaling internal processes",
+  "normalized_skill": "process improvement",
+  "type": "concept",
+  "evidence_span": "Contribute to refining and scaling internal processes, documentation, and operating structures across the company, especially in light of what becomes possible with AI."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Windows administration",
+  "normalized_skill": "windows administration",
+  "type": "concept",
+  "evidence_span": "This role provides a learning experience in enterprise Windows administration, focusing on patch management (Ivanti, SCCM/MECM), endpoint reporting, and technical troubleshooting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "patch management",
+  "normalized_skill": "patch management",
+  "type": "concept",
+  "evidence_span": "This role provides a learning experience in enterprise Windows administration, focusing on patch management (Ivanti, SCCM/MECM), endpoint reporting, and technical troubleshooting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Ivanti",
+  "normalized_skill": "ivanti",
+  "type": "tool",
+  "evidence_span": "This role provides a learning experience in enterprise Windows administration, focusing on patch management (Ivanti, SCCM/MECM), endpoint reporting, and technical troubleshooting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "SCCM/MECM",
+  "normalized_skill": "sccm",
+  "type": "tool",
+  "evidence_span": "This role provides a learning experience in enterprise Windows administration, focusing on patch management (Ivanti, SCCM/MECM), endpoint reporting, and technical troubleshooting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "technical troubleshooting",
+  "normalized_skill": "troubleshooting",
+  "type": "concept",
+  "evidence_span": "This role provides a learning experience in enterprise Windows administration, focusing on patch management (Ivanti, SCCM/MECM), endpoint reporting, and technical troubleshooting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "endpoint reporting",
+  "normalized_skill": "endpoint reporting",
+  "type": "concept",
+  "evidence_span": "This role provides a learning experience in enterprise Windows administration, focusing on patch management (Ivanti, SCCM/MECM), endpoint reporting, and technical troubleshooting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "system audits",
+  "normalized_skill": "system auditing",
+  "type": "concept",
+  "evidence_span": "The successful candidate will assist with system audits, utilize PowerShell and Excel for data analysis, and help resolve workstation issues to ensure seamless business operations."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "PowerShell",
+  "normalized_skill": "powershell",
+  "type": "tool",
+  "evidence_span": "The successful candidate will assist with system audits, utilize PowerShell and Excel for data analysis, and help resolve workstation issues to ensure seamless business operations."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "data analysis",
+  "normalized_skill": "data analysis",
+  "type": "concept",
+  "evidence_span": "The successful candidate will assist with system audits, utilize PowerShell and Excel for data analysis, and help resolve workstation issues to ensure seamless business operations."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Microsoft Excel",
+  "normalized_skill": "microsoft excel",
+  "type": "tool",
+  "evidence_span": "Use Microsoft Excel to organize and validate IT data, gaining experience with pivot tables, formulas, and conditional formatting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "pivot tables",
+  "normalized_skill": "pivot tables",
+  "type": "concept",
+  "evidence_span": "Use Microsoft Excel to organize and validate IT data, gaining experience with pivot tables, formulas, and conditional formatting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "conditional formatting",
+  "normalized_skill": "conditional formatting",
+  "type": "concept",
+  "evidence_span": "Use Microsoft Excel to organize and validate IT data, gaining experience with pivot tables, formulas, and conditional formatting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Active Directory",
+  "normalized_skill": "active directory",
+  "type": "tool",
+  "evidence_span": "Compare data across different systems (Active Directory, SCCM, Ivanti) to ensure records are accurate."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Event Viewer",
+  "normalized_skill": "event viewer",
+  "type": "tool",
+  "evidence_span": "Learn to use professional diagnostic tools such as Event Viewer, Task Manager, and Command Prompt."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Task Manager",
+  "normalized_skill": "task manager",
+  "type": "tool",
+  "evidence_span": "Learn to use professional diagnostic tools such as Event Viewer, Task Manager, and Command Prompt."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Command Prompt",
+  "normalized_skill": "command prompt",
+  "type": "tool",
+  "evidence_span": "Learn to use professional diagnostic tools such as Event Viewer, Task Manager, and Command Prompt."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "basic scripts",
+  "normalized_skill": "scripting",
+  "type": "concept",
+  "evidence_span": "Gain exposure to PowerShell by using basic scripts to automate data collection and administrative tasks."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "Windows 11",
+  "normalized_skill": "windows 11",
+  "type": "tool",
+  "evidence_span": "support maintenance and security of our corporate Windows 11 environment."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "how to documentation",
+  "normalized_skill": "technical documentation",
+  "type": "concept",
+  "evidence_span": "Help create and update how to documentation for common technical fixes and patching procedures."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "endpoint security",
+  "normalized_skill": "endpoint security",
+  "type": "concept",
+  "evidence_span": "This is an ideal entry-point for a candidate looking to gain practical experience in endpoint security, auditing, and IT support within a professional enterprise setting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "IT support",
+  "normalized_skill": "it support",
+  "type": "concept",
+  "evidence_span": "This is an ideal entry-point for a candidate looking to gain practical experience in endpoint security, auditing, and IT support within a professional enterprise setting."
+ },
+ {
+  "posting_id": "4b0c7f0ad5cce52c7bdf",
+  "skill_text": "patch compliance",
+  "normalized_skill": "patch compliance",
+  "type": "concept",
+  "evidence_span": "Learn to run and distribute reports on software inventory, hardware health, and patch compliance."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "machine shop equipment",
+  "normalized_skill": "machine shop equipment",
+  "type": "concept",
+  "evidence_span": "Under general supervision, the selected candidate must be proficient in the use of machine shop equipment and related hand tools, precision tools and portable machining devices."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "hand tools",
+  "normalized_skill": "hand tools",
+  "type": "concept",
+  "evidence_span": "Under general supervision, the selected candidate must be proficient in the use of machine shop equipment and related hand tools, precision tools and portable machining devices."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "precision tools",
+  "normalized_skill": "precision tools",
+  "type": "concept",
+  "evidence_span": "Under general supervision, the selected candidate must be proficient in the use of machine shop equipment and related hand tools, precision tools and portable machining devices."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "Troubleshoot",
+  "normalized_skill": "troubleshooting",
+  "type": "concept",
+  "evidence_span": "Troubleshoot, fabricate necessary parts and perform mechanical repairs on all systems-related equipment, including stationary diesel, dual fuel and turbine-type engines, pumps, compressors, gear drives and electric motors."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "fabricate necessary parts",
+  "normalized_skill": "fabrication",
+  "type": "concept",
+  "evidence_span": "Troubleshoot, fabricate necessary parts and perform mechanical repairs on all systems-related equipment, including stationary diesel, dual fuel and turbine-type engines, pumps, compressors, gear drives and electric motors."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "mechanical repairs",
+  "normalized_skill": "mechanical repair",
+  "type": "concept",
+  "evidence_span": "Troubleshoot, fabricate necessary parts and perform mechanical repairs on all systems-related equipment, including stationary diesel, dual fuel and turbine-type engines, pumps, compressors, gear drives and electric motors."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "Installation and alignment of mechanical equipment",
+  "normalized_skill": "equipment installation",
+  "type": "concept",
+  "evidence_span": "Installation and alignment of mechanical equipment."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "Machinist",
+  "normalized_skill": "machining",
+  "type": "concept",
+  "evidence_span": "Machinist knowledge/skills."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "Safety knowledge",
+  "normalized_skill": "safety",
+  "type": "concept",
+  "evidence_span": "Safety knowledge."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "Keeping records",
+  "normalized_skill": "record keeping",
+  "type": "concept",
+  "evidence_span": "Keeping records and inventories."
+ },
+ {
+  "posting_id": "4b127ebf28a2949ad491",
+  "skill_text": "Supervising",
+  "normalized_skill": "supervision",
+  "type": "concept",
+  "evidence_span": "Supervising others."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "• Strong written and oral communication skills;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "Microsoft Excel",
+  "normalized_skill": "microsoft excel",
+  "type": "tool",
+  "evidence_span": "• Advanced proficiency utilizing Microsoft Excel;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "Energy analysis",
+  "normalized_skill": "energy analysis",
+  "type": "concept",
+  "evidence_span": "• Energy analysis and project management skills;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "project management",
+  "normalized_skill": "project management",
+  "type": "concept",
+  "evidence_span": "• Energy analysis and project management skills;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "handle multiple priorities",
+  "normalized_skill": "prioritization",
+  "type": "concept",
+  "evidence_span": "• Organized with ability to handle multiple priorities;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "interpersonal",
+  "normalized_skill": "interpersonal skills",
+  "type": "concept",
+  "evidence_span": "• Excellent interpersonal and team skills;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "team skills",
+  "normalized_skill": "teamwork",
+  "type": "concept",
+  "evidence_span": "• Excellent interpersonal and team skills;"
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "Microsoft Word",
+  "normalized_skill": "microsoft word",
+  "type": "tool",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "Access",
+  "normalized_skill": "microsoft access",
+  "type": "tool",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "PowerPoint",
+  "normalized_skill": "microsoft powerpoint",
+  "type": "tool",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "VBA",
+  "normalized_skill": "vba",
+  "type": "tool",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "SQL",
+  "normalized_skill": "sql",
+  "type": "tool",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "R",
+  "normalized_skill": "r",
+  "type": "tool",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "programming languages",
+  "normalized_skill": "programming",
+  "type": "concept",
+  "evidence_span": "• Proficiency with Microsoft Word, Access, PowerPoint; VBA, SQL, R, and other programming languages."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "energy efficiency",
+  "normalized_skill": "energy efficiency",
+  "type": "concept",
+  "evidence_span": "• Identify energy conservation opportunities and potential energy efficiency projects associated with wastewater conveyance, treatment processes, building systems, and other equipment."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "cost estimates",
+  "normalized_skill": "cost estimation",
+  "type": "concept",
+  "evidence_span": "Contribute to project scopes of work and cost estimates."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "measurement and verification",
+  "normalized_skill": "measurement and verification",
+  "type": "concept",
+  "evidence_span": "Support measurement and verification efforts."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "circular economy",
+  "normalized_skill": "circular economy",
+  "type": "concept",
+  "evidence_span": "The role will also focus on developing a pipeline of projects aimed at maximizing resource recovery and advancing the principles of a circular economy."
+ },
+ {
+  "posting_id": "4c7cd47d220c0129298d",
+  "skill_text": "resource recovery",
+  "normalized_skill": "resource recovery",
+  "type": "concept",
+  "evidence_span": "The role will also focus on developing a pipeline of projects aimed at maximizing resource recovery and advancing the principles of a circular economy."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "product analytics",
+  "normalized_skill": "product analytics",
+  "type": "concept",
+  "evidence_span": "Hands-on experience with product analytics, funnel and cohort analysis, and experimentation."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "funnel",
+  "normalized_skill": "funnel analysis",
+  "type": "concept",
+  "evidence_span": "Hands-on experience with product analytics, funnel and cohort analysis, and experimentation."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "cohort analysis",
+  "normalized_skill": "cohort analysis",
+  "type": "concept",
+  "evidence_span": "Hands-on experience with product analytics, funnel and cohort analysis, and experimentation."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "experimentation",
+  "normalized_skill": "experimentation",
+  "type": "concept",
+  "evidence_span": "Hands-on experience with product analytics, funnel and cohort analysis, and experimentation."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "API trade-offs",
+  "normalized_skill": "api",
+  "type": "concept",
+  "evidence_span": "You are comfortable discussing architecture and API trade-offs with engineers and use AI tooling to prototype and compress your own cycles."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "AI tooling",
+  "normalized_skill": "ai tools",
+  "type": "concept",
+  "evidence_span": "You are comfortable discussing architecture and API trade-offs with engineers and use AI tooling to prototype and compress your own cycles."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "Product Management",
+  "normalized_skill": "product management",
+  "type": "concept",
+  "evidence_span": "7+ years of experience in Product Management for digital consumer products, ideally in FinTech, WealthTech, banking or another trust-driven domain."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "CRM",
+  "normalized_skill": "crm",
+  "type": "concept",
+  "evidence_span": "Experience with engagement, retention or CRM-driven product work is a strong plus, as is exposure to native app development."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "native app development",
+  "normalized_skill": "native app development",
+  "type": "concept",
+  "evidence_span": "Experience with engagement, retention or CRM-driven product work is a strong plus, as is exposure to native app development."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "wealth management",
+  "normalized_skill": "wealth management",
+  "type": "concept",
+  "evidence_span": "Genuine interest in investing and wealth management (capital markets, private markets, portfolio construction) and the ambition to build regulatory fluency in a supervised environment."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "capital markets",
+  "normalized_skill": "capital markets",
+  "type": "concept",
+  "evidence_span": "Genuine interest in investing and wealth management (capital markets, private markets, portfolio construction) and the ambition to build regulatory fluency in a supervised environment."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "private markets",
+  "normalized_skill": "private markets",
+  "type": "concept",
+  "evidence_span": "Genuine interest in investing and wealth management (capital markets, private markets, portfolio construction) and the ambition to build regulatory fluency in a supervised environment."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "portfolio construction",
+  "normalized_skill": "portfolio construction",
+  "type": "concept",
+  "evidence_span": "Genuine interest in investing and wealth management (capital markets, private markets, portfolio construction) and the ambition to build regulatory fluency in a supervised environment."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "regulatory fluency",
+  "normalized_skill": "regulatory knowledge",
+  "type": "concept",
+  "evidence_span": "Genuine interest in investing and wealth management (capital markets, private markets, portfolio construction) and the ambition to build regulatory fluency in a supervised environment."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "Fluent in English (German a plus!), able to align Product, Design, Engineering, CRM and Relationship Management around one coherent client experience, and to represent your roadmap credibly toward leadership."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "Fluent in English (German a plus!), able to align Product, Design, Engineering, CRM and Relationship Management around one coherent client experience, and to represent your roadmap credibly toward leadership."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "align Product, Design, Engineering, CRM and Relationship Management",
+  "normalized_skill": "stakeholder alignment",
+  "type": "concept",
+  "evidence_span": "Fluent in English (German a plus!), able to align Product, Design, Engineering, CRM and Relationship Management around one coherent client experience, and to represent your roadmap credibly toward leadership."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "Product Owner",
+  "normalized_skill": "product ownership",
+  "type": "concept",
+  "evidence_span": "You act as Product Manager and Product Owner for a cross-functional squad of Engineering and Design, and prioritize with a transparent impact and effort logic that also means saying no."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "prioritize",
+  "normalized_skill": "prioritization",
+  "type": "concept",
+  "evidence_span": "You act as Product Manager and Product Owner for a cross-functional squad of Engineering and Design, and prioritize with a transparent impact and effort logic that also means saying no."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "AI-assisted prototyping",
+  "normalized_skill": "prototyping",
+  "type": "concept",
+  "evidence_span": "use AI-assisted prototyping to converge on solutions in few iteration cycles."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "continuous discovery",
+  "normalized_skill": "product discovery",
+  "type": "concept",
+  "evidence_span": "Run continuous discovery with clients and Relationship Managers to understand what HNW clients actually need from their wealth dashboard."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "lifecycle campaigns",
+  "normalized_skill": "lifecycle marketing",
+  "type": "concept",
+  "evidence_span": "build in-product moments and lifecycle campaigns that convert them, and prove your impact with honest, causal measurement rather than correlation stories."
+ },
+ {
+  "posting_id": "4cfe0a49a6228db4fdb8",
+  "skill_text": "causal measurement",
+  "normalized_skill": "causal measurement",
+  "type": "concept",
+  "evidence_span": "build in-product moments and lifecycle campaigns that convert them, and prove your impact with honest, causal measurement rather than correlation stories."
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "Superior written and spoken communication skills in"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "German & English"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "German & English"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "Negotiate",
+  "normalized_skill": "negotiation",
+  "type": "concept",
+  "evidence_span": "Negotiate rates and deadlines with prospective and current clients"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "cold calling",
+  "normalized_skill": "cold calling",
+  "type": "concept",
+  "evidence_span": "Foster and close new clients through referrals, cold calling, networking, and other means (trade shows, regional organisations, etc.)"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "networking",
+  "normalized_skill": "networking",
+  "type": "concept",
+  "evidence_span": "Foster and close new clients through referrals, cold calling, networking, and other means (trade shows, regional organisations, etc.)"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "Develop prospective clients",
+  "normalized_skill": "prospecting",
+  "type": "concept",
+  "evidence_span": "Develop prospective clients through several strategies including internet sourcing, trade show lists, referrals, various professional directories and personal investigation"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "up-sell",
+  "normalized_skill": "upselling",
+  "type": "concept",
+  "evidence_span": "Responsible for growing new business from existing clients, including working closely with senior leadership to expand current relationships and up-sell the TransPerfect portfolio"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "interpersonal skills",
+  "normalized_skill": "interpersonal skills",
+  "type": "concept",
+  "evidence_span": "Strong interpersonal skills with prior experience in a client facing role"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "client facing",
+  "normalized_skill": "client-facing",
+  "type": "concept",
+  "evidence_span": "Strong interpersonal skills with prior experience in a client facing role"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "analytical skills",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "Good analytical skills with attention to detail"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "attention to detail",
+  "normalized_skill": "attention to detail",
+  "type": "concept",
+  "evidence_span": "Good analytical skills with attention to detail"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "problem solve",
+  "normalized_skill": "problem solving",
+  "type": "concept",
+  "evidence_span": "Creatively problem solve to improve current new business development strategy"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "business development",
+  "normalized_skill": "business development",
+  "type": "concept",
+  "evidence_span": "Creatively problem solve to improve current new business development strategy"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "sales",
+  "normalized_skill": "sales",
+  "type": "concept",
+  "evidence_span": "The main focus of this role is sales and business development focused on the Life Sciences industry and requires a person with a strong entrepreneurial mindset and a proactive attitude in outbound sales."
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "outbound sales",
+  "normalized_skill": "outbound sales",
+  "type": "concept",
+  "evidence_span": "The main focus of this role is sales and business development focused on the Life Sciences industry and requires a person with a strong entrepreneurial mindset and a proactive attitude in outbound sales."
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "Multitask",
+  "normalized_skill": "multitasking",
+  "type": "concept",
+  "evidence_span": "Multitask and work with a sense of urgency in a fast-paced environment"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "Build and maintain strategic relationships",
+  "normalized_skill": "relationship building",
+  "type": "concept",
+  "evidence_span": "Build and maintain strategic relationships with clients and co-workers"
+ },
+ {
+  "posting_id": "4fafe3e6f5d7b74b4363",
+  "skill_text": "Work well in a team",
+  "normalized_skill": "teamwork",
+  "type": "concept",
+  "evidence_span": "Work well in a team with people from a variety of different backgrounds and cultures"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "power and control electronic boards",
+  "normalized_skill": "electronic board design",
+  "type": "concept",
+  "evidence_span": "Development and implementation of power and control electronic boards for complex medical devices."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "electrical circuit and wiring diagrams",
+  "normalized_skill": "circuit design",
+  "type": "concept",
+  "evidence_span": "Creation of electrical circuit and wiring diagrams for complex medical devices."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "electrical safety",
+  "normalized_skill": "electrical safety",
+  "type": "concept",
+  "evidence_span": "Development and implementation of electrical safety concepts to assure product functional safety."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "functional safety",
+  "normalized_skill": "functional safety",
+  "type": "concept",
+  "evidence_span": "Development and implementation of electrical safety concepts to assure product functional safety."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "risk analysis",
+  "normalized_skill": "risk analysis",
+  "type": "concept",
+  "evidence_span": "Create component and system specifications and other quality related documents such as risk analysis, DFMEA, test and verification reports, etc. in compliance with international requirements (CE, FDA, MHLW)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "DFMEA",
+  "normalized_skill": "dfmea",
+  "type": "concept",
+  "evidence_span": "Create component and system specifications and other quality related documents such as risk analysis, DFMEA, test and verification reports, etc. in compliance with international requirements (CE, FDA, MHLW)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "CE",
+  "normalized_skill": "ce marking",
+  "type": "tool",
+  "evidence_span": "Create component and system specifications and other quality related documents such as risk analysis, DFMEA, test and verification reports, etc. in compliance with international requirements (CE, FDA, MHLW)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "FDA",
+  "normalized_skill": "fda",
+  "type": "tool",
+  "evidence_span": "Create component and system specifications and other quality related documents such as risk analysis, DFMEA, test and verification reports, etc. in compliance with international requirements (CE, FDA, MHLW)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "MHLW",
+  "normalized_skill": "mhlw",
+  "type": "tool",
+  "evidence_span": "Create component and system specifications and other quality related documents such as risk analysis, DFMEA, test and verification reports, etc. in compliance with international requirements (CE, FDA, MHLW)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "verification tests",
+  "normalized_skill": "verification testing",
+  "type": "concept",
+  "evidence_span": "Perform verification tests to verify electrical components and product requirements."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "troubleshooting",
+  "normalized_skill": "troubleshooting",
+  "type": "concept",
+  "evidence_span": "Support of troubleshooting electrical-related issues in production"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "electronics",
+  "normalized_skill": "electronics",
+  "type": "concept",
+  "evidence_span": "Advanced knowledge of electronics (power-, digital-, analog- and microprocessor technology)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "microprocessor technology",
+  "normalized_skill": "microprocessor technology",
+  "type": "concept",
+  "evidence_span": "Advanced knowledge of electronics (power-, digital-, analog- and microprocessor technology)."
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "EMI/EMC",
+  "normalized_skill": "emi/emc",
+  "type": "concept",
+  "evidence_span": "In-depth knowledge of EMI/EMC design principles and electrical safety requirements"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "electrical schematics",
+  "normalized_skill": "schematic design",
+  "type": "concept",
+  "evidence_span": "Experience in creating electrical schematics and circuit diagrams"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "PC-controlled systems",
+  "normalized_skill": "pc-controlled systems",
+  "type": "concept",
+  "evidence_span": "Experience working with PC-controlled systems"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "technical reference documentation",
+  "normalized_skill": "technical documentation",
+  "type": "concept",
+  "evidence_span": "Experienced in creating technical reference documentation"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "requirements",
+  "normalized_skill": "requirements engineering",
+  "type": "concept",
+  "evidence_span": "Knowledge in requirements and systems engineering"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "systems engineering",
+  "normalized_skill": "systems engineering",
+  "type": "concept",
+  "evidence_span": "Knowledge in requirements and systems engineering"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Design Transfer",
+  "normalized_skill": "design transfer",
+  "type": "concept",
+  "evidence_span": "Experienced in performing Design Transfer to production"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Analytical Skills",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "Creativity and Analytical Skills"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "ISO 13485",
+  "normalized_skill": "iso 13485",
+  "type": "tool",
+  "evidence_span": "Standards knowledge: ISO 13485, FDA 21 CFR 820.30, IEC 14971, IEC 62366, IEC 60601-1, IEC 60601-1-2 and collateral standards"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "FDA 21 CFR 820.30",
+  "normalized_skill": "fda 21 cfr 820.30",
+  "type": "tool",
+  "evidence_span": "Standards knowledge: ISO 13485, FDA 21 CFR 820.30, IEC 14971, IEC 62366, IEC 60601-1, IEC 60601-1-2 and collateral standards"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "IEC 14971",
+  "normalized_skill": "iec 14971",
+  "type": "tool",
+  "evidence_span": "Standards knowledge: ISO 13485, FDA 21 CFR 820.30, IEC 14971, IEC 62366, IEC 60601-1, IEC 60601-1-2 and collateral standards"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "IEC 62366",
+  "normalized_skill": "iec 62366",
+  "type": "tool",
+  "evidence_span": "Standards knowledge: ISO 13485, FDA 21 CFR 820.30, IEC 14971, IEC 62366, IEC 60601-1, IEC 60601-1-2 and collateral standards"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "IEC 60601-1",
+  "normalized_skill": "iec 60601-1",
+  "type": "tool",
+  "evidence_span": "Standards knowledge: ISO 13485, FDA 21 CFR 820.30, IEC 14971, IEC 62366, IEC 60601-1, IEC 60601-1-2 and collateral standards"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "IEC 60601-1-2",
+  "normalized_skill": "iec 60601-1-2",
+  "type": "tool",
+  "evidence_span": "Standards knowledge: ISO 13485, FDA 21 CFR 820.30, IEC 14971, IEC 62366, IEC 60601-1, IEC 60601-1-2 and collateral standards"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Ms Office",
+  "normalized_skill": "microsoft office",
+  "type": "tool",
+  "evidence_span": "Ms Office; Outlook, Word, Excel, PowerPoint"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Outlook",
+  "normalized_skill": "microsoft outlook",
+  "type": "tool",
+  "evidence_span": "Ms Office; Outlook, Word, Excel, PowerPoint"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Word",
+  "normalized_skill": "microsoft word",
+  "type": "tool",
+  "evidence_span": "Ms Office; Outlook, Word, Excel, PowerPoint"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Excel",
+  "normalized_skill": "microsoft excel",
+  "type": "tool",
+  "evidence_span": "Ms Office; Outlook, Word, Excel, PowerPoint"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "PowerPoint",
+  "normalized_skill": "microsoft powerpoint",
+  "type": "tool",
+  "evidence_span": "Ms Office; Outlook, Word, Excel, PowerPoint"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "ERP",
+  "normalized_skill": "erp",
+  "type": "concept",
+  "evidence_span": "Knowledge in ERP system; Preferably Infor SyteLine"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Infor SyteLine",
+  "normalized_skill": "infor syteline",
+  "type": "tool",
+  "evidence_span": "Knowledge in ERP system; Preferably Infor SyteLine"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Altium",
+  "normalized_skill": "altium",
+  "type": "tool",
+  "evidence_span": "Knowledge in Altium, Eagle, OrCAD PSpice, Multiphysics simulation, MATLAB"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Eagle",
+  "normalized_skill": "eagle",
+  "type": "tool",
+  "evidence_span": "Knowledge in Altium, Eagle, OrCAD PSpice, Multiphysics simulation, MATLAB"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "OrCAD PSpice",
+  "normalized_skill": "orcad pspice",
+  "type": "tool",
+  "evidence_span": "Knowledge in Altium, Eagle, OrCAD PSpice, Multiphysics simulation, MATLAB"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Multiphysics simulation",
+  "normalized_skill": "multiphysics simulation",
+  "type": "concept",
+  "evidence_span": "Knowledge in Altium, Eagle, OrCAD PSpice, Multiphysics simulation, MATLAB"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "MATLAB",
+  "normalized_skill": "matlab",
+  "type": "tool",
+  "evidence_span": "Knowledge in Altium, Eagle, OrCAD PSpice, Multiphysics simulation, MATLAB"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "DOORS",
+  "normalized_skill": "doors",
+  "type": "tool",
+  "evidence_span": "Knowledge in requirement management tool such as DOORS, Polarion or CodeBeamer"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "Polarion",
+  "normalized_skill": "polarion",
+  "type": "tool",
+  "evidence_span": "Knowledge in requirement management tool such as DOORS, Polarion or CodeBeamer"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "CodeBeamer",
+  "normalized_skill": "codebeamer",
+  "type": "tool",
+  "evidence_span": "Knowledge in requirement management tool such as DOORS, Polarion or CodeBeamer"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "PCB prototypes",
+  "normalized_skill": "pcb prototyping",
+  "type": "concept",
+  "evidence_span": "Knowledge in building PCB prototypes and system cabling"
+ },
+ {
+  "posting_id": "4fd5cae42eb3035824ee",
+  "skill_text": "system cabling",
+  "normalized_skill": "system cabling",
+  "type": "concept",
+  "evidence_span": "Knowledge in building PCB prototypes and system cabling"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "CRM tools",
+  "normalized_skill": "crm",
+  "type": "concept",
+  "evidence_span": "Document the user journeys of the AIFs customers and utilise CRM tools to track customer interactions and pipeline progress"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "English",
+  "normalized_skill": "english",
+  "type": "concept",
+  "evidence_span": "Excellent English and German communication skills"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "German",
+  "normalized_skill": "german",
+  "type": "concept",
+  "evidence_span": "Excellent English and German communication skills"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "communication skills",
+  "normalized_skill": "communication",
+  "type": "concept",
+  "evidence_span": "Excellent English and German communication skills"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "strategic account plans",
+  "normalized_skill": "account planning",
+  "type": "concept",
+  "evidence_span": "Ability to develop and execute strategic account plans to maximize customer lifetime value"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "negotiation",
+  "normalized_skill": "negotiation",
+  "type": "concept",
+  "evidence_span": "Experience in working at or with start-ups and/or small and medium enterprises (SMEs), together with strong negotiation abilities with a focus on building lasting client relationships"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "business development",
+  "normalized_skill": "business development",
+  "type": "concept",
+  "evidence_span": "Proven experience in business development, B2B sales, and account management"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "B2B sales",
+  "normalized_skill": "b2b sales",
+  "type": "concept",
+  "evidence_span": "Proven experience in business development, B2B sales, and account management"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "account management",
+  "normalized_skill": "account management",
+  "type": "concept",
+  "evidence_span": "Proven experience in business development, B2B sales, and account management"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "marketing strategies",
+  "normalized_skill": "marketing strategy",
+  "type": "concept",
+  "evidence_span": "Expertise in marketing strategies related to customer engagement and retention"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "technology sales",
+  "normalized_skill": "technology sales",
+  "type": "concept",
+  "evidence_span": "Knowledge of technology sales, including technical sales processes and solutions"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "Analytical skills",
+  "normalized_skill": "analytical skills",
+  "type": "concept",
+  "evidence_span": "Analytical skills to interpret data for strategic decision-making"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "warm calling",
+  "normalized_skill": "warm calling",
+  "type": "concept",
+  "evidence_span": "Experience in warm calling techniques to generate new leads and nurture existing accounts"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "generate new leads",
+  "normalized_skill": "lead generation",
+  "type": "concept",
+  "evidence_span": "Experience in warm calling techniques to generate new leads and nurture existing accounts"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "customer onboarding",
+  "normalized_skill": "customer onboarding",
+  "type": "concept",
+  "evidence_span": "Experience contributing to customer onboarding processes"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "upselling",
+  "normalized_skill": "upselling",
+  "type": "concept",
+  "evidence_span": "Demonstrated experience in driving revenue growth through upselling, cross-selling, and renewals"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "cross-selling",
+  "normalized_skill": "cross-selling",
+  "type": "concept",
+  "evidence_span": "Demonstrated experience in driving revenue growth through upselling, cross-selling, and renewals"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "analyzing customer data",
+  "normalized_skill": "data analysis",
+  "type": "concept",
+  "evidence_span": "Proficiency in analyzing customer data and providing data-driven recommendations"
+ },
+ {
+  "posting_id": "4fed033c30fe7a78c1a5",
+  "skill_text": "business reviews",
+  "normalized_skill": "business reviews",
+  "type": "concept",
+  "evidence_span": "Conduct regular business reviews to assess customer health satisfaction, proactively identifying new opportunities to expand the interaction with customers and co-develop business development strategies"
+ }
+]
