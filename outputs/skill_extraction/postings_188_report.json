@@ -1,0 +1,15 @@
+{
+  "task_posting_ids": 188,
+  "raw_records_scanned": 5595,
+  "matched": 188,
+  "missing": [],
+  "by_source": {
+    "nyc_jobs": 89,
+    "arbeitnow": 99
+  },
+  "char_count": {
+    "min": 1970,
+    "median": 4919,
+    "max": 11197
+  }
+}
